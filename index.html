@@ -54,8 +54,8 @@
             <div class="flex items-center justify-between h-20">
                 <!-- Brand Title -->
                 <a href="#home" class="flex items-center gap-3 group">
-                    <div>
-                        <img src="./img/ang_home.png">
+                    <div class="w-10 h-10 shrink-0 flex items-center justify-center group-hover:scale-105 transition-transform">
+                         <img src="img/ang_home.png" class="w-full h-full object-contain">
                     </div>
                     <!-- <div class="w-10 h-10 rounded-xl bg-brand-500 text-white flex items-center justify-center font-serif text-xl font-bold shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform">
                         사
@@ -116,11 +116,10 @@
                             <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
                             <span data-i18n="home_pill">강원특별자치도 정선군 대표 전통시장</span>
                         </div> -->
-
-                        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-stone-950 leading-tight">
-                            <span data-i18n="home_title_1">사북시장</span><br>
-                            <!-- <span class="text-brand-500" data-i18n="home_title_2">Sabuk Market</span> -->
-                        </h2>
+                       <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-stone-950 leading-tight flex items-center gap-3">
+                        <img src="./img/hero1.png" class="h-10 sm:h-12 lg:h-14 w-auto object-contain shrink-0 inline-block">
+                        <span data-i18n="home_title_1">사북시장</span>
+</h2>
 
                         <p class="text-stone-600 text-base sm:text-lg leading-relaxed" data-i18n="home_desc">
                             해발 700m 청정 고원의 맑은 바람과 넉넉한 인심이 반겨주는 정선 사북시장입니다.
@@ -206,7 +205,7 @@
                                 <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold" data-i18n="ev1_badge">정례 야시장</span>
                                 <span class="text-xs text-stone-500 flex items-center gap-1">
                                     <svg class="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                                    <span data-i18n="ev1_period">매주 금·토 저녁 18:00 ~ 23:00</span>
+                                    <span data-i18n="ev1_period">여름 시즌 매주 금·토 18 ~ 22시</span>
                                 </span>
                             </div>
 
@@ -352,18 +351,7 @@
                 </div>
 
                 <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- Card 1: Email Contact -->
-                    <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200 text-center flex flex-col items-center justify-center space-y-3">
-                        <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-600 flex items-center justify-center">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                        </div>
-                        <h4 class="text-base font-bold text-stone-900" data-i18n="c_email_title">이메일 문의</h4>
-                        <a href="mailto:miju.yoh@gmail.com" class="text-brand-600 font-medium text-sm hover:underline font-mono">
-                            miju.yoh@gmail.com
-                        </a>
-                        <p class="text-xs text-stone-500" data-i18n="c_email_desc">시장 방문 및 행사 문의</p>
-                    </div>
-
+                   
                     <!-- Card 2: Address -->
                     <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200 text-center flex flex-col items-center justify-center space-y-3">
                         <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-600 flex items-center justify-center">
@@ -371,9 +359,9 @@
                         </div>
                         <h4 class="text-base font-bold text-stone-900" data-i18n="c_addr_title">시장 주소</h4>
                         <p class="text-xs text-stone-700 leading-relaxed font-medium" data-i18n="c_addr_desc">
-                            강원특별자치도 정선군 사북읍 사북시장길 일원
+                            강원특별자치도 정선군 사북읍 사북중앙로 17-8
                         </p>
-                        <p class="text-[11px] text-stone-400">Sabuk Market-gil, Sabuk-eup, Jeongseon-gun</p>
+                        <p class="text-[11px] text-stone-400">17-8, Sabuk Jungang-ro, Sabuk-eup, Jeongseon-gun</p>
                     </div>
 
                     <!-- Card 3: Transit -->
@@ -383,11 +371,25 @@
                         </div>
                         <h4 class="text-base font-bold text-stone-900" data-i18n="c_transit_title">대중교통 안내</h4>
                         <p class="text-xs text-stone-700 leading-relaxed font-medium" data-i18n="c_transit_desc">
-                            태백선 사북역 도보 5분 (약 350m)<br>사북시외버스터미널 도보 3분
+                            태백선 사북역 도보 5분(약 350m)<br>고한사북공영버스터미널에서 와와버스 이용
                         </p>
                         <p class="text-[11px] text-stone-400">하이원리조트 인접</p>
                     </div>
+
+                    <!-- Card 1: Email Contact  -->
+                    <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200 text-center flex flex-col items-center justify-center space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-600 flex items-center justify-center">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        </div>
+                        <h4 class="text-base font-bold text-stone-900" data-i18n="c_email_title">사이트 문의</h4>
+                        <a href="mailto:miju.yoh@gmail.com" class="text-brand-600 font-medium text-sm hover:underline font-mono">
+                            miju.yoh@gmail.com
+                        </a>
+                        <p class="text-xs text-stone-500" data-i18n="c_email_desc">시장 홈페이지 내용 수정 및<br> 업데이트 관련 문의</p>
+                    </div>
+
                 </div>
+            
 
                 <div class="mt-10 text-center">
                     <a href="https://maps.google.com/?cid=17919934661334248806" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-stone-900 hover:bg-stone-800 text-white text-sm font-semibold transition-all shadow-md">
@@ -403,22 +405,28 @@
     <footer class="bg-stone-950 text-stone-400 py-12 border-t border-stone-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6 border-b border-stone-800 pb-8">
-                <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 rounded-lg bg-brand-500 text-white flex items-center justify-center font-serif text-lg font-bold">
-                        사
+                 <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 shrink-0 flex items-center justify-center group-hover:scale-105 transition-transform">
+                         <img src="img/ang_home.png" class="w-full h-full object-contain">
                     </div>
-                    <span class="text-white font-serif tracking-tight text-lg font-bold">사북시장 Sabuk Market</span>
-                </div>
+                    <!-- <div class="w-10 h-10 rounded-xl bg-brand-500 text-white flex items-center justify-center font-serif text-xl font-bold shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform">
+                        사
+                    </div> -->
+                    <div>
+                        <span class="text-white text-xl font-bold font-serif text-stone-900 tracking-tight block">사북시장</span>
+                        <p class="text-[11px] text-white text-stone-500 tracking-wider font-medium">SABUK TRADITIONAL MARKET</p>
+                    </div>
+                </a>
                 <div class="text-xs text-stone-400 flex flex-wrap items-center justify-center gap-4">
-                    <span>강원특별자치도 정선군 사북읍 사북시장길</span>
+                    <span>강원특별자치도 정선군 사북읍 사북중앙로 17-8</span>
                     <span>•</span>
-                    <span>Email: miju.yoh@gmail.com</span>
+                    <span>webmaster: miju.yoh@gmail.com</span>
                     <span>•</span>
                     <span data-i18n="footer_copy">2026 사북시장. All rights reserved.</span>
                 </div>
             </div>
             <p class="text-xs text-stone-500 mt-6 text-center" data-i18n="footer_sub">
-                정선 고원의 넉넉한 인심과 향토의 맛이 함께하는 정선 사북시장 공식 홈페이지입니다.
+                본 사이트는 바가지 요금 근절 캠페인의 일환으로 작성된 정선 사북시장의 소개 페이지입니다.
             </p>
         </div>
     </footer>
