@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사북시장 Sabuk Market | 정직한 가격, 따뜻한 인심</title>
+    <meta name="description" content="강원 정선 사북시장 공식 웹사이트 - 바가지요금 근절 및 가격정찰제 실천 시장. 구글지도 및 다국어 QR 메뉴판 안내.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Noto Sans KR & Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans KR"', 'sans-serif'],
+                        serif: ['"Noto Serif KR"', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#FBF8F3',
+                            100: '#F5EFE6',
+                            200: '#E8DBC9',
+                            500: '#B85D19', // 따뜻한 감홍/점토색
+                            600: '#9C4B10',
+                            700: '#7C3909',
+                            800: '#5C2B07',
+                            900: '#2A180E',
+                        },
+                        pine: {
+                            600: '#2A5A43',
+                            700: '#1D4532',
+                            800: '#143324',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .acrylic-shadow {
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+        }
+        .hero-pattern {
+            background-color: #f7f3eb;
+            background-image: radial-gradient(#b85d19 0.65px, transparent 0.65px), radial-gradient(#2a5a43 0.65px, #f7f3eb 0.65px);
+            background-size: 26px 26px;
+            background-position: 0 0, 13px 13px;
+        }
+    </style>
+</head>
+<body class="bg-[#FAF7F2] text-stone-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Sticky Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-stone-200/80 transition-all duration-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo & Title -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-11 h-11 rounded-xl bg-brand-500 text-white flex items-center justify-center font-serif text-2xl font-bold shadow-md shadow-brand-500/30 group-hover:scale-105 transition-transform">
+                        사
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xl font-bold font-serif text-stone-900 tracking-tight">사북시장</span>
+                            <span class="text-xs px-2 py-0.5 rounded-full bg-pine-600 text-white font-medium" data-i18n="badge_clean">정찰제 안심시장</span>
+                        </div>
+                        <p class="text-xs text-stone-500 tracking-wider font-medium">SABUK TRADITIONAL MARKET</p>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-stone-700">
+                    <a href="#home" class="hover:text-brand-600 transition-colors" data-i18n="nav_home">소개</a>
+                    <a href="#campaign" class="hover:text-brand-600 transition-colors" data-i18n="nav_campaign">정찰제 캠페인</a>
+                    <a href="#stores" class="hover:text-brand-600 transition-colors" data-i18n="nav_stores">점포 안내</a>
+                    <a href="#history" class="hover:text-brand-600 transition-colors" data-i18n="nav_history">역사</a>
+                    <a href="#location" class="hover:text-brand-600 transition-colors" data-i18n="nav_location">오시는 길</a>
+                </nav>
+
+                <!-- Language Switcher & Actions -->
+                <div class="flex items-center gap-3">
+                    <div class="inline-flex rounded-lg bg-stone-200/70 p-1 text-xs font-semibold" id="lang-switcher">
+                        <button onclick="setLanguage('ko')" class="lang-btn px-2.5 py-1 rounded-md transition-all active-lang bg-white text-stone-900 shadow-sm" data-lang="ko">KO</button>
+                        <button onclick="setLanguage('en')" class="lang-btn px-2.5 py-1 rounded-md text-stone-600 hover:text-stone-900 transition-all" data-lang="en">EN</button>
+                        <button onclick="setLanguage('cn')" class="lang-btn px-2.5 py-1 rounded-md text-stone-600 hover:text-stone-900 transition-all" data-lang="cn">中文</button>
+                        <button onclick="setLanguage('ja')" class="lang-btn px-2.5 py-1 rounded-md text-stone-600 hover:text-stone-900 transition-all" data-lang="ja">日本語</button>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button id="mobile-menu-btn" type="button" class="md:hidden p-2 rounded-lg text-stone-700 hover:bg-stone-200/60 focus:outline-none" aria-label="메뉴 열기">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-stone-200 bg-[#FAF7F2] px-4 pt-3 pb-6 space-y-2">
+            <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-lg text-stone-700 hover:bg-stone-100 font-medium" data-i18n="nav_home">소개</a>
+            <a href="#campaign" class="mobile-nav-link block px-3 py-2 rounded-lg text-stone-700 hover:bg-stone-100 font-medium" data-i18n="nav_campaign">정찰제 캠페인</a>
+            <a href="#stores" class="mobile-nav-link block px-3 py-2 rounded-lg text-stone-700 hover:bg-stone-100 font-medium" data-i18n="nav_stores">점포 안내</a>
+            <a href="#history" class="mobile-nav-link block px-3 py-2 rounded-lg text-stone-700 hover:bg-stone-100 font-medium" data-i18n="nav_history">역사</a>
+            <a href="#location" class="mobile-nav-link block px-3 py-2 rounded-lg text-stone-700 hover:bg-stone-100 font-medium" data-i18n="nav_location">오시는 길</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative overflow-hidden hero-pattern py-16 sm:py-24 border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Text Content -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-100 border border-brand-200 text-brand-700 text-xs sm:text-sm font-semibold">
+                        <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+                        <span data-i18n="hero_pill">바가지요금 근절 & 투명 가격 안심시장</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-stone-950 font-serif leading-tight">
+                        <span data-i18n="hero_title_1">정직한 가격,</span><br>
+                        <span class="text-brand-500" data-i18n="hero_title_2">따뜻한 인심이 머무는</span><br>
+                        <span data-i18n="hero_title_3">정선 사북시장</span>
+                    </h1>
+
+                    <p class="text-stone-600 text-base sm:text-lg leading-relaxed max-w-2xl" data-i18n="hero_desc">
+                        해발 고원의 맑은 공기와 광부들의 땀방울이 서린 40년 전통시장입니다. 이제 구글 지도 등록과 4개 국어 지원 디지털 QR 메뉴판, 그리고 투명한 아크릴 정찰제 POP로 내외국인 모두 믿고 방문할 수 있습니다.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="#stores" class="px-6 py-3.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-semibold shadow-lg shadow-brand-500/25 transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+                            <span data-i18n="hero_btn_store">점포 & 가격표 둘러보기</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                        </a>
+                        <a href="#campaign" class="px-6 py-3.5 rounded-xl bg-white hover:bg-stone-50 text-stone-800 border border-stone-300 font-semibold shadow-sm transition-all" data-i18n="hero_btn_campaign">
+                            정찰제 캠페인 보기
+                        </a>
+                    </div>
+
+                    <!-- Key Stats -->
+                    <div class="pt-6 grid grid-cols-3 gap-4 border-t border-stone-200/80 max-w-lg">
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-stone-900 font-serif">60+</div>
+                            <div class="text-xs text-stone-500 font-medium" data-i18n="stat_stores">참여 점포 수</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-pine-600 font-serif">100%</div>
+                            <div class="text-xs text-stone-500 font-medium" data-i18n="stat_certified">가격정찰제 도입</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-brand-500 font-serif">4개국어</div>
+                            <div class="text-xs text-stone-500 font-medium" data-i18n="stat_languages">QR 다국어 메뉴판</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual: Acrylic POP 3D Card Simulation -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-sm">
+                        <!-- Acrylic Stand Card Preview -->
+                        <div class="relative bg-white/90 backdrop-blur rounded-2xl p-6 border-2 border-stone-200/80 acrylic-shadow transform hover:rotate-1 transition-all duration-300">
+                            <div class="absolute -top-3.5 right-6 px-3 py-1 bg-pine-600 text-white text-[11px] font-bold rounded-full shadow-md" data-i18n="badge_acrylic">
+                                실물 아크릴 POP 규격
+                            </div>
+
+                            <div class="border-b border-dashed border-stone-200 pb-4 mb-4 text-center">
+                                <span class="text-xs font-semibold tracking-wider text-brand-500" data-i18n="pop_label">사북시장 정찰제 인증업소</span>
+                                <h3 class="text-xl font-bold font-serif text-stone-900 mt-1">고원 곤드레 밥상</h3>
+                                <p class="text-xs text-stone-500">Gowon Gondre Restaurant</p>
+                            </div>
+
+                            <!-- Sample Menu Items in POP -->
+                            <div class="space-y-3 text-sm">
+                                <div class="flex justify-between items-center bg-stone-50 p-2.5 rounded-lg border border-stone-100">
+                                    <div>
+                                        <div class="font-medium text-stone-900">곤드레 정식</div>
+                                        <div class="text-[11px] text-stone-500">Gondre Set Menu</div>
+                                    </div>
+                                    <span class="font-bold text-stone-900 font-mono">11,000원</span>
+                                </div>
+                                <div class="flex justify-between items-center bg-stone-50 p-2.5 rounded-lg border border-stone-100">
+                                    <div>
+                                        <div class="font-medium text-stone-900">메밀전병 & 감자전</div>
+                                        <div class="text-[11px] text-stone-500">Buckwheat Crepe</div>
+                                    </div>
+                                    <span class="font-bold text-stone-900 font-mono">8,000원</span>
+                                </div>
+                                <div class="flex justify-between items-center bg-stone-50 p-2.5 rounded-lg border border-stone-100">
+                                    <div>
+                                        <div class="font-medium text-stone-900">정선 황기 백숙</div>
+                                        <div class="text-[11px] text-stone-500">Herbal Chicken Soup</div>
+                                    </div>
+                                    <span class="font-bold text-stone-900 font-mono">55,000원</span>
+                                </div>
+                            </div>
+
+                            <!-- POP QR Area -->
+                            <div class="mt-5 pt-4 border-t border-stone-200 flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <!-- QR Code Mockup -->
+                                    <div class="w-14 h-14 bg-stone-900 rounded-lg p-1 flex items-center justify-center text-white">
+                                        <svg class="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M2 2h8v8H2V2zm2 2v4h4V4H4zm8-2h8v8h-8V2zm2 2v4h4V4h-4zM2 14h8v8H2v-8zm2 2v4h4v-4H4zm11-2h2v2h-2v-2zm-3 2h2v4h-2v-4zm4 2h2v4h-2v-4zm2-2h2v2h-2v-2zm0 4h2v2h-2v-2zM4 4h4v4H4V4zm10 0h4v4h-4V4zM4 16h4v4H4v-4z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="text-xs">
+                                        <div class="font-bold text-stone-800" data-i18n="pop_qr_text">스마트폰으로 스캔</div>
+                                        <div class="text-stone-500 text-[11px]">4개국어 메뉴 & 사진</div>
+                                    </div>
+                                </div>
+                                <button onclick="openQrModal('고원 곤드레 밥상')" class="px-3 py-1.5 text-xs bg-stone-900 hover:bg-stone-800 text-white font-medium rounded-lg shadow transition-colors" data-i18n="pop_demo_btn">
+                                    QR 미리보기
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Fair Price Campaign Section -->
+    <section id="campaign" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-xs uppercase tracking-widest text-brand-500 font-bold bg-brand-50 px-3 py-1 rounded-full border border-brand-200" data-i18n="campaign_tag">CLEAN & FAIR PRICE CAMPAIGN</span>
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-stone-900" data-i18n="campaign_title">바가지요금 근절 & 가격 정찰제 3대 약속</h2>
+                <p class="text-stone-600 text-base" data-i18n="campaign_subtitle">
+                    사북시장은 누구나 불안함 없이 정선 고원의 참맛과 인심을 누릴 수 있도록 정직한 상거래 문화를 만듭니다.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Promise Card 1 -->
+                <div class="bg-stone-50 rounded-2xl p-8 border border-stone-200 hover:border-brand-500/50 hover:shadow-lg transition-all group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-500 text-white flex items-center justify-center mb-6 shadow-md shadow-brand-500/30 group-hover:scale-110 transition-transform">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-stone-900 mb-3" data-i18n="campaign_c1_title">100% 가격 정찰제 실천</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed" data-i18n="campaign_c1_desc">
+                        시장 내 60개 전 점포에 표준화된 아크릴 POP 가격표를 부착하여 가격 흥정이나 속임 없는 투명한 가격을 약속합니다.
+                    </p>
+                </div>
+
+                <!-- Promise Card 2 -->
+                <div class="bg-stone-50 rounded-2xl p-8 border border-stone-200 hover:border-brand-500/50 hover:shadow-lg transition-all group">
+                    <div class="w-14 h-14 rounded-xl bg-pine-600 text-white flex items-center justify-center mb-6 shadow-md shadow-pine-600/30 group-hover:scale-110 transition-transform">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-stone-900 mb-3" data-i18n="campaign_c2_title">4개국어 QR 디지털 메뉴판</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed" data-i18n="campaign_c2_desc">
+                        한국어, 영어, 중국어, 일본어로 번역된 상세 메뉴와 사진을 스마트폰 QR 스캔 한 번으로 바로 확인할 수 있습니다.
+                    </p>
+                </div>
+
+                <!-- Promise Card 3 -->
+                <div class="bg-stone-50 rounded-2xl p-8 border border-stone-200 hover:border-brand-500/50 hover:shadow-lg transition-all group">
+                    <div class="w-14 h-14 rounded-xl bg-stone-900 text-white flex items-center justify-center mb-6 shadow-md shadow-stone-900/30 group-hover:scale-110 transition-transform">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-stone-900 mb-3" data-i18n="campaign_c3_title">구글 지도 등록 & 실시간 길찾기</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed" data-i18n="campaign_c3_desc">
+                        글로벌 지도 서비스인 구글 맵스(Google Maps)에 시장 내 모든 점포를 등록하여 전 세계 여행자가 쉽게 찾아올 수 있습니다.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Campaign Banner Notice -->
+            <div class="mt-12 p-6 rounded-2xl bg-gradient-to-r from-brand-50 via-white to-stone-50 border border-brand-200 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-full bg-brand-500 text-white flex items-center justify-center shrink-0">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"/></svg>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-stone-900" data-i18n="campaign_declaration_title">사북시장 바가지요금 근절 선포식 개최</h4>
+                        <p class="text-sm text-stone-600" data-i18n="campaign_declaration_desc">상인회 전원이 한마음으로 결의한 공정 상거래 서약과 상인 CS 교육을 통해 정선 최고의 안심 시장을 만들어갑니다.</p>
+                    </div>
+                </div>
+                <a href="#location" class="shrink-0 px-5 py-2.5 rounded-xl bg-pine-600 hover:bg-pine-700 text-white text-sm font-semibold transition-colors shadow" data-i18n="campaign_declaration_btn">
+                    시장 고객센터 안내
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stores Directory Section -->
+    <section id="stores" class="py-20 bg-[#FAF7F2] border-t border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                <div>
+                    <span class="text-xs uppercase tracking-widest text-pine-600 font-bold" data-i18n="store_tag">DISCOVER STORES</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold font-serif text-stone-900 mt-1" data-i18n="store_title">사북시장 대표 점포 안내</h2>
+                    <p class="text-stone-600 text-sm mt-2" data-i18n="store_subtitle">가격 정찰제 POP가 부착된 사북시장의 다양한 맛과 멋을 만나보세요.</p>
+                </div>
+
+                <!-- Filter Category Buttons -->
+                <div class="inline-flex rounded-xl bg-stone-200/80 p-1.5 text-xs font-semibold gap-1 self-start md:self-auto overflow-x-auto max-w-full">
+                    <button onclick="filterStores('all')" class="category-btn active-cat px-3 py-1.5 rounded-lg transition-all bg-white text-stone-900 shadow-sm" data-category="all" data-i18n="cat_all">전체보기</button>
+                    <button onclick="filterStores('food')" class="category-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="food" data-i18n="cat_food">식당·먹거리</button>
+                    <button onclick="filterStores('produce')" class="category-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="produce" data-i18n="cat_produce">농특산물·약초</button>
+                    <button onclick="filterStores('general')" class="category-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="general" data-i18n="cat_general">생활·잡화</button>
+                </div>
+            </div>
+
+            <!-- Stores Card Grid -->
+            <div id="store-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Cards will be populated dynamically by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="py-20 bg-stone-900 text-white relative overflow-hidden">
+        <!-- Subtle background overlay -->
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="inline-block px-3 py-1 rounded-full bg-stone-800 text-stone-300 text-xs font-medium border border-stone-700" data-i18n="history_tag">
+                        40년의 시간, 그리고 미래
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-bold font-serif leading-tight" data-i18n="history_title">
+                        석탄 산업의 심장에서<br>
+                        <span class="text-brand-500">문화관광형 스마트 전통시장으로</span>
+                    </h2>
+                    <p class="text-stone-400 text-sm sm:text-base leading-relaxed" data-i18n="history_desc_1">
+                        1970~80년대 대한민국 에너지의 주축이었던 탄광 지대 사북. 지하 수천 미터 막장에서 땀 흘려 일하던 광부들과 그 가족들의 고된 하루를 달래주던 곳이 바로 사북시장의 시작이었습니다.
+                    </p>
+                    <p class="text-stone-400 text-sm sm:text-base leading-relaxed" data-i18n="history_desc_2">
+                        어려운 시절 든든한 밥 한 그릇으로 서로를 위로하던 따뜻한 정은 40년이 흐른 지금도 변함없이 이어지고 있습니다. 이제는 스마트한 디지털 기술과 투명한 정찰제로 국내외 모든 여행객을 환영합니다.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- History Tile 1 -->
+                    <div class="bg-stone-800/80 backdrop-blur rounded-2xl p-6 border border-stone-700">
+                        <div class="text-brand-500 font-mono text-2xl font-bold mb-2">1980s</div>
+                        <h4 class="text-lg font-bold text-white mb-2" data-i18n="ht_1_title">탄광마을의 든든한 안식처</h4>
+                        <p class="text-xs text-stone-400 leading-relaxed" data-i18n="ht_1_desc">
+                            동양 최대의 민영 탄광이었던 동원탄좌와 함께 번성하며 신선한 식자재와 푸짐한 음식을 제공하던 삶의 터전.
+                        </p>
+                    </div>
+
+                    <!-- History Tile 2 -->
+                    <div class="bg-stone-800/80 backdrop-blur rounded-2xl p-6 border border-stone-700">
+                        <div class="text-brand-500 font-mono text-2xl font-bold mb-2">2000s</div>
+                        <h4 class="text-lg font-bold text-white mb-2" data-i18n="ht_2_title">하이원·정선 관광의 거점</h4>
+                        <p class="text-xs text-stone-400 leading-relaxed" data-i18n="ht_2_desc">
+                            강원랜드, 하이원리조트와 인접한 고원 관광 관문으로서 정선의 깊은 산나물과 향토 음식을 선보이는 전통시장으로 도약.
+                        </p>
+                    </div>
+
+                    <!-- History Tile 3 -->
+                    <div class="bg-stone-800/80 backdrop-blur rounded-2xl p-6 border border-stone-700">
+                        <div class="text-pine-500 font-mono text-2xl font-bold mb-2">NOW</div>
+                        <h4 class="text-lg font-bold text-white mb-2" data-i18n="ht_3_title">바가지요금 근절 & 정찰제</h4>
+                        <p class="text-xs text-stone-400 leading-relaxed" data-i18n="ht_3_desc">
+                            외국인과 젊은 세대도 안심하고 즐길 수 있도록 60여 전 점포에 표준화된 아크릴 정찰제 POP를 배치 완료.
+                        </p>
+                    </div>
+
+                    <!-- History Tile 4 -->
+                    <div class="bg-stone-800/80 backdrop-blur rounded-2xl p-6 border border-stone-700">
+                        <div class="text-pine-500 font-mono text-2xl font-bold mb-2">GLOBAL</div>
+                        <h4 class="text-lg font-bold text-white mb-2" data-i18n="ht_4_title">구글맵 & 4개국어 스마트 시장</h4>
+                        <p class="text-xs text-stone-400 leading-relaxed" data-i18n="ht_4_desc">
+                            구글 지도 등록과 QR 코드를 통해 영·중·일 다국어 메뉴판을 지원하는 글로벌 스마트 전통시장으로 진화.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section id="location" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-14">
+                <span class="text-xs uppercase tracking-widest text-brand-500 font-bold" data-i18n="loc_tag">LOCATION & CONTACT</span>
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-stone-900" data-i18n="loc_title">오시는 길 & 시장 문의</h2>
+                <p class="text-stone-600 text-sm" data-i18n="loc_subtitle">사북역에서 도보 5분 거리! 정선 여행의 따뜻한 첫 걸음을 함께하세요.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+                
+                <!-- Google Map Embedded -->
+                <div class="lg:col-span-7 bg-stone-100 rounded-2xl overflow-hidden shadow-inner border border-stone-200 min-h-[380px] h-full flex flex-col">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x35617a83b94574b1%3A0xf8b0a2d618b4ad66!2z7IKs67aB7Iuc7J6l!5e0!3m2!1sen!2skr!4v1788612807305!5m2!1sen!2skr" 
+                        class="w-full h-full min-h-[380px] border-0" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+
+                <!-- Contact & Guide Details -->
+                <div class="lg:col-span-5 flex flex-col justify-between space-y-6">
+                    <div class="bg-stone-50 rounded-2xl p-6 sm:p-8 border border-stone-200 space-y-5">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-brand-500/10 text-brand-600 flex items-center justify-center shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-stone-900" data-i18n="addr_title">시장 주소</h4>
+                                <p class="text-sm text-stone-600 mt-1" data-i18n="addr_desc">강원특별자치도 정선군 사북읍 사북시장길 일원</p>
+                                <p class="text-xs text-stone-400">Sabuk Market-gil, Sabuk-eup, Jeongseon-gun, Gangwon-do</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-pine-600/10 text-pine-700 flex items-center justify-center shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-stone-900" data-i18n="trans_title">대중교통 안내</h4>
+                                <p class="text-sm text-stone-600 mt-1" data-i18n="trans_desc">태백선 사북역에서 도보 5분 (약 350m)<br>사북시외버스터미널에서 도보 3분</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-stone-900/10 text-stone-900 flex items-center justify-center shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-stone-900" data-i18n="contact_title">공식 문의</h4>
+                                <p class="text-sm text-stone-700 font-mono mt-1">miju.yoh@gmail.com</p>
+                                <p class="text-xs text-stone-500 mt-0.5" data-i18n="contact_desc">시장 점포 입점 및 정찰제 캠페인 협력 문의</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Direct Google Maps Action -->
+                    <a href="https://maps.google.com/?cid=17919934661334248806" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-6 rounded-xl bg-stone-900 hover:bg-stone-800 text-white font-semibold text-center flex items-center justify-center gap-2 shadow-md transition-all">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        <span data-i18n="google_maps_btn">Google 지도에서 사북시장 열기</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-950 text-stone-400 py-12 border-t border-stone-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 border-b border-stone-800/80 pb-8">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-brand-500 text-white flex items-center justify-center font-serif text-lg font-bold">
+                        사
+                    </div>
+                    <span class="text-white font-bold font-serif tracking-tight text-lg">사북시장 Sabuk Market</span>
+                </div>
+                <div class="text-xs text-stone-400 flex flex-wrap gap-4">
+                    <span>강원특별자치도 정선군 사북읍 사북시장길</span>
+                    <span>•</span>
+                    <span>담당자: miju.yoh@gmail.com</span>
+                    <span>•</span>
+                    <span data-i18n="footer_rights">2026 사북시장 상인회. All rights reserved.</span>
+                </div>
+            </div>
+            <p class="text-xs text-stone-500 mt-6 text-center" data-i18n="footer_notice">
+                본 웹사이트는 사북시장 바가지요금 근절 캠페인 및 디지털 가격 정찰제 확산을 위해 제작된 공식 웹 가이드입니다.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Interactive QR Popup Modal -->
+    <div id="qr-modal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl transform transition-all p-6 text-center relative animate-in fade-in zoom-in duration-200">
+            <!-- Close button -->
+            <button onclick="closeQrModal()" class="absolute top-4 right-4 text-stone-400 hover:text-stone-700 p-1 rounded-lg">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+
+            <div class="w-12 h-12 rounded-full bg-brand-100 text-brand-600 mx-auto flex items-center justify-center mb-3">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/></svg>
+            </div>
+
+            <h3 id="modal-shop-name" class="text-lg font-bold text-stone-900 font-serif">점포명</h3>
+            <p class="text-xs text-stone-500 mb-5" data-i18n="modal_sub">사북시장 다국어 QR 가격표 미리보기</p>
+
+            <!-- Simulated QR Frame -->
+            <div class="p-4 bg-stone-50 rounded-xl border border-stone-200 inline-block mb-4 shadow-inner">
+                <div class="w-48 h-48 bg-stone-900 rounded-lg p-3 flex flex-col items-center justify-center text-white relative">
+                    <svg class="w-36 h-36" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2 2h8v8H2V2zm2 2v4h4V4H4zm8-2h8v8h-8V2zm2 2v4h4V4h-4zM2 14h8v8H2v-8zm2 2v4h4v-4H4zm11-2h2v2h-2v-2zm-3 2h2v4h-2v-4zm4 2h2v4h-2v-4zm2-2h2v2h-2v-2zm0 4h2v2h-2v-2zM4 4h4v4H4V4zm10 0h4v4h-4V4zM4 16h4v4H4v-4z"/>
+                    </svg>
+                    <span class="text-[10px] font-mono tracking-widest text-stone-300 mt-1">SCAN FOR MENU</span>
+                </div>
+            </div>
+
+            <div class="text-xs text-stone-600 bg-brand-50 p-2.5 rounded-lg border border-brand-100" data-i18n="modal_info">
+                실제 매장 테이블과 입구에 부착된 아크릴 스탠드에서 스마트폰 카메라로 비추면 다국어 메뉴판이 즉시 열립니다.
+            </div>
+
+            <button onclick="closeQrModal()" class="w-full mt-5 py-2.5 rounded-xl bg-stone-900 text-white text-xs font-semibold hover:bg-stone-800 transition-colors" data-i18n="modal_close">
+                닫기
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Multilingual Dictionary
+        const i18n = {
+            ko: {
+                badge_clean: "정찰제 안심시장",
+                nav_home: "소개",
+                nav_campaign: "정찰제 캠페인",
+                nav_stores: "점포 안내",
+                nav_history: "역사",
+                nav_location: "오시는 길",
+                hero_pill: "바가지요금 근절 & 투명 가격 안심시장",
+                hero_title_1: "정직한 가격,",
+                hero_title_2: "따뜻한 인심이 머무는",
+                hero_title_3: "정선 사북시장",
+                hero_desc: "해발 고원의 맑은 공기와 광부들의 땀방울이 서린 40년 전통시장입니다. 이제 구글 지도 등록과 4개 국어 지원 디지털 QR 메뉴판, 그리고 투명한 아크릴 정찰제 POP로 내외국인 모두 믿고 방문할 수 있습니다.",
+                hero_btn_store: "점포 & 가격표 둘러보기",
+                hero_btn_campaign: "정찰제 캠페인 보기",
+                stat_stores: "참여 점포 수",
+                stat_certified: "가격정찰제 도입",
+                stat_languages: "QR 다국어 메뉴판",
+                badge_acrylic: "실물 아크릴 POP 규격",
+                pop_label: "사북시장 정찰제 인증업소",
+                pop_qr_text: "스마트폰으로 스캔",
+                pop_demo_btn: "QR 미리보기",
+                campaign_tag: "CLEAN & FAIR PRICE CAMPAIGN",
+                campaign_title: "바가지요금 근절 & 가격 정찰제 3대 약속",
+                campaign_subtitle: "사북시장은 누구나 불안함 없이 정선 고원의 참맛과 인심을 누릴 수 있도록 정직한 상거래 문화를 만듭니다.",
+                campaign_c1_title: "100% 가격 정찰제 실천",
+                campaign_c1_desc: "시장 내 60개 전 점포에 표준화된 아크릴 POP 가격표를 부착하여 가격 흥정이나 속임 없는 투명한 가격을 약속합니다.",
+                campaign_c2_title: "4개국어 QR 디지털 메뉴판",
+                campaign_c2_desc: "한국어, 영어, 중국어, 일본어로 번역된 상세 메뉴와 사진을 스마트폰 QR 스캔 한 번으로 바로 확인할 수 있습니다.",
+                campaign_c3_title: "구글 지도 등록 & 실시간 길찾기",
+                campaign_c3_desc: "글로벌 지도 서비스인 구글 맵스(Google Maps)에 시장 내 모든 점포를 등록하여 전 세계 여행자가 쉽게 찾아올 수 있습니다.",
+                campaign_declaration_title: "사북시장 바가지요금 근절 선포식 개최",
+                campaign_declaration_desc: "상인회 전원이 한마음으로 결의한 공정 상거래 서약과 상인 CS 교육을 통해 정선 최고의 안심 시장을 만들어갑니다.",
+                campaign_declaration_btn: "시장 고객센터 안내",
+                store_tag: "DISCOVER STORES",
+                store_title: "사북시장 대표 점포 안내",
+                store_subtitle: "가격 정찰제 POP가 부착된 사북시장의 다양한 맛과 멋을 만나보세요.",
+                cat_all: "전체보기",
+                cat_food: "식당·먹거리",
+                cat_produce: "농특산물·약초",
+                cat_general: "생활·잡화",
+                view_qr_btn: "QR 메뉴",
+                view_map_btn: "지도 보기",
+                history_tag: "40년의 시간, 그리고 미래",
+                history_title: "석탄 산업의 심장에서 문화관광형 스마트 전통시장으로",
+                history_desc_1: "1970~80년대 대한민국 에너지의 주축이었던 탄광 지대 사북. 지하 수천 미터 막장에서 땀 흘려 일하던 광부들과 그 가족들의 고된 하루를 달래주던 곳이 바로 사북시장의 시작이었습니다.",
+                history_desc_2: "어려운 시절 든든한 밥 한 그릇으로 서로를 위로하던 따뜻한 정은 40년이 흐른 지금도 변함없이 이어지고 있습니다. 이제는 스마트한 디지털 기술과 투명한 정찰제로 국내외 모든 여행객을 환영합니다.",
+                ht_1_title: "탄광마을의 든든한 안식처",
+                ht_1_desc: "동양 최대의 민영 탄광이었던 동원탄좌와 함께 번성하며 신선한 식자재와 푸짐한 음식을 제공하던 삶의 터전.",
+                ht_2_title: "하이원·정선 관광의 거점",
+                ht_2_desc: "강원랜드, 하이원리조트와 인접한 고원 관광 관문으로서 정선의 깊은 산나물과 향토 음식을 선보이는 전통시장으로 도약.",
+                ht_3_title: "바가지요금 근절 & 정찰제",
+                ht_3_desc: "외국인과 젊은 세대도 안심하고 즐길 수 있도록 60여 전 점포에 표준화된 아크릴 정찰제 POP를 배치 완료.",
+                ht_4_title: "구글맵 & 4개국어 스마트 시장",
+                ht_4_desc: "구글 지도 등록과 QR 코드를 통해 영·중·일 다국어 메뉴판을 지원하는 글로벌 스마트 전통시장으로 진화.",
+                loc_tag: "LOCATION & CONTACT",
+                loc_title: "오시는 길 & 시장 문의",
+                loc_subtitle: "사북역에서 도보 5분 거리! 정선 여행의 따뜻한 첫 걸음을 함께하세요.",
+                addr_title: "시장 주소",
+                addr_desc: "강원특별자치도 정선군 사북읍 사북시장길 일원",
+                trans_title: "대중교통 안내",
+                trans_desc: "태백선 사북역에서 도보 5분 (약 350m) / 사북시외버스터미널에서 도보 3분",
+                contact_title: "공식 문의",
+                contact_desc: "시장 점포 입점 및 정찰제 캠페인 협력 문의",
+                google_maps_btn: "Google 지도에서 사북시장 열기",
+                footer_rights: "2026 사북시장 상인회. All rights reserved.",
+                footer_notice: "본 웹사이트는 사북시장 바가지요금 근절 캠페인 및 디지털 가격 정찰제 확산을 위해 제작된 공식 웹 가이드입니다.",
+                modal_sub: "사북시장 다국어 QR 가격표 미리보기",
+                modal_info: "실제 매장 테이블과 입구에 부착된 아크릴 스탠드에서 스마트폰 카메라로 비추면 다국어 메뉴판이 즉시 열립니다.",
+                modal_close: "닫기"
+            },
+            en: {
+                badge_clean: "Fair Price Certified",
+                nav_home: "About",
+                nav_campaign: "Fair Price Campaign",
+                nav_stores: "Stores",
+                nav_history: "History",
+                nav_location: "Location",
+                hero_pill: "Clean & Fair Price Certified Traditional Market",
+                hero_title_1: "Honest Prices,",
+                hero_title_2: "Warm Hospitality at",
+                hero_title_3: "Sabuk Market Jeongseon",
+                hero_desc: "A 40-year historical market nestled in high plateaus once fueled by coal miners. With 100% transparent acrylic fixed-price displays, multilingual QR menus, and verified Google Maps locations, visitors from all over the world can enjoy their visit with total confidence.",
+                hero_btn_store: "Browse Stores & Prices",
+                hero_btn_campaign: "Fair Price Campaign",
+                stat_stores: "Participating Stores",
+                stat_certified: "Fixed Price Certified",
+                stat_languages: "Multilingual QR Menu",
+                badge_acrylic: "Acrylic Stand Standard",
+                pop_label: "Sabuk Certified Fair Store",
+                pop_qr_text: "Scan with Smartphone",
+                pop_demo_btn: "Preview QR",
+                campaign_tag: "CLEAN & FAIR PRICE CAMPAIGN",
+                campaign_title: "No Overcharging: 3 Key Commitments",
+                campaign_subtitle: "Sabuk Market protects all travelers with an honest and transparent commerce environment.",
+                campaign_c1_title: "100% Fixed Price Standard",
+                campaign_c1_desc: "All 60 stores feature acrylic POP fixed-price displays, eliminating awkward bargaining or sudden price increases.",
+                campaign_c2_title: "4-Language QR Digital Menu",
+                campaign_c2_desc: "Instant access to menu descriptions and vivid food images in Korean, English, Chinese, and Japanese via QR scan.",
+                campaign_c3_title: "Google Maps Navigation",
+                campaign_c3_desc: "Every store is registered on Google Maps so international tourists can easily navigate through the market.",
+                campaign_declaration_title: "Fair Price & CS Pledge Declaration",
+                campaign_declaration_desc: "All store merchants have completed hospitality CS training and signed the fair pricing resolution.",
+                campaign_declaration_btn: "Market Customer Center",
+                store_tag: "DISCOVER STORES",
+                store_title: "Featured Sabuk Market Stores",
+                store_subtitle: "Check out representative stores equipped with certified fixed-price acrylic stands.",
+                cat_all: "All",
+                cat_food: "Food & Dining",
+                cat_produce: "Local Produce & Herbs",
+                cat_general: "Daily Goods",
+                view_qr_btn: "QR Menu",
+                view_map_btn: "Google Map",
+                history_tag: "40 Years of Heritage & Future",
+                history_title: "From Coal Mining Heartland to Smart Cultural Tourism",
+                history_desc_1: "Sabuk was the powerhouse of South Korea's energy during the 70s and 80s. The market began as a sanctuary feeding hardworking miners after grueling underground shifts.",
+                history_desc_2: "The genuine warmth of sharing hearty meals remains unchanged today. Sabuk Market now welcomes modern global travelers with transparent pricing and digital smart innovation.",
+                ht_1_title: "Heart of Mining Community",
+                ht_1_desc: "Thrived alongside Dongwon Coal Mine, providing wholesome dishes and local fresh ingredients.",
+                ht_2_title: "Highland Tourism Gateway",
+                ht_2_desc: "Conveniently located near High1 Resort and Kangwon Land, offering authentic Jeongseon mountain delicacies.",
+                ht_3_title: "Fair Price Certification",
+                ht_3_desc: "Equipped 60+ stores with standard transparent acrylic POP stands to ensure fair pricing.",
+                ht_4_title: "Global Smart Market",
+                ht_4_desc: "Integrated Google Maps and dynamic 4-language QR codes for a barrier-free travel experience.",
+                loc_tag: "LOCATION & CONTACT",
+                loc_title: "Getting Here & Inquiries",
+                loc_subtitle: "Only a 5-minute walk from Sabuk Station! Start your Jeongseon trip with us.",
+                addr_title: "Address",
+                addr_desc: "Sabuk Market-gil, Sabuk-eup, Jeongseon-gun, Gangwon-do, Republic of Korea",
+                trans_title: "Public Transit",
+                trans_desc: "5-min walk from Sabuk Train Station (approx. 350m) / 3-min walk from Sabuk Intercity Bus Terminal",
+                contact_title: "Official Contact",
+                contact_desc: "General inquiries, merchant cooperation & fair price campaign",
+                google_maps_btn: "Open Sabuk Market on Google Maps",
+                footer_rights: "2026 Sabuk Market Merchants Association. All rights reserved.",
+                footer_notice: "This is the official web guide produced for the Sabuk Market Fair Price and Digital Inclusion Initiative.",
+                modal_sub: "Multilingual QR Menu Preview",
+                modal_info: "In the market, simply point your phone camera at the acrylic stand on the table to access the full translated menu.",
+                modal_close: "Close"
+            },
+            cn: {
+                badge_clean: "明码标价安心市场",
+                nav_home: "介绍",
+                nav_campaign: "平价诚信运动",
+                nav_stores: "店铺指南",
+                nav_history: "市场历史",
+                nav_location: "交通路线",
+                hero_pill: "杜绝宰客 · 透明明码标价认证市场",
+                hero_title_1: "诚信价格,",
+                hero_title_2: "温暖人情味弥漫的",
+                hero_title_3: "旌善 舍北市场",
+                hero_desc: "拥有40年历史的高原传统市场，曾经是矿工们温暖的避风港。如今通过全店入驻谷歌地图、4国语言QR码电子菜单以及统一的亚克力标价牌，让海内外游客都能放心消费。",
+                hero_btn_store: "浏览店铺与价目表",
+                hero_btn_campaign: "查看诚信运动",
+                stat_stores: "参与店铺",
+                stat_certified: "全面实行明码标价",
+                stat_languages: "多语言QR菜单",
+                badge_acrylic: "实体亚克力标价展架",
+                pop_label: "舍北市场明码标价认证店",
+                pop_qr_text: "手机扫码查看",
+                pop_demo_btn: "预览QR码",
+                campaign_tag: "CLEAN & FAIR PRICE CAMPAIGN",
+                campaign_title: "杜绝宰客 · 明码标价三大承诺",
+                campaign_subtitle: "舍北市场致力于营造公平透明的商业环境，让每位游客畅享纯正高原风味。",
+                campaign_c1_title: "100% 明码标价",
+                campaign_c1_desc: "市场内60余家店铺全部配备标准化亚克力透明标价展架，杜绝随意要价。",
+                campaign_c2_title: "4国语言QR电子菜单",
+                campaign_c2_desc: "支持韩语、英语、中文和日语，手机扫码即可查看详尽的菜品图片与价格。",
+                campaign_c3_title: "全面入驻谷歌地图",
+                campaign_c3_desc: "将所有商户录入Google Maps，全球游客皆可轻松导航定位。",
+                campaign_declaration_title: "杜绝宰客诚信誓师大会",
+                campaign_declaration_desc: "全体商户完成CS亲切服务培训，签署守法经营诚信公约。",
+                campaign_declaration_btn: "客户咨询中心",
+                store_tag: "DISCOVER STORES",
+                store_title: "舍北市场精选店铺",
+                store_subtitle: "探访配备官方认证透明亚克力标价展架的特色店铺。",
+                cat_all: "全部",
+                cat_food: "餐厅·特色小吃",
+                cat_produce: "土特产·草药",
+                cat_general: "生活日用品",
+                view_qr_btn: "QR菜单",
+                view_map_btn: "地图导航",
+                history_tag: "40年风雨与未来展望",
+                history_title: "从煤矿工业中心到智慧文化旅游市场",
+                history_desc_1: "在20世纪70至80年代，舍北是韩国煤炭工业的心脏。在幽深矿井中挥汗如雨的矿工们，下班后在这里用一碗热饭驱散疲惫。",
+                history_desc_2: "四十载岁月流转，朴实热情的待客之道历久弥新。如今结合智能数字化与透明价格，热情迎接世界各地的客人。",
+                ht_1_title: "矿工小镇的温暖港湾",
+                ht_1_desc: "与当年最大的民营煤矿东源炭座共同繁荣，提供丰盛地道的新鲜饭菜。",
+                ht_2_title: "高原观光旅游枢纽",
+                ht_2_desc: "毗邻High1度假村与江原乐园，汇聚旌善深山名产与传统料理。",
+                ht_3_title: "彻底杜绝宰客标价牌",
+                ht_3_desc: "60家商铺全面设立统一亚克力标价牌，价格公开透明。",
+                ht_4_title: "谷歌地图 & 多语言智慧市场",
+                ht_4_desc: "QR码支持中英日韩4国语言，打造无障碍国际化旅游市场。",
+                loc_tag: "LOCATION & CONTACT",
+                loc_title: "交通指南与咨询",
+                loc_subtitle: "距舍北火车站步行仅5分钟！开启惬意的旌善之旅。",
+                addr_title: "市场地址",
+                addr_desc: "韩国江原特别自治道旌善郡舍北邑舍北市场街",
+                trans_title: "公共交通",
+                trans_desc: "太白线舍北站步行5分钟 (约350米) / 舍北长途汽车站步行3分钟",
+                contact_title: "官方联络",
+                contact_desc: "商铺入驻及价格诚信项目咨询",
+                google_maps_btn: "在 Google Maps 中打开舍北市场",
+                footer_rights: "2026 舍北市场商户联合会. All rights reserved.",
+                footer_notice: "本网站是为推广舍北市场杜绝宰客与普及数字化明码标价而设立的官方宣传平台。",
+                modal_sub: "舍北市场多语言QR价目表预览",
+                modal_info: "在实际店铺餐桌及柜台的亚克力展架上，使用手机相机对准QR码即可直接查看母语菜单。",
+                modal_close: "关闭"
+            },
+            ja: {
+                badge_clean: "明朗会計・安心市場",
+                nav_home: "市場紹介",
+                nav_campaign: "定価制キャンペーン",
+                nav_stores: "店舗案内",
+                nav_history: "歴史",
+                nav_location: "アクセス",
+                hero_pill: "ぼったくり根絶 · 明朗会計の安心伝統市場",
+                hero_title_1: "正直な価格、",
+                hero_title_2: "温かい人情に出会える",
+                hero_title_3: "旌善 舎北（サブク）市場",
+                hero_desc: "標高の高い高原の澄んだ空気と、かつての炭鉱労働者たちの温もりが息づく40年の伝統市場。全店舗Googleマップ登録、4カ国語対応デジタルQRメニュー、透明アクリル価格表の導入により、外国人観光客も安心して楽しめます。",
+                hero_btn_store: "店舗・定価表を見る",
+                hero_btn_campaign: "キャンペーン詳細",
+                stat_stores: "参加店舗数",
+                stat_certified: "定価表示導入率",
+                stat_languages: "QR多言語メニュー",
+                badge_acrylic: "実物アクリルPOP規格",
+                pop_label: "舎北市場 定価制認証店",
+                pop_qr_text: "スマホでスキャン",
+                pop_demo_btn: "QRプレビュー",
+                campaign_tag: "CLEAN & FAIR PRICE CAMPAIGN",
+                campaign_title: "ぼったくり根絶 · 価格定価制 3つの約束",
+                campaign_subtitle: "舎北市場は、誰もが不安なく高原の味と人情を楽しめるよう、透明で公正な商慣習を守ります。",
+                campaign_c1_title: "100% 価格定価制の実施",
+                campaign_c1_desc: "全60店舗に統一されたアクリルPOP価格表を設置し、不透明な値上げや駆け引きのない安心の価格をお約束します。",
+                campaign_c2_title: "4カ国語 QRデジタルメニュー",
+                campaign_c2_desc: "韓国語・英語・中国語・日本語に翻訳されたメニューと料理写真を、スマートフォンでのQR読み取りで即座に確認できます。",
+                campaign_c3_title: "Googleマップ全店登録",
+                campaign_c3_desc: "世界標準のGoogle Mapsにすべての店舗を登録。世界中の旅行者が迷わずスムーズにお越しいただけます。",
+                campaign_declaration_title: "ぼったくり根絶・親切宣言式を開催",
+                campaign_declaration_desc: "商人会全員が公正取引の誓約書を交わし、接客CS講習を修了した安心の市場づくりを進めています。",
+                campaign_declaration_btn: "市場カスタマー案内",
+                store_tag: "DISCOVER STORES",
+                store_title: "舎北市場の代表店舗案内",
+                store_subtitle: "公式認定アクリル価格表が設置された多彩な店舗をご紹介します。",
+                cat_all: "すべて",
+                cat_food: "食堂・グルメ",
+                cat_produce: "農特産物・薬草",
+                cat_general: "生活・雑貨",
+                view_qr_btn: "QRメニュー",
+                view_map_btn: "地図を見る",
+                history_tag: "40年の軌跡と未来",
+                history_title: "炭鉱の心臓部から、スマート文化観光市場へ",
+                history_desc_1: "1970〜80年代、韓国のエネルギー供給を支えた炭鉱の町・舎北。地下深部で汗を流した鉱夫とその家族の疲れを癒やす温かい食事の場として市場は誕生しました。",
+                history_desc_2: "厳しい時代を支え合った人情は、40年経った現在も息づいています。スマートなデジタル技術と明朗会計で、世界中からの訪問者を温かく迎えます。",
+                ht_1_title: "炭鉱の町の温かい憩いの場",
+                ht_1_desc: "東洋最大の民間炭鉱であった東原炭座とともに栄え、素朴でボリューム満点の食事を提供。",
+                ht_2_title: "ハイワン・旌善観光の拠点",
+                ht_2_desc: "ハイワンリゾートや江原ランドの玄関口として、旌善の香り高い山菜や郷土料理を発信。",
+                ht_3_title: "ぼったくり防止の定価制",
+                ht_3_desc: "全60店に統一されたアクリルPOP定価表示スタンドを配備完了。",
+                ht_4_title: "Googleマップ＆4カ国語対応",
+                ht_4_desc: "日・中・英・韓の多言語QRコードに対応したスマート市場へと進化。",
+                loc_tag: "LOCATION & CONTACT",
+                loc_title: "アクセス・お問い合わせ",
+                loc_subtitle: "JRに相当する太白線舎北駅から徒歩5分！旌善旅のスタート地点です。",
+                addr_title: "市場の住所",
+                addr_desc: "江原特別自治道 旌善郡 舎北邑 舎北市場キル 一帯",
+                trans_title: "公共交通機関",
+                trans_desc: "太白線「舎北駅」から徒歩5分（約350m） / 舎北市外バスターミナルから徒歩3分",
+                contact_title: "公式お問い合わせ",
+                contact_desc: "出店及び定価制キャンペーン協力に関するお問い合わせ",
+                google_maps_btn: "Googleマップで舎北市場を開く",
+                footer_rights: "2026 舎北市場商人会. All rights reserved.",
+                footer_notice: "当ウェブサイトは舎北市場のぼったくり根絶キャンペーンおよびデジタル定価制普及のために制作された公式案内サイトです。",
+                modal_sub: "舎北市場 多言語QRメニュー表プレビュー",
+                modal_info: "店舗のテーブルやカウンターに設置されたアクリルスタンドのQRコードをスマホのカメラで読み取ると、母国語のメニューが表示されます。",
+                modal_close: "閉じる"
+            }
+        };
+
+        // Sample Store Database with verified prices & categories
+        const storeData = [
+            {
+                id: 1,
+                name: { ko: "고원 곤드레 밥상", en: "Gowon Gondre Restaurant", cn: "高原山蓟菜拌饭", ja: "高原ゴンドレご飯" },
+                category: "food",
+                categoryLabel: { ko: "식당·향토음식", en: "Restaurant", cn: "乡土餐厅", ja: "郷土料理店" },
+                desc: {
+                    ko: "정선 청정 해발 700m에서 자란 향긋한 곤드레나물 솥밥과 구수한 된장찌개 전문점.",
+                    en: "Authentic Jeongseon wild gondre seasoned rice bowl paired with hearty soybean stew.",
+                    cn: "采用旌善海拔700米高野生山蓟菜制作的鲜香石锅拌饭与传统大酱汤。",
+                    ja: "標高700mの高冷地で育った香り高いゴンドレ菜飯と味噌チゲの名店。"
+                },
+                menus: [
+                    { item: { ko: "곤드레 정식", en: "Gondre Set", cn: "山蓟菜定食", ja: "ゴンドレ定食" }, price: "11,000" },
+                    { item: { ko: "메밀전병 & 감자전", en: "Buckwheat Crepe", cn: "荞麦煎饼·土豆饼", ja: "蕎麦チヂミ・じゃがいもチヂミ" }, price: "8,000" },
+                    { item: { ko: "정선 황기 백숙", en: "Herbal Chicken", cn: "黄芪土鸡汤", ja: "黄耆タッペクスッ" }, price: "55,000" }
+                ],
+                googleQuery: "사북시장 고원 곤드레 밥상"
+            },
+            {
+                id: 2,
+                name: { ko: "사북 전통 막국수", en: "Sabuk Traditional Makguksu", cn: "舍北传统荞麦冷面", ja: "舎北伝統マッククス" },
+                category: "food",
+                categoryLabel: { ko: "면요리·식당", en: "Noodles", cn: "特色面食", ja: "麺処" },
+                desc: {
+                    ko: "자가제면 메밀면과 48시간 우려낸 시원한 동치미 육수로 탄광 시절부터 사랑받은 막국수.",
+                    en: "Handmade buckwheat noodles served with cool fermented radish broth, a local favorite.",
+                    cn: "手工自制荞麦面配上发酵48小时的清凉冬冬水萝卜汤底，矿山时代的经典美味。",
+                    ja: "自家製蕎麦麺と48時間熟成させた水キムチスープが自慢の伝統マッククス。"
+                },
+                menus: [
+                    { item: { ko: "물막국수 / 비빔막국수", en: "Buckwheat Noodles", cn: "水冷面 / 拌面", ja: "水マッククス / ビビンマッククス" }, price: "9,000" },
+                    { item: { ko: "한방 수육 (소)", en: "Boiled Pork Belly", cn: "药膳熟肉 (小)", ja: "薬膳ポッサム (小)" }, price: "22,000" }
+                ],
+                googleQuery: "사북시장 막국수"
+            },
+            {
+                id: 3,
+                name: { ko: "정선 산나물·약초상회", en: "Jeongseon Mountain Herb Store", cn: "旌善野生山菜草药商会", ja: "旌善山菜・薬草商会" },
+                category: "produce",
+                categoryLabel: { ko: "농특산물·약초", en: "Local Produce", cn: "土特产草药", ja: "特産品・薬草" },
+                desc: {
+                    ko: "정선 백운산과 함백산 깊은 숲에서 직접 채취한 건곤드레, 취나물, 정선 황기를 정찰 판매.",
+                    en: "Dry mountain greens, herbs, and premium Jeongseon Astragalus root collected from surrounding peaks.",
+                    cn: "采集自白云山与咸白山深山的干山蓟菜、短叶香青和旌善正宗黄芪，标价透明。",
+                    ja: "ハムベク山・白雲山の深山で採取した干しゴンドレ、山菜、最高級の黄耆（ファンギ）を販売。"
+                },
+                menus: [
+                    { item: { ko: "건곤드레 (200g)", en: "Dried Gondre 200g", cn: "干山蓟菜 (200g)", ja: "乾燥ゴンドレ (200g)" }, price: "12,000" },
+                    { item: { ko: "정선 5년근 황기 (300g)", en: "Jeongseon Astragalus 300g", cn: "5年根旌善黄芪 (300g)", ja: "旌善産5年根黄耆 (300g)" }, price: "18,000" }
+                ],
+                googleQuery: "사북시장 정선 산나물"
+            },
+            {
+                id: 4,
+                name: { ko: "탄광촌 고원 한우정육점", en: "Highland Hanwoo Butcher", cn: "高冷地韩牛精肉店", ja: "高原韓牛精肉店" },
+                category: "food",
+                categoryLabel: { ko: "정육·식육식당", en: "Butcher & Grill", cn: "韩牛精肉", ja: "精肉・焼肉" },
+                desc: {
+                    ko: "청정 강원도 1++ 고원 한우만을 엄선. 등심부터 갈비살까지 100g 단위 정찰 가격을 정직하게 표기.",
+                    en: "Premium 1++ Korean native beef (Hanwoo). Strictly priced per 100g on standard acrylic displays.",
+                    cn: "严选江原道1++等级高原韩牛，里脊至牛肋肉均按100克标准透明标价。",
+                    ja: "江原道産の最高等級1++韓牛専門店。グラム単位で定価をガラスケースに明記。"
+                },
+                menus: [
+                    { item: { ko: "한우 1++ 꽃등심 (100g)", en: "Hanwoo Sirloin 100g", cn: "韩牛雪花里脊 (100g)", ja: "韓牛ロース (100g)" }, price: "16,000" },
+                    { item: { ko: "한우 갈비살 (100g)", en: "Hanwoo Rib Meat 100g", cn: "韩牛牛肋肉 (100g)", ja: "韓牛カルビ (100g)" }, price: "19,000" }
+                ],
+                googleQuery: "사북시장 한우 정육점"
+            },
+            {
+                id: 5,
+                name: { ko: "사북 전통 떡방앗간", en: "Sabuk Traditional Rice Cake", cn: "舍北传统米糕坊", ja: "舎北伝統餅工房" },
+                category: "produce",
+                categoryLabel: { ko: "떡·방앗간", en: "Bakery / Rice Cake", cn: "传统年糕", ja: "伝統餅・粉挽き" },
+                desc: {
+                    ko: "정선 찰옥수수와 수리취를 넣어 빚은 수리취떡과 쫀득한 감자송편. 당일 새벽 직접 만드는 신선한 떡.",
+                    en: "Authentic Jeongseon Surichui mountain aster rice cake and chewy potato half-moon dumplings.",
+                    cn: "使用旌善特产粘玉米和东风菜制成的青草米糕及筋道土豆松饼，清晨现磨现做。",
+                    ja: "旌善名物のスリチ（山菜）餅とモチモチのじゃがいも松餅。毎朝出来立てを提供。"
+                },
+                menus: [
+                    { item: { ko: "정선 수리취 찹쌀떡 (팩)", en: "Surichui Rice Cake (Pack)", cn: "山野菜糯米糕 (盒)", ja: "スリチ山菜草餅 (パック)" }, price: "6,000" },
+                    { item: { ko: "강원 감자 옹심이 떡", en: "Gangwon Potato Cake", cn: "江原道土豆团子", ja: "江原道じゃがいも団子" }, price: "5,000" }
+                ],
+                googleQuery: "사북시장 수리취떡"
+            },
+            {
+                id: 6,
+                name: { ko: "사북 만물잡화 & 등산사", en: "Sabuk Mountain Gear & General", cn: "舍北登山百货杂货", ja: "舎北万物雑貨・登山用品" },
+                category: "general",
+                categoryLabel: { ko: "생활·잡화", en: "General Store", cn: "杂货百货", ja: "日用品・登山雑貨" },
+                desc: {
+                    ko: "하이원 트레킹, 민둥산 억새 산행객을 위한 등산 용품 및 시장 상인들의 든든한 일상 생활용품점.",
+                    en: "Hiking accessories for Mindungsan and High1 trekkers, plus everyday domestic merchandise.",
+                    cn: "为High1度假村漫步与民墩山徒步游客准备的登山用品及居民生活杂货。",
+                    ja: "ミンドゥン山ハイキングや観光客向けの登山用品・生活雑貨を取り扱う万物店。"
+                },
+                menus: [
+                    { item: { ko: "방수 아이젠 / 스패츠", en: "Ice Crampons / Gaiters", cn: "防滑冰爪 / 防雪脚套", ja: "簡易アイゼン / スパッツ" }, price: "15,000" },
+                    { item: { ko: "초경량 트레킹 스틱 (1조)", en: "Trekking Poles (Pair)", cn: "超轻登山杖 (一对)", ja: "軽量トレッキングポール (一組)" }, price: "25,000" }
+                ],
+                googleQuery: "사북시장 등산용품"
+            }
+        ];
+
+        let currentLang = 'ko';
+        let currentFilter = 'all';
+
+        // Initialize Page
+        function initApp() {
+            renderStores();
+            setupMobileMenu();
+        }
+
+        // Language Switcher Function
+        function setLanguage(lang) {
+            if (!i18n[lang]) return;
+            currentLang = lang;
+            document.documentElement.lang = lang;
+
+            // Update button styles
+            document.querySelectorAll('#lang-switcher .lang-btn').forEach(btn => {
+                if (btn.dataset.lang === lang) {
+                    btn.className = "lang-btn px-2.5 py-1 rounded-md transition-all active-lang bg-white text-stone-900 shadow-sm font-bold";
+                } else {
+                    btn.className = "lang-btn px-2.5 py-1 rounded-md text-stone-600 hover:text-stone-900 transition-all";
+                }
+            });
+
+            // Translate static data-i18n tags
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.dataset.i18n;
+                if (i18n[lang][key]) {
+                    el.textContent = i18n[lang][key];
+                }
+            });
+
+            // Re-render dynamic store cards with new language
+            renderStores();
+        }
+
+        // Category Filter
+        function filterStores(cat) {
+            currentFilter = cat;
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                if (btn.dataset.category === cat) {
+                    btn.className = "category-btn px-3 py-1.5 rounded-lg transition-all bg-white text-stone-900 shadow-sm font-bold";
+                } else {
+                    btn.className = "category-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all";
+                }
+            });
+            renderStores();
+        }
+
+        // Render Store Cards
+        function renderStores() {
+            const grid = document.getElementById('store-grid');
+            if (!grid) return;
+
+            const filtered = currentFilter === 'all' 
+                ? storeData 
+                : storeData.filter(s => s.category === currentFilter);
+
+            grid.innerHTML = filtered.map(store => {
+                const title = store.name[currentLang] || store.name['ko'];
+                const catText = store.categoryLabel[currentLang] || store.categoryLabel['ko'];
+                const descText = store.desc[currentLang] || store.desc['ko'];
+
+                const menuRows = store.menus.map(m => `
+                    <div class="flex justify-between items-center text-xs py-1.5 border-b border-stone-100 last:border-0">
+                        <span class="text-stone-700 font-medium">${m.item[currentLang] || m.item['ko']}</span>
+                        <span class="font-bold text-stone-900 font-mono">${m.price}원</span>
+                    </div>
+                `).join('');
+
+                const encodedQuery = encodeURIComponent(store.googleQuery);
+                const googleMapUrl = `https://www.google.com/maps/search/?api=1&query=${encodedQuery}`;
+
+                return `
+                    <div class="bg-white rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-3">
+                                <span class="px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-700 text-[11px] font-semibold border border-stone-200">
+                                    ${catText}
+                                </span>
+                                <span class="text-[11px] text-pine-700 font-semibold flex items-center gap-1">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-pine-600"></span>
+                                    POP 정찰제
+                                </span>
+                            </div>
+
+                            <h3 class="text-lg font-bold font-serif text-stone-900 group-hover:text-brand-500 transition-colors">
+                                ${title}
+                            </h3>
+
+                            <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">
+                                ${descText}
+                            </p>
+
+                            <!-- Representative Price Box (Simulating POP) -->
+                            <div class="mt-4 p-3 bg-stone-50/90 rounded-xl border border-stone-200/80">
+                                <div class="text-[10px] uppercase font-bold text-stone-400 tracking-wider mb-1.5">
+                                    정찰 가격표 (Acrylic POP Stand)
+                                </div>
+                                <div class="space-y-0.5">
+                                    ${menuRows}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="pt-5 mt-5 border-t border-stone-100 flex items-center gap-2">
+                            <button onclick="openQrModal('${title.replace(/'/g, "\\'")}')" class="flex-1 py-2 px-3 rounded-lg bg-brand-50 text-brand-700 hover:bg-brand-100 border border-brand-200 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/></svg>
+                                <span>${i18n[currentLang].view_qr_btn}</span>
+                            </button>
+                            <a href="${googleMapUrl}" target="_blank" rel="noopener noreferrer" class="flex-1 py-2 px-3 rounded-lg bg-stone-100 text-stone-700 hover:bg-stone-200 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors">
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span>${i18n[currentLang].view_map_btn}</span>
+                            </a>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Mobile Menu Toggling
+        function setupMobileMenu() {
+            const btn = document.getElementById('mobile-menu-btn');
+            const menu = document.getElementById('mobile-menu');
+            if (!btn || !menu) return;
+
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+            });
+
+            document.querySelectorAll('.mobile-nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    menu.classList.add('hidden');
+                });
+            });
+        }
+
+        // QR Modal Controls
+        function openQrModal(shopName) {
+            const modal = document.getElementById('qr-modal');
+            const targetName = document.getElementById('modal-shop-name');
+            if (modal && targetName) {
+                targetName.textContent = shopName || "사북시장 점포";
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeQrModal() {
+            const modal = document.getElementById('qr-modal');
+            if (modal) {
+                modal.classList.add('hidden');
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Close modal when pressing ESC or clicking backdrop
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeQrModal();
+        });
+        document.getElementById('qr-modal')?.addEventListener('click', (e) => {
+            if (e.target.id === 'qr-modal') closeQrModal();
+        });
+
+        // Run on load
+        window.onload = initApp;
+    </script>
+</body>
+</html>

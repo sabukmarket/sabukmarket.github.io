@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* 부드러운 스크롤 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 홈 섹션 전통 격자 은은한 배경 패턴 */
+.market-pattern {
+    background-color: #FAF7F2;
+    background-image: 
+        radial-gradient(#E8DFD3 1px, transparent 1px), 
+        radial-gradient(#E8DFD3 1px, #FAF7F2 1px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+}
+
+/* 스크롤바 커스터마이징 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F2ECE1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C4B5A5;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #A34611;
+}
+
+/* 다국어 전환 버튼 활성화 효과 */
+.lang-btn.active-lang {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 점포 카드 트랜지션 보정 */
+#store-grid > div {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#store-grid > div:hover {
+    transform: translateY(-2px);
+}
