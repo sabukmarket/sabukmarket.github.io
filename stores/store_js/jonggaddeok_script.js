@@ -1,4 +1,23 @@
-const i18nData = {
+
+    //    {
+    //     id: 1,
+    //     name: { ko: "종가떡집", en: "Jongga Ddeok House", cn: "宗家打糕店", ja: "宗家(ジョンカ)餅屋" },
+    //     cat: "food",
+    //     catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
+    //     desc: {
+    //         ko: "다양한 전통 떡을 판매합니다. 맛있으면 0칼로리!",
+    //         en: "We sell various traditional rice cakes. If it's delicious, it's 0 calories!",
+    //         cn: "销售各种传统年糕。如果好吃就是0卡路里！",
+    //         ja: "様々な伝統餅を販売しています。美味しいならカロリーは0です！"
+    //     },
+    //     specialty: { ko: "인절미 10,000원 &nbsp;&nbsp;&nbsp; 가래떡 10,000원 <br> 송편 10,000원 &nbsp;&nbsp;&nbsp; 팥떡 10,000원",
+    //          en: "Injeolmi 10,000 KRW &nbsp;&nbsp;&nbsp; Garaetteok 10,000 KRW <br> Songpyeon 10,000 KRW &nbsp;&nbsp;&nbsp; Patddeok 10,000 KRW", 
+    //          cn: "年糕 10,000韩元 &nbsp;&nbsp;&nbsp; 切糕 10,000韩元 <br> 松饼 10,000韩元 &nbsp;&nbsp;&nbsp; 红豆糕 10,000韩元", 
+    //          ja: "インジェオルミ 10,000 KRW &nbsp;&nbsp;&nbsp; ガラエットク 10,000 KRW <br> ソンピョン 10,000 KRW &nbsp;&nbsp;&nbsp; パットデオク 10,000 KRW" },
+    //     query: "종가떡집"
+    // }
+
+    const i18nData = {
     ko: {
         cat_restaurants: "식당",
         cat_food: "카페·먹거리",
@@ -48,22 +67,22 @@ const marketStores = [
         name: { ko: "종가떡집", en: "Jongga Ddeok House", cn: "宗家打糕店", ja: "宗家(ジョンカ)餅屋" },
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
-        desc: {
+         desc: {
             ko: "다양한 전통 떡을 판매합니다. 맛있으면 0칼로리!",
             en: "We sell various traditional rice cakes. If it's delicious, it's 0 calories!",
             cn: "销售各种传统年糕。如果好吃就是0卡路里！",
             ja: "様々な伝統餅を販売しています。美味しいならカロリーは0です！"
-        },
+         },
         specialty: { ko: "인절미 10,000원 &nbsp;&nbsp;&nbsp; 가래떡 10,000원 <br> 송편 10,000원 &nbsp;&nbsp;&nbsp; 팥떡 10,000원",
-             en: "Injeolmi 10,000 KRW &nbsp;&nbsp;&nbsp; Garaetteok 10,000 KRW <br> Songpyeon 10,000 KRW &nbsp;&nbsp;&nbsp; Patddeok 10,000 KRW", 
-             cn: "年糕 10,000韩元 &nbsp;&nbsp;&nbsp; 切糕 10,000韩元 <br> 松饼 10,000韩元 &nbsp;&nbsp;&nbsp; 红豆糕 10,000韩元", 
-             ja: "インジェオルミ 10,000 KRW &nbsp;&nbsp;&nbsp; ガラエットク 10,000 KRW <br> ソンピョン 10,000 KRW &nbsp;&nbsp;&nbsp; パットデオク 10,000 KRW" },
-        query: "종가떡집"
+              en: "Injeolmi 10,000 KRW &nbsp;&nbsp;&nbsp; Garaetteok 10,000 KRW <br> Songpyeon 10,000 KRW &nbsp;&nbsp;&nbsp; Patddeok 10,000 KRW", 
+              cn: "年糕 10,000韩元 &nbsp;&nbsp;&nbsp; 切糕 10,000韩元 <br> 松饼 10,000韩元 &nbsp;&nbsp;&nbsp; 红豆糕 10,000韩元", 
+              ja: "インジェオルミ 10,000 KRW &nbsp;&nbsp;&nbsp; ガラエットク 10,000 KRW <br> ソンピョン 10,000 KRW &nbsp;&nbsp;&nbsp; パットデオク 10,000 KRW" },
+         query: "종가떡집"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
+let currentFilter = 'food';
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +138,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/5mImetbo`;
-        const mapSearchUrl = `https://maps.app.goo.gl/aCzTn5ZqqFHxcA8f6`;
+        const mapNaverUrl = `https://naver.me/5mhXTEEE`;
+        const mapSearchUrl = `https://maps.app.goo.gl/3oDjLKtDREFvE9Bk9`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
