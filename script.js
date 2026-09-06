@@ -335,19 +335,22 @@ const marketStores = [
         specialty: { ko: "감탄빵 8개 세트 20,000원 &nbsp;&nbsp;&nbsp; 안전빵 1개 2,200원 <br> 아메리카노 HOT 3,500원 &nbsp;&nbsp;&nbsp; ICED 4,000원", en: "Gamtan Brownie 8-piece Set 20,000 KRW &nbsp;&nbsp;&nbsp; Safe-cap Bread 1 Piece 2,200 KRW <br> Americano HOT 3,500 KRW &nbsp;&nbsp;&nbsp; ICED 4,000 KRW", cn: "甘炭面包 8个装 20,000韩元 &nbsp;&nbsp;&nbsp; 安全帽面包 1个 2,200韩元 <br> 美式咖啡 热 3,500韩元 &nbsp;&nbsp;&nbsp; 冰 4,000韩元", ja: "ガムタンパン 8個セット 20,000 &nbsp;&nbsp;&nbsp; 安全帽パン 1個 2,200 <br> アメリカーノ HOT 3,500 &nbsp;&nbsp;&nbsp; ICED 4,000" },
         query: "gamtancafe.html"
     },
-    {
+     {
         id: 5,
-        name: { ko: "사북 전통 떡방앗간", en: "Sabuk Traditional Rice Cake", cn: "舍北传统年糕坊", ja: "舎北伝統餅工房" },
-        cat: "produce",
+        name: { ko: "종가떡집", en: "Jongga Ddeok House", cn: "宗家打糕店", ja: "宗家(ジョンカ)餅屋" },
+        cat: "food",
         catName: { ko: "떡·방앗간", en: "Rice Cake Store", cn: "传统年糕", ja: "伝統餅" },
         desc: {
-            ko: "정선 찰옥수수와 향긋한 수리취를 듬뿍 넣어 빚은 수리취떡과 쫀득한 감자송편을 당일 새벽 쪄냅니다.",
-            en: "Steaming fresh Surichui herb rice cakes and chewy potato half-moon cakes every single morning.",
-            cn: "使用旌善粘玉米与特产东风菜制作的水翠年糕与筋道土豆松饼，每日清晨现做。",
-            ja: "旌善名物のスリチ（山菜）草餅やじゃがいも松餅を毎朝出来立てで提供。"
+            ko: "다양한 전통 떡을 판매합니다. 맛있으면 0칼로리!",
+            en: "We sell various traditional rice cakes. If it's delicious, it's 0 calories!",
+            cn: "销售各种传统年糕。如果好吃就是0卡路里！",
+            ja: "様々な伝統餅を販売しています。美味しいならカロリーは0です！"
         },
-        specialty: { ko: "수리취 찹쌀떡, 감자 송편", en: "Surichui Cake, Potato Cake", cn: "山野草糯米糕, 土豆团子", ja: "スリチ草餅, じゃがいも団子" },
-        query: "사북시장 수리취떡"
+        specialty: { ko: "인절미 10,000원 &nbsp;&nbsp;&nbsp; 가래떡 10,000원 <br> 송편 10,000원 &nbsp;&nbsp;&nbsp; 팥떡 10,000원",
+             en: "Injeolmi 10,000 KRW &nbsp;&nbsp;&nbsp; Garaetteok 10,000 KRW <br> Songpyeon 10,000 KRW &nbsp;&nbsp;&nbsp; Patddeok 10,000 KRW", 
+             cn: "年糕 10,000韩元 &nbsp;&nbsp;&nbsp; 切糕 10,000韩元 <br> 松饼 10,000韩元 &nbsp;&nbsp;&nbsp; 红豆糕 10,000韩元", 
+             ja: "インジェオルミ 10,000 KRW &nbsp;&nbsp;&nbsp; ガラエットク 10,000 KRW <br> ソンピョン 10,000 KRW &nbsp;&nbsp;&nbsp; パットデオク 10,000 KRW" },
+        query: "jonggaddeok.html"
     },
     {
         id: 6,
