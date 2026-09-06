@@ -20,7 +20,7 @@ const i18nData = {
         cat_food: "카페·먹거리",
         cat_produce: "농특산물·약초",
         cat_general: "생활·잡화",
-        view_map_btn: "구글맵에서보기",
+        view_map_btn: "자세히",
         view_naver_map_btn: "네이버 지도에서 보기",
         event_tag: "FESTIVALS & ACTIVITIES",
         event_heading: "사북시장 행사 및 축제",
@@ -88,7 +88,7 @@ const i18nData = {
         cat_food: "Cafes & Desserts",
         cat_produce: "Local Produce & Herbs",
         cat_general: "Daily Goods",
-        view_map_btn: "View on Google Maps",
+        view_map_btn: "Details",
         view_naver_map_btn: "View on Naver Maps",
         event_tag: "FESTIVALS & ACTIVITIES",
         event_heading: "Sabuk Market Events",
@@ -156,7 +156,7 @@ const i18nData = {
         cat_food: "咖啡厅·小吃",
         cat_produce: "农特产·草药",
         cat_general: "生活·百货",
-        view_map_btn: "在Google地图上查看",
+        view_map_btn: "细节事项",
         view_naver_map_btn: "在Naver地图上查看",
         event_tag: "FESTIVALS & ACTIVITIES",
         event_heading: "舍北市场节庆活动",
@@ -222,10 +222,10 @@ const i18nData = {
         store_heading: "市場の店舗一覧",
         store_subtext: "舎北市場の味わい深い郷土料理と新鮮な特産品をご覧ください。",
         cat_restaurants: "食堂",
-        cat_food: "カフェ・スイーツ",
+        cat_food: "カフェ・デザート",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
-        view_map_btn: "位置を見る",
+        view_map_btn: "細部事項",
         event_tag: "FESTIVALS & ACTIVITIES",
         event_heading: "舎北市場のイベント・お祭り",
         event_subtext: "高冷地の夜を彩るナイトマーケットと、江原道自慢のじゃがいも・とうもろこしフェスタをご紹介します。",
@@ -288,13 +288,13 @@ const marketStores = [
             ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
         },
         specialty: { ko: "칼국수 8,000원 &nbsp;&nbsp;&nbsp; 수제비 8,000원 <br> 들깨수제비 9,000원 &nbsp;&nbsp;&nbsp; 들깨칼국수 9,000원", en: "Kalguksu 8,000 KRW &nbsp;&nbsp;&nbsp; Sujebi 8,000 KRW <br> Perilla Seed Sujebi 9,000 KRW &nbsp;&nbsp;&nbsp; Perilla Seed Kalguksu 9,000 KRW", cn: "刀切面 8,000韩元 &nbsp;&nbsp;&nbsp; 面片汤 8,000韩元 <br>荏子刀切面 9,000韩元 &nbsp;&nbsp;&nbsp; 荏子面片汤 9,000韩元", ja: "カルグクス 8,000 &nbsp;&nbsp;&nbsp; スジェビ 8,000 <br> エゴマカルグクス 9,000 &nbsp;&nbsp;&nbsp;エゴマスジェビ 9,000" },
-        query: "사북 짱얼큰칼국수"
+        query: "kalguksu.html"
     },
     {
         id: 2,
         name: { ko: "탄탄아리카페", en: "Tantanari Café", cn: "坦坦阿里咖啡厅", ja: "タンタンアリカフェ" },
         cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
+        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
         desc: {
             ko: "시장 안에서 커피를 마시며 쉴 수 있는 아늑한 카페. 까미도롱 캐릭터 키링을 구입할 수 있어요.",
             en: "A cozy café where you can enjoy coffee and relax. You can also purchase cute Kkamidorong character keychains.",
@@ -302,35 +302,38 @@ const marketStores = [
             ja: "市場内でのコーヒー飲み放題の快適なカフェ。カミドロンキャラクターのキーホルダーも販売中。"
         },
         specialty: { ko: "아메리카노 HOT 4,000원 &nbsp;&nbsp;&nbsp;  ICED 4,500원 <br> 아이스크림 5,000원 &nbsp;&nbsp;&nbsp;  까미도롱 키링 10,000원", en: "Americano HOT 4,000 KRW&nbsp;&nbsp;&nbsp;  ICED 4,500 KRW <br> Ice Cream 5,000 KRW &nbsp;&nbsp;&nbsp; Kkamidorong Keychain 10,000 KRW", cn: "美式咖啡 热 4,000韩元 &nbsp;&nbsp;&nbsp; 冰 4,500韩元 <br> 冰淇淋 5,000韩元 &nbsp;&nbsp;&nbsp; Kkamidorong钥匙扣 10,000韩元", ja: "アメリカーノ HOT 4,000 &nbsp;&nbsp;&nbsp; ICED 4,500 <br> アイスクリーム 5,000 &nbsp;&nbsp;&nbsp; キャラクターキーホルダー 10,000" },
-        query: "사북 탄탄아리카페"
+        query: "tantanari.html"
     },
     {
         id: 3,
-        name: { ko: "정선 산나물·약초상회", en: "Jeongseon Mountain Herb Store", cn: "旌善野生山菜草药商会", ja: "旌善山菜・薬草商会" },
+         name: { ko: "안동상회", en: "Andong Store", cn: "安东商行", ja: "アンドン商会" },
         cat: "produce",
-        catName: { ko: "농특산물·약초", en: "Mountain Produce", cn: "土特产草药", ja: "特産品・薬草" },
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "백운산과 함백산 깊은 숲에서 직접 채취한 건곤드레, 취나물, 정선 5년근 황기를 엄선해 선보입니다.",
-            en: "Carefully harvested wild dried gondre, chwinamul herbs, and authentic Jeongseon Astragalus root.",
-            cn: "采自白云山与咸白山深山的干山蓟菜、野生香青及旌善正宗黄芪。",
-            ja: "白雲山・咸白山で採れた干しゴンドレ、山菜、旌善産5年根黄耆を取り扱い。"
+            ko: "과일, 건어물 및 지역 농산물을 판매합니다.",
+            en: "A store where you can find a variety of local produce and dried goods.",
+            cn: "销售各种当地农产品和干货。",
+            ja: "様々な地域の農産物と干物を販売中。"
         },
-        specialty: { ko: "건곤드레, 정선 5년근 황기", en: "Dried Gondre, Astragalus", cn: "干山蓟菜, 旌善黄芪", ja: "乾燥ゴンドレ, 旌善黄耆" },
-        query: "사북시장 정선 산나물"
+        specialty: { ko: "곤드레나물 12,000원 &nbsp;&nbsp;&nbsp; 사과 10,000원 <br> 옛날사탕 7,000원 &nbsp;&nbsp;&nbsp; 거봉 8,000원", 
+                     en: "Gondre Namul 12,000 KRW &nbsp;&nbsp;&nbsp; Apples 10,000 KRW <br> Old-fashioned Candy 7,000 KRW &nbsp;&nbsp;&nbsp; Kyoho Grapes 8,000 KRW", 
+                     cn: "山蓟菜 12,000韩元 &nbsp;&nbsp;&nbsp; 苹果 10,000韩元 <br> 传统糖果 7,000韩元 &nbsp;&nbsp;&nbsp; 巨峰葡萄 8,000韩元", 
+                     ja: "ゴンドレナムル 12,000 &nbsp;&nbsp;&nbsp; りんご 10,000 <br> 古い飴 7,000 &nbsp;&nbsp;&nbsp; 巨峰レーズン 8,000" },
+        query: "andongsanghoe.html"
     },
     {
         id: 4,
-        name: { ko: "탄광촌 고원 한우정육점", en: "Highland Hanwoo Butcher", cn: "高冷地韩牛精肉店", ja: "高原韓牛精肉店" },
+        name: { ko: "감탄카페", en: "Gamtan Café", cn: "甘炭咖啡甘", ja: "ガムタンカフェ" },
         cat: "food",
-        catName: { ko: "정육·식육식당", en: "Butcher & Grill", cn: "精肉·烤肉", ja: "精肉・焼肉" },
+        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
         desc: {
-            ko: "청정 강원도 고원 1++ 한우만을 취급하며, 꽃등심부터 신선한 육회까지 푸짐하게 즐길 수 있는 식육식당.",
-            en: "Offering strictly premium 1++ Korean beef (Hanwoo), from juicy ribeye cuts to fresh beef tartare.",
-            cn: "专营江原道1++等级高原优质韩牛，提供鲜嫩雪花里脊及牛肉刺身。",
-            ja: "江原道産の最高級1++韓牛専門店。霜降りロースから新鮮なユッケまで提供。"
+            ko: "사북을 대표하는 로컬 카페로, 감탄빵이 맛있습니다.",
+            en: "A local café representing Sabuk, famous for its delicious Gamtan brownie.",
+            cn: "代表舍北的当地咖啡馆，以其美味的炭烤面包而闻名。",
+            ja: "舎北を代表するローカルカフェで、炭焼パンが美味しいです。"
         },
-        specialty: { ko: "한우 꽃등심, 한우 육회", en: "Sirloin, Hanwoo Tartare", cn: "雪花里脊, 鲜拌牛肉", ja: "韓牛ロース, ユッケ" },
-        query: "사북시장 한우 정육점"
+        specialty: { ko: "감탄빵 8개 세트 20,000원 &nbsp;&nbsp;&nbsp; 안전빵 1개 2,200원 <br> 아메리카노 HOT 3,500원 &nbsp;&nbsp;&nbsp; ICED 4,000원", en: "Gamtan Brownie 8-piece Set 20,000 KRW &nbsp;&nbsp;&nbsp; Safe-cap Bread 1 Piece 2,200 KRW <br> Americano HOT 3,500 KRW &nbsp;&nbsp;&nbsp; ICED 4,000 KRW", cn: "甘炭面包 8个装 20,000韩元 &nbsp;&nbsp;&nbsp; 安全帽面包 1个 2,200韩元 <br> 美式咖啡 热 3,500韩元 &nbsp;&nbsp;&nbsp; 冰 4,000韩元", ja: "ガムタンパン 8個セット 20,000 &nbsp;&nbsp;&nbsp; 安全帽パン 1個 2,200 <br> アメリカーノ HOT 3,500 &nbsp;&nbsp;&nbsp; ICED 4,000" },
+        query: "gamtancafe.html"
     },
     {
         id: 5,
@@ -348,18 +351,36 @@ const marketStores = [
     },
     {
         id: 6,
-        name: { ko: "사북 만물상회 & 산악용품", en: "Sabuk Mountain Gear & General", cn: "舍北登山百货杂货", ja: "舎北万物雑貨・登山用品" },
+        name: { ko: "해동슈퍼", en: "Haedong Grocery Store", cn: "海东超市", ja: "ハエドンスーパー" },
         cat: "general",
-        catName: { ko: "생활·잡화", en: "Daily & Gear", cn: "杂货百货", ja: "生活用品・登山雑貨" },
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "하이원 트레킹 및 민둥산 억새 산행객을 위한 등산 용품과 지역 주민들의 정겨운 생활 잡화점.",
-            en: "Hiking accessories for High1 trekkers and Mindungsan hikers alongside everyday household items.",
-            cn: "提供民墩山与High1漫步所需的徒步登山装备以及各类生活日用杂货。",
-            ja: "ミンドゥン山ハイキング客向けの登山グッズや暮らしに役立つ生活雑貨を取り揃え。"
+            ko: "무엇이든 구할 수 있는 시장 내 생활용품 전문점. 다양한 잡화와 간식거리를 판매합니다.",
+            en: "A grocery store where you can find everything you need. We sell a variety of daily goods and snacks.",
+            cn: "市场内的舒适超市，您可以找到所需的一切。我们销售各种日用品和零食。",
+            ja: "市場内での快適なスーパーマーケット。様々な日用品とスナックを販売中。"
         },
-        specialty: { ko: "아이젠, 스틱, 시장 잡화", en: "Hiking Poles, Daily Goods", cn: "登山杖, 防滑冰爪, 日杂", ja: "トレッキングポール, 生活雑貨" },
-        query: "사북시장 등산용품"
+        specialty: { ko: "라면 1,000~2,000원 &nbsp;&nbsp;&nbsp; 음료 1,000~3,000원 <br> 스낵류 1,000~3,000원 &nbsp;&nbsp;&nbsp; 비누·세제 1,000~10,000원", 
+                     en: "Ramyeon 1,000-2,000KRW &nbsp;&nbsp;&nbsp; Beverages 1,000-3,000KRW <br> Snacks 1,000-3,000KRW &nbsp;&nbsp;&nbsp; Soap & Cleaning Supplies 1,000-10,000KRW", 
+                     cn: "方便面 1,000-2,000韩元 &nbsp;&nbsp;&nbsp; 饮料 1,000-3,000韩元 <br> 零食 1,000-3,000韩元 &nbsp;&nbsp;&nbsp; 肥皂·清洁用品 1,000-10,000韩元", 
+                     ja: "ラーメン 1,000-2,000 &nbsp;&nbsp;&nbsp; ビバレッジ 1,000-3,000 <br> スナック 1,000-3,000 &nbsp;&nbsp;&nbsp; 歯磨き粉·清掃用品 1,000-10,000" },
+        query: "haedongsuper.html"
+    },
+    {
+        id: 7,
+        name: { ko: "강릉통닭", en: "Gangneung Tongdak", cn: "江陵通鸭", ja: "江陵(カンヌン)チキン" },
+        cat: "food",
+        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
+        desc: {
+            ko: "바삭바삭한 시장 치킨을 먹고 싶다면? 이곳입니다!",
+            en: "Come and enjoy our crispy market chicken!",
+            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！",
+            ja: "サクサクの市場チキンが食べたいなら？ こちらです。。"
+        },
+        specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
+        query: "gangneungtongdak.html"
     }
+
 ];
 
 let currentLang = 'ko';
@@ -419,7 +440,7 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(store.query)}`;
+        const mapSearchUrl = `./stores/${encodeURIComponent(store.query)}`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

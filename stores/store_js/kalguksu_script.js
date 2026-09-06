@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: " カフェ・デザート",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "해동슈퍼", en: "Haedong Grocery Store", cn: "海东超市", ja: "ハエドンスーパー" },
-        cat: "general",
-        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        name: { ko: "짱얼큰칼국수", en: "Jjangeolkeun Kalguksu", cn: "超赞辣味刀削面", ja: "ピリ辛カルグクス" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "무엇이든 구할 수 있는 시장 내 생활용품 전문점. 다양한 잡화와 간식거리를 판매합니다.",
-            en: "A grocery store where you can find everything you need. We sell a variety of daily goods and snacks.",
-            cn: "市场内的舒适超市，您可以找到所需的一切。我们销售各种日用品和零食。",
-            ja: "市場内での快適なスーパーマーケット。様々な日用品とスナックを販売中。"
+            ko: "직접 담근 김치와 면, 수제비가 일품인 칼국수 전문점.",
+            en: "A noodle house famous for homemade kimchi, handcrafted noodles, and sujebi(hand-torn noodle).",
+            cn: "自制辛奇、手擀面与面片汤一绝的刀切面馆。",
+            ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
         },
-        specialty: { ko: "라면 1,000~2,000원 &nbsp;&nbsp;&nbsp; 음료 1,000~3,000원 <br> 스낵류 1,000~3,000원 &nbsp;&nbsp;&nbsp; 비누·세제 1,000~10,000원", 
-                     en: "Ramyeon 1,000-2,000KRW &nbsp;&nbsp;&nbsp; Beverages 1,000-3,000KRW <br> Snacks 1,000-3,000KRW &nbsp;&nbsp;&nbsp; Soap & Cleaning Supplies 1,000-10,000KRW", 
-                     cn: "方便面 1,000-2,000韩元 &nbsp;&nbsp;&nbsp; 饮料 1,000-3,000韩元 <br> 零食 1,000-3,000韩元 &nbsp;&nbsp;&nbsp; 肥皂·清洁用品 1,000-10,000韩元", 
-                     ja: "ラーメン 1,000-2,000 &nbsp;&nbsp;&nbsp; ビバレッジ 1,000-3,000 <br> スナック 1,000-3,000 &nbsp;&nbsp;&nbsp; 歯磨き粉·清掃用品 1,000-10,000" },
-        query: "사북 해동슈퍼"
+        specialty: { ko: "칼국수 8,000원 &nbsp;&nbsp;&nbsp; 수제비 8,000원 <br> 들깨수제비 9,000원 &nbsp;&nbsp;&nbsp; 들깨칼국수 9,000원",
+             en: "Kalguksu 8,000 KRW &nbsp;&nbsp;&nbsp; Sujebi 8,000 KRW <br> Perilla Seed Sujebi 9,000 KRW &nbsp;&nbsp;&nbsp; Perilla Seed Kalguksu 9,000 KRW", 
+             cn: "刀切面 8,000韩元 &nbsp;&nbsp;&nbsp; 面片汤 8,000韩元 <br>荏子刀切面 9,000韩元 &nbsp;&nbsp;&nbsp; 荏子面片汤 9,000韩元", 
+             ja: "カルグクス 8,000 &nbsp;&nbsp;&nbsp; スジェビ 8,000 <br> エゴマカルグクス 9,000 &nbsp;&nbsp;&nbsp;エゴマスジェビ 9,000" },
+        query: "짱얼큰칼국수"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
+let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/GSQyZ5VH`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bXoKaeD1tBywGqse7`;
+        const mapNaverUrl = `https://naver.me/5mImetbo`;
+        const mapSearchUrl = `https://maps.app.goo.gl/KSPK3m43rSmmiKtm8`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
