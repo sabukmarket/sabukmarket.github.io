@@ -4,7 +4,7 @@ const i18nData = {
         cat_food: "카페·먹거리",
         cat_produce: "농특산물·약초",
         cat_general: "생활·잡화",
-        view_map_btn: "구글지도에서 보기",
+        view_map_btn: "구글 지도에서 보기",
         view_naver_map_btn: "네이버 지도에서 보기",
         footer_copy: "2026 사북시장. All rights reserved.",
         footer_sub: "정선 고원의 넉넉한 인심과 향토의 맛이 함께하는 정선 사북시장 공식 홈페이지입니다."
@@ -45,22 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "탄탄아리카페", en: "Tantanari Café", cn: "坦坦阿里咖啡厅", ja: "タンタンアリカフェ" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
+        name: { ko: "안동상회", en: "Andong Store", cn: "安东商行", ja: "アンドン商会" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "시장 안에서 커피를 마시며 쉴 수 있는 아늑한 카페. 까미도롱 캐릭터 키링을 구입할 수 있어요.",
-            en: "A cozy café where you can enjoy coffee and relax. You can also purchase cute Kkamidorong character keychains.",
-            cn: "市场内的舒适咖啡厅，可在此休息并享用咖啡。还可购买可爱的Kkamidorong角色钥匙扣。",
-            ja: "市場内でのコーヒー飲み放題の快適なカフェ。カミドロンキャラクターのキーホルダーも販売中。"
+            ko: "과일, 건어물 및 지역 농산물을 판매합니다.",
+            en: "A store where you can find a variety of local produce and dried goods.",
+            cn: "销售各种当地农产品和干货。",
+            ja: "様々な地域の農産物と干物を販売中。"
         },
-        specialty: { ko: "아메리카노 HOT 4,000원 &nbsp;&nbsp;&nbsp;  ICED 4,500원 <br> 아이스크림 5,000원 &nbsp;&nbsp;&nbsp;  까미도롱 키링 10,000원", en: "Americano HOT 4,000 KRW&nbsp;&nbsp;&nbsp;  ICED 4,500 KRW <br> Ice Cream 5,000 KRW &nbsp;&nbsp;&nbsp; Kkamidorong Keychain 10,000 KRW", cn: "美式咖啡 热 4,000韩元 &nbsp;&nbsp;&nbsp; 冰 4,500韩元 <br> 冰淇淋 5,000韩元 &nbsp;&nbsp;&nbsp; Kkamidorong钥匙扣 10,000韩元", ja: "アメリカーノ HOT 4,000 &nbsp;&nbsp;&nbsp; ICED 4,500 <br> アイスクリーム 5,000 &nbsp;&nbsp;&nbsp; キャラクターキーホルダー 10,000" },
-        query: "사북 탄탄아리카페"
+        specialty: { ko: "곤드레나물 12,000원 &nbsp;&nbsp;&nbsp; 사과 10,000원 <br> 옛날사탕 7,000원 &nbsp;&nbsp;&nbsp; 거봉 8,000원", 
+                     en: "Gondre Namul 12,000 KRW &nbsp;&nbsp;&nbsp; Apples 10,000 KRW <br> Old-fashioned Candy 7,000 KRW &nbsp;&nbsp;&nbsp; Kyoho Grapes 8,000 KRW", 
+                     cn: "山蓟菜 12,000韩元 &nbsp;&nbsp;&nbsp; 苹果 10,000韩元 <br> 传统糖果 7,000韩元 &nbsp;&nbsp;&nbsp; 巨峰葡萄 8,000韩元", 
+                     ja: "ゴンドレナムル 12,000 &nbsp;&nbsp;&nbsp; りんご 10,000 <br> 古い飴 7,000 &nbsp;&nbsp;&nbsp; 巨峰レーズン 8,000" },
+        query: "사북 안동상회"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -116,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://map.naver.com/v5/search/${encodeURIComponent(store.query)}`;
-        const mapSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(store.query)}`;
+        const mapNaverUrl = `https://naver.me/5GcEbMSd`;
+        const mapSearchUrl = `https://maps.app.goo.gl/dhTEH6HBDhCFUNjt8`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
