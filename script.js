@@ -16,11 +16,12 @@ const i18nData = {
         store_tag: "DISCOVER SABUK STORES",
         store_heading: "시장 내 가게들 목록",
         store_subtext: "사북시장의 정겨운 맛과 신선한 지역 특산물을 만나보세요.",
-        cat_all: "전체보기",
-        cat_food: "식당·먹거리",
+        cat_restaurants: "식당",
+        cat_food: "카페·먹거리",
         cat_produce: "농특산물·약초",
         cat_general: "생활·잡화",
-        view_map_btn: "위치 보기",
+        view_map_btn: "구글맵에서보기",
+        view_naver_map_btn: "네이버 지도에서 보기",
         event_tag: "FESTIVALS & ACTIVITIES",
         event_heading: "사북시장 행사 및 축제",
         event_subtext: "고원의 밤을 밝히는 야시장과 강원도 대표 먹거리 감자·옥수수가 함께하는 사북만의 특별한 축제에 여러분을 초대합니다.",
@@ -39,7 +40,7 @@ const i18nData = {
         ev2_programs: "감자·찰옥수수 무료 시식회, 특산품 직거래 장터, 옥수수 빨리 까기 대회",
         ev2_note: "정확한 연간 일정은 매년 초 상인회 공지를 통해 안내됩니다.",
         ev_place_label: "장소:",
-        ev_program_label: "주요 프로그램:",
+        ev_program_label: "프로그램:",
         hist_tag: "40여 년의 시간과 삶의 터전",
         hist_heading: "사북시장의 역사",
         hist_subheading: "Our History",
@@ -83,11 +84,12 @@ const i18nData = {
         store_tag: "DISCOVER SABUK STORES",
         store_heading: "Our Stores",
         store_subtext: "Discover the best local dishes and fresh regional specialties at Sabuk Market.",
-        cat_all: "All",
-        cat_food: "Food & Dining",
+        cat_restaurants: "Restaurants",
+        cat_food: "Cafes & Desserts",
         cat_produce: "Local Produce & Herbs",
         cat_general: "Daily Goods",
-        view_map_btn: "View Map",
+        view_map_btn: "View on Google Maps",
+        view_naver_map_btn: "View on Naver Maps",
         event_tag: "FESTIVALS & ACTIVITIES",
         event_heading: "Sabuk Market Events",
         event_subtext: "Experience the lively night market and the authentic Gam-Ok Festa celebrating fresh Gangwon potatoes and sweet corn.",
@@ -150,11 +152,12 @@ const i18nData = {
         store_tag: "DISCOVER SABUK STORES",
         store_heading: "市场店铺指南",
         store_subtext: "品尝舍北市场的地道风味与新鲜的高原土特产。",
-        cat_all: "全部",
-        cat_food: "餐厅·小吃",
+        cat_restaurants: "餐厅",
+        cat_food: "咖啡厅·小吃",
         cat_produce: "农特产·草药",
         cat_general: "生活·百货",
-        view_map_btn: "查看位置",
+        view_map_btn: "在Google地图上查看",
+        view_naver_map_btn: "在Naver地图上查看",
         event_tag: "FESTIVALS & ACTIVITIES",
         event_heading: "舍北市场节庆活动",
         event_subtext: "点亮高原夜空的夜市与旌善两大招牌特产（土豆与糯玉米）庆典，为您呈现独特的旅行回忆。",
@@ -198,6 +201,7 @@ const i18nData = {
         c_transit_title: "公共交通",
         c_transit_desc: "太白线舍北站步行5分钟 (约350米) / 舍北长途汽车站步行3分钟",
         c_map_btn: "在 Google Maps 中打开",
+        c_naver_map_btn: "在 Naver Maps 中打开",
         footer_copy: "2026 舍北市场. All rights reserved.",
         footer_sub: "蕴含旌善高原淳朴人情与地道风味的舍北市场官方主页。"
     },
@@ -217,8 +221,8 @@ const i18nData = {
         store_tag: "DISCOVER SABUK STORES",
         store_heading: "市場の店舗一覧",
         store_subtext: "舎北市場の味わい深い郷土料理と新鮮な特産品をご覧ください。",
-        cat_all: "すべて",
-        cat_food: "食堂・グルメ",
+        cat_restaurants: "食堂",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "位置を見る",
@@ -274,31 +278,31 @@ const i18nData = {
 const marketStores = [
     {
         id: 1,
-        name: { ko: "고원 곤드레 밥상", en: "Gowon Gondre Restaurant", cn: "高原山蓟菜拌饭", ja: "高原ゴンドレご飯" },
-        cat: "food",
-        catName: { ko: "식당·향토음식", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        name: { ko: "짱얼큰칼국수", en: "Jjangeolkeun Kalguksu", cn: "超赞辣味刀削面", ja: "ピリ辛カルグクス" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "정선 해발 700m 청정 고원에서 채취한 향긋한 곤드레나물 솥밥과 구수한 된장찌개 전문점.",
-            en: "Authentic Jeongseon wild gondre herb rice bowl served with traditional rich soybean paste stew.",
-            cn: "采用旌善海拔700米野生山蓟菜制作的石锅拌饭与浓郁大酱汤。",
-            ja: "標高700mで育った香り高いゴンドレ菜飯と特製味噌チゲの名店。"
+            ko: "직접 담근 김치와 면, 수제비가 일품인 칼국수 전문점.",
+            en: "A noodle house famous for homemade kimchi, handcrafted noodles, and sujebi(hand-torn noodle).",
+            cn: "自制辛奇、手擀面与面片汤一绝的刀切面馆。",
+            ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
         },
-        specialty: { ko: "곤드레 정식, 메밀전병", en: "Gondre Set, Buckwheat Crepe", cn: "山蓟菜定食, 荞麦煎饼", ja: "ゴンドレ定食, 蕎麦チヂミ" },
-        query: "사북시장 고원 곤드레 밥상"
+        specialty: { ko: "칼국수 8,000원 &nbsp;&nbsp;&nbsp; 수제비 8,000원 <br> 들깨수제비 9,000원 &nbsp;&nbsp;&nbsp; 들깨칼국수 9,000원", en: "Kalguksu 8,000 KRW &nbsp;&nbsp;&nbsp; Sujebi 8,000 KRW <br> Perilla Seed Sujebi 9,000 KRW &nbsp;&nbsp;&nbsp; Perilla Seed Kalguksu 9,000 KRW", cn: "刀切面 8,000韩元 &nbsp;&nbsp;&nbsp; 面片汤 8,000韩元 <br>荏子刀切面 9,000韩元 &nbsp;&nbsp;&nbsp; 荏子面片汤 9,000韩元", ja: "カルグクス 8,000 &nbsp;&nbsp;&nbsp; スジェビ 8,000 <br> エゴマカルグクス 9,000 &nbsp;&nbsp;&nbsp;エゴマスジェビ 9,000" },
+        query: "사북 짱얼큰칼국수"
     },
     {
         id: 2,
-        name: { ko: "사북 전통 막국수", en: "Sabuk Traditional Makguksu", cn: "舍北传统荞麦冷面", ja: "舎北伝統マッククス" },
+        name: { ko: "탄탄아리카페", en: "Tantanari Café", cn: "坦坦阿里咖啡厅", ja: "タンタンアリカフェ" },
         cat: "food",
-        catName: { ko: "면요리·식당", en: "Buckwheat Noodles", cn: "特色面食", ja: "麺処" },
+        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
         desc: {
-            ko: "자가제면 메밀면과 48시간 숙성시킨 동치미 육수로 탄광 시절부터 한결같은 맛을 이어온 막국수집.",
-            en: "Handmade buckwheat noodles with fermented radish broth, a local classic since the mining era.",
-            cn: "自制荞麦冷面搭配熟成冬冬水萝卜汤底，矿工时期传承至今的经典老店。",
-            ja: "自家製蕎麦麺と熟成水キムチスープが自慢の伝統マッククス専門店。"
+            ko: "시장 안에서 커피를 마시며 쉴 수 있는 아늑한 카페. 까미도롱 캐릭터 키링을 구입할 수 있어요.",
+            en: "A cozy café where you can enjoy coffee and relax. You can also purchase cute Kkamidorong character keychains.",
+            cn: "市场内的舒适咖啡厅，可在此休息并享用咖啡。还可购买可爱的Kkamidorong角色钥匙扣。",
+            ja: "市場内でのコーヒー飲み放題の快適なカフェ。カミドロンキャラクターのキーホルダーも販売中。"
         },
-        specialty: { ko: "물막국수, 비빔막국수, 수육", en: "Cold Noodles, Boiled Pork", cn: "水冷面, 拌面, 药膳白肉", ja: "水マッククス, ビビン麺, ポッサム" },
-        query: "사북시장 막국수"
+        specialty: { ko: "아메리카노 HOT 4,000원 &nbsp;&nbsp;&nbsp;  ICED 4,500원 <br> 아이스크림 5,000원 &nbsp;&nbsp;&nbsp;  까미도롱 키링 10,000원", en: "Americano HOT 4,000 KRW&nbsp;&nbsp;&nbsp;  ICED 4,500 KRW <br> Ice Cream 5,000 KRW &nbsp;&nbsp;&nbsp; Kkamidorong Keychain 10,000 KRW", cn: "美式咖啡 热 4,000韩元 &nbsp;&nbsp;&nbsp; 冰 4,500韩元 <br> 冰淇淋 5,000韩元 &nbsp;&nbsp;&nbsp; Kkamidorong钥匙扣 10,000韩元", ja: "アメリカーノ HOT 4,000 &nbsp;&nbsp;&nbsp; ICED 4,500 <br> アイスクリーム 5,000 &nbsp;&nbsp;&nbsp; キャラクターキーホルダー 10,000" },
+        query: "사북 탄탄아리카페"
     },
     {
         id: 3,
@@ -359,7 +363,7 @@ const marketStores = [
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'all';
+let currentFilter = 'restaurants';
 
 // 언어 변경 함수
 function setLanguage(lang) {

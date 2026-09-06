@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사북시장 Sabuk Market</title>
+    <meta name="description" content="강원도 정선 사북시장 - 점포 안내, 행사소개, 역사, 오시는 길">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans KR"', 'sans-serif'],
+                        serif: ['"Noto Serif KR"', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#FDF8F3',
+                            100: '#F7EDE1',
+                            200: '#EBD8C1',
+                            500: '#C05A1C',
+                            600: '#A34611',
+                            700: '#83340A',
+                            800: '#5F2405',
+                            900: '#3D1501',
+                        },
+                        amberWarm: {
+                            500: '#E67E22',
+                            600: '#D35400',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS 분리 파일 -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="bg-[#FAF7F2] text-stone-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Sticky Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Title -->
+                <a href="../index.html" class="flex items-center gap-3 group">
+                    <!-- <div class="w-10 h-10 shrink-0 flex items-center justify-center group-hover:scale-105 transition-transform">
+                         <img src="img/ang_home.png" class="w-full h-full object-contain">
+                    </div> -->
+                    
+                    <div>
+                        <span class="text-xl font-bold   text-stone-900 tracking-tight block">사북시장</span>
+                        <p class="text-[8px] text-stone-500 tracking-wider font-medium">SABUK TRADITIONAL MARKET</p>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <!-- <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-stone-700">
+                    <a href="../index.html" class="hover:text-brand-600 transition-colors" data-i18n="nav_home">Home</a>
+                    <a href="#store_listing" class="hover:text-brand-600 transition-colors" data-i18n="nav_stores">Stores</a>
+                    <a href="#event" class="hover:text-brand-600 transition-colors" data-i18n="nav_events">Events</a>
+                    <a href="#history" class="hover:text-brand-600 transition-colors" data-i18n="nav_history">History</a>
+                    <a href="#contact" class="hover:text-brand-600 transition-colors" data-i18n="nav_contact">Contact</a>
+                </nav> -->
+
+                <!-- Language Switcher & Mobile Menu Trigger -->
+                <div class="flex items-center gap-3">
+                    <div class="inline-flex rounded-xl bg-stone-200/80 p-1 text-xs font-semibold" id="lang-switcher">
+                        <button onclick="setLanguage('ko')" class="lang-btn px-2.5 py-1 rounded-lg transition-all active-lang bg-white text-stone-900 shadow-sm font-bold" data-lang="ko">KO</button>
+                        <button onclick="setLanguage('en')" class="lang-btn px-2.5 py-1 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-lang="en">EN</button>
+                        <button onclick="setLanguage('cn')" class="lang-btn px-2.5 py-1 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-lang="cn">中文</button>
+                        <button onclick="setLanguage('ja')" class="lang-btn px-2.5 py-1 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-lang="ja">日本語</button>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <!-- <button id="mobile-menu-btn" type="button" class="md:hidden p-2 rounded-lg text-stone-700 hover:bg-stone-200 focus:outline-none" aria-label="Menu Toggle">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        
+    </header>
+
+    <main>
+         <section id="store_listing" class="py-10 bg-white border-b border-stone-200">
+            <div class="max-w-3xl mx-auto px-8 sm:px-6 lg:px-8">
+                <!-- Stores Cards Grid (Rendered by JS) -->
+                <div id="store-grid" class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6"></div>
+            </div>
+        </section>
+
+
+    </main>
+       <!-- Custom JS 분리 파일 -->
+    <script src="./tantanari_script.js"></script>
+</body>
+</html>
