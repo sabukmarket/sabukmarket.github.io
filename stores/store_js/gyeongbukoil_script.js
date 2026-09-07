@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: " カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "짱얼큰칼국수", en: "Jjangeolkeun Kalguksu", cn: "超赞辣味刀削面", ja: "ピリ辛カルグクス" },
-        cat: "restaurants",
-        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        name: { ko: "경북기름방", en: "Gyeongbuk Oil Shop", cn: "庆北油坊", ja: "慶北(キョンブク)油坊" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "직접 담근 김치와 면, 수제비가 일품인 칼국수 전문점입니다.",
-            en: "A noodle house famous for homemade kimchi, handcrafted noodles, and sujebi(hand-torn noodle).",
-            cn: "自制辛奇、手擀面与面片汤一绝的刀切面馆。",
-            ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
+            ko: "지역에서 나는 원료로 짠 신선한 기름을 판매합니다.",
+            en: "We sell fresh, locally-sourced oils made from regional ingredients.",
+            cn: "我们销售用当地原料压榨的新鲜油。",
+            ja: "本地域の原料で絞った新鮮な油を販売しています。"
         },
-        specialty: { ko: "칼국수 8,000원 &nbsp;&nbsp;&nbsp; 수제비 8,000원 <br> 들깨수제비 9,000원 &nbsp;&nbsp;&nbsp; 들깨칼국수 9,000원",
-             en: "Kalguksu 8,000 KRW &nbsp;&nbsp;&nbsp; Sujebi 8,000 KRW <br> Perilla Seed Sujebi 9,000 KRW &nbsp;&nbsp;&nbsp; Perilla Seed Kalguksu 9,000 KRW", 
-             cn: "刀切面 8,000韩元 &nbsp;&nbsp;&nbsp; 面片汤 8,000韩元 <br>荏子刀切面 9,000韩元 &nbsp;&nbsp;&nbsp; 荏子面片汤 9,000韩元", 
-             ja: "カルグクス 8,000 &nbsp;&nbsp;&nbsp; スジェビ 8,000 <br> エゴマカルグクス 9,000 &nbsp;&nbsp;&nbsp;エゴマスジェビ 9,000" },
-        query: "짱얼큰칼국수"
+        specialty: { ko: "국산 참기름 38,000원 &nbsp;&nbsp;&nbsp; 국산 들기름 25,000원 <br> 수입산 참기름 16,000원 &nbsp;&nbsp;&nbsp; 수입산 들기름 15,000원/20,000원", 
+                     en: "Domestic Sesame Oil 38,000 KRW &nbsp;&nbsp;&nbsp; Domestic Perilla Oil 25,000 KRW <br> Imported Sesame Oil 16,000 KRW &nbsp;&nbsp;&nbsp; Imported Perilla Oil 15,000 KRW/20,000 KRW", 
+                     cn: "国产芝麻油 38,000韩元 &nbsp;&nbsp;&nbsp; 国产紫苏油 25,000韩元 <br> 进口芝麻油 16,000韩元 &nbsp;&nbsp;&nbsp; 进口紫苏油 15,000韩元/20,000韩元", 
+                     ja: "国内産ゴマ油 38,000 &nbsp;&nbsp;&nbsp; 国内産エゴマ油 25,000 <br> 輸入ゴマ油 16,000 &nbsp;&nbsp;&nbsp; 輸入エゴマ油 15,000/20,000" },
+        query: "사북 경북기름방"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/5mImetbo`;
-        const mapSearchUrl = `https://maps.app.goo.gl/KSPK3m43rSmmiKtm8`;
+        const mapNaverUrl = `https://naver.me/GDQ4bEmp`;
+        const mapSearchUrl = `https://maps.app.goo.gl/Fwe2EWXHWyp1kyk67`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

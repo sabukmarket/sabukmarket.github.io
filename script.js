@@ -282,7 +282,7 @@ const marketStores = [
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "직접 담근 김치와 면, 수제비가 일품인 칼국수 전문점.",
+            ko: "직접 담근 김치와 면, 수제비가 일품인 칼국수 전문점입니다.",
             en: "A noodle house famous for homemade kimchi, handcrafted noodles, and sujebi(hand-torn noodle).",
             cn: "自制辛奇、手擀面与面片汤一绝的刀切面馆。",
             ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
@@ -382,6 +382,57 @@ const marketStores = [
         },
         specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
         query: "gangneungtongdak.html"
+    },
+    {
+        id: 8,
+        name: { ko: "강릉식당", en: "Gangneung Restaurant", cn: "江陵餐厅", ja: "江陵(カンヌン)食堂" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "곤드레 정식부터 생선구이, 더덕구이, 순두부찌개까지 다채로운 한식 메뉴를 즐길 수 있습니다. 시장 정문 바로 옆에 위치해 있어요.",
+            en: "Enjoy a variety of Korean dishes from Gondre rice to grilled fish, morel mushroom stew, and sundubu jiggae. Located right next to the main entrance of the market.",
+            cn: "从贡德雷套餐到烤鱼、杜鹃花炖菜和嫩豆腐汤等多样的韩式菜单都可以享用。位于市场正门旁边。",
+            ja: "ゴンドレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
+        },
+        specialty: { ko: "곤드레정식 18,000원 &nbsp;&nbsp;&nbsp; 임연수구이 17,000원 <br> 고등어구이 15,000원 &nbsp;&nbsp;&nbsp; 더덕구이 17,000원",
+             en: "Gondre Set Meal 18,000 KRW &nbsp;&nbsp;&nbsp; Grilled Atka Mackerel 17,000 KRW <br> Grilled Mackerel 15,000 KRW &nbsp;&nbsp;&nbsp; Grilled Deodeok 17,000 KRW", 
+             cn: "山蓟菜套餐 18,000韩元 &nbsp;&nbsp;&nbsp; 烤银鳕鱼 17,000韩元 <br> 烤鲭鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 烤杜鹃花 17,000韩元", 
+             ja: "ゴンドレ定食 18,000ウォン &nbsp;&nbsp;&nbsp; ホッケ焼き 17,000ウォン <br> サバの塩焼き 15,000ウォン &nbsp;&nbsp;&nbsp; グリルされたデオドク 17,000ウォン" },
+        query: "gangneungrestaurant.html"
+    },
+      {
+        id: 9,
+        name: { ko: "경북기름방", en: "Gyeongbuk Oil Shop", cn: "庆北油坊", ja: "慶北(キョンブク)油坊" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "지역에서 나는 원료로 짠 신선한 기름을 판매합니다.",
+            en: "We sell fresh, locally-sourced oils made from regional ingredients.",
+            cn: "我们销售用当地原料压榨的新鲜油。",
+            ja: "本地域の原料で絞った新鮮な油を販売しています。"
+        },
+        specialty: { ko: "국산 참기름 38,000원 &nbsp;&nbsp;&nbsp; 국산 들기름 25,000원 <br> 수입산 참기름 16,000원 &nbsp;&nbsp;&nbsp; 수입산 들기름 15,000원/20,000원", 
+                     en: "Domestic Sesame Oil 38,000 KRW &nbsp;&nbsp;&nbsp; Domestic Perilla Oil 25,000 KRW <br> Imported Sesame Oil 16,000 KRW &nbsp;&nbsp;&nbsp; Imported Perilla Oil 15,000 KRW/20,000 KRW", 
+                     cn: "国产芝麻油 38,000韩元 &nbsp;&nbsp;&nbsp; 国产紫苏油 25,000韩元 <br> 进口芝麻油 16,000韩元 &nbsp;&nbsp;&nbsp; 进口紫苏油 15,000韩元/20,000韩元", 
+                     ja: "国内産ゴマ油 38,000 &nbsp;&nbsp;&nbsp; 国内産エゴマ油 25,000 <br> 輸入ゴマ油 16,000 &nbsp;&nbsp;&nbsp; 輸入エゴマ油 15,000/20,000" },
+        query: "gyeongbukoil.html"
+    },
+    {
+        id: 10,
+        name: { ko: "경북야채", en: "Gyeongbuk Vegetable Shop", cn: "庆北蔬菜店", ja: "慶北(キョンブク)野菜店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "오늘 저녁 국거리, 반찬거리 재료로 딱인 신선한 야채들을 판매하고 있습니다.",
+            en: "We sell fresh, locally-sourced vegetables for today's soup and side dishes.",
+            cn: "我们销售今日汤品和配菜所需的新鲜当地蔬菜。",
+            ja: "今日のスープと副菜に必要な新鮮な地産野菜を販売しています。"
+        },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 상추 1봉지 3,000원 &nbsp;&nbsp;&nbsp;", 
+                     en: "(Prices may vary depending on the market.) Lettuce 1 bag 3,000 KRW &nbsp;&nbsp;&nbsp;", 
+                     cn: "(价格可能因市场而异。) 生菜 1袋 3,000韩元 &nbsp;&nbsp;&nbsp;", 
+                     ja: "(価格は市場による。) レタス 1袋 3,000ウォン &nbsp;&nbsp;&nbsp;" },
+        query: "gyeongbukvegi.html"
     }
 
 ];
