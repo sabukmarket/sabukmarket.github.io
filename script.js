@@ -467,6 +467,74 @@ const marketStores = [
              cn: "原味紫菜包饭 3,000韩元 &nbsp;&nbsp;&nbsp; 炒饭 9,000韩元 <br> 嫩豆腐煲 9,000韩元 &nbsp;&nbsp;&nbsp; 年糕饺子汤 9,000韩元", 
              ja: "オリジナルキンパ 3,000 &nbsp;&nbsp;&nbsp; やきめし 9,000 <br> ンドゥブチゲ 9,000 &nbsp;&nbsp;&nbsp; 餅と餃子のスープ 9,000" },
         query: "gimbapnara.html"
+    },
+     {
+        id: 13,
+        name: { ko: "내사랑사book", en: "My Love Sabuk Bookstore", cn: "我的爱sabook书店", ja: "私の愛sabook書店" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "사북 내 유일한 책방입니다. 어린이와 어른들을 위한 그림책과 동화책을 주로 판매합니다.",
+            en: "The only bookstore in Sabuk. We mainly sell picture books and fairy tales for children and adults.",
+            cn: "旌善内唯一的书店。我们主要销售图画书和童话书。",
+            ja: "薩北内唯一の書店です。子供と大人のための絵本と妖精の物語を主に販売しています。"
+        },
+        specialty: { ko: "다양한 가격의 그림책 판매(주로 10,000~30,000원)", 
+                     en: "Picture Books 10,000-30,000KRW (Various Prices)", 
+                     cn: "各种价格的图画书销售(主要是10,000-30,000韩元)", 
+                     ja: "様々な価格の絵本販売(主に10,000-30,000)" },
+        query: "mylovesabook.html"
+    },
+     {
+        id: 14,
+        name: { ko: "다희마켓", en: "Daheemarket", cn: "Dahee市场", ja: "ダヒーマーケット" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "정선군과 사북의 귀엽고 깜찍한 굿즈들을 만나실 수 있어요. 선물을 사 가시려면 반드시 들러야 할 곳 중 하나입니다.",
+            en: "A store where you can find cute and unique merchandise products from Jeongseon and Sabuk. A must-visit place for those looking for souvenirs.",
+            cn: "在这里可以找到旌善郡和舍北的可爱独特商品。如果您想购买礼物，这里是必去之地。",
+            ja: "旌善郡と舎北のかわいい独特なグッズに出会える。贈り物を買うなら必ず訪れるべき場所の一つです。"
+        },
+    specialty: { ko: "다양한 가격의 굿즈 5,000 ~ 30,000원", 
+                     en: "Merchandise in various prices 5,000-30,000KRW", 
+                     cn: "各种价格的商品 5,000 ~ 30,000韩元", 
+                     ja: "様々な価格のグッズ 5,000 ~ 30,000" },
+        query: "daheemarket.html"
+    },
+      {
+        id: 15,
+        name: { ko: "또오다래쉬", en: "Come Again Lashes", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "속눈썹 펌, 속눈썹 연장을 해 드립니다. 예약하고 오시길 부탁드려요.",
+            en: "We offer eyelash perms and extensions. Please make a reservation.",
+            cn: "我们提供睫毛烫和睫毛嫁接服务。请提前预约。",
+            ja: "まつげパーマ、まつげエクステを行っています。ご予約の上、ご来店ください。"
+        },
+    specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
+                     en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
+                     cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
+                     ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000 <br> パーマとポイントエクステ 60,000" },
+        query: "comeagainlashes.html"
+    },
+     {
+        id: 16,
+        name: { ko: "만리장성", en: "The Great Wall of China", cn: "万里长城", ja: "万里の長城" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "사북에서 가장 오랜 역사를 가진 중식당이랍니다. 24시간 영업해 언제나 불이 켜져 있어요(수요일 격주휴무).",
+            en: "The oldest Chinese restaurant in Sabuk. Open 24 hours, always with the lights on (bi-weekly Wednesday off).",
+            cn: "舍北最古老的中餐厅。24小时营业，灯火通明（每两周周三休息）。",
+            ja: "舎北で最も古い中華料理店です。24時間営業で、いつも明かりがついています（隔週水曜日休業）。"
+        },
+        specialty: { ko: "짜장면 8,000원 &nbsp;&nbsp;&nbsp; 짬뽕 9,000원 <br> 사천짜장 14,000원 &nbsp;&nbsp;&nbsp; 마파두부 39,000원",
+             en: "Jajangmyeon 8,000 KRW &nbsp;&nbsp;&nbsp; Jjamppong 9,000 KRW <br> Sichuan Jajang 14,000 KRW &nbsp;&nbsp;&nbsp; Mapo Tofu 39,000 KRW", 
+             cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒河粉 9,000韩元 <br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元", 
+             ja: "ジャジャンミョン 8,000 &nbsp;&nbsp;&nbsp; ジャムポン 9,000 <br> 四川ジャジャン 14,000 &nbsp;&nbsp;&nbsp; マポトゥフ 39,000" },
+        query: "malijangseong.html",
     }
 
 ];
