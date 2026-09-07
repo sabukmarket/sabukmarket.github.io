@@ -45,17 +45,20 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "감탄카페", en: "Gamtan Café", cn: "甘炭咖啡厅", ja: "ガムタンカフェ" },
+        name: { ko: "카페 길", en: "Café GIL", cn: "咖啡厅GIL", ja: "カフェ・みち(GIL)" },
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
         desc: {
-            ko: "사북을 대표하는 로컬 카페. 감탄빵은 선물용으로도 좋습니다!",
-            en: "A local café representing Sabuk, famous for its delicious Gamtan brownie.",
-            cn: "代表舍北的当地咖啡馆，以其美味的炭烤面包而闻名。",
-            ja: "舎北を代表するローカルカフェで、炭焼パンが美味しいです。"
+            ko: "정선군 시니어일자리사업의 일환으로 운영되는 카페입니다. 시중보다 저렴하고 맛있는 커피를 제공합니다.",
+            en: "A café operated as part of the Jeongseon County Senior Employment Project. We provide affordable and delicious coffee.",
+            cn: "作为旌善郡老年就业项目的一部分运营的咖啡馆。我们提供价格实惠、美味的咖啡。",
+            ja: "旌善郡シニア雇用事業の一環として運営されているカフェです。市販よりも安くて美味しいコーヒーを提供しています。"
         },
-        specialty: { ko: "감탄빵 8개 세트 20,000원 &nbsp;&nbsp;&nbsp; 안전빵 1개 2,200원 <br> 아메리카노 HOT 3,500원 &nbsp;&nbsp;&nbsp; ICED 4,000원", en: "Gamtan Brownie 8-piece Set 20,000 KRW &nbsp;&nbsp;&nbsp; Safe-cap Bread 1 Piece 2,200 KRW <br> Americano HOT 3,500 KRW &nbsp;&nbsp;&nbsp; ICED 4,000 KRW", cn: "甘炭面包 8个装 20,000韩元 &nbsp;&nbsp;&nbsp; 安全帽面包 1个 2,200韩元 <br> 美式咖啡 热 3,500韩元 &nbsp;&nbsp;&nbsp; 冰 4,000韩元", ja: "ガムタンパン 8個セット 20,000 &nbsp;&nbsp;&nbsp; 安全帽パン 1個 2,200 <br> アメリカーノ HOT 3,500 &nbsp;&nbsp;&nbsp; ICED 4,000" },
-        query: "감탄카페"
+        specialty: { ko: "아메리카노 HOT 2,500원 &nbsp;&nbsp;&nbsp; ICED 3,000원 <br> 카페라떼 HOT 3,000원 &nbsp;&nbsp;&nbsp; ICED 3,000원", 
+            en: "Americano HOT 2,500 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW <br> Café Latte HOT 3,000 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW", 
+            cn: "美式咖啡 热 2,500韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元 <br> 拿铁咖啡 热 3,000韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元", 
+            ja: "アメリカーノ HOT 2,500 &nbsp;&nbsp;&nbsp; ICED 3,000 <br> カフェラテ HOT 3,000 &nbsp;&nbsp;&nbsp; ICED 3,000" },
+        query: "cafegil.html"
     }
 ];
 
@@ -116,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xmxeeGhJ`;
-        const mapSearchUrl = `https://maps.app.goo.gl/2S29fLCBeq6gGxcGA`;
+        const mapNaverUrl = `https://naver.me/xoGuHZox`;
+        const mapSearchUrl = `https://maps.app.goo.gl/WNLTRYeQuZWMSq186`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

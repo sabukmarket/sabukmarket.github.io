@@ -327,7 +327,7 @@ const marketStores = [
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
         desc: {
-            ko: "사북을 대표하는 로컬 카페로, 감탄빵이 맛있습니다.",
+            ko: "사북을 대표하는 로컬 카페. 감탄빵은 선물용으로도 좋습니다!",
             en: "A local café representing Sabuk, famous for its delicious Gamtan brownie.",
             cn: "代表舍北的当地咖啡馆，以其美味的炭烤面包而闻名。",
             ja: "舎北を代表するローカルカフェで、炭焼パンが美味しいです。"
@@ -433,6 +433,40 @@ const marketStores = [
                      cn: "(价格可能因市场而异。) 生菜 1袋 3,000韩元 &nbsp;&nbsp;&nbsp;", 
                      ja: "(価格は市場による。) レタス 1袋 3,000ウォン &nbsp;&nbsp;&nbsp;" },
         query: "gyeongbukvegi.html"
+    },
+    {
+        id: 11,
+        name: { ko: "카페 길", en: "Café GIL", cn: "咖啡厅GIL", ja: "カフェ・みち(GIL)" },
+        cat: "food",
+        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
+        desc: {
+            ko: "정선군 시니어일자리사업의 일환으로 운영되는 카페입니다. 시중보다 저렴하고 맛있는 커피를 제공합니다.",
+            en: "A café operated as part of the Jeongseon County Senior Employment Project. We provide affordable and delicious coffee.",
+            cn: "作为旌善郡老年就业项目的一部分运营的咖啡馆。我们提供价格实惠、美味的咖啡。",
+            ja: "旌善郡シニア雇用事業の一環として運営されているカフェです。市販よりも安くて美味しいコーヒーを提供しています。"
+        },
+        specialty: { ko: "아메리카노 HOT 2,500원 &nbsp;&nbsp;&nbsp; ICED 3,000원 <br> 카페라떼 HOT 3,000원 &nbsp;&nbsp;&nbsp; ICED 3,000원", 
+            en: "Americano HOT 2,500 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW <br> Café Latte HOT 3,000 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW", 
+            cn: "美式咖啡 热 2,500韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元 <br> 拿铁咖啡 热 3,000韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元", 
+            ja: "アメリカーノ HOT 2,500 &nbsp;&nbsp;&nbsp; ICED 3,000 <br> カフェラテ HOT 3,000 &nbsp;&nbsp;&nbsp; ICED 3,000" },
+        query: "cafegil.html"
+    },
+     {
+        id: 12,
+        name: { ko: "김밥나라", en: "Gimbap Nara", cn: "紫菜包饭王国", ja: "キンパナラ" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "김밥과 라면? 김밥과 떡볶이? 김밥과 순두부찌개? 어떤 메뉴든 어울립니다.",
+            en: "Gimbap and ramen? Gimbap and tteokbokki? Gimbap and soft tofu stew? Any combination works well.",
+            cn: "紫菜包饭和拉面？紫菜包饭和辣炒年糕？紫菜包饭和嫩豆腐煲？任何组合都很棒。",
+            ja: "キンパとラーメン？キンパとトッポッキ？キンパとスンドゥブチゲ？どの組み合わせも相性抜群です。"
+        },
+        specialty: { ko: "원조김밥 3,000원 &nbsp;&nbsp;&nbsp; 볶음밥 9,000원 <br> 순두부 9,000원 &nbsp;&nbsp;&nbsp; 떡만둣국 9,000원",
+             en: "Original Gimbap 3,000 KRW &nbsp;&nbsp;&nbsp; Fried Rice 9,000 KRW <br> Soft Tofu Stew 9,000 KRW &nbsp;&nbsp;&nbsp; Rice Cake Dumpling Soup 9,000 KRW", 
+             cn: "原味紫菜包饭 3,000韩元 &nbsp;&nbsp;&nbsp; 炒饭 9,000韩元 <br> 嫩豆腐煲 9,000韩元 &nbsp;&nbsp;&nbsp; 年糕饺子汤 9,000韩元", 
+             ja: "オリジナルキンパ 3,000 &nbsp;&nbsp;&nbsp; やきめし 9,000 <br> ンドゥブチゲ 9,000 &nbsp;&nbsp;&nbsp; 餅と餃子のスープ 9,000" },
+        query: "gimbapnara.html"
     }
 
 ];

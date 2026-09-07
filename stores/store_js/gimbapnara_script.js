@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・スイーツ",
+        cat_food: " カフェ・デザート",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,22 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "감탄카페", en: "Gamtan Café", cn: "甘炭咖啡厅", ja: "ガムタンカフェ" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
+        name: { ko: "김밥나라", en: "Gimbap Nara", cn: "紫菜包饭王国", ja: "キンパナラ" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "사북을 대표하는 로컬 카페. 감탄빵은 선물용으로도 좋습니다!",
-            en: "A local café representing Sabuk, famous for its delicious Gamtan brownie.",
-            cn: "代表舍北的当地咖啡馆，以其美味的炭烤面包而闻名。",
-            ja: "舎北を代表するローカルカフェで、炭焼パンが美味しいです。"
+            ko: "김밥과 라면? 김밥과 떡볶이? 김밥과 순두부찌개? 어떤 메뉴든 어울립니다.",
+            en: "Gimbap and ramen? Gimbap and tteokbokki? Gimbap and soft tofu stew? Any combination works well.",
+            cn: "紫菜包饭和拉面？紫菜包饭和辣炒年糕？紫菜包饭和嫩豆腐煲？任何组合都很棒。",
+            ja: "キンパとラーメン？キンパとトッポッキ？キンパとスンドゥブチゲ？どの組み合わせも相性抜群です。"
         },
-        specialty: { ko: "감탄빵 8개 세트 20,000원 &nbsp;&nbsp;&nbsp; 안전빵 1개 2,200원 <br> 아메리카노 HOT 3,500원 &nbsp;&nbsp;&nbsp; ICED 4,000원", en: "Gamtan Brownie 8-piece Set 20,000 KRW &nbsp;&nbsp;&nbsp; Safe-cap Bread 1 Piece 2,200 KRW <br> Americano HOT 3,500 KRW &nbsp;&nbsp;&nbsp; ICED 4,000 KRW", cn: "甘炭面包 8个装 20,000韩元 &nbsp;&nbsp;&nbsp; 安全帽面包 1个 2,200韩元 <br> 美式咖啡 热 3,500韩元 &nbsp;&nbsp;&nbsp; 冰 4,000韩元", ja: "ガムタンパン 8個セット 20,000 &nbsp;&nbsp;&nbsp; 安全帽パン 1個 2,200 <br> アメリカーノ HOT 3,500 &nbsp;&nbsp;&nbsp; ICED 4,000" },
-        query: "감탄카페"
+        specialty: { ko: "원조김밥 3,000원 &nbsp;&nbsp;&nbsp; 볶음밥 9,000원 <br> 순두부 9,000원 &nbsp;&nbsp;&nbsp; 떡만둣국 9,000원",
+             en: "Original Gimbap 3,000 KRW &nbsp;&nbsp;&nbsp; Fried Rice 9,000 KRW <br> Soft Tofu Stew 9,000 KRW &nbsp;&nbsp;&nbsp; Rice Cake Dumpling Soup 9,000 KRW", 
+             cn: "原味紫菜包饭 3,000韩元 &nbsp;&nbsp;&nbsp; 炒饭 9,000韩元 <br> 嫩豆腐煲 9,000韩元 &nbsp;&nbsp;&nbsp; 年糕饺子汤 9,000韩元", 
+             ja: "オリジナルキンパ 3,000 &nbsp;&nbsp;&nbsp; やきめし 9,000 <br> ンドゥブチゲ 9,000 &nbsp;&nbsp;&nbsp; 餅と餃子のスープ 9,000" },
+        query: "gimbapnara.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -116,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xmxeeGhJ`;
-        const mapSearchUrl = `https://maps.app.goo.gl/2S29fLCBeq6gGxcGA`;
+        const mapNaverUrl = `https://naver.me/I55xzr6Q`;
+        const mapSearchUrl = `https://maps.app.goo.gl/ohKAFu7uBces1tiRA`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
