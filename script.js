@@ -1,5 +1,5 @@
 // 4개 국어 번역 딕셔너리 (KO, EN, CN, JA)
-const i18nData = {
+const i63nData = {
     ko: {
         nav_home: "Home",
         nav_stores: "Stores",
@@ -474,12 +474,12 @@ const marketStores = [
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "사북 내 유일한 책방입니다. 어린이와 어른들을 위한 그림책과 동화책을 주로 판매합니다.",
-            en: "The only bookstore in Sabuk. We mainly sell picture books and fairy tales for children and adults.",
-            cn: "旌善内唯一的书店。我们主要销售图画书和童话书。",
-            ja: "薩北内唯一の書店です。子供と大人のための絵本と妖精の物語を主に販売しています。"
+            ko: "사북 내 유일한 책방입니다. 어린이와 어른들을 위한 그림책과 동화책을 주로 판매합니다. <br> #그림책 #삶 #인생 #행복 #여행",
+            en: "The only bookstore in Sabuk. We mainly sell picture books and fairy tales for children and adults. <br> #PictureBooks #Life #Happiness #Travel",
+            cn: "旌善内唯一的书店。我们主要销售图画书和童话书。 <br> #图画书 #生活 #人生 #幸福 #旅行",
+            ja: "薩北内唯一の書店です。子供と大人のための絵本と妖精の物語を主に販売しています。 <br> #絵本 #人生 #幸福 #旅行"
         },
-        specialty: { ko: "다양한 가격의 그림책 판매(주로 10,000~30,000원)", 
+        specialty: { ko: "광부의 이야기를 다룬 <사북의 밤은 아직 따뜻하다> 등, 다양한 가격의 그림책 판매(주로 10,000~30,000원)", 
                      en: "Picture Books 10,000-30,000KRW (Various Prices)", 
                      cn: "各种价格的图画书销售(主要是10,000-30,000韩元)", 
                      ja: "様々な価格の絵本販売(主に10,000-30,000)" },
@@ -535,8 +535,108 @@ const marketStores = [
              cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒河粉 9,000韩元 <br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元", 
              ja: "ジャジャンミョン 8,000 &nbsp;&nbsp;&nbsp; ジャムポン 9,000 <br> 四川ジャジャン 14,000 &nbsp;&nbsp;&nbsp; マポトゥフ 39,000" },
         query: "malijangseong.html",
+    },
+    {
+        id: 17,
+        name: { ko: "미향란제리", en: "Mihyang Lingerie Store", cn: "美香内衣店", ja: "ミヒャン下着屋" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "속옷, 양말, 란제리 세트 등을 저렴한 가격으로 판매합니다.",
+            en: "We sell underwear, socks, and lingerie sets at affordable prices.",
+            cn: "我们以实惠的价格销售内衣、袜子和内衣套装。",
+            ja: "下着、靴下、ランジェリーセットなどをお手頃な価格で販売しています。"
+        },
+    specialty: { ko: "양말 2,000 ~ 4,000원 &nbsp;&nbsp;&nbsp; 팬티 세트 15,000 ~ 30,000원 <br> 메리야쓰 세트 18,000 ~ 30,000원", 
+                     en: "Socks 2,000 ~ 4,000KRW &nbsp;&nbsp;&nbsp; Panty Sets 15,000 ~ 30,000KRW <br> Undershirt Sets 18,000 ~ 30,000KRW", 
+                     cn: "袜子 2,000 ~ 4,000韩元 &nbsp;&nbsp;&nbsp; 内裤套装 15,000 ~ 30,000韩元 <br> 内衣套装 18,000 ~ 30,000韩元", 
+                     ja: "靴下 2,000 ~ 4,000円 &nbsp;&nbsp;&nbsp; 内衣セット 15,000 ~ 30,000円 <br> 下着セット 18,000 ~ 30,000円" },
+        query: "mihyang.html"
+    },
+    {
+        id: 18,
+        name: { ko: "사북의 보은", en: "Boeun in Sabuk", cn: "舍北的宝恩", ja: "舎北の宝恩" },
+        cat: "food",
+        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
+        desc: {
+            ko: "사북의 유일한 디저트 전문점입니다. 타르트, 스콘, 쿠키 등 매일 매일 다른 종류의 디저트를 굽습니다.",
+            en: "The only dessert shop in Sabuk. We bake different types of desserts every day.",
+            cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。",
+            ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。"
+        },
+        specialty: { ko: "레몬큐브 3,800원 &nbsp;&nbsp;&nbsp; 플레인스콘 3,000원 <br>  2,500원", 
+            en: "Lemon Cube 3,800 KRW &nbsp;&nbsp;&nbsp; Plain Scone 3,000 KRW <br>  2,500 KRW", 
+            cn: "柠檬方块 3,800韩元 &nbsp;&nbsp;&nbsp; 原味司康 3,000韩元 <br>  2,500韩元", 
+            ja: "レモンキューブ 3,800 &nbsp;&nbsp;&nbsp; プレーンスコン 3,000 <br>  2,500" },
+        query: "boeun.html"
+    },
+    {
+        id: 19,
+        name: { ko: "박대감화로구이", en: "Park Daegam Korean BBQ", cn: "朴大监炭火烤肉", ja: "パッテガム火鉢焼き(ファログイ)" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "지글지글 화로 위 돼지갈비와 LA갈비를 푸짐하게 즐길 수 있는 고깃집입니다. 시장 입구에 있어요.",
+            en: "A Korean BBQ restaurant offering delicious pork ribs and LA ribs on a sizzling hot plate. Located at the entrance of the market.",
+            cn: "在炭火烤盘上享用美味的猪排和洛杉矶排骨的烤肉店。位于市场入口处。",
+            ja: "ジューシーな豚カルビとLAカルビを炭火で楽しめる焼肉店です。市場の入口にあります。"
+        },
+        specialty: { ko: "돼지 왕갈비 20,000원 &nbsp;&nbsp;&nbsp; 양념 소갈비살 24,000원  <bt> LA 양념갈비 27,000원 &nbsp;&nbsp;&nbsp; 냉면 8,000원 ",
+             en: "Pork Ribs 20,000 KRW &nbsp;&nbsp;&nbsp; Marinated Beef Ribs 24,000 KRW <bt> LA Marinated Ribs 27,000 KRW &nbsp;&nbsp;&nbsp; Nengmyeon (Cold Noodles) 8,000 KRW ", 
+             cn: "猪排 20,000韩元 &nbsp;&nbsp;&nbsp; 腌制牛排 24,000韩元 <bt> 洛杉矶腌制排骨 27,000韩元 &nbsp;&nbsp;&nbsp; 冷面 8,000韩元 ", 
+             ja: "豚カルビ 20,000ウォン &nbsp;&nbsp;&nbsp; 腌製牛肉カルビ 24,000ウォン <bt> LA 腌製カルビ 27,000ウォン &nbsp;&nbsp;&nbsp; 冷麺 8,000ウォン " },
+        query: "parkdaegam.html"
+    },
+      {
+        id: 20,
+        name: { ko: "빠Star", en: "PpaStar", cn: "帕斯塔", ja: "パスタ" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "내 입맛에 딱 맞는 이태리 퓨전 면 요리를 즐기고 싶으시다면? 청년몰 3층에서 기다리고 있습니다.",
+            en: "If you want to enjoy Italian fusion noodles that match your taste, we're waiting for you on the 3rd floor of the Youth Mall.",
+            cn: "如果您想享受符合您口味的意大利融合面食，请到青年商场三楼，我们在等您。",
+            ja: "自分の味覚にぴったり合うイタリアンフュージョンの麺料理を楽しみたい方は、青年モールの3階でお待ちしております。"
+        },
+        specialty: { ko: "김치필라프 11,900원 &nbsp;&nbsp;&nbsp; 베이컨까르보나라 11,900원 <br> 그릴드치킨크림 13,900원 &nbsp;&nbsp; 해물크림파스타 12,900원",
+             en: "Kimchi Pilaf 11,900 KRW &nbsp;&nbsp;&nbsp; Bacon Carbonara 11,900 KRW <br> Grilled Chicken Cream 13,900 KRW &nbsp;&nbsp; Seafood Cream Pasta 12,900 KRW", 
+             cn: "泡菜饭 11,900韩元 &nbsp;&nbsp;&nbsp; 培根卡博纳拉 11,900韩元 <br> 烤鸡肉奶油 13,900韩元 &nbsp;&nbsp; 海鲜奶油意面 12,900韩元", 
+             ja: "キムチピラフ 11,900 &nbsp;&nbsp;&nbsp; ベーコンカルボナーラ 11,900 <br> グリルドチキンクリーム 13,900 &nbsp;&nbsp; シーフードクリームパスタ 12,900" },
+        query: "ppastar.html"
+    },
+     {
+        id: 21,
+        name: { ko: "산마루축산", en: "Sanmaru Butcher's", cn: "山马鲁肉店", ja: "サンマル畜産" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "신선한 고기를 부위별로 판매합니다. 시장 입구 부근으로 오세요.",
+            en: "We sell fresh meat by cuts. Please come near the market entrance!",
+            cn: "我们按部位销售新鲜肉类。请到市场入口附近。",
+            ja: "新鮮な肉を部位別に販売しています。市場入口付近にお越しください。"},
+        specialty: { ko: "*한우, 돼지고기, 닭고기 가격은 시세에 따라 변동됩니다.", 
+                     en: "*Prices for Korean beef, pork, and chicken vary according to market rates.", 
+                     cn: "*韩国牛、猪肉、鸡肉的价格会根据市场行情波动。", 
+                     ja: "*韓国牛、豚肉、鶏肉の価格は市場レートに応じて変動します。" },
+        query: "sanmaru.html"
+    },
+      {
+        id: 22,
+        name: { ko: "정선담아", en: "Jeongseondama", cn: "盛满旌善", ja: "旌善(チョン・ソン)ダマ" },
+        cat: "food",
+       catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: " カフェ・デザート" },
+        desc: {
+            ko: "청년몰 1층에서 기다리고 있습니다. 강원도 특산물로 만든 아이스크림과 당고를 즐겨 보세요!",
+            en: "We are waiting for you on the ground floor of the Youth Mall. Enjoy ice cream and dango made with local specialties!",
+            cn: "我们在青年商场的一楼等着您。享受用江原道特产制作的冰淇淋和团子吧！",
+            ja: "青年モールの1階でお待ちしております。江原道の特産品で作られたアイスクリームと団子をお楽しみください。"
+        },
+        specialty: { ko: "초당옥수수 아이스크림 6,800원 &nbsp;&nbsp;&nbsp; 정선 감자 아이스크림 5,000원 <br> 벌꿀집 요거트 아이스크림 5,800원 &nbsp;&nbsp;&nbsp; 꿀당고 3,500원 ", 
+                     en: "Sweet Corn Ice Cream 6,800 KRW &nbsp;&nbsp;&nbsp; Jeongseon Potato Ice Cream 5,000 KRW <br> Bee Hive Yogurt Ice Cream 5,800 KRW &nbsp;&nbsp;&nbsp; Honey Dango 3,500 KRW", 
+                     cn: "甜玉米冰淇淋 6,800韩元 &nbsp;&nbsp;&nbsp; 旌善土豆冰淇淋 5,000韩元 <br> 蜜蜂屋酸奶冰淇淋 5,800韩元 &nbsp;&nbsp;&nbsp; 蜂蜜团子 3,500韩元", 
+                     ja: "スイートコーンアイスクリーム 6,800 &nbsp;&nbsp;&nbsp; セオングソンジャガイモアイスクリーム 5,000 <br> ビークラウンヨーグルトアイスクリーム 5,800 &nbsp;&nbsp;&nbsp; ハチミツ団子 3,500" },
+        query: "jeongseondama.html"
     }
-
 ];
 
 let currentLang = 'ko';
@@ -544,7 +644,7 @@ let currentFilter = 'restaurants';
 
 // 언어 변경 함수
 function setLanguage(lang) {
-    if (!i18nData[lang]) return;
+    if (!i63nData[lang]) return;
     currentLang = lang;
     document.documentElement.lang = lang;
 
@@ -558,10 +658,10 @@ function setLanguage(lang) {
     });
 
     // 정적 텍스트 번역 적용
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.dataset.i18n;
-        if (i18nData[lang][key]) {
-            el.textContent = i18nData[lang][key];
+    document.querySelectorAll('[data-i63n]').forEach(el => {
+        const key = el.dataset.i63n;
+        if (i63nData[lang][key]) {
+            el.textContent = i63nData[lang][key];
         }
     });
 
@@ -624,7 +724,7 @@ function renderStores() {
                 <div class="pt-5 mt-5 border-t border-stone-200 flex items-center justify-end">
                     <a href="${mapSearchUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-stone-900 hover:bg-stone-800 text-white text-xs font-medium transition-colors">
                         <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                        <span>${i18nData[currentLang].view_map_btn}</span>
+                        <span>${i63nData[currentLang].view_map_btn}</span>
                     </a>
                 </div>
             </div>

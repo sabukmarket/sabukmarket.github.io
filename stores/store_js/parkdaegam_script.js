@@ -1,3 +1,4 @@
+
 const i18nData = {
     ko: {
         cat_restaurants: "식당",
@@ -31,7 +32,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: " カフェ・デザート",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +46,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "또오다래쉬", en: "Come Again Lashes", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
-        cat: "general",
-        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
+        name: { ko: "박대감화로구이", en: "Park Daegam Korean BBQ", cn: "朴大监炭火烤肉", ja: "パッテガム火鉢焼き(ファログイ)" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "속눈썹 펌, 속눈썹 연장을 해 드립니다. 예약하고 오시길 부탁드려요.",
-            en: "We offer eyelash perms and extensions. Please make a reservation.",
-            cn: "我们提供睫毛烫和睫毛嫁接服务。请提前预约。",
-            ja: "まつげパーマ、まつげエクステを行っています。ご予約の上、ご来店ください。"
+            ko: "지글지글 화로 위 돼지갈비와 LA갈비를 푸짐하게 즐길 수 있는 고깃집입니다. 시장 입구에 있어요.",
+            en: "A Korean BBQ restaurant offering delicious pork ribs and LA ribs on a sizzling hot plate. Located at the entrance of the market.",
+            cn: "在炭火烤盘上享用美味的猪排和洛杉矶排骨的烤肉店。位于市场入口处。",
+            ja: "ジューシーな豚カルビとLAカルビを炭火で楽しめる焼肉店です。市場の入口にあります。"
         },
-    specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
-                     en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
-                     cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
-                     ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000 <br> パーマとポイントエクステ 60,000" },
-        query: "comeagainlashes.html"
+        specialty: { ko: "돼지 왕갈비 20,000원 &nbsp;&nbsp;&nbsp; 양념 소갈비살 24,000원  <bt> LA 양념갈비 27,000원 &nbsp;&nbsp;&nbsp; 냉면 8,000원 ",
+             en: "Pork Ribs 20,000 KRW &nbsp;&nbsp;&nbsp; Marinated Beef Ribs 24,000 KRW <bt> LA Marinated Ribs 27,000 KRW &nbsp;&nbsp;&nbsp; Nengmyeon (Cold Noodles) 8,000 KRW ", 
+             cn: "猪排 20,000韩元 &nbsp;&nbsp;&nbsp; 腌制牛排 24,000韩元 <bt> 洛杉矶腌制排骨 27,000韩元 &nbsp;&nbsp;&nbsp; 冷面 8,000韩元 ", 
+             ja: "豚カルビ 20,000ウォン &nbsp;&nbsp;&nbsp; 腌製牛肉カルビ 24,000ウォン <bt> LA 腌製カルビ 27,000ウォン &nbsp;&nbsp;&nbsp; 冷麺 8,000ウォン " },
+        query: "parkdaegam.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
+let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +120,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/FvEPNMVk`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bwML4sX1XqSJbwtg8`;
+        const mapNaverUrl = `https://naver.me/Fivegom8`;
+        const mapSearchUrl = `https://maps.app.goo.gl/vRQkZGnwc2JxFzjW6`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

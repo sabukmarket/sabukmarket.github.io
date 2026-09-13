@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "또오다래쉬", en: "Come Again Lashes", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
-        cat: "general",
-        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
+        name: { ko: "사북의 보은", en: "Boeun in Sabuk", cn: "舍北的宝恩", ja: "舎北の宝恩" },
+        cat: "food",
+        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
         desc: {
-            ko: "속눈썹 펌, 속눈썹 연장을 해 드립니다. 예약하고 오시길 부탁드려요.",
-            en: "We offer eyelash perms and extensions. Please make a reservation.",
-            cn: "我们提供睫毛烫和睫毛嫁接服务。请提前预约。",
-            ja: "まつげパーマ、まつげエクステを行っています。ご予約の上、ご来店ください。"
+            ko: "사북의 유일한 디저트 전문점입니다. 타르트, 스콘, 쿠키 등 매일 매일 다른 종류의 디저트를 굽습니다.",
+            en: "The only dessert shop in Sabuk. We bake different types of desserts every day.",
+            cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。",
+            ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。"
         },
-    specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
-                     en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
-                     cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
-                     ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000 <br> パーマとポイントエクステ 60,000" },
-        query: "comeagainlashes.html"
+        specialty: { ko: "레몬큐브 3,800원 &nbsp;&nbsp;&nbsp; 플레인스콘 3,000원 <br>  2,500원", 
+            en: "Lemon Cube 3,800 KRW &nbsp;&nbsp;&nbsp; Plain Scone 3,000 KRW <br>  2,500 KRW", 
+            cn: "柠檬方块 3,800韩元 &nbsp;&nbsp;&nbsp; 原味司康 3,000韩元 <br>  2,500韩元", 
+            ja: "レモンキューブ 3,800 &nbsp;&nbsp;&nbsp; プレーンスコン 3,000 <br>  2,500" },
+        query: "boeun.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
+let currentFilter = 'food';
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/FvEPNMVk`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bwML4sX1XqSJbwtg8`;
+        const mapNaverUrl = `https://naver.me/x2YLJAhG`;
+        const mapSearchUrl = `https://maps.app.goo.gl/`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

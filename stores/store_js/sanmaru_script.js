@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,24 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "또오다래쉬", en: "Come Again Lashes", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
-        cat: "general",
-        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
+        name: { ko: "산마루축산", en: "Sanmaru Butcher's", cn: "山马鲁肉店", ja: "サンマル畜産" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "속눈썹 펌, 속눈썹 연장을 해 드립니다. 예약하고 오시길 부탁드려요.",
-            en: "We offer eyelash perms and extensions. Please make a reservation.",
-            cn: "我们提供睫毛烫和睫毛嫁接服务。请提前预约。",
-            ja: "まつげパーマ、まつげエクステを行っています。ご予約の上、ご来店ください。"
-        },
-    specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
-                     en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
-                     cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
-                     ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000 <br> パーマとポイントエクステ 60,000" },
-        query: "comeagainlashes.html"
+            ko: "신선한 고기를 부위별로 판매합니다. 시장 입구 부근으로 오세요.",
+            en: "We sell fresh meat by cuts. Please come near the market entrance!",
+            cn: "我们按部位销售新鲜肉类。请到市场入口附近。",
+            ja: "新鮮な肉を部位別に販売しています。市場入口付近にお越しください。"},
+        specialty: { ko: "*한우, 돼지고기, 닭고기 가격은 시세에 따라 변동됩니다.", 
+                     en: "*Prices for Korean beef, pork, and chicken vary according to market rates.", 
+                     cn: "*韩国牛、猪肉、鸡肉的价格会根据市场行情波动。", 
+                     ja: "*韓国牛、豚肉、鶏肉の価格は市場レートに応じて変動します。" },
+        query: "sanmaru.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +118,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/FvEPNMVk`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bwML4sX1XqSJbwtg8`;
+        const mapNaverUrl = `https://naver.me/5qcsT3KV`;
+        const mapSearchUrl = `https://maps.app.goo.gl/ZKS7HwpyiU1vGqDV7`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

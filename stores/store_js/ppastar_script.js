@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: " カフェ・デザート",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "또오다래쉬", en: "Come Again Lashes", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
-        cat: "general",
-        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
+        name: { ko: "빠Star", en: "PpaStar", cn: "帕斯塔", ja: "パスタ" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "속눈썹 펌, 속눈썹 연장을 해 드립니다. 예약하고 오시길 부탁드려요.",
-            en: "We offer eyelash perms and extensions. Please make a reservation.",
-            cn: "我们提供睫毛烫和睫毛嫁接服务。请提前预约。",
-            ja: "まつげパーマ、まつげエクステを行っています。ご予約の上、ご来店ください。"
+            ko: "내 입맛에 딱 맞는 이태리 퓨전 면 요리를 즐기고 싶으시다면? 청년몰 3층에서 기다리고 있습니다.",
+            en: "If you want to enjoy Italian fusion noodles that match your taste, we're waiting for you on the 3rd floor of the Youth Mall.",
+            cn: "如果您想享受符合您口味的意大利融合面食，请到青年商场三楼，我们在等您。",
+            ja: "自分の味覚にぴったり合うイタリアンフュージョンの麺料理を楽しみたい方は、青年モールの3階でお待ちしております。"
         },
-    specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
-                     en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
-                     cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
-                     ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000 <br> パーマとポイントエクステ 60,000" },
-        query: "comeagainlashes.html"
+        specialty: { ko: "김치필라프 11,900원 &nbsp;&nbsp;&nbsp; 베이컨까르보나라 11,900원 <br> 그릴드치킨크림 13,900원 &nbsp;&nbsp; 해물크림파스타 12,900원",
+             en: "Kimchi Pilaf 11,900 KRW &nbsp;&nbsp;&nbsp; Bacon Carbonara 11,900 KRW <br> Grilled Chicken Cream 13,900 KRW &nbsp;&nbsp; Seafood Cream Pasta 12,900 KRW", 
+             cn: "泡菜饭 11,900韩元 &nbsp;&nbsp;&nbsp; 培根卡博纳拉 11,900韩元 <br> 烤鸡肉奶油 13,900韩元 &nbsp;&nbsp; 海鲜奶油意面 12,900韩元", 
+             ja: "キムチピラフ 11,900 &nbsp;&nbsp;&nbsp; ベーコンカルボナーラ 11,900 <br> グリルドチキンクリーム 13,900 &nbsp;&nbsp; シーフードクリームパスタ 12,900" },
+        query: "ppastar.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
+let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/FvEPNMVk`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bwML4sX1XqSJbwtg8`;
+        const mapNaverUrl = `https://naver.me/GDaHSkGz`;
+        const mapSearchUrl = `https://maps.app.goo.gl/Vpmr1J2E6o4uJe9T7`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

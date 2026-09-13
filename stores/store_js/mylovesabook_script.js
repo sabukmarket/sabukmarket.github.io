@@ -47,14 +47,14 @@ const marketStores = [
         id: 1,
         name: { ko: "내사랑사book", en: "My Love Sabuk Bookstore", cn: "我的爱sabook书店", ja: "私の愛sabook書店" },
         cat: "general",
-        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        catName: { ko: "책·잡화", en: "Books & Daily Goods", cn: "书籍·百货", ja: "書籍・雑貨" },
         desc: {
-            ko: "사북 내 유일한 책방입니다. 어린이와 어른들을 위한 그림책과 동화책을 주로 판매합니다.",
-            en: "The only bookstore in Sabuk. We mainly sell picture books and fairy tales for children and adults.",
-            cn: "旌善内唯一的书店。我们主要销售图画书和童话书。",
-            ja: "薩北内唯一の書店です。子供と大人のための絵本と妖精の物語を主に販売しています。"
+            ko: "사북 내 유일한 책방입니다. 어린이와 어른들을 위한 그림책과 동화책을 주로 판매합니다. <br> #그림책 #삶 #인생 #행복 #여행",
+            en: "The only bookstore in Sabuk. We mainly sell picture books and fairy tales for children and adults. <br> #PictureBooks #Life #Happiness #Travel",
+            cn: "旌善内唯一的书店。我们主要销售图画书和童话书。 <br> #图画书 #生活 #人生 #幸福 #旅行",
+            ja: "薩北内唯一の書店です。子供と大人のための絵本と妖精の物語を主に販売しています。 <br> #絵本 #人生 #幸福 #旅行"
         },
-        specialty: { ko: "다양한 가격의 그림책 판매(주로 10,000~30,000원)", 
+        specialty: { ko: "광부의 이야기를 다룬 <사북의 밤은 아직 따뜻하다> 등, 다양한 가격의 그림책 판매(주로 10,000~30,000원)", 
                      en: "Picture Books 10,000-30,000KRW (Various Prices)", 
                      cn: "各种价格的图画书销售(主要是10,000-30,000韩元)", 
                      ja: "様々な価格の絵本販売(主に10,000-30,000)" },

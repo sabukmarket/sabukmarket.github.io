@@ -43,27 +43,27 @@ const i18nData = {
 
 // 점포 데이터 (식당, 농특산물, 잡화)
 const marketStores = [
-       {
+        {
         id: 1,
-        name: { ko: "또오다래쉬", en: "Come Again Lashes", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
-        cat: "general",
-        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
+        name: { ko: "정선담아", en: "Jeongsundama", cn: "盛满旌善", ja: "旌善(チョン・ソン)ダマ" },
+        cat: "food",
+       catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: " カフェ・デザート" },
         desc: {
-            ko: "속눈썹 펌, 속눈썹 연장을 해 드립니다. 예약하고 오시길 부탁드려요.",
-            en: "We offer eyelash perms and extensions. Please make a reservation.",
-            cn: "我们提供睫毛烫和睫毛嫁接服务。请提前预约。",
-            ja: "まつげパーマ、まつげエクステを行っています。ご予約の上、ご来店ください。"
+            ko: "청년몰 1층에서 기다리고 있습니다. 강원도 특산물로 만든 아이스크림과 당고를 즐겨 보세요!",
+            en: "We are waiting for you on the ground floor of the Youth Mall. Enjoy ice cream and dango made with local specialties!",
+            cn: "我们在青年商场的一楼等着您。享受用江原道特产制作的冰淇淋和团子吧！",
+            ja: "青年モールの1階でお待ちしております。江原道の特産品で作られたアイスクリームと団子をお楽しみください。"
         },
-    specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
-                     en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
-                     cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
-                     ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000 <br> パーマとポイントエクステ 60,000" },
-        query: "comeagainlashes.html"
+        specialty: { ko: "초당옥수수 아이스크림 6,800원 &nbsp;&nbsp;&nbsp; 정선 감자 아이스크림 5,000원 <br> 벌꿀집 요거트 아이스크림 5,800원 &nbsp;&nbsp;&nbsp; 꿀당고 3,500원 ", 
+                     en: "Sweet Corn Ice Cream 6,800 KRW &nbsp;&nbsp;&nbsp; Jeongseon Potato Ice Cream 5,000 KRW <br> Bee Hive Yogurt Ice Cream 5,800 KRW &nbsp;&nbsp;&nbsp; Honey Dango 3,500 KRW", 
+                     cn: "甜玉米冰淇淋 6,800韩元 &nbsp;&nbsp;&nbsp; 旌善土豆冰淇淋 5,000韩元 <br> 蜜蜂屋酸奶冰淇淋 5,800韩元 &nbsp;&nbsp;&nbsp; 蜂蜜团子 3,500韩元", 
+                     ja: "スイートコーンアイスクリーム 6,800 &nbsp;&nbsp;&nbsp; セオングソンジャガイモアイスクリーム 5,000 <br> ビークラウンヨーグルトアイスクリーム 5,800 &nbsp;&nbsp;&nbsp; ハチミツ団子 3,500" },
+        query: "jeongseondama.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
+let currentFilter = 'food'; // 초기 필터는 'food'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/FvEPNMVk`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bwML4sX1XqSJbwtg8`;
+        const mapNaverUrl = `https://naver.me/x0XZ7dM8`;
+        const mapSearchUrl = `https://maps.app.goo.gl/y7mLQrbvoBq74Ma67`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
