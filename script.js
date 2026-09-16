@@ -670,7 +670,76 @@ const marketStores = [
              cn: "1++ 韩牛西冷 45,000韩元 &nbsp;&nbsp;&nbsp; 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 &nbsp;&nbsp;&nbsp; 韩牛烤肉火锅 20,000韩元", 
              ja: "1++ 韓国牛のシーロイン 45,000KRW &nbsp;&nbsp;&nbsp; 豚のヒレ 18,000KRW <br> 牛ともばら肉入りテンジャンチゲ 12,000KRW &nbsp;&nbsp;&nbsp; 韓国牛のプルゴギ鍋 20,000KRW" },
         query: "woohwajeong.html"
+    },
+    {
+        id: 25,
+        name: { ko: "프렌즈스크린", en: "Friend Screen", cn: "朋友模拟高尔夫(Friend Screen)", ja: "フレンズスクリーン(Friend Screen)" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "시장에서 저렴하게 스크린골프를 즐길 수 있는 공간입니다. 가족, 친구들과 함께 즐거운 시간을 보내세요.",
+            en: "A space where you can enjoy screen golf at affordable prices at the market. Spend wonderful moments with your family and friends.",
+            cn: "在市场上以实惠的价格享受模拟高尔夫的空间。与家人和朋友一起度过美好时光。",
+            ja: "市場でリーズナブルな価格でスクリーンゴルフを楽しめる空間です。家族や友人と素晴らしい時間を過ごしてください。"
+        },
+    specialty: { ko: "연습장이용료 1인 10,000원", 
+                     en: "Screen golf course usage fee 1 person 10,000 KRW", 
+                     cn: "练习场使用费 1人 10,000韩元", 
+                     ja: "練習場利用料 1人 10,000" },
+        query: "friendsscreen.html"
+    },
+     {
+        id: 26,
+        name: { ko: "용석집", en: "Yongseokjib", cn: "龙硕楼", ja: "ヨンソク·ジブ" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "선지해장국 전문점입니다. 밤에 문을 열고 오후에 문을 닫으니 일찍 방문하셔야 해요!",
+            en: "A restaurant specializing in Seonji Haejang-guk (Korean blood sausage soup). It opens at night and closes in the afternoon, so make sure to visit early!",
+            cn: "一家专门提供牛血解酒汤的餐厅。晚上营业，下午关门，所以请早点来！",
+            ja: "ソンジヘジャンクク（韓国の血腸スープ）専門店です。夜に営業し、午後には閉店するので、早めに訪れることをお勧めします！"
+        },
+        specialty: { ko: "선지해장국 11,000원 &nbsp;&nbsp;&nbsp; 콩나물해장국 11,000원 <br> 육개장 11,000원 &nbsp;&nbsp;&nbsp; 갈비탕 13,000원",
+             en: "Seonji Haejang-guk 11,000 KRW &nbsp;&nbsp;&nbsp; Bean Sprout Haejang-guk 11,000 KRW <br> Yukgaejang 11,000 KRW &nbsp;&nbsp;&nbsp; Galbitang 13,000 KRW", 
+             cn: "血肠汤 11,000韩元 &nbsp;&nbsp;&nbsp; 豆芽汤 11,000韩元 <br> 牛肉辣汤 11,000韩元 &nbsp;&nbsp;&nbsp; 排骨汤 13,000韩元", 
+             ja: " 牛血酔い覚ましスープ(ソンジ・ヘジャンクク) 11,000 &nbsp;&nbsp;&nbsp; 豆もやし酔い覚ましスープ(コンナムル・ヘジャンクク) 11,000 <br> ユッケジャン 11,000 &nbsp;&nbsp;&nbsp; カルビタン 13,000" },
+        query: "yongseokjib.html",
+    },
+      {
+        id: 27,
+        name: { ko: "유명약국", en: "Yumyeong Pharmacy", cn: "有名药店", ja: "有名(ユミョン)薬局" },
+        cat: "general",
+        catName: { ko: "병원·약국", en: "Hospitals & Pharmacies", cn: "医院·药店", ja: "病院・薬局" },
+        desc: {
+            ko: "사북1교와 사북중앙로가 만나는 삼거리에 위치한 약국입니다. 모든 약이 구비되어 있습니다!",
+            en: "A pharmacy located at the intersection of Sabuk 1st Bridge and Sabuk Central Road. All medicines are available!",
+            cn: "位于舍北1桥和舍北中央路交汇处的药店。所有药品均有供应！",
+            ja: "サブク1番橋とサブク中央ロードの交差点に位置する薬局です。すべての薬が在庫があります！"
+        },
+        specialty: { ko: "시세에 따라 감기몸살약, 소화제, 진통제 등 다양한 약품을 판매합니다.", 
+                     en: "Depending on the market price, we offer various medicines such as cold & flu medication, digestive aids, and pain relievers.", 
+                     cn: "根据市场价格，我们提供各种药品，如感冒药、助消化药和止痛药。", 
+                     ja: "市場の価格に応じて、風邪薬、消化薬、鎮痛薬などの様々な薬品を販売しています。" },
+        query: "yumyeongpharmacy.html"
+    },
+    {
+        id: 28,
+        name: { ko: "원조순대국밥", en: "Original Sundaegukbap", cn: "始祖血肠汤饭", ja: "元祖スンデクッパプ" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "뜨끈하고 든든한 시장 국밥으로 정선의 맛을 느껴보세요.",
+            en: "A hot and filling market-style rice soup where you can experience the taste of Jeongseon.",
+            cn: "热腾腾、饱腹感十足的市场风味汤饭，让您品尝旌善的地道美味。",
+            ja: "熱々で満腹感のある市場風のご飯です。旌善の味をぜひお楽しみください。"
+        },
+        specialty: { ko: "순대국 10,000원 &nbsp;&nbsp;&nbsp; 곤드레순대국밥 11,000원 <br> 코다리조림 15,000원 &nbsp;&nbsp;&nbsp; 순대 10,000원",
+             en: "Sundaegukbap 10,000KRW &nbsp;&nbsp;&nbsp; Gondre Sundaegukbap 11,000KRW <br> Braised Pollack 15,000KRW &nbsp;&nbsp;&nbsp; Sundae (Korean Sausage) 10,000KRW",
+             cn: "血肠汤 10,000韩元 &nbsp;&nbsp;&nbsp; 山蓟菜血肠汤饭 11,000韩元 <br> 烤鳕鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 韩式香肠 10,000韩元", 
+             ja: "スンデクッパプ 10,000KRW &nbsp;&nbsp;&nbsp; ゴンドレスンデクッパプ 11,000KRW <br> 蒸し魚 15,000KRW &nbsp;&nbsp;&nbsp; ソーセージ 10,000KRW" },
+        query: "sundaegukbap.html"
     }
+
 ];
 
 let currentLang = 'ko';
