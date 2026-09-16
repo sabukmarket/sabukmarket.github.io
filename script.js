@@ -636,6 +636,40 @@ const marketStores = [
                      cn: "甜玉米冰淇淋 6,800韩元 &nbsp;&nbsp;&nbsp; 旌善土豆冰淇淋 5,000韩元 <br> 蜜蜂屋酸奶冰淇淋 5,800韩元 &nbsp;&nbsp;&nbsp; 蜂蜜团子 3,500韩元", 
                      ja: "スイートコーンアイスクリーム 6,800 &nbsp;&nbsp;&nbsp; セオングソンジャガイモアイスクリーム 5,000 <br> ビークラウンヨーグルトアイスクリーム 5,800 &nbsp;&nbsp;&nbsp; ハチミツ団子 3,500" },
         query: "jeongseondama.html"
+    },
+      {
+        id: 23,
+        name: { ko: "사북연세치과", en: "Yonsei Dental Clinic", cn: "延世牙科诊所", ja: "延世歯科クリニック" },
+        cat: "general",
+        catName: { ko: "병원·약국", en: "Hospitals & Pharmacies", cn: "医院·药店", ja: "病院・薬局" },
+        desc: {
+            ko: "시장 입구 주변에 위치한 치과입니다. 2층으로 올라오세요.<br> #치과 #의료 #건강",
+            en: "A dental clinic located near the market entrance. Please come up to the 2nd floor.<br> #DentalClinic #Medical #Health",
+            cn: "位于市场入口附近的牙科诊所。请上到二楼。<br> #牙科诊所 #医疗 #健康",
+            ja: "市場の入り口付近にある歯科医院です。2階にお越しください。<br> #歯科医院 #医療 #健康"
+        },
+        specialty: { ko: "시세에 따라 스케일링, 치아교정, 신경치료, 임플란트 등의 서비스를 제공합니다.", 
+                     en: "Depending on the market price, we offer services such as scaling, orthodontics, root canal treatment, and implants.", 
+                     cn: "根据市场价格，我们提供洁牙、正畸、根管治疗和种植牙等服务。", 
+                     ja: "市場の価格に応じて、スケーリング、矯正治療、根管治療、インプラントなどのサービスを提供しています。" },
+        query: "yonseidentalclinic.html"
+    },
+     {
+        id: 24,
+        name: { ko: "650우화정", en: "650Woohwajeong", cn: "650", ja: "" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "온 가족이 함께 즐기는 한우 맛집입니다. 정선 한우, 드셔 보세요!",
+            en: "A Korean BBQ restaurant offering delicious Hanwoo beef. Try the local specialty!",
+            cn: "一家让全家人共享的韩牛美食店。来品尝一下正宗的旌善韩牛吧！",
+            ja: "家族で楽しめる韓国牛の美味しいレストランです。旌善の韓国牛をお召し上がりください！"
+        },
+        specialty: { ko: "1++ 한우 등심 45,000원 &nbsp;&nbsp;&nbsp; 한돈 삼겹 18,000원 <br> 차돌된장찌개 12,000원 &nbsp;&nbsp;&nbsp; 한우불고기전골 20,000원",
+             en: "1++ Hanwoo Sirloin 45,000KRW &nbsp;&nbsp;&nbsp; Pork Belly 18,000KRW <br> Soybean Paste Stew with Beef Brisket 12,000KRW &nbsp;&nbsp;&nbsp; Hanwoo Bulgogi Hot Pot 20,000KRW", 
+             cn: "1++ 韩牛西冷 45,000韩元 &nbsp;&nbsp;&nbsp; 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 &nbsp;&nbsp;&nbsp; 韩牛烤肉火锅 20,000韩元", 
+             ja: "1++ 韓国牛のシーロイン 45,000KRW &nbsp;&nbsp;&nbsp; 豚のヒレ 18,000KRW <br> 牛ともばら肉入りテンジャンチゲ 12,000KRW &nbsp;&nbsp;&nbsp; 韓国牛のプルゴギ鍋 20,000KRW" },
+        query: "woohwajeong.html"
     }
 ];
 
