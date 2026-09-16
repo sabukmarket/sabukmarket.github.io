@@ -738,6 +738,23 @@ const marketStores = [
              cn: "血肠汤 10,000韩元 &nbsp;&nbsp;&nbsp; 山蓟菜血肠汤饭 11,000韩元 <br> 烤鳕鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 韩式香肠 10,000韩元", 
              ja: "スンデクッパプ 10,000KRW &nbsp;&nbsp;&nbsp; ゴンドレスンデクッパプ 11,000KRW <br> 蒸し魚 15,000KRW &nbsp;&nbsp;&nbsp; ソーセージ 10,000KRW" },
         query: "sundaegukbap.html"
+    },
+    {
+        id: 29,
+        name: { ko: "제이(J)", en: "J(fashion)", cn: "J", ja: "J" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "사북에서 구하기 힘든 패션 아이템들을 만나보실 수 있습니다. 다양한 의류와 액세서리가 있어요!",
+            en: "You can find fashion items that are hard to find in Sabuk. We have a variety of clothing and accessories!",
+            cn: "您可以在舍北找到一些难以买到的时尚单品。我们有各种各样的服装和配饰！",
+            ja: "Sabukでは手に入らないファッションアイテムに出会えます。様々な衣料品とアクセサリーがあります！"
+        },
+        specialty: { ko: "티셔츠, 외투, 바지, 모자 등.", 
+                     en: "T-shirts, coats, trousers, hats, etc.", 
+                     cn: "外衣、衬衫、裤子、帽子等。", 
+                     ja: "Tシャツ、コート、ズボン、帽子など。" },
+        query: "j_fashion.html"
     }
 
 ];

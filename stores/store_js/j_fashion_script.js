@@ -45,20 +45,20 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "해동슈퍼", en: "Haedong Grocery Store", cn: "海东超市", ja: "ハエドンスーパー" },
+        name: { ko: "제이(J)", en: "J(fashion)", cn: "J", ja: "J" },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "무엇이든 구할 수 있는 시장 내 생활용품 전문점. 다양한 잡화와 간식거리를 판매합니다.",
-            en: "A grocery store where you can find everything you need. We sell a variety of daily goods and snacks.",
-            cn: "市场内的舒适超市，您可以找到所需的一切。我们销售各种日用品和零食。",
-            ja: "市場内での快適なスーパーマーケット。様々な日用品とスナックを販売中。"
+            ko: "사북에서 구하기 힘든 패션 아이템들을 만나보실 수 있습니다. 다양한 의류와 액세서리가 있어요!",
+            en: "You can find fashion items that are hard to find in Sabuk. We have a variety of clothing and accessories!",
+            cn: "您可以在舍北找到一些难以买到的时尚单品。我们有各种各样的服装和配饰！",
+            ja: "Sabukでは手に入らないファッションアイテムに出会えます。様々な衣料品とアクセサリーがあります！"
         },
-        specialty: { ko: "라면 1,000~2,000원 &nbsp;&nbsp;&nbsp; 음료 1,000~3,000원 <br> 스낵류 1,000~3,000원 &nbsp;&nbsp;&nbsp; 비누·세제 1,000~10,000원", 
-                     en: "Ramyeon 1,000-2,000KRW &nbsp;&nbsp;&nbsp; Beverages 1,000-3,000KRW <br> Snacks 1,000-3,000KRW &nbsp;&nbsp;&nbsp; Soap & Cleaning Supplies 1,000-10,000KRW", 
-                     cn: "方便面 1,000-2,000韩元 &nbsp;&nbsp;&nbsp; 饮料 1,000-3,000韩元 <br> 零食 1,000-3,000韩元 &nbsp;&nbsp;&nbsp; 肥皂·清洁用品 1,000-10,000韩元", 
-                     ja: "ラーメン 1,000-2,000 &nbsp;&nbsp;&nbsp; ビバレッジ 1,000-3,000 <br> スナック 1,000-3,000 &nbsp;&nbsp;&nbsp; 歯磨き粉·清掃用品 1,000-10,000" },
-        query: "haedongsuper.html"
+        specialty: { ko: "티셔츠, 외투, 바지, 모자 등.", 
+                     en: "T-shirts, coats, trousers, hats, etc.", 
+                     cn: "外衣、衬衫、裤子、帽子等。", 
+                     ja: "Tシャツ、コート、ズボン、帽子など。" },
+        query: "j_fashion.html"
     }
 ];
 
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/GSQyZ5VH`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bXoKaeD1tBywGqse7`;
+        const mapNaverUrl = `https://naver.me/FIcPGbZJ`;
+        const mapSearchUrl = `https://maps.app.goo.gl/Ba89WtsFJMm2e3H8A`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
