@@ -755,6 +755,23 @@ const marketStores = [
                      cn: "外衣、衬衫、裤子、帽子等。", 
                      ja: "Tシャツ、コート、ズボン、帽子など。" },
         query: "j_fashion.html"
+    },
+    {
+        id: 30,
+        name: { ko: "시장기름방", en: "Market Oil Shop", cn: "市场油坊", ja: "市場油坊" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "지역에서 나는 원료로 짠 신선한 기름을 판매합니다.",
+            en: "We sell fresh, locally-sourced oils made from regional ingredients.",
+            cn: "我们销售用当地原料压榨的新鲜油。",
+            ja: "本地域の原料で絞った新鮮な油を販売しています。"
+        },
+        specialty: { ko: "국산 들기름 25,000원 &nbsp;&nbsp;&nbsp; 국산 참기름 35,000원 <br> 수입 들기름 15,000원 &nbsp;&nbsp;&nbsp; 수입 참기름 15,000원", 
+                     en: "Domestic Perilla Oil 25,000KRW &nbsp;&nbsp;&nbsp; Domestic Sesame Oil <br> Imported Sesame Oil 15,000 KRW &nbsp;&nbsp;&nbsp; Imported Perilla Oil 15,000 KRW/20,000 KRW ", 
+                     cn: "国产紫苏油 25,000韩元 &nbsp;&nbsp;&nbsp; 国产芝麻油 38,000韩元 <br> 进口紫苏油 15,000韩元 &nbsp;&nbsp;&nbsp; 进口芝麻油 15,000韩元", 
+                     ja: "国内産エゴマ油 25,000 &nbsp;&nbsp;&nbsp;  国内産ゴマ油 38,000 <br> 輸入エゴマ油 15,000 &nbsp;&nbsp;&nbsp; 輸入ゴマ油 56,000 " },
+        query: "gireumbang.html"
     }
 
 ];
