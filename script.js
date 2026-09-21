@@ -857,6 +857,22 @@ const marketStores = [
                      cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮 <br> 自酿大酱 15,000韩元", 
                      ja: "(価格は市場による。) 生鶏肉、干物、雑穀 <br> 自家製テンジャン（味噌）15,000ウォン" },
         query: "gyeongbukdakjib.html"
+    },
+    {
+        id: 36,
+        name: { ko: "한우식육점", en: "Hanwoo Butcher Shop", cn: "韩牛肉食店", ja: "韩牛(ハヌ)肉屋" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "삼겹, 등심, 소갈비살 등, 신선한 고기를 부위별로 판매합니다. 시장 골목 내에 위치하고 있어요.",
+            en: "We sell fresh meats by cut, including pork belly, sirloin, and beef ribs. Located right inside the market alley.",
+            cn: "出售五花肉、里脊肉、牛排条等各类部位的新鲜肉品。位于市场小巷内。",
+            ja: "サムギョプサル（豚バラ）、ロース、牛カルビなど、新鮮なお肉を部位別に取り揃えております。市場の路地内に位置しています。"},
+        specialty: { ko: "*한우, 돼지고기 가격은 시세에 따라 변동됩니다.", 
+                     en: "*Prices for Korean beef, pork vary according to market rates.", 
+                     cn: "*韩国牛、猪肉的价格会根据市场行情波动。", 
+                     ja: "*韓国牛、豚肉の価格は市場レートに応じて変動します。" },
+        query: "hanwoo.html"
     }
 
 ];
