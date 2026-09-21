@@ -49,10 +49,10 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "건어물.",
-            en: "We sell fresh, locally-sourced vegetables for today's soup and side dishes.",
-            cn: "我们销售今日汤品和配菜所需的新鲜当地蔬菜。",
-            ja: "今日のスープと副菜に必要な新鮮な地産野菜を販売しています。"
+            ko: "생닭을 비롯하여 각종 건어물, 기름, 양념류를 팝니다.",
+            en: "We sell fresh chicken, a variety of dried fish and seafood, cooking oils, and traditional seasonings.",
+            cn: "出售生鲜鸡肉以及各类干鱼海产、食用油和调味料。",
+            ja: "生鶏肉をはじめ、各種干物、油、調味料などを取り揃えております。"
         },
         specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡  <br> 집된장 15,000원", 
                      en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains <br> Homemade Soybean Paste 15,000 KRW", 
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xYNXULfr`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bodJbe7Uf6PP2TyeA`;
+        const mapNaverUrl = `https://naver.me/IGs5fLbL`;
+        const mapSearchUrl = `maps.app.goo.gl/gsfPhQfAQJBhvQH87`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

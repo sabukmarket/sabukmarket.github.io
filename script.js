@@ -428,10 +428,10 @@ const marketStores = [
             cn: "我们销售今日汤品和配菜所需的新鲜当地蔬菜。",
             ja: "今日のスープと副菜に必要な新鮮な地産野菜を販売しています。"
         },
-        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 상추 1봉지 3,000원 &nbsp;&nbsp;&nbsp;", 
-                     en: "(Prices may vary depending on the market.) Lettuce 1 bag 3,000 KRW &nbsp;&nbsp;&nbsp;", 
-                     cn: "(价格可能因市场而异。) 生菜 1袋 3,000韩元 &nbsp;&nbsp;&nbsp;", 
-                     ja: "(価格は市場による。) レタス 1袋 3,000ウォン &nbsp;&nbsp;&nbsp;" },
+         specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 감자, 고구마, 배추, 상추, 호박, 가지, 고추 등.", 
+                     en: "(Prices may vary depending on the market.) Potatoes, sweet potatoes, napa cabbages, lettuce, pumpkins, eggplants, chili peppers, etc.", 
+                     cn: "(价格可能因市场而异。) 土豆、红薯、大白菜、生菜、南瓜、茄子、辣椒等。", 
+                     ja: "(価格は市場による。) ジャガイモ、サツマイモ、白菜、サンチュ（レタス）、カボチャ、ナス、唐辛子など。" },
         query: "gyeongbukvegi.html"
     },
     {
@@ -840,6 +840,23 @@ const marketStores = [
                      cn: "提供男/女士剪发、染发、烫发、数码烫及秀发护理等服务。", 
                      ja: "メンズ・レディースカット、ヘアカラー、パーマ、デジタルパーマ、ヘアケアなど。" },
         query: "aran.html"
+    },
+    {
+        id: 35,
+        name: { ko: "경북닭집", en: "Gyeongbuk Chicken House", cn: "庆北鸡店", ja: "慶北(キョンブク)チキン店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "생닭을 비롯하여 각종 건어물, 기름, 양념류를 팝니다.",
+            en: "We sell fresh chicken, a variety of dried fish and seafood, cooking oils, and traditional seasonings.",
+            cn: "出售生鲜鸡肉以及各类干鱼海产、食用油和调味料。",
+            ja: "生鶏肉をはじめ、各種干物、油、調味料などを取り揃えております。"
+        },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡  <br> 집된장 15,000원", 
+                     en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains <br> Homemade Soybean Paste 15,000 KRW", 
+                     cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮 <br> 自酿大酱 15,000韩元", 
+                     ja: "(価格は市場による。) 生鶏肉、干物、雑穀 <br> 自家製テンジャン（味噌）15,000ウォン" },
+        query: "gyeongbukdakjib.html"
     }
 
 ];
