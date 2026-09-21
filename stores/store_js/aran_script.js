@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: " カフェ・デザート",
+        cat_food: "カフェ・デザート",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "전집인가 술집인가", en: "Jeon or Pub?", cn: "煎饼铺还是小酒馆？", ja: "チヂミ屋か、居酒屋か" },
-        cat: "restaurants",
-        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        name: { ko: "아란", en: "Aran", cn: "阿兰", ja: "アラン" },
+        cat: "general",
+        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {
-            ko: "푸짐한 식사뿐만 아니라 술과 술안주도 함께 파는 음식점입니다.",
-            en: "A local restaurant serving hearty comfort food, alcohol, and paired dishes.",
-            cn: "不仅供应丰盛的正餐，还兼售美酒与下酒菜的温馨餐馆。",
-            ja: "しっかりとしたお食事だけでなく、お酒と酒の肴も豊富に取り揃えた飲食店です。"
+            ko: "사북 청년몰 2층에 위치한 헤어샵입니다. 예약제로 운영됩니다.",
+            en: "A hair salon located on the 2nd floor of Sabuk Youth Mall. By appointment only.",
+            cn: "位于舍北青年Mall 2楼的美发沙龙。实行预约制运营。",
+            ja: "舎北（サブク）青年モール2階にあるヘアサロンです。完全予約制で営業しております。"
         },
-        specialty: { ko: "김치전 10,000원 &nbsp;&nbsp;&nbsp; 모듬전 28,000원 <br> 감자전 10,000원 &nbsp;&nbsp;&nbsp; 부추전 10,000원",
-             en: "Kimchi Pancake (Kimchijeon) 10,000 KRW &nbsp;&nbsp;&nbsp; Assorted Pancakes (Modeumjeon) 28,000 KRW <br> Potato Pancake (Gamjajeon) 10,000 KRW &nbsp;&nbsp;&nbsp; Chive Pancake (Buchujeon) 10,000 KRW", 
-             cn: "泡菜煎饼 10,000韩元 &nbsp;&nbsp;&nbsp; 什锦拼盘煎饼 28,000韩元 <br> 土豆煎饼 10,000韩元 &nbsp;&nbsp;&nbsp; 韭菜煎饼 10,000韩元", 
-             ja: "キムチチヂミ 10,000ウォン &nbsp;&nbsp;&nbsp; チヂミ盛り合わせ 28,000ウォン <br> ジャガイモチヂミ 10,000ウォン &nbsp;&nbsp;&nbsp; ニラチヂミ 10,000ウォン" },
-        query: "jeonjibsooljib.html"
+    specialty: { ko: "남·여 커트, 염색, 펌, 디지털 펌, 모발케어 등", 
+                     en: "Services include men's and women's haircuts, hair coloring, perms, digital perms, and hair care treatments.", 
+                     cn: "提供男/女士剪发、染发、烫发、数码烫及秀发护理等服务。", 
+                     ja: "メンズ・レディースカット、ヘアカラー、パーマ、デジタルパーマ、ヘアケアなど。" },
+        query: "aran.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
+let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xbj95RIR`;
-        const mapSearchUrl = `https://maps.app.goo.gl/b4HVjMkMusM8a5qk9`;
+        const mapNaverUrl = `https://naver.me/5eDBgm9l`;
+        const mapSearchUrl = `https://maps.app.goo.gl/P37ZTSyy2gbMjE9JA`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

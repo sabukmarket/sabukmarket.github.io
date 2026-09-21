@@ -45,20 +45,20 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "전집인가 술집인가", en: "Jeon or Pub?", cn: "煎饼铺还是小酒馆？", ja: "チヂミ屋か、居酒屋か" },
+        name: { ko: "해바라기", en: "Sunflower Restaurant", cn: "向日葵餐厅", ja: "ヒマワリ食堂" },
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "푸짐한 식사뿐만 아니라 술과 술안주도 함께 파는 음식점입니다.",
-            en: "A local restaurant serving hearty comfort food, alcohol, and paired dishes.",
-            cn: "不仅供应丰盛的正餐，还兼售美酒与下酒菜的温馨餐馆。",
-            ja: "しっかりとしたお食事だけでなく、お酒と酒の肴も豊富に取り揃えた飲食店です。"
+            ko: "만둣국, 전병 등 토속음식을 가볍게 먹을 수 있는 식당입니다.",
+            en: "A casual diner where you can enjoy local specialties such as dumpling soup and buckwheat crêpes (jeonbyeong).",
+            cn: "可以轻松享用饺子汤、荞麦煎饼等当地乡土美食的温馨餐馆。",
+            ja: "餃子スープ（マンドゥクッ）や蕎麦クレープ（チョンビョン）などの郷土料理を気軽に味わえるお店です。"
         },
-        specialty: { ko: "김치전 10,000원 &nbsp;&nbsp;&nbsp; 모듬전 28,000원 <br> 감자전 10,000원 &nbsp;&nbsp;&nbsp; 부추전 10,000원",
-             en: "Kimchi Pancake (Kimchijeon) 10,000 KRW &nbsp;&nbsp;&nbsp; Assorted Pancakes (Modeumjeon) 28,000 KRW <br> Potato Pancake (Gamjajeon) 10,000 KRW &nbsp;&nbsp;&nbsp; Chive Pancake (Buchujeon) 10,000 KRW", 
-             cn: "泡菜煎饼 10,000韩元 &nbsp;&nbsp;&nbsp; 什锦拼盘煎饼 28,000韩元 <br> 土豆煎饼 10,000韩元 &nbsp;&nbsp;&nbsp; 韭菜煎饼 10,000韩元", 
-             ja: "キムチチヂミ 10,000ウォン &nbsp;&nbsp;&nbsp; チヂミ盛り合わせ 28,000ウォン <br> ジャガイモチヂミ 10,000ウォン &nbsp;&nbsp;&nbsp; ニラチヂミ 10,000ウォン" },
-        query: "jeonjibsooljib.html"
+        specialty: { ko: "만두국 10,000원 &nbsp;&nbsp;&nbsp; 칼국수 9,000원 <br> 메밀전 5,000원 &nbsp;&nbsp;&nbsp; 순대 5,000원",
+             en: "Dumpling Soup 10,000 KRW &nbsp;&nbsp;&nbsp; Knife-cut Noodles (Kalguksu) 9,000 KRW <br> Buckwheat Pancake (Memiljeon) 5,000 KRW &nbsp;&nbsp;&nbsp; Korean Blood Sausage (Sundae) 5,000 KRW", 
+             cn: "饺子汤 10,000韩元 &nbsp;&nbsp;&nbsp; 刀切面 9,000韩元 <br> 荞麦煎饼 5,000韩元 &nbsp;&nbsp;&nbsp; 米肠 5,000韩元", 
+             ja: "マンドゥクッ（餃子スープ） 10,000ウォン &nbsp;&nbsp;&nbsp; カルグクス 9,000ウォン <br> 蕎麦チヂミ 5,000ウォン &nbsp;&nbsp;&nbsp; スンデ 5,000ウォン" },
+        query: "haebaragi.html"
     }
 ];
 
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xbj95RIR`;
-        const mapSearchUrl = `https://maps.app.goo.gl/b4HVjMkMusM8a5qk9`;
+        const mapNaverUrl = `https://naver.me/5tf4xNmr`;
+        const mapSearchUrl = `https://maps.app.goo.gl/9oJg5vnU8jFBZjns8`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
