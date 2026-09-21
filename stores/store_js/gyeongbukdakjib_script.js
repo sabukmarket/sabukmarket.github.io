@@ -1,4 +1,3 @@
-
 const i18nData = {
     ko: {
         cat_restaurants: "식당",
@@ -32,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: " カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -46,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "강릉식당", en: "Gangneung Restaurant", cn: "江陵餐厅", ja: "江陵(カンヌン)食堂" },
-        cat: "restaurants",
-        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        name: { ko: "경북닭집", en: "Gyeongbuk Chicken House", cn: "庆北鸡店", ja: "慶北(キョンブク)チキン店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "곤드레 정식부터 생선구이, 더덕구이, 순두부찌개까지 다채로운 한식 메뉴를 즐길 수 있습니다. 시장 정문 바로 옆에 위치해 있어요.",
-            en: "Enjoy a variety of Korean dishes from Gondre rice to grilled fish, morel mushroom stew, and sundubu jiggae. Located right next to the main entrance of the market.",
-            cn: "从贡德雷套餐到烤鱼、杜鹃花炖菜和嫩豆腐汤等多样的韩式菜单都可以享用。位于市场正门旁边。",
-            ja: "ゴンドレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
+            ko: "건어물.",
+            en: "We sell fresh, locally-sourced vegetables for today's soup and side dishes.",
+            cn: "我们销售今日汤品和配菜所需的新鲜当地蔬菜。",
+            ja: "今日のスープと副菜に必要な新鮮な地産野菜を販売しています。"
         },
-        specialty: { ko: "곤드레정식 18,000원 &nbsp;&nbsp;&nbsp; 임연수구이 17,000원 <br> 고등어구이 15,000원 &nbsp;&nbsp;&nbsp; 더덕구이 17,000원",
-             en: "Gondre Set Meal 18,000 KRW &nbsp;&nbsp;&nbsp; Grilled Atka Mackerel 17,000 KRW <br> Grilled Mackerel 15,000 KRW &nbsp;&nbsp;&nbsp; Grilled Deodeok 17,000 KRW", 
-             cn: "山蓟菜套餐 18,000韩元 &nbsp;&nbsp;&nbsp; 烤银鳕鱼 17,000韩元 <br> 烤鲭鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 烤沙参 17,000韩元", 
-             ja: "ゴンドレ定食 18,000ウォン &nbsp;&nbsp;&nbsp; ホッケ焼き 17,000ウォン <br> サバの塩焼き 15,000ウォン &nbsp;&nbsp;&nbsp; 蔓人蔘焼き(デオドク) 17,000ウォン" },
-        query: "강릉식당"
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡  <br> 집된장 15,000원", 
+                     en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains <br> Homemade Soybean Paste 15,000 KRW", 
+                     cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮 <br> 自酿大酱 15,000韩元", 
+                     ja: "(価格は市場による。) 生鶏肉、干物、雑穀 <br> 自家製テンジャン（味噌）15,000ウォン" },
+        query: "gyeongbukdakjib.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -120,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/GsjRqx4z`;
-        const mapSearchUrl = `https://maps.app.goo.gl/SrUF56PXvX5q3b7k7`;
+        const mapNaverUrl = `https://naver.me/xYNXULfr`;
+        const mapSearchUrl = `https://maps.app.goo.gl/bodJbe7Uf6PP2TyeA`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
