@@ -45,20 +45,20 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "용석집", en: "Yongseokjib", cn: "龙硕屋", ja: "ヨンソク·ジブ" },
+        name: { ko: "전집인가 술집인가", en: "", cn: "", ja: "" },
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "선지해장국 전문점입니다. 밤에 문을 열고 오후에 문을 닫으니 일찍 방문하셔야 해요!",
-            en: "A restaurant specializing in Seonji Haejang-guk (Korean blood sausage soup). It opens at night and closes in the afternoon, so make sure to visit early!",
-            cn: "一家专门提供牛血解酒汤的餐厅。晚上营业，下午关门，所以请早点来！",
-            ja: "ソンジヘジャンクク（韓国の血腸スープ）専門店です。夜に営業し、午後には閉店するので、早めに訪れることをお勧めします！"
+            ko: "",
+            en: "",
+            cn: "",
+            ja: ""
         },
-        specialty: { ko: "선지해장국 11,000원 &nbsp;&nbsp;&nbsp; 콩나물해장국 11,000원 <br> 육개장 11,000원 &nbsp;&nbsp;&nbsp; 갈비탕 13,000원",
-             en: "Seonji Haejang-guk 11,000 KRW &nbsp;&nbsp;&nbsp; Bean Sprout Haejang-guk 11,000 KRW <br> Yukgaejang 11,000 KRW &nbsp;&nbsp;&nbsp; Galbitang 13,000 KRW", 
-             cn: "血肠汤 11,000韩元 &nbsp;&nbsp;&nbsp; 豆芽汤 11,000韩元 <br> 牛肉辣汤 11,000韩元 &nbsp;&nbsp;&nbsp; 排骨汤 13,000韩元", 
-             ja: " 牛血酔い覚ましスープ(ソンジ・ヘジャンクク) 11,000 &nbsp;&nbsp;&nbsp; 豆もやし酔い覚ましスープ(コンナムル・ヘジャンクク) 11,000 <br> ユッケジャン 11,000 &nbsp;&nbsp;&nbsp; カルビタン 13,000" },
-        query: "yongseokjib.html",
+        specialty: { ko: "",
+             en: "", 
+             cn: "", 
+             ja: "" },
+        query: "jeonjibsooljib.html"
     }
 ];
 
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/5yPp3z9k`;
-        const mapSearchUrl = `https://maps.app.goo.gl/ZP7oAnfQvWxb8ZNq8`;
+        const mapNaverUrl = `https://naver.me/xbj95RIR`;
+        const mapSearchUrl = `https://maps.app.goo.gl/b4HVjMkMusM8a5qk9`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

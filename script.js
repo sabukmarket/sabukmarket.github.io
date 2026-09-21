@@ -772,6 +772,23 @@ const marketStores = [
                      cn: "国产紫苏油 25,000韩元 &nbsp;&nbsp;&nbsp; 国产芝麻油 38,000韩元 <br> 进口紫苏油 15,000韩元 &nbsp;&nbsp;&nbsp; 进口芝麻油 15,000韩元", 
                      ja: "国内産エゴマ油 25,000 &nbsp;&nbsp;&nbsp;  国内産ゴマ油 38,000 <br> 輸入エゴマ油 15,000 &nbsp;&nbsp;&nbsp; 輸入ゴマ油 56,000 " },
         query: "gireumbang.html"
+    }, 
+    {
+        id: 31,
+        name: { ko: "준컴퓨터", en: "Jun Computer", cn: "", ja: "" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "컴퓨터 수리, 조립은 준컴퓨터에 맡겨 주세요! 용석집 왼편에 위치해 있습니다.",
+            en: "For computer repairs and assembly, leave it to Jun Computer! It is located to the left of Yongseok House.",
+            cn: "电脑维修、组装请交给准电脑！ 位于屋龙硕屋左侧。",
+            ja: "パソコンの修理や組み立ては、ジュンコンピュータにお任せください！ ヨンソク·ジブの左側に位置しています。"
+        },
+        specialty: { ko: "수리 및 컴퓨터 조립은 시세에 따라 가격이 변동됩니다.", 
+                     en: "Repair and computer assembly prices vary according to market rates.", 
+                     cn: "维修及电脑组装价格会根据市场行情有所变动。", 
+                     ja: "修理およびコンピューターの組み立ては、相場により価格が変動いたします。" },
+        query: "juncomputer.html"
     }
 
 ];

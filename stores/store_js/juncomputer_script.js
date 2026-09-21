@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: " カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "용석집", en: "Yongseokjib", cn: "龙硕屋", ja: "ヨンソク·ジブ" },
-        cat: "restaurants",
-        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        name: { ko: "준컴퓨터", en: "Jun Computer", cn: "", ja: "" },
+        cat: "produce",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "선지해장국 전문점입니다. 밤에 문을 열고 오후에 문을 닫으니 일찍 방문하셔야 해요!",
-            en: "A restaurant specializing in Seonji Haejang-guk (Korean blood sausage soup). It opens at night and closes in the afternoon, so make sure to visit early!",
-            cn: "一家专门提供牛血解酒汤的餐厅。晚上营业，下午关门，所以请早点来！",
-            ja: "ソンジヘジャンクク（韓国の血腸スープ）専門店です。夜に営業し、午後には閉店するので、早めに訪れることをお勧めします！"
+            ko: "컴퓨터 수리, 조립은 준컴퓨터에 맡겨 주세요! 용석집 왼편에 위치해 있습니다.",
+            en: "For computer repairs and assembly, leave it to Jun Computer! It is located to the left of Yongseok House.",
+            cn: "电脑维修、组装请交给准电脑！ 位于屋龙硕屋左侧。",
+            ja: "パソコンの修理や組み立ては、ジュンコンピュータにお任せください！ ヨンソク·ジブの左側に位置しています。"
         },
-        specialty: { ko: "선지해장국 11,000원 &nbsp;&nbsp;&nbsp; 콩나물해장국 11,000원 <br> 육개장 11,000원 &nbsp;&nbsp;&nbsp; 갈비탕 13,000원",
-             en: "Seonji Haejang-guk 11,000 KRW &nbsp;&nbsp;&nbsp; Bean Sprout Haejang-guk 11,000 KRW <br> Yukgaejang 11,000 KRW &nbsp;&nbsp;&nbsp; Galbitang 13,000 KRW", 
-             cn: "血肠汤 11,000韩元 &nbsp;&nbsp;&nbsp; 豆芽汤 11,000韩元 <br> 牛肉辣汤 11,000韩元 &nbsp;&nbsp;&nbsp; 排骨汤 13,000韩元", 
-             ja: " 牛血酔い覚ましスープ(ソンジ・ヘジャンクク) 11,000 &nbsp;&nbsp;&nbsp; 豆もやし酔い覚ましスープ(コンナムル・ヘジャンクク) 11,000 <br> ユッケジャン 11,000 &nbsp;&nbsp;&nbsp; カルビタン 13,000" },
-        query: "yongseokjib.html",
+        specialty: { ko: "수리 및 컴퓨터 조립은 시세에 따라 가격이 변동됩니다.", 
+                     en: "Repair and computer assembly prices vary according to market rates.", 
+                     cn: "维修及电脑组装价格会根据市场行情有所变动。", 
+                     ja: "修理およびコンピューターの組み立ては、相場により価格が変動いたします。" },
+        query: "juncomputer.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/5yPp3z9k`;
-        const mapSearchUrl = `https://maps.app.goo.gl/ZP7oAnfQvWxb8ZNq8`;
+        const mapNaverUrl = `https://naver.me/IIDUCsA0`;
+        const mapSearchUrl = `https://maps.google.com`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
