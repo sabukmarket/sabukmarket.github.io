@@ -1,23 +1,4 @@
-
-    //    {
-    //     id: 1,
-    //     name: { ko: "종가떡집", en: "Jongga Ddeok House", cn: "宗家打糕店", ja: "宗家(ジョンカ)餅屋" },
-    //     cat: "food",
-    //     catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
-    //     desc: {
-    //         ko: "다양한 전통 떡을 판매합니다. 맛있으면 0칼로리!",
-    //         en: "We sell various traditional rice cakes. If it's delicious, it's 0 calories!",
-    //         cn: "销售各种传统年糕。如果好吃就是0卡路里！",
-    //         ja: "様々な伝統餅を販売しています。美味しいならカロリーは0です！"
-    //     },
-    //     specialty: { ko: "인절미 10,000원 &nbsp;&nbsp;&nbsp; 가래떡 10,000원 <br> 송편 10,000원 &nbsp;&nbsp;&nbsp; 팥떡 10,000원",
-    //          en: "Injeolmi 10,000 KRW &nbsp;&nbsp;&nbsp; Garaetteok 10,000 KRW <br> Songpyeon 10,000 KRW &nbsp;&nbsp;&nbsp; Patddeok 10,000 KRW", 
-    //          cn: "年糕 10,000韩元 &nbsp;&nbsp;&nbsp; 切糕 10,000韩元 <br> 松饼 10,000韩元 &nbsp;&nbsp;&nbsp; 红豆糕 10,000韩元", 
-    //          ja: "インジェオルミ 10,000 KRW &nbsp;&nbsp;&nbsp; ガラエットク 10,000 KRW <br> ソンピョン 10,000 KRW &nbsp;&nbsp;&nbsp; パットデオク 10,000 KRW" },
-    //     query: "종가떡집"
-    // }
-
-    const i18nData = {
+const i18nData = {
     ko: {
         cat_restaurants: "식당",
         cat_food: "카페·먹거리",
@@ -64,25 +45,25 @@
 const marketStores = [
        {
         id: 1,
-        name: { ko: "종가떡집", en: "Jongga Ddeok House", cn: "宗家打糕店", ja: "宗家(ジョンカ)餅屋" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
-         desc: {
-            ko: "다양한 전통 떡을 판매합니다. 맛있으면 0칼로리!",
-            en: "We sell various traditional rice cakes. If it's delicious, it's 0 calories!",
-            cn: "销售各种传统年糕。如果好吃就是0卡路里！",
-            ja: "様々な伝統餅を販売しています。美味しいならカロリーは0です！"
-         },
-        specialty: { ko: "인절미 10,000원 &nbsp;&nbsp;&nbsp; 가래떡 10,000원 <br> 송편 10,000원 &nbsp;&nbsp;&nbsp; 팥떡 10,000원",
-              en: "Injeolmi 10,000 KRW &nbsp;&nbsp;&nbsp; Garaetteok 10,000 KRW <br> Songpyeon 10,000 KRW &nbsp;&nbsp;&nbsp; Patddeok 10,000 KRW", 
-              cn: "年糕 10,000韩元 &nbsp;&nbsp;&nbsp; 切糕 10,000韩元 <br> 松饼 10,000韩元 &nbsp;&nbsp;&nbsp; 红豆糕 10,000韩元", 
-              ja: "インジェオルミ 10,000 KRW &nbsp;&nbsp;&nbsp; ガラエットク 10,000 KRW <br> ソンピョン 10,000 KRW &nbsp;&nbsp;&nbsp; パットデオク 10,000 KRW" },
-         query: "jonggaddeok.html"
+        name: { ko: "파란들 만물상회", en: "Parandeul General Store", cn: "帕兰德尔杂货店", ja: "パランドゥル万物商会"  },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "사북시장의 다이소! 없는 게 없는 만물상회에 놀러 오세요.",
+            en: "The Daiso of Sabuk Market! Come visit our general store where you can find practically everything.",
+            cn: "舍北市场的大创（Daiso）！应有尽有的万物杂货铺，快来逛逛吧！",
+            ja: "舎北（サブク）市場のダイソー！ないものはない何でも屋（万物商会）にぜひ遊びに来てください。"
+        },
+    specialty: { ko: "주방용품부터 생활잡화, 전자제품 등 다양한 도구와 집기들이 비치되어 있습니다.", 
+                     en: "From kitchenware and everyday household goods to small electronics, we have a wide range of tools, utensils, and supplies available.", 
+                     cn: "从厨房用品到生活杂货、小型家电等，备有各种各样的工具与生活器具。", 
+                     ja: "キッチングッズから日用雑貨、電化製品まで、さまざまな道具や備品を取り揃えております。" },
+        query: "parandeul.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -138,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/5mhXTEEE`;
-        const mapSearchUrl = `https://maps.app.goo.gl/3oDjLKtDREFvE9Bk9`;
+        const mapNaverUrl = `https://naver.me/FriXp5p9`;
+        const mapSearchUrl = `https://maps.app.goo.gl/ZC7REL2eEoNchRaA6`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

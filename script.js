@@ -993,6 +993,23 @@ const marketStores = [
                      cn: "按时价出售水果、山蓟菜、短果茴芹（香菜/野菜）、沙参、蕨菜等。", 
                      ja: "果物、ゴンドゥレ（高麗アザミ）、シラヤマギク（山菜）、ツルニンジン、ワラビなどを時価で販売しています。" },
         query: "seoulfood.html"
+    },
+     {
+        id: 44,
+        name: { ko: "파란들 만물상회", en: "Parandeul General Store", cn: "帕兰德尔杂货店", ja: "パランドゥル万物商会"  },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "사북시장의 다이소! 없는 게 없는 만물상회에 놀러 오세요.",
+            en: "The Daiso of Sabuk Market! Come visit our general store where you can find practically everything.",
+            cn: "舍北市场的大创（Daiso）！应有尽有的万物杂货铺，快来逛逛吧！",
+            ja: "舎北（サブク）市場のダイソー！ないものはない何でも屋（万物商会）にぜひ遊びに来てください。"
+        },
+    specialty: { ko: "주방용품부터 생활잡화, 전자제품 등 다양한 도구와 집기들이 비치되어 있습니다.", 
+                     en: "From kitchenware and everyday household goods to small electronics, we have a wide range of tools, utensils, and supplies available.", 
+                     cn: "从厨房用品到生活杂货、小型家电等，备有各种各样的工具与生活器具。", 
+                     ja: "キッチングッズから日用雑貨、電化製品まで、さまざまな道具や備品を取り揃えております。" },
+        query: "parandeul.html"
     }
 
 ];
