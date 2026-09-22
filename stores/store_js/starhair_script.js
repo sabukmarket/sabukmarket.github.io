@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "강릉통닭", en: "Gangneung Chicken", cn: "江陵烤鸡店", ja: "江陵(カンヌン)チキン" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
+        name: { ko: "스타미용실", en: "Star Hair Shop", cn: "明星(Star)美容院", ja: "スター美容室" },
+        cat: "general",
+        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {
-            ko: "바삭바삭한 시장 치킨을 먹고 싶다면 찾아주세요.",
-            en: "Come and enjoy our crispy market chicken!",
-            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！",
-            ja: "サクサクの市場チキンが食べたくなったら、ぜひお立ち寄りください！"
+            ko: "사북 650거리 가까이에 위치한 미용실입니다. 머리 손질을 원하시면 전화 예약해 주세요!",
+            en: "A hair salon located near Sabuk 650 Street. Please make a reservation if you would like hair styling!",
+            cn: "位于舍北650街附近的美发沙龙。想要理发或做造型请提前预约！",
+            ja: "舎北（サブク）650ストリートの近くにあるヘアサロンです。ヘアスタイリングをご希望の方は、ぜひご予約ください！"
         },
-        specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", 
-            en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", 
-            cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", 
-            ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
-        query: "사북 강릉통닭"
+    specialty: { ko: "남·여 커트, 염색, 펌, 디지털 펌, 모발케어 등", 
+                     en: "Services include men's and women's haircuts, hair coloring, perms, digital perms, and hair care treatments.", 
+                     cn: "提供男/女士剪发、染发、烫发、数码烫及秀发护理等服务。", 
+                     ja: "メンズ・レディースカット、ヘアカラー、パーマ、デジタルパーマ、ヘアケアなど。" },
+        query: "starhair.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xrSXv29x`;
-        const mapSearchUrl = `https://maps.app.goo.gl/2yv3cjp8NZCFUjVM9`;
+        const mapNaverUrl = `https://naver.me/xiLpp7zv`;
+        const mapSearchUrl = `https://maps.app.goo.gl/gCr5Y6HTGzFeY7NS6`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "강릉통닭", en: "Gangneung Chicken", cn: "江陵烤鸡店", ja: "江陵(カンヌン)チキン" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
+        name: { ko: "서울식품", en: "Seoul Grocery Store", cn: "首尔食品店", ja: "ソウル食品" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "바삭바삭한 시장 치킨을 먹고 싶다면 찾아주세요.",
-            en: "Come and enjoy our crispy market chicken!",
-            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！",
-            ja: "サクサクの市場チキンが食べたくなったら、ぜひお立ち寄りください！"
+            ko: "과일, 건어물 및 지역 농산물을 판매하고 있습니다.",
+            en: "A store where you can find a variety of local produce and dried goods.",
+            cn: "销售各种当地农产品和干货。",
+            ja: "様々な地域の農産物と干物を販売中。"
         },
-        specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", 
-            en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", 
-            cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", 
-            ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
-        query: "사북 강릉통닭"
+        specialty: { ko: "과일, 곤드레, 취나물, 더덕, 고사리 등을 시세에 따라 판매합니다.", 
+                     en: "We sell fruits, gondre (wild thistle), chwinamul (wild aster), deodeok (bonnet bellflower root), and fernbrake (gosari) at current market prices.", 
+                     cn: "按时价出售水果、山蓟菜、短果茴芹（香菜/野菜）、沙参、蕨菜等。", 
+                     ja: "果物、ゴンドゥレ（高麗アザミ）、シラヤマギク（山菜）、ツルニンジン、ワラビなどを時価で販売しています。" },
+        query: "seoulfood.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xrSXv29x`;
-        const mapSearchUrl = `https://maps.app.goo.gl/2yv3cjp8NZCFUjVM9`;
+        const mapNaverUrl = `https://naver.me/5GcEbMSd`;
+        const mapSearchUrl = `https://maps.app.goo.gl/dhTEH6HBDhCFUNjt8`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "강릉통닭", en: "Gangneung Chicken", cn: "江陵烤鸡店", ja: "江陵(カンヌン)チキン" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
+        name: { ko: "뽀삐네상회", en: "Ppoppy's Market", cn: "波比果蔬店", ja: "ポピネ青果店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "바삭바삭한 시장 치킨을 먹고 싶다면 찾아주세요.",
-            en: "Come and enjoy our crispy market chicken!",
-            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！",
-            ja: "サクサクの市場チキンが食べたくなったら、ぜひお立ち寄りください！"
+            ko: "신선한 야채와 과일들을 판매합니다. 시장 맨 안쪽에 자리 잡은 가게예요!",
+            en: "We sell fresh vegetables and fruits. Our shop is located at the very back of the market!",
+            cn: "出售新鲜蔬菜和水果。是一家位于市场最里面的小店！",
+            ja: "新鮮な野菜や果物を販売しています。市場の一番奥にあるお店です！"
         },
-        specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", 
-            en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", 
-            cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", 
-            ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
-        query: "사북 강릉통닭"
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 상추, 사과, 감자, 양파, 포도, 가지, 고추 등.", 
+                     en: "(Prices may vary depending on the market.) Lettuce, apples, potatoes, onions, grapes, eggplants, chili peppers, etc.", 
+                     cn: "(价格可能因市场而异。) 生菜、苹果、土豆、洋葱、葡萄、茄子、辣椒等。", 
+                     ja: "(価格は市場による。) サンチュ（レタス）、リンゴ、ジャガイモ、玉ねぎ、ブドウ、ナス、唐辛子など。" },
+        query: "ppoppi.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xrSXv29x`;
-        const mapSearchUrl = `https://maps.app.goo.gl/2yv3cjp8NZCFUjVM9`;
+        const mapNaverUrl = `https://naver.me/FbVXXBge`;
+        const mapSearchUrl = `https://maps.app.goo.gl/PXuvJVwfLfpHNgpX9`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

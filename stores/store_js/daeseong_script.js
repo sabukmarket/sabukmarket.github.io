@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "강릉통닭", en: "Gangneung Chicken", cn: "江陵烤鸡店", ja: "江陵(カンヌン)チキン" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
+        name: { ko: "대성슈퍼", en: "Daeseong Supermarket", cn: "大成超市", ja: "テソン・スーパー" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "바삭바삭한 시장 치킨을 먹고 싶다면 찾아주세요.",
-            en: "Come and enjoy our crispy market chicken!",
-            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！",
-            ja: "サクサクの市場チキンが食べたくなったら、ぜひお立ち寄りください！"
+            ko: "갖가지 과일을 팝니다. 마트 안에는 식료품을 팔아요. 경북야채 맞은편에 있습니다.",
+            en: "We sell a variety of fresh fruits. Inside the mart, groceries and daily food items are available. Located right across from Gyeongbuk Produce (Gyeongbuk Vegetables).",
+            cn: "出售各类新鲜水果。超市内供应各种食品杂货。位于庆北菜店对面。",
+            ja: "さまざまな果物を販売しています。マート（スーパー）内では食料品も取り扱っております。慶北（キョンブク）野菜店の向かいに位置しています。。"
         },
-        specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", 
-            en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", 
-            cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", 
-            ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
-        query: "사북 강릉통닭"
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 계절과일을 팔아요(사과, 복숭아, 귤, 오렌지, 토마토, 키위, 바나나 등).", 
+                     en: "(Prices may vary depending on the market.) We sell seasonal fruits (apples, peaches, mandarins, oranges, tomatoes, kiwis, bananas, etc.).", 
+                     cn: "(价格可能因市场而异。) 出售时令水果（苹果、桃子、橘子、橙子、西红柿、奇异果、香蕉等）。", 
+                     ja: "(価格は市場による。) 旬の果物を販売しています（リンゴ、モモ、みかん、オレンジ、トマト、キウイ、バナナなど）。" },
+        query: "daeseong.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xrSXv29x`;
-        const mapSearchUrl = `https://maps.app.goo.gl/2yv3cjp8NZCFUjVM9`;
+        const mapNaverUrl = `https://naver.me/xYNXULfr`;
+        const mapSearchUrl = `https://maps.app.goo.gl/k6sksiT972CvkiAb7`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

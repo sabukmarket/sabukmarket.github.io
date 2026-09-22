@@ -873,6 +873,126 @@ const marketStores = [
                      cn: "*韩国牛、猪肉的价格会根据市场行情波动。", 
                      ja: "*韓国牛、豚肉の価格は市場レートに応じて変動します。" },
         query: "hanwoo.html"
+    },
+    {
+        id: 37,
+        name: { ko: "뽀삐네상회", en: "Ppoppy's Market", cn: "波比果蔬店", ja: "ポピネ青果店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "신선한 야채와 과일들을 판매합니다. 시장 맨 안쪽에 자리 잡은 가게예요!",
+            en: "We sell fresh vegetables and fruits. Our shop is located at the very back of the market!",
+            cn: "出售新鲜蔬菜和水果。是一家位于市场最里面的小店！",
+            ja: "新鮮な野菜や果物を販売しています。市場の一番奥にあるお店です！"
+        },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 상추, 사과, 감자, 양파, 포도, 가지, 고추 등.", 
+                     en: "(Prices may vary depending on the market.) Lettuce, apples, potatoes, onions, grapes, eggplants, chili peppers, etc.", 
+                     cn: "(价格可能因市场而异。) 生菜、苹果、土豆、洋葱、葡萄、茄子、辣椒等。", 
+                     ja: "(価格は市場による。) サンチュ（レタス）、リンゴ、ジャガイモ、玉ねぎ、ブドウ、ナス、唐辛子など。" },
+        query: "ppoppi.html"
+    },
+     {
+        id: 38,
+        name: { ko: "대성슈퍼", en: "Daeseong Supermarket", cn: "大成超市", ja: "テソン・スーパー" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "갖가지 과일을 팝니다. 마트 안에는 식료품을 팔아요. 경북야채 맞은편에 있습니다.",
+            en: "We sell a variety of fresh fruits. Inside the mart, groceries and daily food items are available. Located right across from Gyeongbuk Produce (Gyeongbuk Vegetables).",
+            cn: "出售各类新鲜水果。超市内供应各种食品杂货。位于庆北菜店对面。",
+            ja: "さまざまな果物を販売しています。マート（スーパー）内では食料品も取り扱っております。慶北（キョンブク）野菜店の向かいに位置しています。。"
+        },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 계절과일을 팔아요(사과, 복숭아, 귤, 오렌지, 토마토, 키위, 바나나 등).", 
+                     en: "(Prices may vary depending on the market.) We sell seasonal fruits (apples, peaches, mandarins, oranges, tomatoes, kiwis, bananas, etc.).", 
+                     cn: "(价格可能因市场而异。) 出售时令水果（苹果、桃子、橘子、橙子、西红柿、奇异果、香蕉等）。", 
+                     ja: "(価格は市場による。) 旬の果物を販売しています（リンゴ、モモ、みかん、オレンジ、トマト、キウイ、バナナなど）。" },
+        query: "daeseong.html"
+    },
+      {
+        id: 39,
+        name: { ko: "오뚜기분식", en: "Ottugi Korean Snacks", cn: "奥多吉小吃", ja: "オットギ軽食" },
+        cat: "food",
+        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
+        desc: {
+            ko: "시장에 오셨으면 일단 떡볶이와 순대는 꼭 맛봐야겠죠?",
+            en: "When you visit a traditional market, trying tteokbokki (spicy rice cakes) and sundae (blood sausage) is an absolute must!",
+            cn: "既然来到了传统市场，怎么能不尝尝炒年糕和米肠呢？",
+            ja: "市場に来たら、まずはトッポッキとスンデを味わってみないといけませんよね？"
+        },
+        specialty: { ko: "떡볶이(1인분) 3,000원 &nbsp;&nbsp;&nbsp; 순대(1인분) 5,000원 <br> 메밀전병(1인분) 6,000원 &nbsp;&nbsp;&nbsp; 음료(사이다/콜라) 2,000원", 
+            en: "Tteokbokki (1 serving) 3,000 KRW &nbsp;&nbsp;&nbsp; Sundae (1 serving) 5,000 KRW <br> Spicy Buckwheat Crêpe (1 serving) 6,000 KRW &nbsp;&nbsp;&nbsp; Soft Drink (Cider / Coke) 2,000 KRW", 
+            cn: "炒年糕（1人份） 3,000韩元 &nbsp;&nbsp;&nbsp; 米肠（1人份） 5,000韩元 <br> 荞麦煎饼（1人份） 6,000韩元 &nbsp;&nbsp;&nbsp; 饮料（雪碧 / 可乐） 2,000韩元", 
+            ja: "トッポッキ（1人前） 3,000ウォン &nbsp;&nbsp;&nbsp; スンデ（1人前） 5,000ウォン <br> 蕎麦クレープ（1人前） 6,000ウォン &nbsp;&nbsp;&nbsp; 飲み物（サイダー / コーラ） 2,000ウォン" },
+        query: "ottugi.html"
+    },
+     {
+        id: 40,
+        name: { ko: "천지골백가지농원", en: "Cheonjigol Baekgaji Farm (100 Grains & Produce)", cn: "百家农园", ja: "ペッカジ(百種)農園" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "다양한 종류의 잡곡을 주로 판매합니다. 야채도 있어요!",
+            en: "We mainly sell a wide variety of mixed grains. Fresh vegetables are available too!",
+            cn: "主要出售各种杂粮。也有新鲜蔬菜哦！",
+            ja: "さまざまな種類の雑穀を中心に販売しています。野菜もありますよ！"
+        },
+        specialty: { ko: "쌀, 땅콩, 말린 곤드레, 호두, 대추, 현미 등을 시세에 따라 팝니다.", 
+                     en: "We sell rice, peanuts, dried gondre (wild thistle), walnuts, jujubes, and brown rice at current market prices.", 
+                     cn: "按时价出售大米、花生、干山蓟菜（山蓟菜干）、核桃、大枣、糙米等。", 
+                     ja: "米、ピーナッツ、乾燥ゴンドゥレ（高麗アザミ）、クルミ、ナツメ、玄米などを時価で販売しています。"},
+        query: "hundred.html"
+
+    },
+    {
+        id: 41,
+        name: { ko: "스타미용실", en: "Star Hair Shop", cn: "明星(Star)美容院", ja: "スター美容室" },
+        cat: "general",
+        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
+        desc: {
+            ko: "사북 650거리 가까이에 위치한 미용실입니다. 머리 손질을 원하시면 전화 예약해 주세요!",
+            en: "A hair salon located near Sabuk 650 Street. Please make a reservation if you would like hair styling!",
+            cn: "位于舍北650街附近的美发沙龙。想要理发或做造型请提前预约！",
+            ja: "舎北（サブク）650ストリートの近くにあるヘアサロンです。ヘアスタイリングをご希望の方は、ぜひご予約ください！"
+        },
+    specialty: { ko: "남·여 커트, 염색, 펌, 디지털 펌, 모발케어 등", 
+                     en: "Services include men's and women's haircuts, hair coloring, perms, digital perms, and hair care treatments.", 
+                     cn: "提供男/女士剪发、染发、烫发、数码烫及秀发护理等服务。", 
+                     ja: "メンズ・レディースカット、ヘアカラー、パーマ、デジタルパーマ、ヘアケアなど。" },
+        query: "starhair.html"
+    }, 
+     {
+        id: 42,
+        name: { ko: "여주쌈밥", en: "Yeoju Ssambap", cn: "骊州包饭", ja: "ヨジュ・サンパプ" },
+        cat: "restaurants",
+        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        desc: {
+            ko: "터프한 이모님들이 정성스레 만든 밑반찬과 곤드레밥이 일품인 쌈밥집입니다!",
+            en: "A hearty ssambap (rice wrap) restaurant famous for savory gondre rice and homemade side dishes passionately prepared by our warm-hearted aunties!",
+            cn: "豪爽热情的阿姨们精心制作的各色小菜，搭配绝品山蓟菜饭，是一家风味一绝的包饭专门店！",
+            ja: "気っぷのいいお母さんたち（イモ）が丹精込めて作ったおかずと、絶品のゴンドゥレ（高麗アザミ）ご飯が自慢の包みご飯（サンパプ）専門店です！"
+        },
+        specialty: { ko: "곤드레쌈밥 11,900원 &nbsp;&nbsp;&nbsp; 제육덮밥 11,000원 <br> 갈비찜정식 16,000원 &nbsp;&nbsp; 1인쌈밥정식 20,000원",
+             en: "Gondre Ssambap 11,900 KRW &nbsp;&nbsp;&nbsp; Jeyuk Deopbap 11,000 KRW <br> Galbijjim Set 16,000 KRW &nbsp;&nbsp; Solo Ssambap Set 20,000 KRW", 
+             cn: "山蓟菜包饭 11,900韩元 &nbsp;&nbsp;&nbsp; 辣炒猪肉盖饭 11,000韩元 <br> 炖排骨定食 16,000韩元 &nbsp;&nbsp; 单人包饭定食 20,000韩元", 
+             ja: "ゴンドゥレ包みご飯（サンパプ） 11,900ウォン &nbsp;&nbsp;&nbsp; 豚肉炒め丼（チェユクドッパプ） 11,000ウォン <br> カルビチム定食 16,000ウォン &nbsp;&nbsp; 1人前サンパプ定食 20,000ウォン" },
+        query: "yeoju.html"
+    },
+      {
+        id: 43,
+        name: { ko: "서울식품", en: "Seoul Grocery Store", cn: "首尔食品店", ja: "ソウル食品" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "과일, 건어물 및 지역 농산물을 판매하고 있습니다.",
+            en: "A store where you can find a variety of local produce and dried goods.",
+            cn: "销售各种当地农产品和干货。",
+            ja: "様々な地域の農産物と干物を販売中。"
+        },
+        specialty: { ko: "과일, 곤드레, 취나물, 더덕, 고사리 등을 시세에 따라 판매합니다.", 
+                     en: "We sell fruits, gondre (wild thistle), chwinamul (wild aster), deodeok (bonnet bellflower root), and fernbrake (gosari) at current market prices.", 
+                     cn: "按时价出售水果、山蓟菜、短果茴芹（香菜/野菜）、沙参、蕨菜等。", 
+                     ja: "果物、ゴンドゥレ（高麗アザミ）、シラヤマギク（山菜）、ツルニンジン、ワラビなどを時価で販売しています。" },
+        query: "seoulfood.html"
     }
 
 ];

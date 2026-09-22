@@ -45,20 +45,20 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "강릉통닭", en: "Gangneung Chicken", cn: "江陵烤鸡店", ja: "江陵(カンヌン)チキン" },
+        name: { ko: "오뚜기분식", en: "Ottugi Korean Snacks", cn: "奥多吉小吃", ja: "オットギ軽食" },
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
         desc: {
-            ko: "바삭바삭한 시장 치킨을 먹고 싶다면 찾아주세요.",
-            en: "Come and enjoy our crispy market chicken!",
-            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！",
-            ja: "サクサクの市場チキンが食べたくなったら、ぜひお立ち寄りください！"
+            ko: "시장에 오셨으면 일단 떡볶이와 순대는 꼭 맛봐야겠죠?",
+            en: "When you visit a traditional market, trying tteokbokki (spicy rice cakes) and sundae (blood sausage) is an absolute must!",
+            cn: "既然来到了传统市场，怎么能不尝尝炒年糕和米肠呢？",
+            ja: "市場に来たら、まずはトッポッキとスンデを味わってみないといけませんよね？"
         },
-        specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", 
-            en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", 
-            cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", 
-            ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
-        query: "사북 강릉통닭"
+        specialty: { ko: "떡볶이(1인분) 3,000원 &nbsp;&nbsp;&nbsp; 순대(1인분) 5,000원 <br> 메밀전병(1인분) 6,000원 &nbsp;&nbsp;&nbsp; 음료(사이다/콜라) 2,000원", 
+            en: "Tteokbokki (1 serving) 3,000 KRW &nbsp;&nbsp;&nbsp; Sundae (1 serving) 5,000 KRW <br> Spicy Buckwheat Crêpe (1 serving) 6,000 KRW &nbsp;&nbsp;&nbsp; Soft Drink (Cider / Coke) 2,000 KRW", 
+            cn: "炒年糕（1人份） 3,000韩元 &nbsp;&nbsp;&nbsp; 米肠（1人份） 5,000韩元 <br> 荞麦煎饼（1人份） 6,000韩元 &nbsp;&nbsp;&nbsp; 饮料（雪碧 / 可乐） 2,000韩元", 
+            ja: "トッポッキ（1人前） 3,000ウォン &nbsp;&nbsp;&nbsp; スンデ（1人前） 5,000ウォン <br> 蕎麦クレープ（1人前） 6,000ウォン &nbsp;&nbsp;&nbsp; 飲み物（サイダー / コーラ） 2,000ウォン" },
+        query: "ottugi.html"
     }
 ];
 
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xrSXv29x`;
-        const mapSearchUrl = `https://maps.app.goo.gl/2yv3cjp8NZCFUjVM9`;
+        const mapNaverUrl = `https://naver.me/xbjDTziw`;
+        const mapSearchUrl = `https://maps.app.goo.gl/pDi1M17MXQy15KDS8`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
