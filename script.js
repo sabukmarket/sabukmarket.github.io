@@ -1010,6 +1010,23 @@ const marketStores = [
                      cn: "从厨房用品到生活杂货、小型家电等，备有各种各样的工具与生活器具。", 
                      ja: "キッチングッズから日用雑貨、電化製品まで、さまざまな道具や備品を取り揃えております。" },
         query: "parandeul.html"
+    },
+    {
+        id: 45,
+        name: { ko: "충북상회", en: "Choongbuk Store (clothes)", cn: "忠北商会(服装店)", ja: "忠北商会(衣装店)" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "티셔츠, 바지, 재킷 등 캐주얼한 의상을 저렴한 가격에 구입할 수 있습니다. 내의도 팔고 있어요!",
+            en: "You can purchase casual clothing such as T-shirts, pants, and jackets at affordable prices. Thermal and innerwear are also available!",
+            cn: "可以用实惠的价格买到T恤、裤子、夹克等休闲服饰。店内也出售内衣/保暖内衣哦！",
+            ja: "Tシャツ、パンツ、ジャケットなどのカジュアルウェアをお手頃な価格でお買い求めいただけます。肌着・インナーも販売しています！"
+        },
+        specialty: { ko: "티셔츠, 외투, 바지, 내복, 속옷 등", 
+                     en: "T-shirts, outerwear (coats/jackets), pants, thermal underwear, underwear, etc.", 
+                     cn: "T恤、外套、裤子、保暖内衣（秋衣秋裤）、内衣等。", 
+                     ja: "Tシャツ、上着（アウター）、ズボン（パンツ）、保温肌着（タイツ）、下着など。" },
+        query: "choongbuk.html"
     }
 
 ];
