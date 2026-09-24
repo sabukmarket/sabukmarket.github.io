@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "충북상회", en: "Choongbuk Store (clothes)", cn: "忠北商会(服装店)", ja: "忠北商会(衣装店)" },
-        cat: "general",
-        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        name: { ko: "동해건어물", en: "Donghae Dried Seafood", cn: "东海干货海鲜", ja: "東海（トンへ）乾物店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "티셔츠, 바지, 재킷 등 캐주얼한 의상을 저렴한 가격에 구입할 수 있습니다. 남성복도 있습니다. 내의도 팔고 있어요!",
-            en: "You can purchase casual clothing such as T-shirts, pants, and jackets at affordable prices. Men's clothes, thermal and innerwear are also available!",
-            cn: "可以用实惠的价格买到T恤、裤子、夹克等休闲服饰。店内也出售内衣/保暖内衣哦！",
-            ja: "Tシャツ、パンツ、ジャケットなどのカジュアルウェアをお手頃な価格でお買い求めいただけます。肌着・インナーも販売しています！"
+            ko: "김, 미역, 마른오징어 등 건어물도 판매하고 쌀과 세제 등도 판매합니다. 시장 식혜도 주문받고 있어요!",
+            en: "We sell dried seafood such as seaweed (laver), kelp, and dried squid, as well as essentials like rice and detergent. We also take orders for traditional market-style sikhye (sweet rice punch)!",
+            cn: "出售海苔、海带、干鱿鱼等各种海鲜干货，以及大米、洗涤剂等生活用品。本店还接受传统传统食酰（甜米露）的预订哦！",
+            ja: "海苔（のり）、ワカメ、スルメなどの乾物はもちろん、お米や洗剤なども取り扱っています。市場の手作りシッケ（伝統の甘酒風発酵飲料）のご注文も承り中！"
         },
-        specialty: { ko: "티셔츠, 외투, 바지, 내복, 속옷 등", 
-                     en: "T-shirts, outerwear (coats/jackets), pants, thermal underwear, underwear, etc.", 
-                     cn: "T恤、外套、裤子、保暖内衣（秋衣秋裤）、内衣等。", 
-                     ja: "Tシャツ、上着（アウター）、ズボン（パンツ）、保温肌着（タイツ）、下着など。" },
-        query: "choongbuk.html"
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 황태, 쌀, 옛날과자 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Dried seaweed (laver), kelp, dried squid, dried pollock (hwangtae), rice, traditional Korean snacks, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、鱿鱼、黄太鱼（干明太鱼）、大米、传统怀旧零食等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔、ワカメ、スルメ、干しスケトウダラ（ファンテ）、お米、昔ながらのお菓子（伝統菓子）など。" },
+        query: "donghae.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/52auKeGo`;
-        const mapSearchUrl = `https://maps.app.goo.gl/DyfQpjGKPGqWM2Sx9`;
+        const mapNaverUrl = `https://naver.me/5wrMp74x`;
+        const mapSearchUrl = `https://maps.app.goo.gl/kEe3MdwE6KntRmB88`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

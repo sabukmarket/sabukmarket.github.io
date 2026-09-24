@@ -1044,6 +1044,23 @@ const marketStores = [
                      cn: "(价格可能因市场而异。) 每年春季农耕所需的种苗，以及应季新鲜采收的土豆、红薯、野菜等。", 
                      ja: "(価格は市場による。) 毎春の農作業に必要な苗や、その都度収穫されるジャガイモ、サツマイモ、山菜など。" },
         query: "nongteuk.html"
+    },
+      {
+        id: 47,
+        name: { ko: "동해건어물", en: "Donghae Dried Seafood", cn: "东海干货海鲜", ja: "東海（トンへ）乾物店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "김, 미역, 마른오징어 등 건어물도 판매하고 쌀과 세제 등도 판매합니다. 시장 식혜도 주문받고 있어요!",
+            en: "We sell dried seafood such as seaweed (laver), kelp, and dried squid, as well as essentials like rice and detergent. We also take orders for traditional market-style sikhye (sweet rice punch)!",
+            cn: "出售海苔、海带、干鱿鱼等各种海鲜干货，以及大米、洗涤剂等生活用品。本店还接受传统传统食酰（甜米露）的预订哦！",
+            ja: "海苔（のり）、ワカメ、スルメなどの乾物はもちろん、お米や洗剤なども取り扱っています。市場の手作りシッケ（伝統の甘酒風発酵飲料）のご注文も承り中！"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 황태, 쌀, 옛날과자 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Dried seaweed (laver), kelp, dried squid, dried pollock (hwangtae), rice, traditional Korean snacks, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、鱿鱼、黄太鱼（干明太鱼）、大米、传统怀旧零食等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔、ワカメ、スルメ、干しスケトウダラ（ファンテ）、お米、昔ながらのお菓子（伝統菓子）など。" },
+        query: "donghae.html"
     }
 
 ];
