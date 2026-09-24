@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "사북의 보은", en: "Boeun in Sabuk", cn: "舍北的宝恩", ja: "舎北の宝恩" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
+        name: { ko: "시장농특산물", en: "Nongteuksanmul (Local Farm Produce & Seedlings)", cn: "农特产品", ja: "農特産物（ノントゥクサンムル）" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "사북의 유일한 디저트 전문점입니다. 타르트, 스콘, 쿠키 등 매일 매일 다른 종류의 디저트를 굽습니다.",
-            en: "The only dessert shop in Sabuk. We bake different types of desserts every day.",
-            cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。",
-            ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。"
+            ko: "계절에 따라 야채, 나물 모종과 구황작물을 판매하고 있습니다.",
+            en: "Depending on the season, we sell vegetable and wild herb seedlings, as well as hearty root crops.",
+            cn: "根据不同季节，出售各种蔬菜、野菜种苗以及地瓜土豆等农作物。",
+            ja: "季節に合わせて、野菜や山菜の苗、ジャガイモやサツマイモなどの農作物を販売しています。"
         },
-        specialty: { ko: "레몬큐브 3,800원 &nbsp;&nbsp;&nbsp; 플레인스콘 3,000원 <br>  2,500원", 
-            en: "Lemon Cube 3,800 KRW &nbsp;&nbsp;&nbsp; Plain Scone 3,000 KRW <br>  2,500 KRW", 
-            cn: "柠檬方块 3,800韩元 &nbsp;&nbsp;&nbsp; 原味司康 3,000韩元 <br>  2,500韩元", 
-            ja: "レモンキューブ 3,800 &nbsp;&nbsp;&nbsp; プレーンスコン 3,000 <br>  2,500" },
-        query: "boeun.html"
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 봄철마다 농사에 필요한 모종, 그때 그때 수확한 감자, 고구마, 나물 등.", 
+                     en: "(Prices may vary depending on the market.) Farming seedlings every spring, plus freshly harvested potatoes, sweet potatoes, wild greens, and more.", 
+                     cn: "(价格可能因市场而异。) 每年春季农耕所需的种苗，以及应季新鲜采收的土豆、红薯、野菜等。", 
+                     ja: "(価格は市場による。) 毎春の農作業に必要な苗や、その都度収穫されるジャガイモ、サツマイモ、山菜など。" },
+        query: "nongteuk.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/x2YLJAhG`;
-        const mapSearchUrl = `https://maps.app.goo.gl/rFFvcAo8UTFsmbj27`;
+        const mapNaverUrl = `https://naver.me/GsjhbSYq`;
+        const mapSearchUrl = `https://maps.app.goo.gl/VTZ3yJBNm6BMf8um6`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

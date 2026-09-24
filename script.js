@@ -1027,6 +1027,23 @@ const marketStores = [
                      cn: "T恤、外套、裤子、保暖内衣（秋衣秋裤）、内衣等。", 
                      ja: "Tシャツ、上着（アウター）、ズボン（パンツ）、保温肌着（タイツ）、下着など。" },
         query: "choongbuk.html"
+    },
+     {
+        id: 46,
+        name: { ko: "시장농특산물", en: "Nongteuksanmul (Local Farm Produce & Seedlings)", cn: "农特产品", ja: "農特産物（ノントゥクサンムル）" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "계절에 따라 야채, 나물 모종과 구황작물을 판매하고 있습니다.",
+            en: "Depending on the season, we sell vegetable and wild herb seedlings, as well as hearty root crops.",
+            cn: "根据不同季节，出售各种蔬菜、野菜种苗以及地瓜土豆等农作物。",
+            ja: "季節に合わせて、野菜や山菜の苗、ジャガイモやサツマイモなどの農作物を販売しています。"
+        },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 봄철마다 농사에 필요한 모종, 그때 그때 수확한 감자, 고구마, 나물 등.", 
+                     en: "(Prices may vary depending on the market.) Farming seedlings every spring, plus freshly harvested potatoes, sweet potatoes, wild greens, and more.", 
+                     cn: "(价格可能因市场而异。) 每年春季农耕所需的种苗，以及应季新鲜采收的土豆、红薯、野菜等。", 
+                     ja: "(価格は市場による。) 毎春の農作業に必要な苗や、その都度収穫されるジャガイモ、サツマイモ、山菜など。" },
+        query: "nongteuk.html"
     }
 
 ];
