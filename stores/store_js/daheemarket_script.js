@@ -57,7 +57,7 @@ const marketStores = [
     specialty: { ko: "다양한 가격의 굿즈 5,000 ~ 30,000원", 
                      en: "Merchandise in various prices 5,000-30,000KRW", 
                      cn: "各种价格的商品 5,000 ~ 30,000韩元", 
-                     ja: "様々な価格のグッズ 5,000 ~ 30,000" },
+                     ja: "様々な価格のグッズ 5,000 ~ 30,000ウォン" },
         query: "daheemarket.html"
     }
 ];

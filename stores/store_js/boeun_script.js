@@ -54,10 +54,10 @@ const marketStores = [
             cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。",
             ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。"
         },
-        specialty: { ko: "레몬큐브 3,800원 &nbsp;&nbsp;&nbsp; 플레인스콘 3,000원 <br>  2,500원", 
-            en: "Lemon Cube 3,800 KRW &nbsp;&nbsp;&nbsp; Plain Scone 3,000 KRW <br>  2,500 KRW", 
-            cn: "柠檬方块 3,800韩元 &nbsp;&nbsp;&nbsp; 原味司康 3,000韩元 <br>  2,500韩元", 
-            ja: "レモンキューブ 3,800 &nbsp;&nbsp;&nbsp; プレーンスコン 3,000 <br>  2,500" },
+        specialty: { ko: "레몬큐브(3,800원), 에그타르트, 휘낭시에, 곰돌이 마들렌, 초코프레첼 등.", 
+            en: "Lemon Cube (3,800 KRW), Egg tarts, financiers, bear-shaped madeleines, chocolate pretzels, etc. ", 
+            cn: "柠檬方块 (3,800韩元), 蛋挞、费南雪、小熊玛德莲蛋糕、巧克力椒盐脆饼等。", 
+            ja: "レモンキューブ (3,800ウォン), エッグタルト、フィナンシェ、くまちゃんマドレーヌ、チョコプレッツェルなど。" },
         query: "boeun.html"
     }
 ];

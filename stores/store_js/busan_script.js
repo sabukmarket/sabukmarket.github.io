@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: " カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "만리장성", en: "The Great Wall of China", cn: "万里长城", ja: "万里の長城" },
-        cat: "restaurants",
-        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        name: { ko: "부산수산", en: "Busan Seafood", cn: "东海干货海鲜", ja: "東海（トンへ）乾物店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "사북에서 가장 오랜 역사를 가진 중식당이랍니다. 24시간 영업해 언제나 불이 켜져 있어요(수요일 격주휴무).",
-            en: "The oldest Chinese restaurant in Sabuk. Open 24 hours, always with the lights on (bi-weekly Wednesday off).",
-            cn: "舍北最古老的中餐厅。24小时营业，灯火通明（每两周周三休息）。",
-            ja: "舎北で最も古い中華料理店です。24時間営業で、いつも明かりがついています（隔週水曜日休業）。"
+            ko: "생선뿐만 아니라 김, 미역, 마른오징어 등 건어물을 판매하고 있습니다. 달걀 등의 지역 특산물도 함께 팔아요.",
+            en: "Along with fresh fish, we offer a variety of dried seafood such as seaweed, kelp, and dried squid. Local specialties including eggs are also available.",
+            cn: "除了新鲜鱼类外，还出售海苔、海带、干鱿鱼等各种海鲜干货。店内还备有鸡蛋等当地特产。",
+            ja: "鮮魚はもちろん、海苔、ワカメ、スルメなどの乾物も取り扱っております。地元の特産品もご用意しています。"
         },
-        specialty: { ko: "짜장면 8,000원 &nbsp;&nbsp;&nbsp; 짬뽕 9,000원 <br> 사천짜장 14,000원 &nbsp;&nbsp;&nbsp; 마파두부 39,000원",
-             en: "Jajangmyeon 8,000 KRW &nbsp;&nbsp;&nbsp; Jjamppong 9,000 KRW <br> Sichuan Jajang 14,000 KRW &nbsp;&nbsp;&nbsp; Mapo Tofu 39,000 KRW", 
-             cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒河粉 9,000韩元 <br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元", 
-             ja: "ジャジャンミョン 8,000ウォン &nbsp;&nbsp;&nbsp; ジャムポン 9,000ウォン <br> 四川ジャジャン 14,000ウォン &nbsp;&nbsp;&nbsp; マポトゥフ 39,000ウォン" },
-        query: "malijangseong.html",
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 생선, 건어물, 달걀 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, squid, fresh fish, dried seafood, eggs, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、鱿鱼、鲜鱼、海鲜干货、鸡蛋等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、イカ（スルメ）、鮮魚、乾物、卵など。" },
+        query: "busan.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/F2ZkV2s0`;
-        const mapSearchUrl = `https://maps.app.goo.gl/JDKp4XAqLZkZHKoM9`;
+        const mapNaverUrl = `https://naver.me/FjmRJuzG`;
+        const mapSearchUrl = `https://maps.app.goo.gl/FEjnxu2zLHMXXqJ4A`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

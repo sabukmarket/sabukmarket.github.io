@@ -1,3 +1,4 @@
+
 const i18nData = {
     ko: {
         cat_restaurants: "식당",
@@ -31,7 +32,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: " カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +46,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "만리장성", en: "The Great Wall of China", cn: "万里长城", ja: "万里の長城" },
-        cat: "restaurants",
-        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        name: { ko: "사북야채", en: "Sabuk Vegetable Shop", cn: "舍北蔬菜店", ja: "舍北(サブク)野菜店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "사북에서 가장 오랜 역사를 가진 중식당이랍니다. 24시간 영업해 언제나 불이 켜져 있어요(수요일 격주휴무).",
-            en: "The oldest Chinese restaurant in Sabuk. Open 24 hours, always with the lights on (bi-weekly Wednesday off).",
-            cn: "舍北最古老的中餐厅。24小时营业，灯火通明（每两周周三休息）。",
-            ja: "舎北で最も古い中華料理店です。24時間営業で、いつも明かりがついています（隔週水曜日休業）。"
+            ko: "야채와 나물을 비롯한 곡식, 그리고 일부 생활용품들을 판매합니다.",
+            en: "We sell vegetables, wild herbs, various grains, and everyday household goods.",
+            cn: "出售新鲜蔬菜、野菜、大米、杂粮以及各种日用生活百货。",
+            ja: "野菜や山菜をはじめ、お米、穀物、そして日用品などを幅広く取り扱っております。"
         },
-        specialty: { ko: "짜장면 8,000원 &nbsp;&nbsp;&nbsp; 짬뽕 9,000원 <br> 사천짜장 14,000원 &nbsp;&nbsp;&nbsp; 마파두부 39,000원",
-             en: "Jajangmyeon 8,000 KRW &nbsp;&nbsp;&nbsp; Jjamppong 9,000 KRW <br> Sichuan Jajang 14,000 KRW &nbsp;&nbsp;&nbsp; Mapo Tofu 39,000 KRW", 
-             cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒河粉 9,000韩元 <br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元", 
-             ja: "ジャジャンミョン 8,000ウォン &nbsp;&nbsp;&nbsp; ジャムポン 9,000ウォン <br> 四川ジャジャン 14,000ウォン &nbsp;&nbsp;&nbsp; マポトゥフ 39,000ウォン" },
-        query: "malijangseong.html",
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 콩, 쌀, 김, 직접 담근 된장, 젓갈 등.", 
+                     en: "(Prices may vary depending on the market.) Soybeans, rice, seaweed (laver), homemade fermented soybean paste (doenjang), salted fermented seafood (jeotgal), etc.", 
+                     cn: "(价格可能因市场而异。) 大豆（黄豆）、大米、海苔、自家秘制大酱、腌制海鲜酱（咸虾酱/鱼露等）。", 
+                     ja: "(価格は市場による。) 大豆、お米、海苔、自家製テンジャン（韓国味噌）、塩辛（チョッカル）など。" },
+        query: "sabukvegi.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +120,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/F2ZkV2s0`;
-        const mapSearchUrl = `https://maps.app.goo.gl/JDKp4XAqLZkZHKoM9`;
+        const mapNaverUrl = `https://naver.me/5wrMyliW`;
+        const mapSearchUrl = `https://maps.app.goo.gl/ZBG72727psiAJmkr7`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

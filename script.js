@@ -482,7 +482,7 @@ const marketStores = [
         specialty: { ko: "광부의 이야기를 다룬 <사북의 밤은 아직 따뜻하다> 등, 다양한 가격의 그림책 판매(주로 10,000~30,000원)", 
                      en: "Picture Books 10,000-30,000KRW (Various Prices)", 
                      cn: "各种价格的图画书销售(主要是10,000-30,000韩元)", 
-                     ja: "様々な価格の絵本販売(主に10,000-30,000)" },
+                     ja: "様々な価格の絵本販売(主に10,000-30,000ウォン)" },
         query: "mylovesabook.html"
     },
      {
@@ -499,7 +499,7 @@ const marketStores = [
     specialty: { ko: "다양한 가격의 굿즈 5,000 ~ 30,000원", 
                      en: "Merchandise in various prices 5,000-30,000KRW", 
                      cn: "各种价格的商品 5,000 ~ 30,000韩元", 
-                     ja: "様々な価格のグッズ 5,000 ~ 30,000" },
+                     ja: "様々な価格のグッズ 5,000 ~ 30,000ウォン" },
         query: "daheemarket.html"
     },
       {
@@ -516,7 +516,7 @@ const marketStores = [
     specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
                      en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
                      cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
-                     ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000 <br> パーマとポイントエクステ 60,000" },
+                     ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000ウォン <br> パーマとポイントエクステ 60,000" },
         query: "comeagainlashes.html"
     },
      {
@@ -533,7 +533,7 @@ const marketStores = [
         specialty: { ko: "짜장면 8,000원 &nbsp;&nbsp;&nbsp; 짬뽕 9,000원 <br> 사천짜장 14,000원 &nbsp;&nbsp;&nbsp; 마파두부 39,000원",
              en: "Jajangmyeon 8,000 KRW &nbsp;&nbsp;&nbsp; Jjamppong 9,000 KRW <br> Sichuan Jajang 14,000 KRW &nbsp;&nbsp;&nbsp; Mapo Tofu 39,000 KRW", 
              cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒河粉 9,000韩元 <br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元", 
-             ja: "ジャジャンミョン 8,000 &nbsp;&nbsp;&nbsp; ジャムポン 9,000 <br> 四川ジャジャン 14,000 &nbsp;&nbsp;&nbsp; マポトゥフ 39,000" },
+             ja: "ジャジャンミョン 8,000ウォンウォン &nbsp;&nbsp;&nbsp; ジャムポン 9,000ウォン <br> 四川ジャジャン 14,000ウォン &nbsp;&nbsp;&nbsp; マポトゥフ 39,000ウォン" },
         query: "malijangseong.html",
     },
     {
@@ -550,7 +550,7 @@ const marketStores = [
     specialty: { ko: "양말 2,000 ~ 4,000원 &nbsp;&nbsp;&nbsp; 팬티 세트 15,000 ~ 30,000원 <br> 메리야쓰 세트 18,000 ~ 30,000원", 
                      en: "Socks 2,000 ~ 4,000KRW &nbsp;&nbsp;&nbsp; Panty Sets 15,000 ~ 30,000KRW <br> Undershirt Sets 18,000 ~ 30,000KRW", 
                      cn: "袜子 2,000 ~ 4,000韩元 &nbsp;&nbsp;&nbsp; 内裤套装 15,000 ~ 30,000韩元 <br> 内衣套装 18,000 ~ 30,000韩元", 
-                     ja: "靴下 2,000 ~ 4,000円 &nbsp;&nbsp;&nbsp; 内衣セット 15,000 ~ 30,000円 <br> 下着セット 18,000 ~ 30,000円" },
+                     ja: "靴下 2,000 ~ 4,000ウォン &nbsp;&nbsp;&nbsp; 内衣セット 15,000 ~ 30,000ウォン <br> 下着セット 18,000 ~ 30,000ウォン" },
         query: "mihyang.html"
     },
     {
@@ -564,10 +564,10 @@ const marketStores = [
             cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。",
             ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。"
         },
-        specialty: { ko: "레몬큐브 3,800원 &nbsp;&nbsp;&nbsp; 플레인스콘 3,000원 <br>  2,500원", 
-            en: "Lemon Cube 3,800 KRW &nbsp;&nbsp;&nbsp; Plain Scone 3,000 KRW <br>  2,500 KRW", 
-            cn: "柠檬方块 3,800韩元 &nbsp;&nbsp;&nbsp; 原味司康 3,000韩元 <br>  2,500韩元", 
-            ja: "レモンキューブ 3,800 &nbsp;&nbsp;&nbsp; プレーンスコン 3,000 <br>  2,500" },
+        specialty: { ko: "레몬큐브(3,800원), 에그타르트, 휘낭시에, 곰돌이 마들렌, 초코프레첼 등.", 
+            en: "Lemon Cube (3,800 KRW), Egg tarts, financiers, bear-shaped madeleines, chocolate pretzels, etc. ", 
+            cn: "柠檬方块 (3,800韩元), 蛋挞、费南雪、小熊玛德莲蛋糕、巧克力椒盐脆饼等。", 
+            ja: "レモンキューブ (3,800ウォン), エッグタルト、フィナンシェ、くまちゃんマドレーヌ、チョコプレッツェルなど。" },
         query: "boeun.html"
     },
     {
@@ -1061,6 +1061,57 @@ const marketStores = [
                      cn: "根据时价价格会有所变动）海苔、海带、鱿鱼、黄太鱼（干明太鱼）、大米、传统怀旧零食等。", 
                      ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔、ワカメ、スルメ、干しスケトウダラ（ファンテ）、お米、昔ながらのお菓子（伝統菓子）など。" },
         query: "donghae.html"
+    },
+    {
+        id: 48,
+        name: { ko: "부산수산", en: "Busan Seafood", cn: "东海干货海鲜", ja: "東海（トンへ）乾物店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "생선뿐만 아니라 김, 미역, 마른오징어 등 건어물을 판매하고 있습니다. 달걀 등의 지역 특산물도 함께 팔아요.",
+            en: "Along with fresh fish, we offer a variety of dried seafood such as seaweed, kelp, and dried squid. Local specialties including eggs are also available.",
+            cn: "除了新鲜鱼类外，还出售海苔、海带、干鱿鱼等各种海鲜干货。店内还备有鸡蛋等当地特产。",
+            ja: "鮮魚はもちろん、海苔、ワカメ、スルメなどの乾物も取り扱っております。地元の特産品もご用意しています。"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 생선, 건어물, 달걀 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, squid, fresh fish, dried seafood, eggs, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、鱿鱼、鲜鱼、海鲜干货、鸡蛋等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、イカ（スルメ）、鮮魚、乾物、卵など。" },
+        query: "busan.html"
+    },
+    {
+        id: 49,
+        name: { ko: "사계절", en: "Four Seasons", cn: "四季", ja: "サゲジョル(四季)" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "여성의류를 판매하는 매장입니다. 신발, 이불 전기장판 등도 살 수 있어요.",
+            en: "A shop specializing in women's clothing. You can also purchase shoes, bedding, electric heating pads, and more.",
+            cn: "这是一家主营女装的店铺。店内还可以选购鞋子、被褥、电热毯等各种生活用品。",
+            ja: "婦人服を取り扱うお店です。靴や布団、電気毛布（ホットカーペット）などもお買い求めいただけます。"
+        },
+        specialty: { ko: "티셔츠, 외투, 바지, 신발, 이불 등.", 
+                     en: "T-shirts, coats, trousers, shoes, bedding, etc.", 
+                     cn: "外衣、衬衫、裤子、鞋子、被褥等。", 
+                     ja: "Tシャツ、コート、ズボン、靴、布団など。" },
+        query: "fourseasons.html"
+    },
+     {
+        id: 50,
+        name: { ko: "사북야채", en: "Sabuk Vegetable Shop", cn: "舍北蔬菜店", ja: "舍北(サブク)野菜店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "야채와 나물을 비롯한 곡식, 그리고 일부 생활용품들을 판매합니다.",
+            en: "We sell vegetables, wild herbs, various grains, and everyday household goods.",
+            cn: "出售新鲜蔬菜、野菜、大米、杂粮以及各种日用生活百货。",
+            ja: "野菜や山菜をはじめ、お米、穀物、そして日用品などを幅広く取り扱っております。"
+        },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 콩, 쌀, 김, 직접 담근 된장, 젓갈 등.", 
+                     en: "(Prices may vary depending on the market.) Soybeans, rice, seaweed (laver), homemade fermented soybean paste (doenjang), salted fermented seafood (jeotgal), etc.", 
+                     cn: "(价格可能因市场而异。) 大豆（黄豆）、大米、海苔、自家秘制大酱、腌制海鲜酱（咸虾酱/鱼露等）。", 
+                     ja: "(価格は市場による。) 大豆、お米、海苔、自家製テンジャン（韓国味噌）、塩辛（チョッカル）など。" },
+        query: "sabukvegi.html"
     }
 
 ];

@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: " カフェ・デザート",
+        cat_food: "カフェ・デザート",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "만리장성", en: "The Great Wall of China", cn: "万里长城", ja: "万里の長城" },
-        cat: "restaurants",
-        catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
+        name: { ko: "사계절", en: "Four Seasons", cn: "四季", ja: "サゲジョル(四季)" },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "사북에서 가장 오랜 역사를 가진 중식당이랍니다. 24시간 영업해 언제나 불이 켜져 있어요(수요일 격주휴무).",
-            en: "The oldest Chinese restaurant in Sabuk. Open 24 hours, always with the lights on (bi-weekly Wednesday off).",
-            cn: "舍北最古老的中餐厅。24小时营业，灯火通明（每两周周三休息）。",
-            ja: "舎北で最も古い中華料理店です。24時間営業で、いつも明かりがついています（隔週水曜日休業）。"
+            ko: "여성의류를 판매하는 매장입니다. 신발, 이불 전기장판 등도 살 수 있어요.",
+            en: "A shop specializing in women's clothing. You can also purchase shoes, bedding, electric heating pads, and more.",
+            cn: "这是一家主营女装的店铺。店内还可以选购鞋子、被褥、电热毯等各种生活用品。",
+            ja: "婦人服を取り扱うお店です。靴や布団、電気毛布（ホットカーペット）などもお買い求めいただけます。"
         },
-        specialty: { ko: "짜장면 8,000원 &nbsp;&nbsp;&nbsp; 짬뽕 9,000원 <br> 사천짜장 14,000원 &nbsp;&nbsp;&nbsp; 마파두부 39,000원",
-             en: "Jajangmyeon 8,000 KRW &nbsp;&nbsp;&nbsp; Jjamppong 9,000 KRW <br> Sichuan Jajang 14,000 KRW &nbsp;&nbsp;&nbsp; Mapo Tofu 39,000 KRW", 
-             cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒河粉 9,000韩元 <br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元", 
-             ja: "ジャジャンミョン 8,000ウォン &nbsp;&nbsp;&nbsp; ジャムポン 9,000ウォン <br> 四川ジャジャン 14,000ウォン &nbsp;&nbsp;&nbsp; マポトゥフ 39,000ウォン" },
-        query: "malijangseong.html",
+        specialty: { ko: "티셔츠, 외투, 바지, 신발, 이불 등.", 
+                     en: "T-shirts, coats, trousers, shoes, bedding, etc.", 
+                     cn: "外衣、衬衫、裤子、鞋子、被褥等。", 
+                     ja: "Tシャツ、コート、ズボン、靴、布団など。" },
+        query: "fourseasons.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'restaurants'; // 초기 필터는 '식당'으로 설정
+let currentFilter = 'general'; // 초기 필터는 '생활·잡화'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/F2ZkV2s0`;
-        const mapSearchUrl = `https://maps.app.goo.gl/JDKp4XAqLZkZHKoM9`;
+        const mapNaverUrl = `https://naver.me/FvTwmUUx`;
+        const mapSearchUrl = `https://maps.app.goo.gl/ejQVgrRWzykEXsda6`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

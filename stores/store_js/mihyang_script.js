@@ -57,7 +57,7 @@ const marketStores = [
     specialty: { ko: "양말 2,000 ~ 4,000원 &nbsp;&nbsp;&nbsp; 팬티 세트 15,000 ~ 30,000원 <br> 메리야쓰 세트 18,000 ~ 30,000원", 
                      en: "Socks 2,000 ~ 4,000KRW &nbsp;&nbsp;&nbsp; Panty Sets 15,000 ~ 30,000KRW <br> Undershirt Sets 18,000 ~ 30,000KRW", 
                      cn: "袜子 2,000 ~ 4,000韩元 &nbsp;&nbsp;&nbsp; 内裤套装 15,000 ~ 30,000韩元 <br> 内衣套装 18,000 ~ 30,000韩元", 
-                     ja: "靴下 2,000 ~ 4,000円 &nbsp;&nbsp;&nbsp; 内衣セット 15,000 ~ 30,000円 <br> 下着セット 18,000 ~ 30,000円" },
+                     ja: "靴下 2,000 ~ 4,000ウォン &nbsp;&nbsp;&nbsp; 内衣セット 15,000 ~ 30,000ウォン <br> 下着セット 18,000 ~ 30,000ウォン" },
         query: "mihyang.html"
     }
 ];
