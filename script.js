@@ -262,7 +262,7 @@ const i63nData = {
         contact_tag: "CONTACT & VISIT",
         contact_heading: "アクセスとお問い合わせ",
         contact_subtext: "太白線舎北駅から徒歩5分！旌善旅のスタートは舎北市場から。",
-        c_email_title: "メールでのお問い合わせ",
+        c_email_title: "電話でのお問い合わせ",
         c_email_desc: "訪問・イベントに関するお問い合わせ",
         c_addr_title: "市場の住所",
         c_addr_desc: "江原特別自治道 旌善郡 舎北邑 舎北市場キル 一帯",
@@ -1097,7 +1097,7 @@ const marketStores = [
         query: "fourseasons.html"
     },
      {
-        id: 50,
+        id: 51,
         name: { ko: "사북야채", en: "Sabuk Vegetable Shop", cn: "舍北蔬菜店", ja: "舍北(サブク)野菜店" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
@@ -1112,6 +1112,23 @@ const marketStores = [
                      cn: "(价格可能因市场而异。) 大豆（黄豆）、大米、海苔、自家秘制大酱、腌制海鲜酱（咸虾酱/鱼露等）。", 
                      ja: "(価格は市場による。) 大豆、お米、海苔、自家製テンジャン（韓国味噌）、塩辛（チョッカル）など。" },
         query: "sabukvegi.html"
+    },
+     {
+        id: 52,
+        name: { ko: "제천상회", en: "Jecheon Grocery Store", cn: "堤川商会", ja: "堤川(チェチョン）商会" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "다양한 야채 및 식료품이 구비되어 있습니다. 시장 안쪽, 청년몰 근처에 있어요.",
+            en: "A wide variety of fresh vegetables and groceries are available. Located inside the market, near the Youth Mall.",
+            cn: "备有各种新鲜蔬菜及食品饮料。位于市场内侧、青年Mall附近。",
+            ja: "さまざまな野菜や食料品を取り揃えております。市場の奥、青年モール（Youth Mall）の近くにございます。"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 양파, 파, 가지, 오이, 고추, 두부 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Onions, green onions (scallions), eggplants, cucumbers, chili peppers, tofu, etc.", 
+                     cn: "根据时价价格会有所变动）洋葱、大葱、茄子、黄瓜、辣椒、豆腐等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）玉ねぎ、長ネギ、ナス、きゅうり、唐辛子、豆腐など。" },
+        query: "jecheonstore.html"
     }
 
 ];
