@@ -126,7 +126,7 @@ const i63nData = {
         contact_tag: "CONTACT & VISIT",
         contact_heading: "Contact Us & Directions",
         contact_subtext: "Only a 5-minute walk from Sabuk Station! Start your Jeongseon trip with us.",
-        c_email_title: "Email Contact",
+        c_email_title: "Telephone Contact",
         c_email_desc: "General inquiries and event info",
         c_addr_title: "Address",
         c_addr_desc: "Sabuk Market-gil, Sabuk-eup, Jeongseon-gun, Gangwon-do, Republic of Korea",
@@ -194,7 +194,7 @@ const i63nData = {
         contact_tag: "CONTACT & VISIT",
         contact_heading: "交通指南与联系",
         contact_subtext: "距舍北火车站步行仅5分钟！开启愉快的旌善之旅。",
-        c_email_title: "电子邮箱",
+        c_email_title: "咨询电话",
         c_email_desc: "市场访问与活动咨询",
         c_addr_title: "市场地址",
         c_addr_desc: "韩国江原特别自治道旌善郡舍北邑舍北市场街",
@@ -1208,11 +1208,28 @@ const marketStores = [
             cn: "本店是一家专营山蓟菜的特色店铺。精选产自旌善地区、生长在海拔1000米以上高山脚下的纯天然高山山蓟菜。",
             ja: "ゴンドゥレ（高麗アザミ）を専門に扱うお店です。旌善（チョンソン）地域の標高1,000m以上の山麓で育った天然の山菜・ゴンドゥレを取り扱っています。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 건곤드레 10,000원 &nbsp;&nbsp;&nbsp; 곰취나물 10,000원 <br>어수리나물 10,000원 &nbsp;&nbsp;&nbsp; 냉동곤드레 4kg 30,000원", 
-                     en: "(Prices are subject to change according to market rates.) Dried Gondre (Wild Thistle) 10,000 KRW &nbsp;&nbsp;&nbsp; Gomchwi (Ligularia Greens) 10,000 KRW <br>Eosuri (Cow Parsnip Greens) 10,000 KRW &nbsp;&nbsp;&nbsp; Frozen Gondre 4kg 30,000 KRW.", 
-                     cn: "(根据时价价格会有所变动）干山蓟菜 10,000韩元&nbsp;&nbsp;&nbsp; 干燥葫芦七（熊岳菜） 10,000韩元 <br>牛防风菜 10,000韩元&nbsp;&nbsp;&nbsp; 冷冻山蓟菜 4kg 30,000韩元", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）乾燥ゴンドゥレ（高麗アザミ） 10,000ウォン &nbsp;&nbsp;&nbsp; ゴムチュィ（オタカラコウ） 10,000ウォン <br>オスリ（ハナウド） 10,000ウォン &nbsp;&nbsp;&nbsp; 冷凍ゴンドゥレ 4kg 30,000ウォン" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br>건곤드레 10,000원 &nbsp;&nbsp;&nbsp; 곰취나물 10,000원 <br>어수리나물 10,000원 &nbsp;&nbsp;&nbsp; 냉동곤드레 4kg 30,000원", 
+                     en: "(Prices are subject to change according to market rates.)  <br>Dried Gondre (Wild Thistle) 10,000 KRW &nbsp;&nbsp;&nbsp; Gomchwi (Ligularia Greens) 10,000 KRW <br>Eosuri (Cow Parsnip Greens) 10,000 KRW &nbsp;&nbsp;&nbsp; Frozen Gondre 4kg 30,000 KRW.", 
+                     cn: "(根据时价价格会有所变动）<br>干山蓟菜 10,000韩元&nbsp;&nbsp;&nbsp; 干燥葫芦七（熊岳菜） 10,000韩元 <br>牛防风菜 10,000韩元&nbsp;&nbsp;&nbsp; 冷冻山蓟菜 4kg 30,000韩元", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>乾燥ゴンドゥレ（高麗アザミ） 10,000ウォン &nbsp;&nbsp;&nbsp; ゴムチュィ（オタカラコウ） 10,000ウォン <br>オスリ（ハナウド） 10,000ウォン &nbsp;&nbsp;&nbsp; 冷凍ゴンドゥレ 4kg 30,000ウォン" },
         query: "jeongseongondre.html"
+    },
+    {
+        id: 57,
+        name: { ko: "종합건어물", en: "Jonghap Dried Seafood", cn: "综合海鲜干货", ja: "総合(ジョンハプ)乾物店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "다양한 건어물과 식료품을 매대에서 보실 수 있습니다. 오뚜기분식 옆이에요!",
+            en: "You can find a wide variety of dried seafood and groceries on display at our stands. Located right next to Ottugi Bunsik!",
+            cn: "摊位上陈列着各种海鲜干货和食品饮料。就在不倒翁小吃（Ottugi Bunsik）旁边！",
+            ja: "店頭の売り場には、多彩な乾物や食料品がずらりと並んでいます。オットゥギ粉食のお隣です！"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 황태, 콩류 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried pollock (hwangtae), beans and legumes, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、黄太鱼（干明太鱼）、豆类等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、干しスケトウダラ（ファンテ）、豆類など。" },
+        query: "jonghap.html"
     }
 
 ];
