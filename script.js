@@ -1030,7 +1030,7 @@ const marketStores = [
     },
      {
         id: 46,
-        name: { ko: "시장농특산물", en: "Nongteuksanmul (Local Farm Produce & Seedlings)", cn: "农特产品", ja: "農特産物（ノントゥクサンムル）" },
+        name: { ko: "시장농특산물", en: "Nongteuksanmul (Local Farm Produce & Seedlings)", cn: "市场农特产品", ja: "市場農特産物（ノントゥクサンムル）" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
