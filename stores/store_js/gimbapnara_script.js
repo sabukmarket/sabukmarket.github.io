@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "김밥나라", en: "Gimbap Nara", cn: "紫菜包饭王国", ja: "キンパナラ" },
+        name: { ko: "김밥나라", en: "Gimbap Nara", cn: "紫菜包饭王国", ja: "キンパッナラ" },
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
