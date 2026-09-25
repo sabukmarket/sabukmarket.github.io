@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "준컴퓨터", en: "Jun Computer", cn: "", ja: "" },
+        name: { ko: "준컴퓨터", en: "Jun Computer", cn: "俊电脑", ja: "ジュン・コンピューター" },
         cat: "produce",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {

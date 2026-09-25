@@ -775,7 +775,7 @@ const marketStores = [
     }, 
     {
         id: 31,
-        name: { ko: "준컴퓨터", en: "Jun Computer", cn: "", ja: "" },
+        name: { ko: "준컴퓨터", en: "Jun Computer", cn: "俊电脑", ja: "ジュン・コンピューター" },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -826,7 +826,7 @@ const marketStores = [
     },
      {
         id: 34,
-        name: { ko: "아란", en: "Aran", cn: "阿兰", ja: "アラン" },
+        name: { ko: "아란헤어", en: "Aran Hair", cn: "阿兰美发店", ja: "アランヘア" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {
@@ -1097,7 +1097,7 @@ const marketStores = [
         query: "fourseasons.html"
     },
      {
-        id: 51,
+        id: 50,
         name: { ko: "사북야채", en: "Sabuk Vegetable Shop", cn: "舍北蔬菜店", ja: "舍北(サブク)野菜店" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
@@ -1114,7 +1114,7 @@ const marketStores = [
         query: "sabukvegi.html"
     },
      {
-        id: 52,
+        id: 51,
         name: { ko: "제천상회", en: "Jecheon Grocery Store", cn: "堤川商会", ja: "堤川(チェチョン）商会" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
@@ -1129,6 +1129,90 @@ const marketStores = [
                      cn: "根据时价价格会有所变动）洋葱、大葱、茄子、黄瓜、辣椒、豆腐等。", 
                      ja: "（仕入れ・時価により価格が変更になる場合がございます）玉ねぎ、長ネギ、ナス、きゅうり、唐辛子、豆腐など。" },
         query: "jecheonstore.html"
+    },
+      {
+        id: 52,
+        name: { ko: "새로본화장품", en: "Saerobon Cosmetics", cn: "赛罗本化妆品", ja: "セロボンコスメ"  },
+        cat: "general",
+        catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
+        desc: {
+            ko: "각종 스킨케어 및 메이크업 제품을 판매합니다. 650무대 근처에 있어요.",
+            en: "We offer a wide range of skincare and makeup products. Located near the 650 Stage.",
+            cn: "出售各种护肤及彩妆产品。店铺位于650舞台附近。",
+            ja: "各種スキンケア製品やメイクアップ化粧品を取り揃えております。650ステージの近くにございます。"
+        },
+    specialty: { ko: "Toner & lotion, body wash, ampoules, hair essence, cleansing foam, massage cream, facial packs, mascara, lipstick, eyeshadow, etc.", 
+                     cn: "爽肤水/乳液、沐浴露、安瓶精华、护发精油、洁面乳（洗面奶）、按摩膏、面膜、睫毛膏、口红、眼影等。", 
+                     ja: "化粧水・乳液、ボディソープ、アンプル（美容液）、ヘアエッセンス、洗顔フォーム、マッサージクリーム、フェイスパック、マスカラ、リップ（口紅）、アイシャドウなど。" },
+        query: "saerobon.html"
+    },
+    {
+        id: 53,
+        name: { ko: "황지상회", en: "Hwangji Store (Seafood)", cn: "黄池商会", ja: "黄池（ファンジ）商会" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "다양한 생선과 건어물들을 주로 팔고 있습니다. 냉동, 생물 모두 취급합니다.",
+            en: "We mainly specialize in a variety of fresh fish and dried seafood. We carry both domestic and deep-sea catches, available fresh or frozen.",
+            cn: "主要经营各种鲜鱼和海鲜干货。无论国产还是远洋捕捞、冷冻还是鲜活鱼类均有销售。",
+            ja: "多様な鮮魚や乾物を中心に取り扱っております。国産・遠洋産、冷凍・生鮮いずれも取り揃えています。"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 생선, 건어물, 달걀 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), pollock, hairtail (cutlassfish), Atka mackerel, half-dried pollock (kodari), squid, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、明太鱼、带鱼、远东多线鱼（花鱼）、半干明太鱼、鱿鱼等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、スケトウダラ、タチウオ、ホッケ、コダリ（半干しスケトウダラ）、イカなど。" },
+        query: "hwangji.html"
+    },
+     {
+        id: 54,
+        name: { ko: "영주상회", en: "Youngju Grocery Store", cn: "荣州商会", ja: "栄州（ヨンジュ）商会" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "건어물과 과일, 통조림 등 다양한 식료품을 팔고 있습니다.",
+            en: "We sell a wide variety of groceries, including dried seafood, fruits, and canned goods.",
+            cn: "出售海鲜干货、水果、罐头等各种食品饮料。",
+            ja: "乾物や果物、缶詰など、さまざまな食料品を取り扱っております。"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 쥐포, 포도, 쌀, 달걀 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried filefish fillets (jwipo), grapes, rice, eggs, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、烤鱼片（马面鱼干）、葡萄、大米、鸡蛋等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、カワハギの干物（チュィポ）、ぶどう、お米、卵など。" },
+        query: "youngju.html"
+    },
+    {
+        id: 55,
+        name: { ko: "정든집", en: "Jeongdeunjip", cn: "情深家", ja: "チョンドゥンジプ" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "옥수수 등의 농산물을 판매하는 곳입니다. 계절에 따라 만두, 찐빵도 팔아요.",
+            en: "A store selling agricultural produce like corn. Depending on the season, we also offer dumplings and steamed buns.",
+            cn: "本店主营玉米等农产品。根据季节不同，店内还出售热气腾腾的饺子和包子。",
+            ja: "トウモロコシなどの農産物を販売しているお店です。季節に合わせてマンドゥ（餃子）や蒸しパン（あんまん）も販売しています"
+        },
+        specialty: { ko: "(시세에 따라 가격이 변경됩니다.) 옥수수, 쌀, 겨울에는 찐빵, 만두 등.", 
+                     en: "(Prices are subject to change according to market rates) Corn, rice, and during the winter, steamed buns, dumplings, etc.", 
+                     cn: "(根据时价价格会有所变动） 玉米、大米，冬季还有热包子、饺子等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます） トウモロコシ、お米、冬季には蒸しパン（あんまん）、マンドゥ（餃子）など。" },
+        query: "jeongdeunjip.html"
+    },
+     {
+        id: 56,
+        name: { ko: "정선곤드레", en: "Jeongseon Gondre (Wild Thistle)", cn: "旌善山蓟菜", ja: "旌善（チョンソン）ゴンドゥレ (高麗アザミ)" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "곤드레나물을 전문으로 하는 가게입니다. 정선지역에서 직접 1000m 고지 이상의 산기슭에서 자란 곤드레산채를 취급합니다.",
+            en: "A specialty shop for gondre (wild thistle). We carry wild gondre grown in the Jeongseon region, harvested directly from mountain slopes at altitudes of over 1,000 meters.",
+            cn: "本店是一家专营山蓟菜的特色店铺。精选产自旌善地区、生长在海拔1000米以上高山脚下的纯天然高山山蓟菜。",
+            ja: "ゴンドゥレ（高麗アザミ）を専門に扱うお店です。旌善（チョンソン）地域の標高1,000m以上の山麓で育った天然の山菜・ゴンドゥレを取り扱っています。"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 건곤드레 10,000원 &nbsp;&nbsp;&nbsp; 곰취나물 10,000원 <br>어수리나물 10,000원 &nbsp;&nbsp;&nbsp; 냉동곤드레 4kg 30,000원", 
+                     en: "(Prices are subject to change according to market rates.) Dried Gondre (Wild Thistle) 10,000 KRW &nbsp;&nbsp;&nbsp; Gomchwi (Ligularia Greens) 10,000 KRW <br>Eosuri (Cow Parsnip Greens) 10,000 KRW &nbsp;&nbsp;&nbsp; Frozen Gondre 4kg 30,000 KRW.", 
+                     cn: "(根据时价价格会有所变动）干山蓟菜 10,000韩元&nbsp;&nbsp;&nbsp; 干燥葫芦七（熊岳菜） 10,000韩元 <br>牛防风菜 10,000韩元&nbsp;&nbsp;&nbsp; 冷冻山蓟菜 4kg 30,000韩元", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）乾燥ゴンドゥレ（高麗アザミ） 10,000ウォン &nbsp;&nbsp;&nbsp; ゴムチュィ（オタカラコウ） 10,000ウォン <br>オスリ（ハナウド） 10,000ウォン &nbsp;&nbsp;&nbsp; 冷凍ゴンドゥレ 4kg 30,000ウォン" },
+        query: "jeongseongondre.html"
     }
 
 ];

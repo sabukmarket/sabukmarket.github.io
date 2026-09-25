@@ -134,7 +134,9 @@ function renderStores() {
                     <h3 class="text-xl font-bold font-serif text-stone-900 group-hover:text-brand-500 transition-colors">
                         ${storeName}
                     </h3>
-
+                    <br> 
+                        <img src="./store_img/mylovesb1.jpg" class="w-full h-auto rounded-xl mb-4 shadow-sm />
+                    </br>
                     <p class="text-xs text-stone-600 mt-2.5 leading-relaxed">
                         ${desc}
                     </p>

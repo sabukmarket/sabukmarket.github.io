@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "아란", en: "Aran", cn: "阿兰", ja: "アラン" },
+        name: { ko: "아란헤어", en: "Aran Hair", cn: "阿兰美发店", ja: "アランヘア" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {

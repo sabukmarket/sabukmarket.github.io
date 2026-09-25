@@ -49,16 +49,16 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "김, 미역, 마른오징어 등 건어물도 판매하고 쌀과 세제 등도 판매합니다. 시장 식혜도 주문받고 있어요!",
-            en: "We sell dried seafood such as seaweed (laver), kelp, and dried squid, as well as essentials like rice and detergent. We also take orders for traditional market-style sikhye (sweet rice punch)!",
-            cn: "出售海苔、海带、干鱿鱼等各种海鲜干货，以及大米、洗涤剂等生活用品。本店还接受传统传统食酰（甜米露）的预订哦！",
-            ja: "海苔（のり）、ワカメ、スルメなどの乾物はもちろん、お米や洗剤なども取り扱っています。市場の手作りシッケ（伝統の甘酒風発酵飲料）のご注文も承り中！"
+            ko: "건어물과 과일, 통조림 등 다양한 식료품을 팔고 있습니다.",
+            en: "We sell a wide variety of groceries, including dried seafood, fruits, and canned goods.",
+            cn: "出售海鲜干货、水果、罐头等各种食品饮料。",
+            ja: "乾物や果物、缶詰など、さまざまな食料品を取り扱っております。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 황태, 쌀, 옛날과자 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Dried seaweed (laver), kelp, dried squid, dried pollock (hwangtae), rice, traditional Korean snacks, etc.", 
-                     cn: "根据时价价格会有所变动）海苔、海带、鱿鱼、黄太鱼（干明太鱼）、大米、传统怀旧零食等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔、ワカメ、スルメ、干しスケトウダラ（ファンテ）、お米、昔ながらのお菓子（伝統菓子）など。" },
-        query: "donghae.html"
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 쥐포, 포도, 쌀, 달걀 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried filefish fillets (jwipo), grapes, rice, eggs, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、烤鱼片（马面鱼干）、葡萄、大米、鸡蛋等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、カワハギの干物（チュィポ）、ぶどう、お米、卵など。" },
+        query: "youngju.html"
     }
 ];
 
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/5wrMp74x`;
-        const mapSearchUrl = `https://maps.app.goo.gl/kEe3MdwE6KntRmB88`;
+        const mapNaverUrl = `https://naver.me/IFE7J2WX`;
+        const mapSearchUrl = `https://maps.app.goo.gl/2HKjXYpWMPKCLMfr6`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

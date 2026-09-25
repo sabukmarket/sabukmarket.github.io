@@ -45,20 +45,19 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "미향란제리", en: "Mihyang Lingerie Store", cn: "美香内衣店", ja: "ミヒャン下着屋"  },
+        name: { ko: "새로본화장품", en: "Saerobon Cosmetics", cn: "赛罗本化妆品", ja: "セロボンコスメ"  },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "속옷, 양말, 란제리 세트 등을 저렴한 가격으로 판매합니다.",
-            en: "We sell underwear, socks, and lingerie sets at affordable prices.",
-            cn: "我们以实惠的价格销售内衣、袜子和内衣套装。",
-            ja: "下着、靴下、ランジェリーセットなどをお手頃な価格で販売しています。"
+            ko: "각종 스킨케어 및 메이크업 제품을 판매합니다. 650무대 근처에 있어요.",
+            en: "We offer a wide range of skincare and makeup products. Located near the 650 Stage.",
+            cn: "出售各种护肤及彩妆产品。店铺位于650舞台附近。",
+            ja: "各種スキンケア製品やメイクアップ化粧品を取り揃えております。650ステージの近くにございます。"
         },
-    specialty: { ko: "양말 2,000 ~ 4,000원 &nbsp;&nbsp;&nbsp; 팬티 세트 15,000 ~ 30,000원 <br> 메리야쓰 세트 18,000 ~ 30,000원", 
-                     en: "Socks 2,000 ~ 4,000KRW &nbsp;&nbsp;&nbsp; Panty Sets 15,000 ~ 30,000KRW <br> Undershirt Sets 18,000 ~ 30,000KRW", 
-                     cn: "袜子 2,000 ~ 4,000韩元 &nbsp;&nbsp;&nbsp; 内裤套装 15,000 ~ 30,000韩元 <br> 内衣套装 18,000 ~ 30,000韩元", 
-                     ja: "靴下 2,000 ~ 4,000円 &nbsp;&nbsp;&nbsp; 内衣セット 15,000 ~ 30,000円 <br> 下着セット 18,000 ~ 30,000円" },
-        query: "mihyang.html"
+    specialty: { ko: "Toner & lotion, body wash, ampoules, hair essence, cleansing foam, massage cream, facial packs, mascara, lipstick, eyeshadow, etc.", 
+                     cn: "爽肤水/乳液、沐浴露、安瓶精华、护发精油、洁面乳（洗面奶）、按摩膏、面膜、睫毛膏、口红、眼影等。", 
+                     ja: "化粧水・乳液、ボディソープ、アンプル（美容液）、ヘアエッセンス、洗顔フォーム、マッサージクリーム、フェイスパック、マスカラ、リップ（口紅）、アイシャドウなど。" },
+        query: "saerobon.html"
     }
 ];
 
@@ -119,8 +118,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xdMl10RT`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bXoKaeD1tBywGqse7`;
+        const mapNaverUrl = `https://naver.me/5FDppMYg`;
+        const mapSearchUrl = `https://maps.app.goo.gl/HfYQ2oPvM8jzuY6T6`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
