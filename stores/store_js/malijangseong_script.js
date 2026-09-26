@@ -54,10 +54,10 @@ const marketStores = [
             cn: "舍北最古老的中餐厅。24小时营业，灯火通明（每两周周三休息）。",
             ja: "舎北で最も古い中華料理店です。24時間営業で、いつも明かりがついています（隔週水曜日休業）。"
         },
-        specialty: { ko: "짜장면 8,000원 &nbsp;&nbsp;&nbsp; 짬뽕 9,000원 <br> 사천짜장 14,000원 &nbsp;&nbsp;&nbsp; 마파두부 39,000원",
-             en: "Jajangmyeon 8,000 KRW &nbsp;&nbsp;&nbsp; Jjamppong 9,000 KRW <br> Sichuan Jajang 14,000 KRW &nbsp;&nbsp;&nbsp; Mapo Tofu 39,000 KRW", 
-             cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒河粉 9,000韩元 <br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元", 
-             ja: "ジャジャンミョン 8,000ウォン &nbsp;&nbsp;&nbsp; ジャムポン 9,000ウォン <br> 四川ジャジャン 14,000ウォン &nbsp;&nbsp;&nbsp; マポトゥフ 39,000ウォン" },
+        specialty: { ko: "짜장면 8,000원 &nbsp;&nbsp;&nbsp; 짬뽕 9,000원&nbsp;&nbsp;&nbsp; 해물볶음짬뽕 2인 30,000원<br> 사천짜장 14,000원 &nbsp;&nbsp;&nbsp; 마파두부 39,000원 &nbsp;&nbsp;&nbsp; 군만두 8,000원",
+             en: "Jajangmyeon 8,000 KRW &nbsp;&nbsp;&nbsp; Jjamppong 9,000 KRW &nbsp;&nbsp;&nbsp;Spicy Stir-fried Seafood Jjambong (Serves 2) 30,000 KRW <br> Sichuan Jajang 14,000 KRW &nbsp;&nbsp;&nbsp; Mapo Tofu 39,000 KRW &nbsp;&nbsp;&nbsp; Fried Dumplings (Gun-mandu) 8,000 KRW", 
+             cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒河粉 9,000韩元 &nbsp;&nbsp;&nbsp; 海鲜炒炒码面（2人份） 30,000韩元<br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元 &nbsp;&nbsp;&nbsp; 炸饺子 8,000韩元 ", 
+             ja: "ジャジャンミョン 8,000ウォン &nbsp;&nbsp;&nbsp; ジャムポン 9,000ウォン &nbsp;&nbsp;&nbsp;海鮮炒めチャンポン（2人前） 30,000ウォン<br> 四川ジャジャン 14,000ウォン &nbsp;&nbsp;&nbsp; マポトゥフ 39,000ウォン &nbsp;&nbsp;&nbsp; 焼き餃子（グンマンドゥ） 8,000ウォン" },
         query: "malijangseong.html",
     }
 ];
