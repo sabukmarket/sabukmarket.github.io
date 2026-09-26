@@ -1064,7 +1064,7 @@ const marketStores = [
     },
     {
         id: 48,
-        name: { ko: "부산수산", en: "Busan Seafood", cn: "釜山海鲜", ja: "釜山（プサン）水産" },
+        name: { ko: "부산상회", en: "Busan Grocery Store", cn: "釜山商行", ja: "釜山（プサン）商会" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
