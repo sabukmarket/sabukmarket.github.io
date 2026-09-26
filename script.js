@@ -551,7 +551,7 @@ const marketStores = [
             ja: "下着、靴下、ランジェリーセットなどをお手頃な価格で販売しています。"
         },
     specialty: { ko: "양말 2,000 ~ 4,000원 &nbsp;&nbsp;&nbsp; 팬티 세트 15,000 ~ 30,000원 <br> 메리야쓰 세트 18,000 ~ 30,000원", 
-                     en: "Socks 2,000 ~ 4,000KRW &nbsp;&nbsp;&nbsp; Panty Sets 15,000 ~ 30,000KRW <br> Undershirt Sets 18,000 ~ 30,000KRW", 
+                     en: "Socks 2,000 ~ 4,000KRW &nbsp;&nbsp;&nbsp; Panties Set 15,000 ~ 30,000KRW <br> Undershirt Set 18,000 ~ 30,000KRW", 
                      cn: "袜子 2,000 ~ 4,000韩元 &nbsp;&nbsp;&nbsp; 内裤套装 15,000 ~ 30,000韩元 <br> 内衣套装 18,000 ~ 30,000韩元", 
                      ja: "靴下 2,000 ~ 4,000ウォン &nbsp;&nbsp;&nbsp; 内衣セット 15,000 ~ 30,000ウォン <br> 下着セット 18,000 ~ 30,000ウォン" },
         query: "mihyang.html"
@@ -584,10 +584,10 @@ const marketStores = [
             cn: "在炭火烤盘上享用美味的猪排和洛杉矶排骨的烤肉店。位于市场入口处。",
             ja: "ジューシーな豚カルビとLAカルビを炭火で楽しめる焼肉店です。市場の入口にあります。"
         },
-        specialty: { ko: "돼지 왕갈비 20,000원 &nbsp;&nbsp;&nbsp; 양념 소갈비살 24,000원  <bt> LA 양념갈비 27,000원 &nbsp;&nbsp;&nbsp; 냉면 8,000원 ",
-             en: "Pork Ribs 20,000 KRW &nbsp;&nbsp;&nbsp; Marinated Beef Ribs 24,000 KRW <bt> LA Marinated Ribs 27,000 KRW &nbsp;&nbsp;&nbsp; Nengmyeon (Cold Noodles) 8,000 KRW ", 
-             cn: "猪排 20,000韩元 &nbsp;&nbsp;&nbsp; 腌制牛排 24,000韩元 <bt> 洛杉矶腌制排骨 27,000韩元 &nbsp;&nbsp;&nbsp; 冷面 8,000韩元 ", 
-             ja: "豚カルビ 20,000ウォン &nbsp;&nbsp;&nbsp; 腌製牛肉カルビ 24,000ウォン <bt> LA 腌製カルビ 27,000ウォン &nbsp;&nbsp;&nbsp; 冷麺 8,000ウォン " },
+        specialty: { ko: "돼지 왕갈비 20,000원(280g) &nbsp;&nbsp;&nbsp; 양념 소갈비살 24,000원(160g) &nbsp;&nbsp;&nbsp; 돼지 등갈비 19,000원(250g) <br> LA 양념갈비 27,000원(250g) &nbsp;&nbsp;&nbsp; 냉면 8,000원 &nbsp;&nbsp;&nbsp;설렁탕 12,000원",
+             en: "Pork Ribs 20,000 KRW (280g) &nbsp;&nbsp;&nbsp; Marinated Beef Ribs 24,000 KRW (160g) &nbsp;&nbsp;&nbsp; Grilled Pork Back Ribs 19,000 KRW(250g) <br> LA Marinated Ribs 27,000 KRW &nbsp;&nbsp;&nbsp; Nengmyeon (Cold Noodles) 8,000 KRW &nbsp;&nbsp;&nbsp; Seolleongtang (Ox Bone Soup) 12,000 KRW", 
+             cn: "猪排 20,000韩元 (280g)&nbsp;&nbsp;&nbsp; 腌制牛排 24,000韩元 (160g)&nbsp;&nbsp;&nbsp; 猪背排19,000韩元 (250g) <br> 洛杉矶腌制排骨 27,000韩元 &nbsp;&nbsp;&nbsp; 冷面 8,000韩元 &nbsp;&nbsp;&nbsp;雪浓汤（牛骨汤） 12,000韩元", 
+             ja: "豚カルビ 20,000ウォン (280g)&nbsp;&nbsp;&nbsp; 腌製牛肉カルビ 24,000ウォン (160g) &nbsp;&nbsp;&nbsp; 豚バックリブ 19,000ウォン (250g)<br> LA 腌製カルビ 27,000ウォン &nbsp;&nbsp;&nbsp; 冷麺 8,000ウォン &nbsp;&nbsp;&nbsp; ソルロンタン（牛骨スープ）12,000ウォン" },
         query: "parkdaegam.html"
     },
       {
