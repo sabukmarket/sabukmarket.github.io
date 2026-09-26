@@ -53,10 +53,10 @@ const marketStores = [
             en: "We sell fresh meats by cut, including pork belly, sirloin, and beef ribs. Located right inside the market alley.",
             cn: "出售五花肉、里脊肉、牛排条等各类部位的新鲜肉品。位于市场小巷内。",
             ja: "サムギョプサル（豚バラ）、ロース、牛カルビなど、新鮮なお肉を部位別に取り揃えております。市場の路地内に位置しています。"},
-        specialty: { ko: "*한우, 돼지고기 가격은 시세에 따라 변동됩니다.", 
-                     en: "*Prices for Korean beef, pork vary according to market rates.", 
-                     cn: "*韩国牛、猪肉的价格会根据市场行情波动。", 
-                     ja: "*韓国牛、豚肉の価格は市場レートに応じて変動します。" },
+        specialty: { ko: "*한우, 돼지고기 가격은 시세에 따라 변동됩니다.<br>앞다리살, 등갈비, 차돌박이, 목살 등 600g 단위로 판매.", 
+                     en: "*Prices for Korean beef, pork vary according to market rates. <br> Pork shoulder (front leg), baby back ribs, beef brisket, pork neck/collar, etc., sold in 600g portions.", 
+                     cn: "*韩国牛、猪肉的价格会根据市场行情波动。<br>猪前腿肉、排骨（背排）、牛胸肉（肥牛板筋）、猪梅花肉等，按600克（每斤多/一份）单位出售。", 
+                     ja: "*韓国牛、豚肉の価格は市場レートに応じて変動します。<br>豚前足肉、バックリブ（背骨側スペアリブ）、チャドルバギ（牛あばら肉の薄切り）、豚肩ロースなど、600g単位で販売。" },
         query: "hanwoo.html"
     }
 ];
