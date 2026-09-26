@@ -889,9 +889,9 @@ const marketStores = [
             ja: "新鮮な野菜や果物を販売しています。市場の一番奥にあるお店です！"
         },
         specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 상추, 사과, 감자, 양파, 포도, 가지, 고추 등. <br>정선깐더덕 10,000원  정선곤드레 12,000원  정선고사리 20,000원", 
-                     en: "(Prices may vary depending on the market.) Lettuce, apples, potatoes, onions, grapes, eggplants, chili peppers, etc. <br>Peeled Jeongseon Deodeok (Codonopsis Root) KRW 10,000 Jeongseon Gondre (Dried Thistle) KRW 12,000 <br>Jeongseon Gosari (Dried Bracken) KRW 20,000", 
-                     cn: "(价格可能因市场而异。) 生菜、苹果、土豆、洋葱、葡萄、茄子、辣椒等。<br>旌善去皮沙参 10,000韩元 旌善山蓟菜（贡德莱） 12,000韩元 <br> 旌善蕨菜 20,000韩元", 
-                     ja: "(価格は市場による。) サンチュ（レタス）、リンゴ、ジャガイモ、玉ねぎ、ブドウ、ナス、唐辛子など。<br>旌善（チョンソン）皮むきツルニンジン 10,000ウォン 旌善（チョンソン）コンドレ（コウロボク） 12,000ウォン <br>旌善（チョンソン）ワラビ 20,000ウォン" },
+                     en: "(Prices may vary depending on the market.) Lettuce, apples, potatoes, onions, grapes, eggplants, chili peppers, etc. <br>Peeled Jeongseon Deodeok (Codonopsis Root) KRW 10,000 <br>Jeongseon Gondre (Dried Thistle) KRW 12,000 <br>Jeongseon Gosari (Dried Bracken) KRW 20,000", 
+                     cn: "(价格可能因市场而异。) 生菜、苹果、土豆、洋葱、葡萄、茄子、辣椒等。<br>旌善去皮沙参 10,000韩元 <br> 旌善山蓟菜（贡德莱） 12,000韩元 <br> 旌善蕨菜 20,000韩元", 
+                     ja: "(価格は市場による。) サンチュ（レタス）、リンゴ、ジャガイモ、玉ねぎ、ブドウ、ナス、唐辛子など。<br>旌善（チョンソン）皮むきツルニンジン 10,000ウォン <br>旌善（チョンソン）コンドレ（コウロボク） 12,000ウォン <br>旌善（チョンソン）ワラビ 20,000ウォン" },
         query: "ppoppi.html"
     },
      {
