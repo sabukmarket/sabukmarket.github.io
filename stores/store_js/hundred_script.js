@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "천지골백가지농원", en: "Cheonjigol Baekgaji Farm (100 Grains & Produce)", cn: "百家农园", ja: "ペッカジ(百種)農園" },
+        name: { ko: "천지골백가지농원", en: "Cheonjigol Baekgaji Farm (100 Grains & Produce)", cn: "天地谷百种农园", ja: "天地谷（チョンジゴル）百種農園" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
