@@ -397,10 +397,10 @@ const marketStores = [
             cn: "从贡德雷套餐到烤鱼、杜鹃花炖菜和嫩豆腐汤等多样的韩式菜单都可以享用。位于市场正门旁边。",
             ja: "ゴンドレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
         },
-        specialty: { ko: "곤드레정식 18,000원 &nbsp;&nbsp;&nbsp; 임연수구이 17,000원 <br> 고등어구이 15,000원 &nbsp;&nbsp;&nbsp; 더덕구이 17,000원",
-             en: "Gondre Set Meal 18,000 KRW &nbsp;&nbsp;&nbsp; Grilled Atka Mackerel 17,000 KRW <br> Grilled Mackerel 15,000 KRW &nbsp;&nbsp;&nbsp; Grilled Deodeok 17,000 KRW", 
-             cn: "山蓟菜套餐 18,000韩元 &nbsp;&nbsp;&nbsp; 烤银鳕鱼 17,000韩元 <br> 烤鲭鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 烤杜鹃花 17,000韩元", 
-             ja: "ゴンドレ定食 18,000ウォン &nbsp;&nbsp;&nbsp; ホッケ焼き 17,000ウォン <br> サバの塩焼き 15,000ウォン &nbsp;&nbsp;&nbsp; グリルされたデオドク 17,000ウォン" },
+        specialty: { ko: "곤드레정식 18,000원 &nbsp;&nbsp;&nbsp; 임연수구이 17,000원&nbsp;&nbsp;&nbsp; 순두부찌개 12,000원 <br> 고등어구이 15,000원 &nbsp;&nbsp;&nbsp; 더덕구이 17,000원&nbsp;&nbsp;&nbsp;황태구이 17,000원",
+             en: "Gondre Set Meal 18,000 KRW &nbsp;&nbsp;&nbsp; Grilled Atka Mackerel 17,000 &nbsp;&nbsp;&nbsp;KRW Soft Tofu Stew <br> Grilled Mackerel 15,000 KRW &nbsp;&nbsp;&nbsp; Grilled Deodeok 17,000 KRW&nbsp;&nbsp;&nbsp;Grilled Dried Pollock with Spicy Seasoning 17,000 KRW", 
+             cn: "山蓟菜套餐 18,000韩元 &nbsp;&nbsp;&nbsp; 烤银鳕鱼 17,000韩元 &nbsp;&nbsp;&nbsp;嫩豆腐煲 12,000韩元<br> 烤鲭鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 烤沙参 17,000韩元 &nbsp;&nbsp;&nbsp;烤干明太鱼 17,000韩元", 
+             ja: "ゴンドレ定食 18,000ウォン &nbsp;&nbsp;&nbsp; ホッケ焼き 17,000ウォン  &nbsp;&nbsp;&nbsp;スンドゥブチゲ 12,000ウォン <br> サバの塩焼き 15,000ウォン &nbsp;&nbsp;&nbsp; 蔓人蔘焼き(デオドク) 17,000ウォン&nbsp;&nbsp;&nbsp;ファンテグイ（干しスケトウダラのピリ辛焼き） 17,000ウォン" },
         query: "gangneungrestaurant.html"
     },
       {
@@ -465,10 +465,10 @@ const marketStores = [
             cn: "紫菜包饭和拉面？紫菜包饭和辣炒年糕？紫菜包饭和嫩豆腐煲？任何组合都很棒。",
             ja: "キンパとラーメン？キンパとトッポッキ？キンパとスンドゥブチゲ？どの組み合わせも相性抜群です。"
         },
-        specialty: { ko: "원조김밥 3,000원 &nbsp;&nbsp;&nbsp; 볶음밥 9,000원 <br> 순두부 9,000원 &nbsp;&nbsp;&nbsp; 떡만둣국 9,000원",
-             en: "Original Gimbap 3,000 KRW &nbsp;&nbsp;&nbsp; Fried Rice 9,000 KRW <br> Soft Tofu Stew 9,000 KRW &nbsp;&nbsp;&nbsp; Rice Cake Dumpling Soup 9,000 KRW", 
-             cn: "原味紫菜包饭 3,000韩元 &nbsp;&nbsp;&nbsp; 炒饭 9,000韩元 <br> 嫩豆腐煲 9,000韩元 &nbsp;&nbsp;&nbsp; 年糕饺子汤 9,000韩元", 
-             ja: "オリジナルキンパ 3,000 &nbsp;&nbsp;&nbsp; やきめし 9,000 <br> ンドゥブチゲ 9,000 &nbsp;&nbsp;&nbsp; 餅と餃子のスープ 9,000" },
+       specialty: { ko: "원조김밥 3,500원 &nbsp;&nbsp;&nbsp; 김치볶음밥 9,000원 &nbsp;&nbsp;&nbsp;라면 5,000원 <br> 순두부찌개 9,000원 &nbsp;&nbsp;&nbsp; 떡만둣국 9,000원",
+             en: "Original Gimbap 3,500 KRW &nbsp;&nbsp;&nbsp; Kimchi Fried Rice 9,000 KRW &nbsp;&nbsp;&nbsp; Ramyeon 5,000 KRW<br> Soft Tofu Stew 9,000 KRW &nbsp;&nbsp;&nbsp; Rice Cake Dumpling Soup 9,000 KRW", 
+             cn: "原味紫菜包饭 3,500韩元 &nbsp;&nbsp;&nbsp; 辣白菜炒饭 9,000韩元&nbsp;&nbsp;&nbsp; 辛拉面 5,000韩元<br> 嫩豆腐煲 9,000韩元 &nbsp;&nbsp;&nbsp; 年糕饺子汤 9,000韩元", 
+             ja: "オリジナルキンパ 3,500ウォン &nbsp;&nbsp;&nbsp; キムチポックンパ 9,000ウォン &nbsp;&nbsp;&nbsp;ラミョン（韓国ラーメン） 5,000ウォン<br> スンドゥブチゲ 9,000ウォン &nbsp;&nbsp;&nbsp; 餅と餃子のスープ 9,000ウォン" },
         query: "gimbapnara.html"
     },
      {
@@ -499,10 +499,10 @@ const marketStores = [
             cn: "在这里可以找到旌善郡和舍北的可爱独特商品。如果您想购买礼物，这里是必去之地。",
             ja: "旌善郡と舎北のかわいい独特なグッズに出会える。贈り物を買うなら必ず訪れるべき場所の一つです。"
         },
-    specialty: { ko: "다양한 가격의 굿즈 5,000 ~ 30,000원", 
-                     en: "Merchandise in various prices 5,000-30,000KRW", 
-                     cn: "各种价格的商品 5,000 ~ 30,000韩元", 
-                     ja: "様々な価格のグッズ 5,000 ~ 30,000ウォン" },
+   specialty: { ko: "정선화투래요(지역관광화투) 15,000원 &nbsp;&nbsp;&nbsp; 정선마그넷 6,000 ~ 15,000원 <br> 정선을 기억해 엽서 2,000 ~ 2,500원", 
+                     en: "Jeongseon Edition Hwatu Playing Cards 15,000 KRW&nbsp;&nbsp;&nbsp;Jeongseon Souvenir Magnet 6,000 - 15,000 KRW <br> 'Remember Jeongseon' Postcard 2,000-2,500 KRW", 
+                     cn: "旌善花牌（地方特色旅游花牌） 15,000韩元&nbsp;&nbsp;&nbsp; 旌善特色冰箱贴 6,000 - 15,000韩元<br> '记住旌善'明信片 2,000 - 2,500韩元", 
+                     ja: "旌善花札（ご当地観光花札） 15,000ウォン&nbsp;&nbsp;&nbsp; 旌善（チョンソン）マグネット 6,000 - 15,000ウォン<br> 「チョンソンを記憶して」絵はがき 2,000 - 2,500ウォン" },
         query: "daheemarket.html"
     },
       {

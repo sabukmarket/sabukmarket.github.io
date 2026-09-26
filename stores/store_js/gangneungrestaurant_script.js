@@ -55,11 +55,11 @@ const marketStores = [
             cn: "从贡德雷套餐到烤鱼、杜鹃花炖菜和嫩豆腐汤等多样的韩式菜单都可以享用。位于市场正门旁边。",
             ja: "ゴンドレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
         },
-        specialty: { ko: "곤드레정식 18,000원 &nbsp;&nbsp;&nbsp; 임연수구이 17,000원 <br> 고등어구이 15,000원 &nbsp;&nbsp;&nbsp; 더덕구이 17,000원",
-             en: "Gondre Set Meal 18,000 KRW &nbsp;&nbsp;&nbsp; Grilled Atka Mackerel 17,000 KRW <br> Grilled Mackerel 15,000 KRW &nbsp;&nbsp;&nbsp; Grilled Deodeok 17,000 KRW", 
-             cn: "山蓟菜套餐 18,000韩元 &nbsp;&nbsp;&nbsp; 烤银鳕鱼 17,000韩元 <br> 烤鲭鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 烤沙参 17,000韩元", 
-             ja: "ゴンドレ定食 18,000ウォン &nbsp;&nbsp;&nbsp; ホッケ焼き 17,000ウォン <br> サバの塩焼き 15,000ウォン &nbsp;&nbsp;&nbsp; 蔓人蔘焼き(デオドク) 17,000ウォン" },
-        query: "강릉식당"
+        specialty: { ko: "곤드레정식 18,000원 &nbsp;&nbsp;&nbsp; 임연수구이 17,000원&nbsp;&nbsp;&nbsp; 순두부찌개 12,000원 <br> 고등어구이 15,000원 &nbsp;&nbsp;&nbsp; 더덕구이 17,000원&nbsp;&nbsp;&nbsp;황태구이 17,000원",
+             en: "Gondre Set Meal 18,000 KRW &nbsp;&nbsp;&nbsp; Grilled Atka Mackerel 17,000 &nbsp;&nbsp;&nbsp;KRW Soft Tofu Stew <br> Grilled Mackerel 15,000 KRW &nbsp;&nbsp;&nbsp; Grilled Deodeok 17,000 KRW&nbsp;&nbsp;&nbsp;Grilled Dried Pollock with Spicy Seasoning 17,000 KRW", 
+             cn: "山蓟菜套餐 18,000韩元 &nbsp;&nbsp;&nbsp; 烤银鳕鱼 17,000韩元 &nbsp;&nbsp;&nbsp;嫩豆腐煲 12,000韩元<br> 烤鲭鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 烤沙参 17,000韩元 &nbsp;&nbsp;&nbsp;烤干明太鱼 17,000韩元", 
+             ja: "ゴンドレ定食 18,000ウォン &nbsp;&nbsp;&nbsp; ホッケ焼き 17,000ウォン  &nbsp;&nbsp;&nbsp;スンドゥブチゲ 12,000ウォン <br> サバの塩焼き 15,000ウォン &nbsp;&nbsp;&nbsp; 蔓人蔘焼き(デオドク) 17,000ウォン&nbsp;&nbsp;&nbsp;ファンテグイ（干しスケトウダラのピリ辛焼き） 17,000ウォン" },
+        query: "gangneungrestaurant.html"
     }
 ];
 

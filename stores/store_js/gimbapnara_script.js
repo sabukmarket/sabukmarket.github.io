@@ -54,10 +54,10 @@ const marketStores = [
             cn: "紫菜包饭和拉面？紫菜包饭和辣炒年糕？紫菜包饭和嫩豆腐煲？任何组合都很棒。",
             ja: "キンパとラーメン？キンパとトッポッキ？キンパとスンドゥブチゲ？どの組み合わせも相性抜群です。"
         },
-        specialty: { ko: "원조김밥 3,000원 &nbsp;&nbsp;&nbsp; 볶음밥 9,000원 <br> 순두부 9,000원 &nbsp;&nbsp;&nbsp; 떡만둣국 9,000원",
-             en: "Original Gimbap 3,000 KRW &nbsp;&nbsp;&nbsp; Fried Rice 9,000 KRW <br> Soft Tofu Stew 9,000 KRW &nbsp;&nbsp;&nbsp; Rice Cake Dumpling Soup 9,000 KRW", 
-             cn: "原味紫菜包饭 3,000韩元 &nbsp;&nbsp;&nbsp; 炒饭 9,000韩元 <br> 嫩豆腐煲 9,000韩元 &nbsp;&nbsp;&nbsp; 年糕饺子汤 9,000韩元", 
-             ja: "オリジナルキンパ 3,000 &nbsp;&nbsp;&nbsp; やきめし 9,000 <br> ンドゥブチゲ 9,000 &nbsp;&nbsp;&nbsp; 餅と餃子のスープ 9,000" },
+        specialty: { ko: "원조김밥 3,500원 &nbsp;&nbsp;&nbsp; 김치볶음밥 9,000원 &nbsp;&nbsp;&nbsp;라면 5,000원 <br> 순두부찌개 9,000원 &nbsp;&nbsp;&nbsp; 떡만둣국 9,000원",
+             en: "Original Gimbap 3,500 KRW &nbsp;&nbsp;&nbsp; Kimchi Fried Rice 9,000 KRW &nbsp;&nbsp;&nbsp; Ramyeon 5,000 KRW<br> Soft Tofu Stew 9,000 KRW &nbsp;&nbsp;&nbsp; Rice Cake Dumpling Soup 9,000 KRW", 
+             cn: "原味紫菜包饭 3,500韩元 &nbsp;&nbsp;&nbsp; 辣白菜炒饭 9,000韩元&nbsp;&nbsp;&nbsp; 辛拉面 5,000韩元<br> 嫩豆腐煲 9,000韩元 &nbsp;&nbsp;&nbsp; 年糕饺子汤 9,000韩元", 
+             ja: "オリジナルキンパ 3,500ウォン &nbsp;&nbsp;&nbsp; キムチポックンパ 9,000ウォン &nbsp;&nbsp;&nbsp;ラミョン（韓国ラーメン） 5,000ウォン<br> スンドゥブチゲ 9,000ウォン &nbsp;&nbsp;&nbsp; 餅と餃子のスープ 9,000ウォン" },
         query: "gimbapnara.html"
     }
 ];

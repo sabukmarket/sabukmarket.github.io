@@ -54,10 +54,10 @@ const marketStores = [
             cn: "在这里可以找到旌善郡和舍北的可爱独特商品。如果您想购买礼物，这里是必去之地。",
             ja: "旌善郡と舎北のかわいい独特なグッズに出会える。贈り物を買うなら必ず訪れるべき場所の一つです。"
         },
-    specialty: { ko: "다양한 가격의 굿즈 5,000 ~ 30,000원", 
-                     en: "Merchandise in various prices 5,000-30,000KRW", 
-                     cn: "各种价格的商品 5,000 ~ 30,000韩元", 
-                     ja: "様々な価格のグッズ 5,000 ~ 30,000ウォン" },
+    specialty: { ko: "정선화투래요(지역관광화투) 15,000원 &nbsp;&nbsp;&nbsp; 정선마그넷 6,000 ~ 15,000원 <br> 정선을 기억해 엽서 2,000 ~ 2,500원", 
+                     en: "Jeongseon Edition Hwatu Playing Cards 15,000 KRW&nbsp;&nbsp;&nbsp;Jeongseon Souvenir Magnet 6,000 - 15,000 KRW <br> 'Remember Jeongseon' Postcard 2,000-2,500 KRW", 
+                     cn: "旌善花牌（地方特色旅游花牌） 15,000韩元&nbsp;&nbsp;&nbsp; 旌善特色冰箱贴 6,000 - 15,000韩元<br> '记住旌善'明信片 2,000 - 2,500韩元", 
+                     ja: "旌善花札（ご当地観光花札） 15,000ウォン&nbsp;&nbsp;&nbsp; 旌善（チョンソン）マグネット 6,000 - 15,000ウォン<br> 「チョンソンを記憶して」絵はがき 2,000 - 2,500ウォン" },
         query: "daheemarket.html"
     }
 ];
