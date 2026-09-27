@@ -672,7 +672,7 @@ const marketStores = [
              en: "1++ Hanwoo Sirloin 45,000KRW &nbsp;&nbsp;&nbsp; Pork Belly 18,000KRW <br> Soybean Paste Stew with Beef Brisket 12,000KRW &nbsp;&nbsp;&nbsp; Hanwoo Bulgogi Hot Pot 20,000KRW", 
              cn: "1++ 韩牛西冷 45,000韩元 &nbsp;&nbsp;&nbsp; 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 &nbsp;&nbsp;&nbsp; 韩牛烤肉火锅 20,000韩元", 
              ja: "1++ 韓国牛のシーロイン 45,000KRW &nbsp;&nbsp;&nbsp; 豚のヒレ 18,000KRW <br> 牛ともばら肉入りテンジャンチゲ 12,000KRW &nbsp;&nbsp;&nbsp; 韓国牛のプルゴギ鍋 20,000KRW" },
-        query: "woohwajeong.html"
+        query: "uhwajeong.html"
     },
     {
         id: 25,
