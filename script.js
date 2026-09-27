@@ -601,10 +601,10 @@ const marketStores = [
             cn: "如果您想享受符合您口味的意大利融合面食，请到青年商场三楼，我们在等您。",
             ja: "自分の味覚にぴったり合うイタリアンフュージョンの麺料理を楽しみたい方は、青年モールの3階でお待ちしております。"
         },
-        specialty: { ko: "김치필라프 11,900원 &nbsp;&nbsp;&nbsp; 베이컨까르보나라 11,900원 <br> 그릴드치킨크림 13,900원 &nbsp;&nbsp; 해물크림파스타 12,900원",
-             en: "Kimchi Pilaf 11,900 KRW &nbsp;&nbsp;&nbsp; Bacon Carbonara 11,900 KRW <br> Grilled Chicken Cream 13,900 KRW &nbsp;&nbsp; Seafood Cream Pasta 12,900 KRW", 
-             cn: "泡菜饭 11,900韩元 &nbsp;&nbsp;&nbsp; 培根卡博纳拉 11,900韩元 <br> 烤鸡肉奶油 13,900韩元 &nbsp;&nbsp; 海鲜奶油意面 12,900韩元", 
-             ja: "キムチピラフ 11,900 &nbsp;&nbsp;&nbsp; ベーコンカルボナーラ 11,900 <br> グリルドチキンクリーム 13,900 &nbsp;&nbsp; シーフードクリームパスタ 12,900" },
+        specialty: { ko: "김치필라프 11,900원 &nbsp;&nbsp;&nbsp; 베이컨까르보나라 11,900원 <br> 그릴드치킨크림 13,900원 &nbsp;&nbsp; 해물크림파스타 12,900원<br>목살그릴스테이크(450g) 23,900원 &nbsp;&nbsp; 까르보나라리조또 12,900원",
+             en: "Kimchi Pilaf 11,900 KRW &nbsp;&nbsp;&nbsp; Bacon Carbonara 11,900 KRW <br> Grilled Chicken Cream 13,900 KRW &nbsp;&nbsp; Seafood Cream Pasta 12,900 KRW<br>Grilled Pork Neck Steak (450g) 23,900 KRW &nbsp;&nbsp; Carbonara Risotto 12,900 KRW", 
+             cn: "泡菜饭 11,900韩元 &nbsp;&nbsp;&nbsp; 培根卡博纳拉 11,900韩元 <br> 烤鸡肉奶油 13,900韩元 &nbsp;&nbsp; 海鲜奶油意面 12,900韩元 <br> 碳烤猪梅花肉排 (450g) 23,900韩元 &nbsp;&nbsp; 培根蛋酱烩饭（卡邦尼意大利炖饭） 12,900韩元", 
+             ja: "キムチピラフ 11,900ウォン &nbsp;&nbsp;&nbsp; ベーコンカルボナーラ 11,900ウォン <br> グリルドチキンクリーム 13,900ウォン &nbsp;&nbsp; シーフードクリームパスタ 12,900ウォン<br>豚肩ロースのグリルステーキ (450g) 23,900ウォン &nbsp;&nbsp; カルボナーラリゾット 12,900ウォン" },
         query: "ppastar.html"
     },
      {
