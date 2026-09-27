@@ -49,15 +49,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "과일, 건어물 및 지역 농산물을 판매하고 있습니다.",
-            en: "A store where you can find a variety of local produce and dried goods.",
-            cn: "销售各种当地农产品和干货。",
-            ja: "様々な地域の農産物と干物を販売中。"
+            ko: "다양한 종류의 식료품 및 건어물을 판매합니다. 시세에 따라 가격이 바뀔 수 있습니다.", 
+                     en: "We offer a wide variety of groceries and dried seafood. Prices are subject to change based on market rates.", 
+                     cn: "本店销售各种食品杂货及干货海鲜。价格可能会根据市场行情变动。", 
+                     ja: "各種食料品・乾物（干物）販売。時価・仕入れ相場により価格が変動する場合がございます。"
         },
-        specialty: { ko: "과일, 곤드레, 취나물, 더덕, 고사리 등을 시세에 따라 판매합니다.", 
-                     en: "We sell fruits, gondre (wild thistle), chwinamul (wild aster), deodeok (bonnet bellflower root), and fernbrake (gosari) at current market prices.", 
-                     cn: "按时价出售水果、山蓟菜、短果茴芹（香菜/野菜）、沙参、蕨菜等。", 
-                     ja: "果物、ゴンドゥレ（高麗アザミ）、シラヤマギク（山菜）、ツルニンジン、ワラビなどを時価で販売しています。" },
+        specialty: { ko: "수제 손만두(냉동) 10,000원 &nbsp;&nbsp;&nbsp; 국산 건멸치 10,000원 <br>정선 고사리 20,000원", 
+                     en: "Frozen Handmade Dumplings 10,000 KRW &nbsp;&nbsp;&nbsp; Korean Dried Anchovies 10,000 KRW <br> Jeongseon Gosari (Dried Bracken) 20,000 KRW", 
+                     cn: "手工饺子（冷冻） 10,000韩元 &nbsp;&nbsp;&nbsp; 韩国产干鳀鱼 10,000韩元 <br> 旌善蕨菜 20,000韩元", 
+                     ja: "手作り餃子（冷凍） 10,000ウォン &nbsp;&nbsp;&nbsp; 韓国産煮干し 10,000ウォン<br> 旌善ワラビ 20,000ウォン" },
         query: "seoulfood.html"
     }
 ];
