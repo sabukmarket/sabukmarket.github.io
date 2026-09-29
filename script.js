@@ -1234,6 +1234,23 @@ const marketStores = [
                      cn: "根据时价价格会有所变动）海苔、海带、黄太鱼（干明太鱼）、豆类等。", 
                      ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、干しスケトウダラ（ファンテ）、豆類など。" },
         query: "jonghap.html"
+    },
+     {
+        id: 58,
+        name: { ko: "진부 황태 건어물", en: "Jinbu Dried Seafood", cn: "珍富海鲜干货", ja: "珍富(チンブ)乾物店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "650 거리 가까이에 위치합니다. 다양한 건어물을 팔고 있어요!",
+            en: "Located close to 650 Street. We sell a wide variety of dried seafood.",
+            cn: "临近650街。店内出售各种海鲜干货。",
+            ja: "650通りのすぐ近くにございます。多彩な乾物を取り揃えております。"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 황태 등. 용대리 황태채, 용대리 황태포.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried pollock (hwangtae), beans and legumes, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、黄太鱼（干明太鱼）、豆类等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、干しスケトウダラ（ファンテ）、豆類など。" },
+        query: "jinbu.html"
     }
 
 ];
