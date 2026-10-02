@@ -54,10 +54,10 @@ const marketStores = [
             cn: "作为旌善郡老年就业项目的一部分运营的咖啡馆。我们提供价格实惠、美味的咖啡。",
             ja: "旌善郡シニア雇用事業の一環として運営されているカフェです。市販よりも安くて美味しいコーヒーを提供しています。"
         },
-        specialty: { ko: "아메리카노 HOT 2,500원 &nbsp;&nbsp;&nbsp; ICED 3,000원 <br> 카페라떼 HOT 3,000원 &nbsp;&nbsp;&nbsp; ICED 3,000원", 
-            en: "Americano HOT 2,500 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW <br> Café Latte HOT 3,000 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW", 
-            cn: "美式咖啡 热 2,500韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元 <br> 拿铁咖啡 热 3,000韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元", 
-            ja: "アメリカーノ HOT 2,500 &nbsp;&nbsp;&nbsp; ICED 3,000 <br> カフェラテ HOT 3,000 &nbsp;&nbsp;&nbsp; ICED 3,000" },
+        specialty: { ko: "아메리카노 HOT 2,500원 &nbsp;&nbsp;&nbsp; ICED 3,000원 <br> 카페라떼 HOT 3,000원 &nbsp;&nbsp;&nbsp; ICED 3,000원<br>팥빙수 6,000원 &nbsp;&nbsp;&nbsp; 유자차 3,000원", 
+            en: "Americano HOT 2,500 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW <br> Café Latte HOT 3,000 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW <br>Red Bean Sherbet (Patbingsu) 6,000 KRW &nbsp;&nbsp;&nbsp; Honey Citron Tea 3,000 KRW", 
+            cn: "美式咖啡 热 2,500韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元 <br> 拿铁咖啡 热 3,000韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元 <br>红豆冰沙 6,000韩元 &nbsp;&nbsp;&nbsp; 柚子茶 3,000韩元", 
+            ja: "アメリカーノ HOT 2,500ウォン &nbsp;&nbsp;&nbsp; ICED 3,000ウォン <br> カフェラテ HOT 3,000ウォン &nbsp;&nbsp;&nbsp; ICED 3,000ウォン <br>小豆かき氷(パトビンス) 6,000ウォン &nbsp;&nbsp;&nbsp; 柚子茶 3,000ウォン" },
         query: "cafegil.html"
     }
 ];

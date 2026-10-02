@@ -55,10 +55,10 @@ const marketStores = [
             cn: "热腾腾、饱腹感十足的市场风味汤饭，让您品尝旌善的地道美味。",
             ja: "熱々で満腹感のある市場風のご飯です。旌善の味をぜひお楽しみください。"
         },
-        specialty: { ko: "순대국 10,000원 &nbsp;&nbsp;&nbsp; 곤드레순대국밥 11,000원 <br> 코다리조림 15,000원 &nbsp;&nbsp;&nbsp; 순대 10,000원",
-             en: "Sundaegukbap 10,000KRW &nbsp;&nbsp;&nbsp; Gondre Sundaegukbap 11,000KRW <br> Braised Pollack 15,000KRW &nbsp;&nbsp;&nbsp; Sundae (Korean Sausage) 10,000KRW",
-             cn: "血肠汤 10,000韩元 &nbsp;&nbsp;&nbsp; 山蓟菜血肠汤饭 11,000韩元 <br> 烤鳕鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 韩式香肠 10,000韩元", 
-             ja: "スンデクッパプ 10,000KRW &nbsp;&nbsp;&nbsp; ゴンドレスンデクッパプ 11,000KRW <br> 蒸し魚 15,000KRW &nbsp;&nbsp;&nbsp; ソーセージ 10,000KRW" },
+        specialty: { ko: "순대국밥 11,000원 &nbsp;&nbsp;&nbsp; 곤드레순대국밥 12,000원 <br> 코다리조림 35,000원 &nbsp;&nbsp;&nbsp; 곤드레다슬기해장국 12,000원",
+             en: "Sundae-gukbap (Korean Blood Sausage Soup with Rice) 11,000KRW <br>> Gondre Sundae-gukbap (Blood Sausage Soup with Dried Thistle and Rice) 12,000KRW <br> Braised Semi-dried Pollock (2 Portions) 35,000KRW <br> Gondre Daseulgi-haejangguk (Marsh Snail & Thistle Hangover Soup) 12,000KRW",
+             cn: "米肠汤饭 11,000韩元 &nbsp;&nbsp;&nbsp; 山蓟菜米肠汤饭（贡德莱米肠汤饭） 11,000韩元 <br> 烤鳕鱼 35,000韩元 &nbsp;&nbsp;&nbsp; 山蓟菜川螺解酒汤（贡德莱淡水螺解酒汤） 12,000韩元", 
+             ja: "スンデクッパ（韓国式豚の血入り腸詰めクッパ） 11,000KRW &nbsp;&nbsp;&nbsp; コンドレ（コウロボク）スンデクッパ 11,000KRW <br> コダリジョリム（半干しスケトウダラの甘辛煮付け / 2人前） 35,000KRW <br> コンドレとカワニナのヘジャンク（二日酔い覚ましスープ） 12,000KRW" },
         query: "sundaegukbap.html"
     }
 ];
