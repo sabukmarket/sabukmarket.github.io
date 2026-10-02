@@ -54,10 +54,10 @@ const marketStores = [
             cn: "可以轻松享用饺子汤、荞麦煎饼等当地乡土美食的温馨餐馆。",
             ja: "餃子スープ（マンドゥクッ）や蕎麦クレープ（チョンビョン）などの郷土料理を気軽に味わえるお店です。"
         },
-        specialty: { ko: "만두국 10,000원 &nbsp;&nbsp;&nbsp; 칼국수 9,000원 <br> 메밀전 5,000원 &nbsp;&nbsp;&nbsp; 순대 5,000원",
-             en: "Dumpling Soup 10,000 KRW &nbsp;&nbsp;&nbsp; Knife-cut Noodles (Kalguksu) 9,000 KRW <br> Buckwheat Pancake (Memiljeon) 5,000 KRW &nbsp;&nbsp;&nbsp; Korean Blood Sausage (Sundae) 5,000 KRW", 
-             cn: "饺子汤 10,000韩元 &nbsp;&nbsp;&nbsp; 刀切面 9,000韩元 <br> 荞麦煎饼 5,000韩元 &nbsp;&nbsp;&nbsp; 米肠 5,000韩元", 
-             ja: "マンドゥクッ（餃子スープ） 10,000ウォン &nbsp;&nbsp;&nbsp; カルグクス 9,000ウォン <br> 蕎麦チヂミ 5,000ウォン &nbsp;&nbsp;&nbsp; スンデ 5,000ウォン" },
+        specialty: { ko: "만두국 10,000원 &nbsp;&nbsp;&nbsp; 칼국수 9,000원 <br> 메밀전 5,000원 &nbsp;&nbsp;&nbsp; 순대 5,000원<br>머릿고기(중) 10,000원 &nbsp;&nbsp;&nbsp; 머릿고기(대) 15,000원",
+             en: "Dumpling Soup 10,000 KRW &nbsp;&nbsp;&nbsp; Knife-cut Noodles (Kalguksu) 9,000 KRW <br> Buckwheat Pancake (Memiljeon) 5,000 KRW &nbsp;&nbsp;&nbsp; Korean Blood Sausage (Sundae) 5,000 KRW <br>Boiled Pork Head Meat (M) 10,000 KRW &nbsp;&nbsp;&nbsp; Boiled Pork Head Meat (L) 15,000 KRW", 
+             cn: "饺子汤 10,000韩元 &nbsp;&nbsp;&nbsp; 刀切面 9,000韩元 <br> 荞麦煎饼 5,000韩元 &nbsp;&nbsp;&nbsp; 米肠 5,000韩元 <br>猪头肉（中） 10,000韩元 &nbsp;&nbsp;&nbsp; 猪头肉（大） 15,000韩元", 
+             ja: "マンドゥクッ（餃子スープ） 10,000ウォン &nbsp;&nbsp;&nbsp; カルグクス 9,000ウォン <br> 蕎麦チヂミ 5,000ウォン &nbsp;&nbsp;&nbsp; スンデ 5,000ウォン <br>煮込み豚の頭肉（中） 10,000ウォン &nbsp;&nbsp;&nbsp; 煮込み豚の頭肉（大） 15,000ウォン" },
         query: "haebaragi.html"
     }
 ];

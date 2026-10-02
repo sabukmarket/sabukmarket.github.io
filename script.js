@@ -465,10 +465,10 @@ const marketStores = [
             cn: "紫菜包饭和拉面？紫菜包饭和辣炒年糕？紫菜包饭和嫩豆腐煲？任何组合都很棒。",
             ja: "キンパとラーメン？キンパとトッポッキ？キンパとスンドゥブチゲ？どの組み合わせも相性抜群です。"
         },
-       specialty: { ko: "원조김밥 3,500원 &nbsp;&nbsp;&nbsp; 김치볶음밥 9,000원 &nbsp;&nbsp;&nbsp;라면 5,000원 <br> 순두부찌개 9,000원 &nbsp;&nbsp;&nbsp; 떡만둣국 9,000원",
-             en: "Original Gimbap 3,500 KRW &nbsp;&nbsp;&nbsp; Kimchi Fried Rice 9,000 KRW &nbsp;&nbsp;&nbsp; Ramyeon 5,000 KRW<br> Soft Tofu Stew 9,000 KRW &nbsp;&nbsp;&nbsp; Rice Cake Dumpling Soup 9,000 KRW", 
-             cn: "原味紫菜包饭 3,500韩元 &nbsp;&nbsp;&nbsp; 辣白菜炒饭 9,000韩元&nbsp;&nbsp;&nbsp; 辛拉面 5,000韩元<br> 嫩豆腐煲 9,000韩元 &nbsp;&nbsp;&nbsp; 年糕饺子汤 9,000韩元", 
-             ja: "オリジナルキンパ 3,500ウォン &nbsp;&nbsp;&nbsp; キムチポックンパ 9,000ウォン &nbsp;&nbsp;&nbsp;ラミョン（韓国ラーメン） 5,000ウォン<br> スンドゥブチゲ 9,000ウォン &nbsp;&nbsp;&nbsp; 餅と餃子のスープ 9,000ウォン" },
+       specialty: { ko: "원조김밥 3,500원 김치볶음밥 9,000원 <br> 라면 5,000원 비빔밥 9,000원 <br> 돈까스 10,000원",
+             en: "Original Gimbap 3,500 KRW / Kimchi Fried Rice 9,000 KRW <br> Ramyeon 5,000 KRW / Bibimbap (Mixed Rice with Vegetables & Meat) 9,000 KRW <br>Tonkatsu (Pork Cutlet) 10,000 KRW", 
+             cn: "原味紫菜包饭 3,500韩元 / 辣白菜炒饭 9,000韩元 <br> 辛拉面 5,000韩元 / 拌饭（石锅/大碗拌饭） 9,000韩元 <br> 炸猪排 10,000韩元", 
+             ja: "オリジナルキンパ 3,500ウォン / キムチポックンパ 9,000ウォン <br> ラミョン（韓国ラーメン） 5,000ウォン / ビビンバ（混ぜご飯） 9,000ウォン <br>トンカツ 10,000ウォン" },
         query: "gimbapnara.html"
     },
      {
@@ -804,10 +804,10 @@ const marketStores = [
             cn: "不仅供应丰盛的正餐，还兼售美酒与下酒菜的温馨餐馆。",
             ja: "しっかりとしたお食事だけでなく、お酒と酒の肴も豊富に取り揃えた飲食店です。"
         },
-        specialty: { ko: "김치전 10,000원 &nbsp;&nbsp;&nbsp; 모듬전 28,000원 <br> 감자전 10,000원 &nbsp;&nbsp;&nbsp; 부추전 10,000원",
-             en: "Kimchi Pancake (Kimchijeon) 10,000 KRW &nbsp;&nbsp;&nbsp; Assorted Pancakes (Modeumjeon) 28,000 KRW <br> Potato Pancake (Gamjajeon) 10,000 KRW &nbsp;&nbsp;&nbsp; Chive Pancake (Buchujeon) 10,000 KRW", 
-             cn: "泡菜煎饼 10,000韩元 &nbsp;&nbsp;&nbsp; 什锦拼盘煎饼 28,000韩元 <br> 土豆煎饼 10,000韩元 &nbsp;&nbsp;&nbsp; 韭菜煎饼 10,000韩元", 
-             ja: "キムチチヂミ 10,000ウォン &nbsp;&nbsp;&nbsp; チヂミ盛り合わせ 28,000ウォン <br> ジャガイモチヂミ 10,000ウォン &nbsp;&nbsp;&nbsp; ニラチヂミ 10,000ウォン" },
+        specialty: { ko: "모듬전 28,000원 / 해물파전 20,000원 <br> 깻잎/고추전 반반 10,000원 / 동태전 15,000원 <br> 감자전 10,000원",
+             en: "Assorted Pancakes (Modeum-jeon) KRW 28,000 / Seafood Scallion Pancake (Haemul Pajeon) KRW 20,000 <br>Half Perilla Leaf & Half Chili Pepper Pancakes KRW 10,000 / Pollack Pancakes (Dongtae-jeon) KRW 15,000 <br>Potato Pancake (Gamja-jeon) KRW 10,000", 
+             cn: "什锦煎饼 28,000韩元 / 海鲜葱饼 20,000韩元 <br>芝麻叶/辣椒煎饼拼盘（半半） 10,000韩元 / 煎冻明太鱼排 15,000韩元 <br>土豆饼（马铃薯煎饼） 10,000韩元", 
+             ja: "チヂミ盛り合わせ（モドゥムジョン） 28,000ウォン / 海鮮ネギチヂミ（ヘムルパジョン） 20,000ウォン <br>エゴマの葉＆青唐辛子チヂミ ハーフ＆ハーフ 10,000ウォン / トンテジョン（タラのピカタ） 15,000ウォン <br>ジャガイモチヂミ（カムジャジョン） 10,000ウォン" },
         query: "jeonjibsooljib.html"
     },
      {
@@ -821,10 +821,10 @@ const marketStores = [
             cn: "可以轻松享用饺子汤、荞麦煎饼等当地乡土美食的温馨餐馆。",
             ja: "餃子スープ（マンドゥクッ）や蕎麦クレープ（チョンビョン）などの郷土料理を気軽に味わえるお店です。"
         },
-        specialty: { ko: "만두국 10,000원 &nbsp;&nbsp;&nbsp; 칼국수 9,000원 <br> 메밀전 5,000원 &nbsp;&nbsp;&nbsp; 순대 5,000원",
-             en: "Dumpling Soup 10,000 KRW &nbsp;&nbsp;&nbsp; Knife-cut Noodles (Kalguksu) 9,000 KRW <br> Buckwheat Pancake (Memiljeon) 5,000 KRW &nbsp;&nbsp;&nbsp; Korean Blood Sausage (Sundae) 5,000 KRW", 
-             cn: "饺子汤 10,000韩元 &nbsp;&nbsp;&nbsp; 刀切面 9,000韩元 <br> 荞麦煎饼 5,000韩元 &nbsp;&nbsp;&nbsp; 米肠 5,000韩元", 
-             ja: "マンドゥクッ（餃子スープ） 10,000ウォン &nbsp;&nbsp;&nbsp; カルグクス 9,000ウォン <br> 蕎麦チヂミ 5,000ウォン &nbsp;&nbsp;&nbsp; スンデ 5,000ウォン" },
+        specialty: { ko: "만두국 10,000원 &nbsp;&nbsp;&nbsp; 칼국수 9,000원 <br> 메밀전 5,000원 &nbsp;&nbsp;&nbsp; 순대 5,000원<br>머릿고기(중) 10,000원 &nbsp;&nbsp;&nbsp; 머릿고기(대) 15,000원",
+             en: "Dumpling Soup 10,000 KRW &nbsp;&nbsp;&nbsp; Knife-cut Noodles (Kalguksu) 9,000 KRW <br> Buckwheat Pancake (Memiljeon) 5,000 KRW &nbsp;&nbsp;&nbsp; Korean Blood Sausage (Sundae) 5,000 KRW <br>Boiled Pork Head Meat (M) 10,000 KRW &nbsp;&nbsp;&nbsp; Boiled Pork Head Meat (L) 15,000 KRW", 
+             cn: "饺子汤 10,000韩元 &nbsp;&nbsp;&nbsp; 刀切面 9,000韩元 <br> 荞麦煎饼 5,000韩元 &nbsp;&nbsp;&nbsp; 米肠 5,000韩元 <br>猪头肉（中） 10,000韩元 &nbsp;&nbsp;&nbsp; 猪头肉（大） 15,000韩元", 
+             ja: "マンドゥクッ（餃子スープ） 10,000ウォン &nbsp;&nbsp;&nbsp; カルグクス 9,000ウォン <br> 蕎麦チヂミ 5,000ウォン &nbsp;&nbsp;&nbsp; スンデ 5,000ウォン <br>煮込み豚の頭肉（中） 10,000ウォン &nbsp;&nbsp;&nbsp; 煮込み豚の頭肉（大） 15,000ウォン" },
         query: "haebaragi.html"
     },
      {

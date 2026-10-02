@@ -54,10 +54,10 @@ const marketStores = [
             cn: "不仅供应丰盛的正餐，还兼售美酒与下酒菜的温馨餐馆。",
             ja: "しっかりとしたお食事だけでなく、お酒と酒の肴も豊富に取り揃えた飲食店です。"
         },
-        specialty: { ko: "김치전 10,000원 &nbsp;&nbsp;&nbsp; 모듬전 28,000원 <br> 감자전 10,000원 &nbsp;&nbsp;&nbsp; 부추전 10,000원",
-             en: "Kimchi Pancake (Kimchijeon) 10,000 KRW &nbsp;&nbsp;&nbsp; Assorted Pancakes (Modeumjeon) 28,000 KRW <br> Potato Pancake (Gamjajeon) 10,000 KRW &nbsp;&nbsp;&nbsp; Chive Pancake (Buchujeon) 10,000 KRW", 
-             cn: "泡菜煎饼 10,000韩元 &nbsp;&nbsp;&nbsp; 什锦拼盘煎饼 28,000韩元 <br> 土豆煎饼 10,000韩元 &nbsp;&nbsp;&nbsp; 韭菜煎饼 10,000韩元", 
-             ja: "キムチチヂミ 10,000ウォン &nbsp;&nbsp;&nbsp; チヂミ盛り合わせ 28,000ウォン <br> ジャガイモチヂミ 10,000ウォン &nbsp;&nbsp;&nbsp; ニラチヂミ 10,000ウォン" },
+        specialty: { ko: "모듬전 28,000원 / 해물파전 20,000원 <br> 깻잎/고추전 반반 10,000원 / 동태전 15,000원 <br> 감자전 10,000원",
+             en: "Assorted Pancakes (Modeum-jeon) KRW 28,000 / Seafood Scallion Pancake (Haemul Pajeon) KRW 20,000 <br>Half Perilla Leaf & Half Chili Pepper Pancakes KRW 10,000 / Pollack Pancakes (Dongtae-jeon) KRW 15,000 <br>Potato Pancake (Gamja-jeon) KRW 10,000", 
+             cn: "什锦煎饼 28,000韩元 / 海鲜葱饼 20,000韩元 <br>芝麻叶/辣椒煎饼拼盘（半半） 10,000韩元 / 煎冻明太鱼排 15,000韩元 <br>土豆饼（马铃薯煎饼） 10,000韩元", 
+             ja: "チヂミ盛り合わせ（モドゥムジョン） 28,000ウォン / 海鮮ネギチヂミ（ヘムルパジョン） 20,000ウォン <br>エゴマの葉＆青唐辛子チヂミ ハーフ＆ハーフ 10,000ウォン / トンテジョン（タラのピカタ） 15,000ウォン <br>ジャガイモチヂミ（カムジャジョン） 10,000ウォン" },
         query: "jeonjibsooljib.html"
     }
 ];
