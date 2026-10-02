@@ -54,10 +54,10 @@ const marketStores = [
             cn: "位于舍北1桥和舍北中央路交汇处的药店。所有药品均有供应！",
             ja: "サブク1番橋とサブク中央ロードの交差点に位置する薬局です。すべての薬が在庫があります！"
         },
-        specialty: { ko: "시세에 따라 감기몸살약, 소화제, 진통제 등 다양한 약품을 판매합니다.", 
-                     en: "Depending on the market price, we offer various medicines such as cold & flu medication, digestive aids, and pain relievers.", 
-                     cn: "根据市场价格，我们提供各种药品，如感冒药、助消化药和止痛药。", 
-                     ja: "市場の価格に応じて、風邪薬、消化薬、鎮痛薬などの様々な薬品を販売しています。" },
+        specialty: { ko: "타이레놀(10정) 3,000원, 판피린/판콜(종합감기약) 3,000원, 까스활명수 1병 1,100원", 
+                     en: "Tylenol (10 tablets) 3,000KRW, Panpyrin/Pancol (cold medicine) 3,000KRW, Gas Hwalmyungsoo(Carbonated Herbal Digestive Drink) 1 bottle 1,100KRW", 
+                     cn: "泰诺(10片) 3,000韩元, 盘皮林/盘可(综合感冒药) 3,000韩元, 活命水(健胃消食口服液) 1瓶 1,100韩元", 
+                     ja: "タイレノール(10錠) 3,000ウォン, パンピリン/パンコール(風邪薬) 3,000ウォン, ガスハルミョンソ(消化促進炭酸生薬ドリンク) 1本 1,100ウォン" },
         query: "yumyeongpharmacy.html"
     }
 ];

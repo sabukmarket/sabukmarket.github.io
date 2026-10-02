@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "프렌즈스크린", en: "Friend Screen", cn: "朋友模拟高尔夫(Friend Screen)", ja: "フレンズスクリーン(Friend Screen)" },
+        name: { ko: "프렌즈스크린", en: "Friends Screen", cn: "朋友模拟高尔夫(Friends Screen)", ja: "フレンズスクリーン(Friends Screen)" },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -54,10 +54,10 @@ const marketStores = [
             cn: "在市场上以实惠的价格享受模拟高尔夫的空间。与家人和朋友一起度过美好时光。",
             ja: "市場でリーズナブルな価格でスクリーンゴルフを楽しめる空間です。家族や友人と素晴らしい時間を過ごしてください。"
         },
-    specialty: { ko: "연습장이용료 1인 10,000원", 
-                     en: "Screen golf course usage fee 1 person 10,000 KRW", 
-                     cn: "练习场使用费 1人 10,000韩元", 
-                     ja: "練習場利用料 1人 10,000" },
+        specialty: { ko: "연습장이용료 1인 10,000원부터. <br> 시간대에 따라 가격이 변동됩니다(19:00 18홀 1인 18,000원).", 
+                     en: "Screen golf course usage fee 1 person 10,000 - 18,000KRW <br> Prices vary depending on the time slot (19:00 18 holes 1 person 18,000 KRW).", 
+                     cn: "练习场使用费 1人 10,000 - 18,000韩元 <br> 价格根据时间段而定（19:00 18洞 1人 18,000韩元）。", 
+                     ja: "練習場利用料 1人 10,000 - 18,000ウォン <br> 時間帯に応じて価格が変動します（19:00 18ホール 1人 18,000ウォン）。" },
         query: "friendsscreen.html"
     }
 ];

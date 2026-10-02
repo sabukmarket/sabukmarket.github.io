@@ -55,10 +55,10 @@ const marketStores = [
             cn: "一家让全家人共享的韩牛美食店。来品尝一下正宗的旌善韩牛吧！",
             ja: "家族で楽しめる韓国牛の美味しいレストランです。旌善の韓国牛をお召し上がりください！"
         },
-        specialty: { ko: "1++ 한우 등심 45,000원 &nbsp;&nbsp;&nbsp; 한돈 삼겹 18,000원 <br> 차돌된장찌개 12,000원 &nbsp;&nbsp;&nbsp; 한우불고기전골 20,000원",
-             en: "1++ Hanwoo Sirloin 45,000KRW &nbsp;&nbsp;&nbsp; Pork Belly 18,000KRW <br> Soybean Paste Stew with Beef Brisket 12,000KRW &nbsp;&nbsp;&nbsp; Hanwoo Bulgogi Hot Pot 20,000KRW", 
-             cn: "1++ 韩牛西冷 45,000韩元 &nbsp;&nbsp;&nbsp; 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 &nbsp;&nbsp;&nbsp; 韩牛烤肉火锅 20,000韩元", 
-             ja: "1++ 韓国牛のシーロイン 45,000KRW &nbsp;&nbsp;&nbsp; 豚のヒレ 18,000KRW <br> 牛ともばら肉入りテンジャンチゲ 12,000KRW &nbsp;&nbsp;&nbsp; 韓国牛のプルゴギ鍋 20,000KRW" },
+        specialty: { ko: "1++ 한우 등심 45,000원 &nbsp;&nbsp;&nbsp; 한돈 삼겹 18,000원 <br> 차돌된장찌개 12,000원 &nbsp;&nbsp;&nbsp; 한우불고기전골 20,000원 <br> 소양념갈비 38,000원 &nbsp;&nbsp;&nbsp; 물냉면 12,000원 <br> 갈비탕 17,000원",
+             en: "1++ Hanwoo Sirloin 45,000KRW &nbsp;&nbsp;&nbsp; Pork Belly 18,000KRW <br> Soybean Paste Stew with Beef Brisket 12,000KRW &nbsp;&nbsp;&nbsp; Hanwoo Bulgogi Hot Pot 20,000KRW <br> Marinated Beef Short Ribs (Yangnyeom Galbi) 38,000KRW &nbsp;&nbsp;&nbsp; Mul-naengmyeon (Cold Noodles in Chilled Broth) 12,000KRW <br> Galbi-tang (Beef Short Ribs Soup) 17,000KRW", 
+             cn: "1++ 韩牛西冷 45,000韩元 &nbsp;&nbsp;&nbsp; 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 &nbsp;&nbsp;&nbsp; 韩牛烤肉火锅 20,000韩元 <br> 调味牛排骨 38,000韩元 &nbsp;&nbsp;&nbsp; 水冷面 12,000韩元 <br> 牛排骨汤 17,000韩元", 
+             ja: "1++ 韓国牛のシーロイン 45,000ウォン &nbsp;&nbsp;&nbsp; 豚のヒレ 18,000ウォン <br> 牛ともばら肉入りテンジャンチゲ 12,000ウォン &nbsp;&nbsp;&nbsp; 韓国牛のプルゴギ鍋 20,000ウォン <br> 味付け牛カルビ（ヤンニョム牛カルビ） 38,000ウォン &nbsp;&nbsp;&nbsp; 水冷面 12,000ウォン <br> カルビタン（牛カルビスープ） 17,000ウォン" },
         query: "uhwajeong.html"
     }
 ];

@@ -668,15 +668,15 @@ const marketStores = [
             cn: "一家让全家人共享的韩牛美食店。来品尝一下正宗的旌善韩牛吧！",
             ja: "家族で楽しめる韓国牛の美味しいレストランです。旌善の韓国牛をお召し上がりください！"
         },
-        specialty: { ko: "1++ 한우 등심 45,000원 &nbsp;&nbsp;&nbsp; 한돈 삼겹 18,000원 <br> 차돌된장찌개 12,000원 &nbsp;&nbsp;&nbsp; 한우불고기전골 20,000원",
-             en: "1++ Hanwoo Sirloin 45,000KRW &nbsp;&nbsp;&nbsp; Pork Belly 18,000KRW <br> Soybean Paste Stew with Beef Brisket 12,000KRW &nbsp;&nbsp;&nbsp; Hanwoo Bulgogi Hot Pot 20,000KRW", 
-             cn: "1++ 韩牛西冷 45,000韩元 &nbsp;&nbsp;&nbsp; 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 &nbsp;&nbsp;&nbsp; 韩牛烤肉火锅 20,000韩元", 
-             ja: "1++ 韓国牛のシーロイン 45,000KRW &nbsp;&nbsp;&nbsp; 豚のヒレ 18,000KRW <br> 牛ともばら肉入りテンジャンチゲ 12,000KRW &nbsp;&nbsp;&nbsp; 韓国牛のプルゴギ鍋 20,000KRW" },
+        specialty: { ko: "1++ 한우 등심 45,000원 &nbsp;&nbsp;&nbsp; 한돈 삼겹 18,000원 <br> 차돌된장찌개 12,000원 &nbsp;&nbsp;&nbsp; 한우불고기전골 20,000원 <br> 소양념갈비 38,000원 &nbsp;&nbsp;&nbsp; 물냉면 12,000원 <br> 갈비탕 17,000원",
+             en: "1++ Hanwoo Sirloin 45,000KRW &nbsp;&nbsp;&nbsp; Pork Belly 18,000KRW <br> Soybean Paste Stew with Beef Brisket 12,000KRW &nbsp;&nbsp;&nbsp; Hanwoo Bulgogi Hot Pot 20,000KRW <br> Marinated Beef Short Ribs (Yangnyeom Galbi) 38,000KRW &nbsp;&nbsp;&nbsp; Mul-naengmyeon (Cold Noodles in Chilled Broth) 12,000KRW <br> Galbi-tang (Beef Short Ribs Soup) 17,000KRW", 
+             cn: "1++ 韩牛西冷 45,000韩元 &nbsp;&nbsp;&nbsp; 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 &nbsp;&nbsp;&nbsp; 韩牛烤肉火锅 20,000韩元 <br> 调味牛排骨 38,000韩元 &nbsp;&nbsp;&nbsp; 水冷面 12,000韩元 <br> 牛排骨汤 17,000韩元", 
+             ja: "1++ 韓国牛のシーロイン 45,000ウォン &nbsp;&nbsp;&nbsp; 豚のヒレ 18,000ウォン <br> 牛ともばら肉入りテンジャンチゲ 12,000ウォン &nbsp;&nbsp;&nbsp; 韓国牛のプルゴギ鍋 20,000ウォン <br> 味付け牛カルビ（ヤンニョム牛カルビ） 38,000ウォン &nbsp;&nbsp;&nbsp; 水冷面 12,000ウォン <br> カルビタン（牛カルビスープ） 17,000ウォン" },
         query: "uhwajeong.html"
     },
     {
         id: 25,
-        name: { ko: "프렌즈스크린", en: "Friend Screen", cn: "朋友模拟高尔夫(Friend Screen)", ja: "フレンズスクリーン(Friend Screen)" },
+        name: { ko: "프렌즈스크린", en: "Friends Screen", cn: "朋友模拟高尔夫(Friends Screen)", ja: "フレンズスクリーン(Friends Screen)" },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -685,10 +685,10 @@ const marketStores = [
             cn: "在市场上以实惠的价格享受模拟高尔夫的空间。与家人和朋友一起度过美好时光。",
             ja: "市場でリーズナブルな価格でスクリーンゴルフを楽しめる空間です。家族や友人と素晴らしい時間を過ごしてください。"
         },
-    specialty: { ko: "연습장이용료 1인 10,000원", 
-                     en: "Screen golf course usage fee 1 person 10,000 KRW", 
-                     cn: "练习场使用费 1人 10,000韩元", 
-                     ja: "練習場利用料 1人 10,000" },
+    specialty: { ko: "연습장이용료 1인 10,000원부터. <br> 시간대에 따라 가격이 변동됩니다(19:00 18홀 1인 18,000원).", 
+                     en: "Screen golf course usage fee 1 person 10,000 - 18,000KRW <br> Prices vary depending on the time slot (19:00 18 holes 1 person 18,000 KRW).", 
+                     cn: "练习场使用费 1人 10,000 - 18,000韩元 <br> 价格根据时间段而定（19:00 18洞 1人 18,000韩元）。", 
+                     ja: "練習場利用料 1人 10,000 - 18,000ウォン <br> 時間帯に応じて価格が変動します（19:00 18ホール 1人 18,000ウォン）。" },
         query: "friendsscreen.html"
     },
      {
@@ -719,10 +719,10 @@ const marketStores = [
             cn: "位于舍北1桥和舍北中央路交汇处的药店。所有药品均有供应！",
             ja: "サブク1番橋とサブク中央ロードの交差点に位置する薬局です。すべての薬が在庫があります！"
         },
-        specialty: { ko: "시세에 따라 감기몸살약, 소화제, 진통제 등 다양한 약품을 판매합니다.", 
-                     en: "Depending on the market price, we offer various medicines such as cold & flu medication, digestive aids, and pain relievers.", 
-                     cn: "根据市场价格，我们提供各种药品，如感冒药、助消化药和止痛药。", 
-                     ja: "市場の価格に応じて、風邪薬、消化薬、鎮痛薬などの様々な薬品を販売しています。" },
+         specialty: { ko: "타이레놀(10정) 3,000원, 판피린/판콜(종합감기약) 3,000원, 까스활명수 1병 1,100원", 
+                     en: "Tylenol (10 tablets) 3,000KRW, Panpyrin/Pancol (cold medicine) 3,000KRW, Gas Hwalmyungsoo(Carbonated Herbal Digestive Drink) 1 bottle 1,100KRW", 
+                     cn: "泰诺(10片) 3,000韩元, 盘皮林/盘可(综合感冒药) 3,000韩元, 活命水(健胃消食口服液) 1瓶 1,100韩元", 
+                     ja: "タイレノール(10錠) 3,000ウォン, パンピリン/パンコール(風邪薬) 3,000ウォン, ガスハルミョンソ(消化促進炭酸生薬ドリンク) 1本 1,100ウォン" },
         query: "yumyeongpharmacy.html"
     },
     {
