@@ -54,10 +54,10 @@ const marketStores = [
             cn: "出售生鲜鸡肉以及各类干鱼海产、食用油和调味料。",
             ja: "生鶏肉をはじめ、各種干物、油、調味料などを取り揃えております。"
         },
-        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡  <br> 집된장 15,000원", 
-                     en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains <br> Homemade Soybean Paste 15,000 KRW", 
-                     cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮 <br> 自酿大酱 15,000韩元", 
-                     ja: "(価格は市場による。) 生鶏肉、干物、雑穀 <br> 自家製テンジャン（味噌）15,000ウォン" },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡, 기름, 양념류  <br> 집된장 15,000원 &nbsp;&nbsp;&nbsp; 건딸기 12,000원", 
+                     en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains, Cooking Oils, Traditional Seasonings <br> Homemade Soybean Paste 15,000 KRW &nbsp;&nbsp;&nbsp; Dried Strawberries 12,000 KRW", 
+                     cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮、食用油、传统调味料 <br> 自酿大酱 15,000韩元 &nbsp;&nbsp;&nbsp; 干草莓 12,000韩元", 
+                     ja: "(価格は市場による。) 生鶏肉、干物、雑穀、食用油、伝統調味料 <br> 自家製テンジャン（味噌） 15,000ウォン &nbsp;&nbsp;&nbsp; 干しイチゴ 12,000ウォン" },
         query: "gyeongbukdakjib.html"
     }
 ];

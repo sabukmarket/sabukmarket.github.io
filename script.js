@@ -533,10 +533,10 @@ const marketStores = [
             cn: "舍北最古老的中餐厅。24小时营业，灯火通明（每两周周三休息）。",
             ja: "舎北で最も古い中華料理店です。24時間営業で、いつも明かりがついています（隔週水曜日休業）。"
         },
-        specialty: { ko: "짜장면 8,000원 &nbsp;&nbsp;&nbsp; 짬뽕 9,000원&nbsp;&nbsp;&nbsp; 해물볶음짬뽕 2인 30,000원<br> 사천짜장 14,000원 &nbsp;&nbsp;&nbsp; 마파두부 39,000원 &nbsp;&nbsp;&nbsp; 군만두 8,000원",
-             en: "Jajangmyeon 8,000 KRW &nbsp;&nbsp;&nbsp; Jjamppong 9,000 KRW &nbsp;&nbsp;&nbsp;Spicy Stir-fried Seafood Jjambong (Serves 2) 30,000 KRW <br> Sichuan Jajang 14,000 KRW &nbsp;&nbsp;&nbsp; Mapo Tofu 39,000 KRW &nbsp;&nbsp;&nbsp; Fried Dumplings (Gun-mandu) 8,000 KRW", 
-             cn: "炸酱面 8,000韩元 &nbsp;&nbsp;&nbsp; 炒码面 9,000韩元 &nbsp;&nbsp;&nbsp; 海鲜炒炒码面（2人份） 30,000韩元<br> 四川炸酱 14,000韩元 &nbsp;&nbsp;&nbsp; 麻婆豆腐 39,000韩元 &nbsp;&nbsp;&nbsp; 炸饺子 8,000韩元 ", 
-             ja: "ジャジャンミョン 8,000ウォン &nbsp;&nbsp;&nbsp; ジャムポン 9,000ウォン &nbsp;&nbsp;&nbsp;海鮮炒めチャンポン（2人前） 30,000ウォン<br> 四川ジャジャン 14,000ウォン &nbsp;&nbsp;&nbsp; マポトゥフ 39,000ウォン &nbsp;&nbsp;&nbsp; 焼き餃子（グンマンドゥ） 8,000ウォン" },
+         specialty: { ko: "볶음밥 12,000원 쟁반짜장(2인) 28,000원 <br> 삼선짬뽕 16,000원 사천탕수육(소) 42,000원 <br> 차돌짬뽕 18,000원 ",
+             en: "Fried Rice KRW 12,000 / Seafood Platter Jjajang (Serves 2) KRW 28,000 <br> Samseon Jjamppong (Spicy Seafood Noodle Soup) KRW 16,000 Sichuan Sweet and Sour Pork (S) KRW 42,000 <br>Beef Brisket Jjamppong KRW 18,000", 
+             cn: "炒饭 12,000韩元 / 大盘炸酱面（2人份） 28,000韩元 <br>三鲜炒马面（三鲜辣海鲜面） 16,000韩元 / 四川糖醋肉（小） 42,000韩元 <br>牛胸肉炒马面（牛胸肉辣汤面） 18,000韩元", 
+             ja: "チャーハン 12,000ウォン / 皿ジャージャー麺（2人前） 28,000ウォン <br>三鮮チャンポン（海鮮辛口海鮮麺） 16,000ウォン / 四川風タンスユク（酢豚・小） 42,000ウォン <br>チャドルバギ（牛あばら肉）チャンポン 18,000ウォン" },
         query: "malijangseong.html",
     },
     {
@@ -855,10 +855,10 @@ const marketStores = [
             cn: "出售生鲜鸡肉以及各类干鱼海产、食用油和调味料。",
             ja: "生鶏肉をはじめ、各種干物、油、調味料などを取り揃えております。"
         },
-        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡  <br> 집된장 15,000원", 
-                     en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains <br> Homemade Soybean Paste 15,000 KRW", 
-                     cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮 <br> 自酿大酱 15,000韩元", 
-                     ja: "(価格は市場による。) 生鶏肉、干物、雑穀 <br> 自家製テンジャン（味噌） 15,000ウォン" },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡, 기름, 양념류  <br> 집된장 15,000원 &nbsp;&nbsp;&nbsp; 건딸기 12,000원", 
+                     en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains, Cooking Oils, Traditional Seasonings <br> Homemade Soybean Paste 15,000 KRW &nbsp;&nbsp;&nbsp; Dried Strawberries 12,000 KRW", 
+                     cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮、食用油、传统调味料 <br> 自酿大酱 15,000韩元 &nbsp;&nbsp;&nbsp; 干草莓 12,000韩元", 
+                     ja: "(価格は市場による。) 生鶏肉、干物、雑穀、食用油、伝統調味料 <br> 自家製テンジャン（味噌） 15,000ウォン &nbsp;&nbsp;&nbsp; 干しイチゴ 12,000ウォン" },
         query: "gyeongbukdakjib.html"
     },
     {
