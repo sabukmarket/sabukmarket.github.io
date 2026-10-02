@@ -378,10 +378,10 @@ const marketStores = [
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
         desc: {
-            ko: "바삭바삭한 시장 치킨을 먹고 싶다면? 이곳입니다!",
-            en: "Come and enjoy our crispy market chicken!",
-            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！",
-            ja: "サクサクの市場チキンが食べたいなら？ こちらです。。"
+            ko: "바삭바삭한 시장 치킨을 먹고 싶다면 찾아주세요. 생닭으로 즉석에서 조리해 드립니다.",
+            en: "Come and enjoy our crispy market chicken! We prepare it fresh from raw chicken on the spot.",
+            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！ 我们现场用生鸡肉烹制。",
+            ja: "サクサクの市場チキンが食べたくなったら、ぜひお立ち寄りください！ 生の鶏肉をその場で調理してお出しします。"
         },
         specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
         query: "gangneungtongdak.html"
@@ -888,10 +888,10 @@ const marketStores = [
             cn: "出售新鲜蔬菜和水果。是一家位于市场最里面的小店！",
             ja: "新鮮な野菜や果物を販売しています。市場の一番奥にあるお店です！"
         },
-        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 상추, 사과, 감자, 양파, 포도, 가지, 고추 등. <br>정선깐더덕 10,000원  정선곤드레 12,000원  정선고사리 20,000원", 
-                     en: "(Prices may vary depending on the market.) Lettuce, apples, potatoes, onions, grapes, eggplants, chili peppers, etc. <br>Peeled Jeongseon Deodeok (Codonopsis Root) KRW 10,000 <br>Jeongseon Gondre (Dried Thistle) KRW 12,000 <br>Jeongseon Gosari (Dried Bracken) KRW 20,000", 
-                     cn: "(价格可能因市场而异。) 生菜、苹果、土豆、洋葱、葡萄、茄子、辣椒等。<br>旌善去皮沙参 10,000韩元 <br> 旌善山蓟菜（贡德莱） 12,000韩元 <br> 旌善蕨菜 20,000韩元", 
-                     ja: "(価格は市場による。) サンチュ（レタス）、リンゴ、ジャガイモ、玉ねぎ、ブドウ、ナス、唐辛子など。<br>旌善（チョンソン）皮むきツルニンジン 10,000ウォン <br>旌善（チョンソン）コンドレ（コウロボク） 12,000ウォン <br>旌善（チョンソン）ワラビ 20,000ウォン" },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 상추, 사과, 감자, 양파, 옥수수, 더덕 등. <br>정선깐더덕 10,000원  정선곤드레 12,000원  정선고사리 20,000원", 
+                     en: "(Prices may vary depending on the market.) Lettuce, apples, potatoes, onions, corns, deodeok, chili peppers, etc. <br>Peeled Jeongseon Deodeok (Codonopsis Root) KRW 10,000 <br>Jeongseon Gondre (Dried Thistle) KRW 12,000 <br>Jeongseon Gosari (Dried Bracken) KRW 20,000", 
+                     cn: "(价格可能因市场而异。) 生菜、苹果、土豆、洋葱、玉米、茄子、辣椒等。<br>旌善去皮沙参 10,000韩元 <br> 旌善山蓟菜（贡德莱） 12,000韩元 <br> 旌善蕨菜 20,000韩元", 
+                     ja: "(価格は市場による。) サンチュ（レタス）、リンゴ、ジャガイモ、玉ねぎ、とうもろこし、ナス、唐辛子など。<br>旌善（チョンソン）皮むきツルニンジン 10,000ウォン <br>旌善（チョンソン）コンドレ（コウロボク） 12,000ウォン <br>旌善（チョンソン）ワラビ 20,000ウォン" },
         query: "ppoppi.html"
     },
      {
@@ -1251,6 +1251,23 @@ const marketStores = [
                      cn: "根据时价价格会有所变动）海苔、海带、黄太鱼（干明太鱼）、豆类等。", 
                      ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、干しスケトウダラ（ファンテ）、豆類など。" },
         query: "jinbu.html"
+    },
+     {
+        id: 59,
+        name: { ko: "광신상회", en: "Gwangshin Market", cn: "光信果蔬店", ja: "光信青果店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "나물과 야채뿐만 아니라 직접 만든 반찬도 판매하고 있어요!",
+            en: "We sell not only fresh vegetables and herbs but also homemade side dishes!",
+            cn: "不仅出售新鲜蔬菜和草药，还出售自制小菜！",
+            ja: "野菜や果物だけでなく、自慢の味噌汁や漬物も販売しています！"
+        },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.)<br>직접 담근 김치, 도라지 반찬, 연근 반찬, 콩자반 각 10,000원", 
+                     en: "(Prices may vary depending on the market.)<br>Homemade Kimchi, Seasoned Bellflower Root, Braised Lotus Root, Braised Black Soybeans — KRW 10,000 each", 
+                     cn: "(价格可能因市场而异。) <br>自制泡菜、拌桔梗、酱莲藕、酱黑豆 各 10,000韩元", 
+                     ja: "(価格は市場による。) <br>自家製キムチ、トラジのおかず、レンコンのおかず、黒豆の甘辛煮 各 10,000ウォン" },
+        query: "gwangshin.html"
     }
 
 ];

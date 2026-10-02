@@ -31,7 +31,7 @@ const i18nData = {
     },
     ja: {
         cat_restaurants: "食堂",
-        cat_food: "カフェ・デザート",
+        cat_food: "カフェ・スイーツ",
         cat_produce: "農特産品・山菜",
         cat_general: "生活・雑貨",
         view_map_btn: "Google地図で表示",
@@ -45,25 +45,25 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "강릉통닭", en: "Gangneung Chicken", cn: "江陵烤鸡店", ja: "江陵(カンヌン)チキン" },
-        cat: "food",
-        catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
+        name: { ko: "광신상회", en: "Gwangshin Market", cn: "光信果蔬店", ja: "光信青果店" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "바삭바삭한 시장 치킨을 먹고 싶다면 찾아주세요. 생닭으로 즉석에서 조리해 드립니다.",
-            en: "Come and enjoy our crispy market chicken! We prepare it fresh from raw chicken on the spot.",
-            cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！ 我们现场用生鸡肉烹制。",
-            ja: "サクサクの市場チキンが食べたくなったら、ぜひお立ち寄りください！ 生の鶏肉をその場で調理してお出しします。"
+            ko: "나물과 야채뿐만 아니라 직접 만든 반찬도 판매하고 있어요!",
+            en: "We sell not only fresh vegetables and herbs but also homemade side dishes!",
+            cn: "不仅出售新鲜蔬菜和草药，还出售自制小菜！",
+            ja: "野菜や果物だけでなく、自慢の味噌汁や漬物も販売しています！"
         },
-        specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", 
-            en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", 
-            cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", 
-            ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
-        query: "사북 강릉통닭"
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.)<br>직접 담근 김치, 도라지 반찬, 연근 반찬, 콩자반 각 10,000원", 
+                     en: "(Prices may vary depending on the market.)<br>Homemade Kimchi, Seasoned Bellflower Root, Braised Lotus Root, Braised Black Soybeans — KRW 10,000 each", 
+                     cn: "(价格可能因市场而异。) <br>自制泡菜、拌桔梗、酱莲藕、酱黑豆 各 10,000韩元", 
+                     ja: "(価格は市場による。) <br>自家製キムチ、トラジのおかず、レンコンのおかず、黒豆の甘辛煮 各 10,000ウォン" },
+        query: "gwangshin.html"
     }
 ];
 
 let currentLang = 'ko';
-let currentFilter = 'food';
+let currentFilter = 'produce'; // 초기 필터는 '농특산물·약초'로 설정
 
 // 언어 변경 함수
 function setLanguage(lang) {
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/xrSXv29x`;
-        const mapSearchUrl = `https://maps.app.goo.gl/2yv3cjp8NZCFUjVM9`;
+        const mapNaverUrl = `https://naver.me/xG0P1jAQ`;
+        const mapSearchUrl = `https://maps.app.goo.gl/MQf2GNAUVvKbWf136`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
