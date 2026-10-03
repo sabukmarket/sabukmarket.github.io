@@ -49,14 +49,14 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "삼겹, 등심, 소갈비살 등, 신선한 고기를 부위별로 판매합니다. 시장 골목 내에 위치하고 있어요.",
-            en: "We sell fresh meats by cut, including pork belly, sirloin, and beef ribs. Located right inside the market alley.",
-            cn: "出售五花肉、里脊肉、牛排条等各类部位的新鲜肉品。位于市场小巷内。",
-            ja: "サムギョプサル（豚バラ）、ロース、牛カルビなど、新鮮なお肉を部位別に取り揃えております。市場の路地内に位置しています。"},
-        specialty: { ko: "*한우, 돼지고기 가격은 시세에 따라 변동됩니다.<br>앞다리살, 등갈비, 차돌박이, 목살 등 600g 단위로 판매.", 
-                     en: "*Prices for Korean beef, pork vary according to market rates. <br> Pork shoulder (front leg), baby back ribs, beef brisket, pork neck/collar, etc., sold in 600g portions.", 
-                     cn: "*韩国牛、猪肉的价格会根据市场行情波动。<br>猪前腿肉、排骨（背排）、牛胸肉（肥牛板筋）、猪梅花肉等，按600克（每斤多/一份）单位出售。", 
-                     ja: "*韓国牛、豚肉の価格は市場レートに応じて変動します。<br>豚前足肉、バックリブ（背骨側スペアリブ）、チャドルバギ（牛あばら肉の薄切り）、豚肩ロースなど、600g単位で販売。" },
+            ko: "삼겹, 등심, 소갈비살 등, 신선한 고기를 부위별(600g 단위)로 판매합니다. 시장 골목 내에 위치하고 있어요.",
+            en: "We sell fresh meats by cut (sold in 600g units / 1 geun), including pork belly, sirloin, and beef ribs. Located right inside the market alley.",
+            cn: "出售五花肉、里脊肉、牛排条等各类部位的新鲜肉品（以600克/一斤为单位）。位于市场小巷内。",
+            ja: "サムギョプサル（豚バラ）、ロース、牛カルビなど、新鮮なお肉を部位別に取り揃えております（600g単位）。市場の路地内に位置しています。"},
+        specialty: { ko: "*한우, 돼지고기 가격은 시세에 따라 변동됩니다.<br>삼겹살, 등심, 소갈비살, 목살, 차돌박이 등.", 
+                     en: "*Prices for Korean beef, pork vary according to market rates. <br>Pork Belly (Samgyeopsal), Sirloin/Ribeye, Boneless Beef Short Ribs, Pork Neck/Shoulder (Moksal), Beef Brisket (Chadolbagi), and more.", 
+                     cn: "*韩国牛、猪肉的价格会根据市场行情波动。<br>五花肉、里脊肉（牛上脑）、牛肋条肉、猪颈肉（梅花肉）、牛胸口油（牛胸肉）等。", 
+                     ja: "*韓国牛、豚肉の価格は市場レートに応じて変動します。<br>サムギョプサル（豚バラ肉）、ロース、牛カルビ（カルビ肉）、モクサル（豚肩ロース）、チャドルバギ（牛あばら薄切り肉）など。" },
         query: "hanwoo.html"
     }
 ];

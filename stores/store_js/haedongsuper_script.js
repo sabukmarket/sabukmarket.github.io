@@ -54,10 +54,10 @@ const marketStores = [
             cn: "市场内的舒适超市，您可以找到所需的一切。我们销售各种日用品和零食。",
             ja: "市場内での快適なスーパーマーケット。様々な日用品とスナックを販売中。"
         },
-        specialty: { ko: "라면 1,000~2,000원 &nbsp;&nbsp;&nbsp; 음료 1,000~3,000원 <br> 스낵류 1,000~3,000원 &nbsp;&nbsp;&nbsp; 비누·세제 1,000~10,000원", 
-                     en: "Ramyeon 1,000-2,000KRW &nbsp;&nbsp;&nbsp; Beverages 1,000-3,000KRW <br> Snacks 1,000-3,000KRW &nbsp;&nbsp;&nbsp; Soap & Cleaning Supplies 1,000-10,000KRW", 
-                     cn: "方便面 1,000-2,000韩元 &nbsp;&nbsp;&nbsp; 饮料 1,000-3,000韩元 <br> 零食 1,000-3,000韩元 &nbsp;&nbsp;&nbsp; 肥皂·清洁用品 1,000-10,000韩元", 
-                     ja: "ラーメン 1,000-2,000 &nbsp;&nbsp;&nbsp; ビバレッジ 1,000-3,000 <br> スナック 1,000-3,000 &nbsp;&nbsp;&nbsp; 歯磨き粉·清掃用品 1,000-10,000" },
+        specialty: { ko: "라면 6개들이 팩 7,500원 / 음료 700~3,800원 <br> 쌀 1kg 5,000원 10kg 39,000원 20kg 78,000원", 
+                     en: "Ramyeon 7,500 KRW / Beverages 700-3,800 KRW <br> uncooked rice 1kg 5,000 KRW 10kg 39,000 KRW 20kg 78,000 KRW", 
+                     cn: "方便面 7,500韩元 / 饮料 700-3,800韩元 <br> 大米 1kg 5,000韩元 10kg 39,000韩元 20kg 78,000韩元", 
+                     ja: "ラーメン 7,500ウォン / ビバレッジ 700-3,800ウォン <br> 生米 1kg 5,000ウォン 10kg 39,000ウォン 20kg 78,000ウォン" },
         query: "haedongsuper.html"
     }
 ];
