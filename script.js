@@ -812,12 +812,12 @@ const marketStores = [
     },
      {
         id: 33,
-        name: { ko: "해바라기", en: "Sunflower Restaurant", cn: "向日葵餐厅", ja: "ヒマワリ食堂" },
+        name: { ko: "해바라기", en: "Haebaragi (Sunflower) Restaurant", cn: "向日葵餐厅", ja: "ヒマワリ食堂" },
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "만둣국, 전병 등 토속음식을 가볍게 먹을 수 있는 식당입니다.",
-            en: "A casual diner where you can enjoy local specialties such as dumpling soup and buckwheat crêpes (jeonbyeong).",
+            ko: "만둣국, 전병 등 정선의 토속음식을 가볍게 즐길 수 있는 식당입니다!",
+            en: "A casual diner where you can enjoy Jeongseon local specialties such as dumpling soup and buckwheat crêpes (jeonbyeong)!",
             cn: "可以轻松享用饺子汤、荞麦煎饼等当地乡土美食的温馨餐馆。",
             ja: "餃子スープ（マンドゥクッ）や蕎麦クレープ（チョンビョン）などの郷土料理を気軽に味わえるお店です。"
         },
