@@ -287,7 +287,7 @@ const marketStores = [
             cn: "自制辛奇、手擀面与面片汤一绝的刀切面馆。",
             ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
         },
-        specialty: { ko: "칼국수 8,000원 &nbsp;&nbsp;&nbsp; 수제비 8,000원 <br> 들깨수제비 9,000원 &nbsp;&nbsp;&nbsp; 들깨칼국수 9,000원", en: "Kalguksu 8,000 KRW &nbsp;&nbsp;&nbsp; Sujebi 8,000 KRW <br> Perilla Seed Sujebi 9,000 KRW &nbsp;&nbsp;&nbsp; Perilla Seed Kalguksu 9,000 KRW", cn: "刀切面 8,000韩元 &nbsp;&nbsp;&nbsp; 面片汤 8,000韩元 <br>荏子刀切面 9,000韩元 &nbsp;&nbsp;&nbsp; 荏子面片汤 9,000韩元", ja: "カルグクス 8,000 &nbsp;&nbsp;&nbsp; スジェビ 8,000 <br> エゴマカルグクス 9,000 &nbsp;&nbsp;&nbsp;エゴマスジェビ 9,000" },
+        specialty: { ko: "칼국수 8,000원 / 수제비 8,000원 <br> 들깨수제비 9,000원 / 들깨칼국수 9,000원", en: "Kalguksu 8,000 KRW / Sujebi 8,000 KRW <br> Perilla Seed Sujebi 9,000 KRW / Perilla Seed Kalguksu 9,000 KRW", cn: "刀切面 8,000韩元 / 面片汤 8,000韩元 <br>荏子刀切面 9,000韩元 / 荏子面片汤 9,000韩元", ja: "カルグクス 8,000 / スジェビ 8,000 <br> エゴマカルグクス 9,000 /エゴマスジェビ 9,000" },
         query: "kalguksu.html"
     },
     {
@@ -301,7 +301,7 @@ const marketStores = [
             cn: "市场内的舒适咖啡厅，可在此休息并享用咖啡。还可购买可爱的Kkamidorong角色钥匙扣。",
             ja: "市場内でのコーヒー飲み放題の快適なカフェ。カミドロンキャラクターのキーホルダーも販売中。"
         },
-        specialty: { ko: "아메리카노 HOT 4,000원 &nbsp;&nbsp;&nbsp;  ICED 4,500원 <br> 아이스크림 5,000원 &nbsp;&nbsp;&nbsp;  까미도롱 키링 10,000원", en: "Americano HOT 4,000 KRW&nbsp;&nbsp;&nbsp;  ICED 4,500 KRW <br> Ice Cream 5,000 KRW &nbsp;&nbsp;&nbsp; Kkamidorong Keychain 10,000 KRW", cn: "美式咖啡 热 4,000韩元 &nbsp;&nbsp;&nbsp; 冰 4,500韩元 <br> 冰淇淋 5,000韩元 &nbsp;&nbsp;&nbsp; Kkamidorong钥匙扣 10,000韩元", ja: "アメリカーノ HOT 4,000 &nbsp;&nbsp;&nbsp; ICED 4,500 <br> アイスクリーム 5,000 &nbsp;&nbsp;&nbsp; キャラクターキーホルダー 10,000" },
+        specialty: { ko: "아메리카노 HOT 4,000원 /  ICED 4,500원 <br> 아이스크림 5,000원 /  까미도롱 키링 10,000원", en: "Americano HOT 4,000 KRW/  ICED 4,500 KRW <br> Ice Cream 5,000 KRW / Kkamidorong Keychain 10,000 KRW", cn: "美式咖啡 热 4,000韩元 / 冰 4,500韩元 <br> 冰淇淋 5,000韩元 / Kkamidorong钥匙扣 10,000韩元", ja: "アメリカーノ HOT 4,000 / ICED 4,500 <br> アイスクリーム 5,000 / キャラクターキーホルダー 10,000" },
         query: "tantanari.html"
     },
     {
@@ -310,15 +310,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "과일, 건어물 및 지역 농산물을 판매합니다.",
+            ko: "과일, 건어물 및 다양한 지역 농산물을 판매하고 있습니다.",
             en: "A store where you can find a variety of local produce and dried goods.",
             cn: "销售各种当地农产品和干货。",
             ja: "様々な地域の農産物と干物を販売中。"
         },
-        specialty: { ko: "곤드레나물 12,000원 &nbsp;&nbsp;&nbsp; 사과 10,000원 <br> 옛날사탕 7,000원 &nbsp;&nbsp;&nbsp; 거봉 8,000원", 
-                     en: "Gondre Namul 12,000 KRW &nbsp;&nbsp;&nbsp; Apples 10,000 KRW <br> Old-fashioned Candy 7,000 KRW &nbsp;&nbsp;&nbsp; Kyoho Grapes 8,000 KRW", 
-                     cn: "山蓟菜 12,000韩元 &nbsp;&nbsp;&nbsp; 苹果 10,000韩元 <br> 传统糖果 7,000韩元 &nbsp;&nbsp;&nbsp; 巨峰葡萄 8,000韩元", 
-                     ja: "ゴンドレナムル 12,000 &nbsp;&nbsp;&nbsp; りんご 10,000 <br> 古い飴 7,000 &nbsp;&nbsp;&nbsp; 巨峰レーズン 8,000" },
+        specialty: { ko: "정선 곤드레 12,000원 / 공주밤 10,000원 <br> 옛날사탕 7,000원 / 사과 10,000원", 
+                     en: "Gondre Namul 12,000 KRW / Gongju Chestnut 10,000 KRW <br> Old-fashioned Candy 7,000 KRW / Apples 8,000 KRW", 
+                     cn: "旌善山蓟菜 12,000韩元 / 公州栗 10,000韩元 <br> 传统糖果 7,000韩元 / 苹果 8,000韩元", 
+                     ja: "旌善ゴンドレナムル 12,000ウォン / 公州栗果 10,000ウォン <br> 古い飴 7,000ウォン / リンゴ 8,000ウォン" },
         query: "andongsanghoe.html"
     },
     {
@@ -332,10 +332,10 @@ const marketStores = [
             cn: "代表舍北的当地咖啡馆，以其美味的炭烤面包而闻名。",
             ja: "舎北を代表するローカルカフェで、炭焼パンが美味しいです。"
         },
-         specialty: { ko: "감탄빵 8개 세트 20,000원 감탄빵 4개 세트 10,000원 <br> 안전빵 1개 2,200원 감탄빵 1개 2,300 ~ 2,700원 <br> 아메리카노 HOT 3,500원 &nbsp;&nbsp;&nbsp; ICED 4,000원 ", 
-            en: "Gamtan Brownie 8-piece Set 20,000 KRW Gamtan Brownie 4-piece Set 10,000 KRW <br> Hard Hat Bread 1 Piece 2,200 KRW <br> Gamtan Brownie 1 Piece 2,300-2,700 KRW <br>Americano HOT 3,500 KRW ICED 4,000 KRW", 
-            cn: "甘炭面包 8个装 20,000韩元 甘炭面包 4个装 10,000韩元 &nbsp;&nbsp;&nbsp; <br>安全帽面包 1个 2,200韩元 甘炭面包 1个 2,300-2,700韩元 <br>美式咖啡 热 3,500韩元 冰 4,000韩元", 
-            ja: "ガムタンパン 8個セット 20,000ウォン ガムタンパン 4個セット 10,000ウォン <br>安全帽パン 1個 2,300-2,700ウォン <br> アメリカーノ HOT 3,500ウォン ICED 4,000ウォン" },
+         specialty: { ko: "감탄빵 8개 세트 20,000원 / 감탄빵 4개 세트 10,000원 <br> 안전빵 1개 2,200원 / 감탄빵 1개 2,300 ~ 2,700원 <br> 아메리카노 HOT 3,500원 / ICED 4,000원 ", 
+            en: "Gamtan Brownie 8-piece Set 20,000 KRW / Gamtan Brownie 4-piece Set 10,000 KRW <br> Hard Hat Bread 1 Piece 2,200 KRW <br> Gamtan Brownie 1 Piece 2,300-2,700 KRW <br>Americano HOT 3,500 KRW / ICED 4,000 KRW", 
+            cn: "甘炭面包 8个装 20,000韩元 / 甘炭面包 4个装 10,000韩元 <br>安全帽面包 1个 2,200韩元 / 甘炭面包 1个 2,300-2,700韩元 <br>美式咖啡 热 3,500韩元 / 冰 4,000韩元", 
+            ja: "ガムタンパン 8個セット 20,000ウォン / ガムタンパン 4個セット 10,000ウォン <br>安全帽パン 1個 2,300-2,700ウォン <br> アメリカーノ HOT 3,500ウォン / ICED 4,000ウォン" },
         query: "gamtancafe.html"
     },
      {
@@ -349,10 +349,10 @@ const marketStores = [
             cn: "销售各种传统年糕。如果好吃就是0卡路里！",
             ja: "様々な伝統餅を販売しています。美味しいならカロリーは0です！"
         },
-        specialty: { ko: "인절미 10,000원 &nbsp;&nbsp;&nbsp; 가래떡 10,000원 <br> 송편 10,000원 &nbsp;&nbsp;&nbsp; 팥떡 10,000원",
-             en: "Injeolmi 10,000 KRW &nbsp;&nbsp;&nbsp; Garaetteok 10,000 KRW <br> Songpyeon 10,000 KRW &nbsp;&nbsp;&nbsp; Patddeok 10,000 KRW", 
-             cn: "年糕 10,000韩元 &nbsp;&nbsp;&nbsp; 切糕 10,000韩元 <br> 松饼 10,000韩元 &nbsp;&nbsp;&nbsp; 红豆糕 10,000韩元", 
-             ja: "インジェオルミ 10,000 KRW &nbsp;&nbsp;&nbsp; ガラエットク 10,000 KRW <br> ソンピョン 10,000 KRW &nbsp;&nbsp;&nbsp; パットデオク 10,000 KRW" },
+        specialty: { ko: "인절미 10,000원 / 가래떡 10,000원 <br> 송편 10,000원 / 팥떡 10,000원",
+             en: "Injeolmi 10,000 KRW / Garaetteok 10,000 KRW <br> Songpyeon 10,000 KRW / Patddeok 10,000 KRW", 
+             cn: "年糕 10,000韩元 / 切糕 10,000韩元 <br> 松饼 10,000韩元 / 红豆糕 10,000韩元", 
+             ja: "インジェオルミ 10,000 KRW / ガラエットク 10,000 KRW <br> ソンピョン 10,000 KRW / パットデオク 10,000 KRW" },
         query: "jonggaddeok.html"
     },
     {
@@ -383,7 +383,7 @@ const marketStores = [
             cn: "想要品尝香脆的市场鸡肉吗？欢迎前来品尝！ 我们现场用生鸡肉烹制。",
             ja: "サクサクの市場チキンが食べたくなったら、ぜひお立ち寄りください！ 生の鶏肉をその場で調理してお出しします。"
         },
-        specialty: { ko: "후라이드 19,000원 &nbsp;&nbsp;&nbsp; 양념치킨 23,000원", en: "Fried Chicken 19,000 KRW &nbsp;&nbsp;&nbsp; Spicy Chicken 23,000 KRW", cn: "炸鸡 19,000韩元 &nbsp;&nbsp;&nbsp; 辣子鸡 23,000韩元", ja: "フライドチキン 19,000 &nbsp;&nbsp;&nbsp; スパイシーChicken 23,000" },
+        specialty: { ko: "후라이드 19,000원 / 양념치킨 23,000원", en: "Fried Chicken 19,000 KRW / Spicy Chicken 23,000 KRW", cn: "炸鸡 19,000韩元 / 辣子鸡 23,000韩元", ja: "フライドチキン 19,000 / スパイシーChicken 23,000" },
         query: "gangneungtongdak.html"
     },
     {
@@ -448,10 +448,10 @@ const marketStores = [
             cn: "作为旌善郡老年就业项目的一部分运营的咖啡馆。我们提供价格实惠、美味的咖啡。",
             ja: "旌善郡シニア雇用事業の一環として運営されているカフェです。市販よりも安くて美味しいコーヒーを提供しています。"
         },
-       specialty: { ko: "아메리카노 HOT 2,500원 &nbsp;&nbsp;&nbsp; ICED 3,000원 <br> 카페라떼 HOT 3,000원 &nbsp;&nbsp;&nbsp; ICED 3,000원<br>팥빙수 6,000원 &nbsp;&nbsp;&nbsp; 유자차 3,000원", 
-            en: "Americano HOT 2,500 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW <br> Café Latte HOT 3,000 KRW &nbsp;&nbsp;&nbsp; ICED 3,000 KRW <br>Red Bean Sherbet (Patbingsu) 6,000 KRW &nbsp;&nbsp;&nbsp; Honey Citron Tea 3,000 KRW", 
-            cn: "美式咖啡 热 2,500韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元 <br> 拿铁咖啡 热 3,000韩元 &nbsp;&nbsp;&nbsp; 冰 3,000韩元 <br>红豆冰沙 6,000韩元 &nbsp;&nbsp;&nbsp; 柚子茶 3,000韩元", 
-            ja: "アメリカーノ HOT 2,500ウォン &nbsp;&nbsp;&nbsp; ICED 3,000ウォン <br> カフェラテ HOT 3,000ウォン &nbsp;&nbsp;&nbsp; ICED 3,000ウォン <br>小豆かき氷(パトビンス) 6,000ウォン &nbsp;&nbsp;&nbsp; 柚子茶 3,000ウォン" },
+       specialty: { ko: "아메리카노 HOT 2,500원 / ICED 3,000원 <br> 카페라떼 HOT 3,000원 / ICED 3,000원<br>팥빙수 6,000원 / 유자차 3,000원", 
+            en: "Americano HOT 2,500 KRW / ICED 3,000 KRW <br> Café Latte HOT 3,000 KRW / ICED 3,000 KRW <br>Red Bean Sherbet (Patbingsu) 6,000 KRW / Honey Citron Tea 3,000 KRW", 
+            cn: "美式咖啡 热 2,500韩元 / 冰 3,000韩元 <br> 拿铁咖啡 热 3,000韩元 / 冰 3,000韩元 <br>红豆冰沙 6,000韩元 / 柚子茶 3,000韩元", 
+            ja: "アメリカーノ HOT 2,500ウォン / ICED 3,000ウォン <br> カフェラテ HOT 3,000ウォン / ICED 3,000ウォン <br>小豆かき氷(パトビンス) 6,000ウォン / 柚子茶 3,000ウォン" },
         query: "cafegil.html"
     },
      {
@@ -516,7 +516,7 @@ const marketStores = [
             cn: "我们提供睫毛烫和睫毛嫁接服务。请提前预约。",
             ja: "まつげパーマ、まつげエクステを行っています。ご予約の上、ご来店ください。"
         },
-    specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
+    specialty: { ko: "속눈썹 펌 35,000원 / 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
                      en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
                      cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
                      ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000ウォン <br> パーマとポイントエクステ 60,000" },
@@ -550,10 +550,10 @@ const marketStores = [
             cn: "我们以实惠的价格销售内衣、袜子和内衣套装。",
             ja: "下着、靴下、ランジェリーセットなどをお手頃な価格で販売しています。"
         },
-    specialty: { ko: "양말 2,000 ~ 4,000원 &nbsp;&nbsp;&nbsp; 팬티 세트 15,000 ~ 30,000원 <br> 메리야쓰 세트 18,000 ~ 30,000원", 
-                     en: "Socks 2,000 ~ 4,000KRW &nbsp;&nbsp;&nbsp; Panties Set 15,000 ~ 30,000KRW <br> Undershirt Set 18,000 ~ 30,000KRW", 
-                     cn: "袜子 2,000 ~ 4,000韩元 &nbsp;&nbsp;&nbsp; 内裤套装 15,000 ~ 30,000韩元 <br> 内衣套装 18,000 ~ 30,000韩元", 
-                     ja: "靴下 2,000 ~ 4,000ウォン &nbsp;&nbsp;&nbsp; 内衣セット 15,000 ~ 30,000ウォン <br> 下着セット 18,000 ~ 30,000ウォン" },
+    specialty: { ko: "양말 2,000 ~ 4,000원 / 팬티 세트 15,000 ~ 30,000원 <br> 메리야쓰 세트 18,000 ~ 30,000원", 
+                     en: "Socks 2,000 ~ 4,000KRW / Panties Set 15,000 ~ 30,000KRW <br> Undershirt Set 18,000 ~ 30,000KRW", 
+                     cn: "袜子 2,000 ~ 4,000韩元 / 内裤套装 15,000 ~ 30,000韩元 <br> 内衣套装 18,000 ~ 30,000韩元", 
+                     ja: "靴下 2,000 ~ 4,000ウォン / 内衣セット 15,000 ~ 30,000ウォン <br> 下着セット 18,000 ~ 30,000ウォン" },
         query: "mihyang.html"
     },
     {
@@ -584,10 +584,10 @@ const marketStores = [
             cn: "在炭火烤盘上享用美味的猪排和洛杉矶排骨的烤肉店。位于市场入口处。",
             ja: "ジューシーな豚カルビとLAカルビを炭火で楽しめる焼肉店です。市場の入口にあります。"
         },
-        specialty: { ko: "돼지 왕갈비 20,000원(280g) &nbsp;&nbsp;&nbsp; 양념 소갈비살 24,000원(160g) <br> 돼지 등갈비 19,000원(250g) &nbsp;&nbsp;&nbsp; LA 양념갈비 27,000원(250g) <br> 냉면 8,000원 &nbsp;&nbsp;&nbsp;설렁탕 12,000원",
-             en: "Grilled Pork Ribs 20,000 KRW (280g) &nbsp;&nbsp;&nbsp; Marinated Beef Ribs 24,000 KRW (160g) &nbsp;&nbsp;&nbsp; Grilled Pork Back Ribs 19,000 KRW(250g) <br> LA Marinated Ribs 27,000 KRW <br>Nengmyeon (Cold Noodles) 8,000 KRW &nbsp;&nbsp;&nbsp; Seolleongtang (Ox Bone Soup) 12,000 KRW", 
-             cn: "猪排 20,000韩元 (280g)&nbsp;&nbsp;&nbsp; 腌制牛排 24,000韩元 (160g)<br>  猪背排19,000韩元 (250g) &nbsp;&nbsp;&nbsp; 洛杉矶腌制排骨 27,000韩元 <br> 冷面 8,000韩元 &nbsp;&nbsp;&nbsp;雪浓汤（牛骨汤） 12,000韩元", 
-             ja: "豚カルビ 20,000ウォン (280g)&nbsp;&nbsp;&nbsp; 腌製牛肉カルビ 24,000ウォン (160g) <br>  豚バックリブ 19,000ウォン (250g)&nbsp;&nbsp;&nbsp; LA 腌製カルビ 27,000ウォン <br> 冷麺 8,000ウォン &nbsp;&nbsp;&nbsp; ソルロンタン（牛骨スープ）12,000ウォン" },
+        specialty: { ko: "돼지 왕갈비 20,000원(280g) / 양념 소갈비살 24,000원(160g) <br> 돼지 등갈비 19,000원(250g) / LA 양념갈비 27,000원(250g) <br> 냉면 8,000원 /설렁탕 12,000원",
+             en: "Grilled Pork Ribs 20,000 KRW (280g) / Marinated Beef Ribs 24,000 KRW (160g) / Grilled Pork Back Ribs 19,000 KRW(250g) <br> LA Marinated Ribs 27,000 KRW <br>Nengmyeon (Cold Noodles) 8,000 KRW / Seolleongtang (Ox Bone Soup) 12,000 KRW", 
+             cn: "猪排 20,000韩元 (280g)/ 腌制牛排 24,000韩元 (160g)<br>  猪背排19,000韩元 (250g) / 洛杉矶腌制排骨 27,000韩元 <br> 冷面 8,000韩元 /雪浓汤（牛骨汤） 12,000韩元", 
+             ja: "豚カルビ 20,000ウォン (280g)/ 腌製牛肉カルビ 24,000ウォン (160g) <br>  豚バックリブ 19,000ウォン (250g)/ LA 腌製カルビ 27,000ウォン <br> 冷麺 8,000ウォン / ソルロンタン（牛骨スープ）12,000ウォン" },
         query: "parkdaegam.html"
     },
       {
@@ -601,10 +601,10 @@ const marketStores = [
             cn: "如果您想享受符合您口味的意大利融合面食，请到青年商场三楼，我们在等您。",
             ja: "自分の味覚にぴったり合うイタリアンフュージョンの麺料理を楽しみたい方は、青年モールの3階でお待ちしております。"
         },
-        specialty: { ko: "김치필라프 11,900원 &nbsp;&nbsp;&nbsp; 베이컨까르보나라 11,900원 <br> 그릴드치킨크림 13,900원 &nbsp;&nbsp; 해물크림파스타 12,900원<br>목살그릴스테이크(450g) 23,900원 &nbsp;&nbsp; 까르보나라리조또 12,900원",
-             en: "Kimchi Pilaf 11,900 KRW &nbsp;&nbsp;&nbsp; Bacon Carbonara 11,900 KRW <br> Grilled Chicken Cream 13,900 KRW &nbsp;&nbsp; Seafood Cream Pasta 12,900 KRW<br>Grilled Pork Neck Steak (450g) 23,900 KRW &nbsp;&nbsp; Carbonara Risotto 12,900 KRW", 
-             cn: "泡菜饭 11,900韩元 &nbsp;&nbsp;&nbsp; 培根卡博纳拉 11,900韩元 <br> 烤鸡肉奶油 13,900韩元 &nbsp;&nbsp; 海鲜奶油意面 12,900韩元 <br> 碳烤猪梅花肉排 (450g) 23,900韩元 &nbsp;&nbsp; 培根蛋酱烩饭（卡邦尼意大利炖饭） 12,900韩元", 
-             ja: "キムチピラフ 11,900ウォン &nbsp;&nbsp;&nbsp; ベーコンカルボナーラ 11,900ウォン <br> グリルドチキンクリーム 13,900ウォン &nbsp;&nbsp; シーフードクリームパスタ 12,900ウォン<br>豚肩ロースのグリルステーキ (450g) 23,900ウォン &nbsp;&nbsp; カルボナーラリゾット 12,900ウォン" },
+        specialty: { ko: "김치필라프 11,900원 / 베이컨까르보나라 11,900원 <br> 그릴드치킨크림 13,900원 &nbsp;&nbsp; 해물크림파스타 12,900원<br>목살그릴스테이크(450g) 23,900원 &nbsp;&nbsp; 까르보나라리조또 12,900원",
+             en: "Kimchi Pilaf 11,900 KRW / Bacon Carbonara 11,900 KRW <br> Grilled Chicken Cream 13,900 KRW &nbsp;&nbsp; Seafood Cream Pasta 12,900 KRW<br>Grilled Pork Neck Steak (450g) 23,900 KRW &nbsp;&nbsp; Carbonara Risotto 12,900 KRW", 
+             cn: "泡菜饭 11,900韩元 / 培根卡博纳拉 11,900韩元 <br> 烤鸡肉奶油 13,900韩元 &nbsp;&nbsp; 海鲜奶油意面 12,900韩元 <br> 碳烤猪梅花肉排 (450g) 23,900韩元 &nbsp;&nbsp; 培根蛋酱烩饭（卡邦尼意大利炖饭） 12,900韩元", 
+             ja: "キムチピラフ 11,900ウォン / ベーコンカルボナーラ 11,900ウォン <br> グリルドチキンクリーム 13,900ウォン &nbsp;&nbsp; シーフードクリームパスタ 12,900ウォン<br>豚肩ロースのグリルステーキ (450g) 23,900ウォン &nbsp;&nbsp; カルボナーラリゾット 12,900ウォン" },
         query: "ppastar.html"
     },
      {
@@ -634,10 +634,10 @@ const marketStores = [
             cn: "我们在青年商场的一楼等着您。享受用江原道特产制作的冰淇淋和团子吧！",
             ja: "青年モールの1階でお待ちしております。江原道の特産品で作られたアイスクリームと団子をお楽しみください。"
         },
-        specialty: { ko: "초당옥수수 아이스크림 6,800원 &nbsp;&nbsp;&nbsp; 정선 감자 아이스크림 5,000원 <br> 벌꿀집 요거트 아이스크림 5,800원 &nbsp;&nbsp;&nbsp; 꿀당고 3,500원 ", 
-                     en: "Sweet Corn Ice Cream 6,800 KRW &nbsp;&nbsp;&nbsp; Jeongseon Potato Ice Cream 5,000 KRW <br> Bee Hive Yogurt Ice Cream 5,800 KRW &nbsp;&nbsp;&nbsp; Honey Dango 3,500 KRW", 
-                     cn: "甜玉米冰淇淋 6,800韩元 &nbsp;&nbsp;&nbsp; 旌善土豆冰淇淋 5,000韩元 <br> 蜜蜂屋酸奶冰淇淋 5,800韩元 &nbsp;&nbsp;&nbsp; 蜂蜜团子 3,500韩元", 
-                     ja: "スイートコーンアイスクリーム 6,800 &nbsp;&nbsp;&nbsp; セオングソンジャガイモアイスクリーム 5,000 <br> ビークラウンヨーグルトアイスクリーム 5,800 &nbsp;&nbsp;&nbsp; ハチミツ団子 3,500" },
+        specialty: { ko: "초당옥수수 아이스크림 6,800원 / 정선 감자 아이스크림 5,000원 <br> 벌꿀집 요거트 아이스크림 5,800원 / 꿀당고 3,500원 ", 
+                     en: "Sweet Corn Ice Cream 6,800 KRW / Jeongseon Potato Ice Cream 5,000 KRW <br> Bee Hive Yogurt Ice Cream 5,800 KRW / Honey Dango 3,500 KRW", 
+                     cn: "甜玉米冰淇淋 6,800韩元 / 旌善土豆冰淇淋 5,000韩元 <br> 蜜蜂屋酸奶冰淇淋 5,800韩元 / 蜂蜜团子 3,500韩元", 
+                     ja: "スイートコーンアイスクリーム 6,800 / セオングソンジャガイモアイスクリーム 5,000 <br> ビークラウンヨーグルトアイスクリーム 5,800 / ハチミツ団子 3,500" },
         query: "jeongseondama.html"
     },
       {
@@ -668,10 +668,10 @@ const marketStores = [
             cn: "一家让全家人共享的韩牛美食店。来品尝一下正宗的旌善韩牛吧！",
             ja: "家族で楽しめる韓国牛の美味しいレストランです。旌善の韓国牛をお召し上がりください！"
         },
-        specialty: { ko: "1++ 한우 등심 45,000원 &nbsp;&nbsp;&nbsp; 한돈 삼겹 18,000원 <br> 차돌된장찌개 12,000원 &nbsp;&nbsp;&nbsp; 한우불고기전골 20,000원 <br> 소양념갈비 38,000원 &nbsp;&nbsp;&nbsp; 물냉면 12,000원 <br> 갈비탕 17,000원",
-             en: "1++ Hanwoo Sirloin 45,000KRW &nbsp;&nbsp;&nbsp; Pork Belly 18,000KRW <br> Soybean Paste Stew with Beef Brisket 12,000KRW &nbsp;&nbsp;&nbsp; Hanwoo Bulgogi Hot Pot 20,000KRW <br> Marinated Beef Short Ribs (Yangnyeom Galbi) 38,000KRW &nbsp;&nbsp;&nbsp; Mul-naengmyeon (Cold Noodles in Chilled Broth) 12,000KRW <br> Galbi-tang (Beef Short Ribs Soup) 17,000KRW", 
-             cn: "1++ 韩牛西冷 45,000韩元 &nbsp;&nbsp;&nbsp; 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 &nbsp;&nbsp;&nbsp; 韩牛烤肉火锅 20,000韩元 <br> 调味牛排骨 38,000韩元 &nbsp;&nbsp;&nbsp; 水冷面 12,000韩元 <br> 牛排骨汤 17,000韩元", 
-             ja: "1++ 韓国牛のシーロイン 45,000ウォン &nbsp;&nbsp;&nbsp; 豚のヒレ 18,000ウォン <br> 牛ともばら肉入りテンジャンチゲ 12,000ウォン &nbsp;&nbsp;&nbsp; 韓国牛のプルゴギ鍋 20,000ウォン <br> 味付け牛カルビ（ヤンニョム牛カルビ） 38,000ウォン &nbsp;&nbsp;&nbsp; 水冷面 12,000ウォン <br> カルビタン（牛カルビスープ） 17,000ウォン" },
+        specialty: { ko: "1++ 한우 등심 45,000원 / 한돈 삼겹 18,000원 <br> 차돌된장찌개 12,000원 / 한우불고기전골 20,000원 <br> 소양념갈비 38,000원 / 물냉면 12,000원 <br> 갈비탕 17,000원",
+             en: "1++ Hanwoo Sirloin 45,000KRW / Pork Belly 18,000KRW <br> Soybean Paste Stew with Beef Brisket 12,000KRW / Hanwoo Bulgogi Hot Pot 20,000KRW <br> Marinated Beef Short Ribs (Yangnyeom Galbi) 38,000KRW / Mul-naengmyeon (Cold Noodles in Chilled Broth) 12,000KRW <br> Galbi-tang (Beef Short Ribs Soup) 17,000KRW", 
+             cn: "1++ 韩牛西冷 45,000韩元 / 韩猪五花肉 18,000韩元 <br> 牛腩大酱汤 12,000韩元 / 韩牛烤肉火锅 20,000韩元 <br> 调味牛排骨 38,000韩元 / 水冷面 12,000韩元 <br> 牛排骨汤 17,000韩元", 
+             ja: "1++ 韓国牛のシーロイン 45,000ウォン / 豚のヒレ 18,000ウォン <br> 牛ともばら肉入りテンジャンチゲ 12,000ウォン / 韓国牛のプルゴギ鍋 20,000ウォン <br> 味付け牛カルビ（ヤンニョム牛カルビ） 38,000ウォン / 水冷面 12,000ウォン <br> カルビタン（牛カルビスープ） 17,000ウォン" },
         query: "uhwajeong.html"
     },
     {
@@ -702,10 +702,10 @@ const marketStores = [
             cn: "一家专门提供牛血解酒汤的餐厅。晚上营业，下午关门，所以请早点来！",
             ja: "ソンジヘジャンクク（韓国の血腸スープ）専門店です。夜に営業し、午後には閉店するので、早めに訪れることをお勧めします！"
         },
-        specialty: { ko: "선지해장국 11,000원 &nbsp;&nbsp;&nbsp; 콩나물해장국 11,000원 <br> 육개장 11,000원 &nbsp;&nbsp;&nbsp; 갈비탕 13,000원",
-             en: "Seonji Haejang-guk 11,000 KRW &nbsp;&nbsp;&nbsp; Bean Sprout Haejang-guk 11,000 KRW <br> Yukgaejang 11,000 KRW &nbsp;&nbsp;&nbsp; Galbitang 13,000 KRW", 
-             cn: "血肠汤 11,000韩元 &nbsp;&nbsp;&nbsp; 豆芽汤 11,000韩元 <br> 牛肉辣汤 11,000韩元 &nbsp;&nbsp;&nbsp; 排骨汤 13,000韩元", 
-             ja: " 牛血酔い覚ましスープ(ソンジ・ヘジャンクク) 11,000 &nbsp;&nbsp;&nbsp; 豆もやし酔い覚ましスープ(コンナムル・ヘジャンクク) 11,000 <br> ユッケジャン 11,000 &nbsp;&nbsp;&nbsp; カルビタン 13,000" },
+        specialty: { ko: "선지해장국 11,000원 / 콩나물해장국 11,000원 <br> 육개장 11,000원 / 갈비탕 13,000원",
+             en: "Seonji Haejang-guk 11,000 KRW / Bean Sprout Haejang-guk 11,000 KRW <br> Yukgaejang 11,000 KRW / Galbitang 13,000 KRW", 
+             cn: "血肠汤 11,000韩元 / 豆芽汤 11,000韩元 <br> 牛肉辣汤 11,000韩元 / 排骨汤 13,000韩元", 
+             ja: " 牛血酔い覚ましスープ(ソンジ・ヘジャンクク) 11,000 / 豆もやし酔い覚ましスープ(コンナムル・ヘジャンクク) 11,000 <br> ユッケジャン 11,000 / カルビタン 13,000" },
         query: "yongseokjib.html",
     },
       {
@@ -736,10 +736,10 @@ const marketStores = [
             cn: "热腾腾、饱腹感十足的市场风味汤饭，让您品尝旌善的地道美味。",
             ja: "熱々で満腹感のある市場風のご飯です。旌善の味をぜひお楽しみください。"
         },
-        specialty: { ko: "순대국밥 11,000원 &nbsp;&nbsp;&nbsp; 곤드레순대국밥 12,000원 <br> 코다리조림 35,000원 &nbsp;&nbsp;&nbsp; 곤드레다슬기해장국 12,000원",
+        specialty: { ko: "순대국밥 11,000원 / 곤드레순대국밥 12,000원 <br> 코다리조림 35,000원 / 곤드레다슬기해장국 12,000원",
              en: "Sundae-gukbap (Korean Blood Sausage Soup with Rice) 11,000KRW <br>> Gondre Sundae-gukbap (Blood Sausage Soup with Dried Thistle and Rice) 12,000KRW <br> Braised Semi-dried Pollock (2 Portions) 35,000KRW <br> Gondre Daseulgi-haejangguk (Marsh Snail & Thistle Hangover Soup) 12,000KRW",
-             cn: "米肠汤饭 11,000韩元 &nbsp;&nbsp;&nbsp; 山蓟菜米肠汤饭（贡德莱米肠汤饭） 11,000韩元 <br> 烤鳕鱼 35,000韩元 &nbsp;&nbsp;&nbsp; 山蓟菜川螺解酒汤（贡德莱淡水螺解酒汤） 12,000韩元", 
-             ja: "スンデクッパ（韓国式豚の血入り腸詰めクッパ） 11,000KRW &nbsp;&nbsp;&nbsp; コンドレ（コウロボク）スンデクッパ 11,000KRW <br> コダリジョリム（半干しスケトウダラの甘辛煮付け / 2人前） 35,000KRW <br> コンドレとカワニナのヘジャンク（二日酔い覚ましスープ） 12,000KRW" },
+             cn: "米肠汤饭 11,000韩元 / 山蓟菜米肠汤饭（贡德莱米肠汤饭） 11,000韩元 <br> 烤鳕鱼 35,000韩元 / 山蓟菜川螺解酒汤（贡德莱淡水螺解酒汤） 12,000韩元", 
+             ja: "スンデクッパ（韓国式豚の血入り腸詰めクッパ） 11,000KRW / コンドレ（コウロボク）スンデクッパ 11,000KRW <br> コダリジョリム（半干しスケトウダラの甘辛煮付け / 2人前） 35,000KRW <br> コンドレとカワニナのヘジャンク（二日酔い覚ましスープ） 12,000KRW" },
         query: "sundaegukbap.html"
     },
     {
@@ -770,15 +770,15 @@ const marketStores = [
             cn: "我们销售用当地原料压榨的新鲜油。",
             ja: "本地域の原料で絞った新鮮な油を販売しています。"
         },
-        specialty: { ko: "국산 들기름 25,000원 &nbsp;&nbsp;&nbsp; 국산 참기름 35,000원 <br> 수입 들기름 15,000원 &nbsp;&nbsp;&nbsp; 수입 참기름 15,000원", 
-                     en: "Domestic Perilla Oil 25,000KRW &nbsp;&nbsp;&nbsp; Domestic Sesame Oil <br> Imported Sesame Oil 15,000 KRW &nbsp;&nbsp;&nbsp; Imported Perilla Oil 15,000 KRW/20,000 KRW ", 
-                     cn: "国产紫苏油 25,000韩元 &nbsp;&nbsp;&nbsp; 国产芝麻油 38,000韩元 <br> 进口紫苏油 15,000韩元 &nbsp;&nbsp;&nbsp; 进口芝麻油 15,000韩元", 
-                     ja: "国内産エゴマ油 25,000 &nbsp;&nbsp;&nbsp;  国内産ゴマ油 38,000 <br> 輸入エゴマ油 15,000 &nbsp;&nbsp;&nbsp; 輸入ゴマ油 56,000 " },
+        specialty: { ko: "국산 들기름 25,000원 / 국산 참기름 35,000원 <br> 수입 들기름 15,000원 / 수입 참기름 15,000원", 
+                     en: "Domestic Perilla Oil 25,000KRW / Domestic Sesame Oil <br> Imported Sesame Oil 15,000 KRW / Imported Perilla Oil 15,000 KRW/20,000 KRW ", 
+                     cn: "国产紫苏油 25,000韩元 / 国产芝麻油 38,000韩元 <br> 进口紫苏油 15,000韩元 / 进口芝麻油 15,000韩元", 
+                     ja: "国内産エゴマ油 25,000 /  国内産ゴマ油 38,000 <br> 輸入エゴマ油 15,000 / 輸入ゴマ油 56,000 " },
         query: "gireumbang.html"
     }, 
     {
         id: 31,
-        name: { ko: "준컴퓨터", en: "Jun Computer", cn: "俊电脑", ja: "ジュン・コンピューター" },
+        name: { ko: "준컴퓨터", en: "Jun Computer Repair Shop", cn: "俊电脑(维修店)", ja: "ジュン・コンピューター(修理店)" },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -821,10 +821,10 @@ const marketStores = [
             cn: "可以轻松享用饺子汤、荞麦煎饼等当地乡土美食的温馨餐馆。",
             ja: "餃子スープ（マンドゥクッ）や蕎麦クレープ（チョンビョン）などの郷土料理を気軽に味わえるお店です。"
         },
-        specialty: { ko: "만두국 10,000원 &nbsp;&nbsp;&nbsp; 칼국수 9,000원 <br> 메밀전 5,000원 &nbsp;&nbsp;&nbsp; 순대 5,000원<br>머릿고기(중) 10,000원 &nbsp;&nbsp;&nbsp; 머릿고기(대) 15,000원",
-             en: "Dumpling Soup 10,000 KRW &nbsp;&nbsp;&nbsp; Knife-cut Noodles (Kalguksu) 9,000 KRW <br> Buckwheat Pancake (Memiljeon) 5,000 KRW &nbsp;&nbsp;&nbsp; Korean Blood Sausage (Sundae) 5,000 KRW <br>Boiled Pork Head Meat (M) 10,000 KRW &nbsp;&nbsp;&nbsp; Boiled Pork Head Meat (L) 15,000 KRW", 
-             cn: "饺子汤 10,000韩元 &nbsp;&nbsp;&nbsp; 刀切面 9,000韩元 <br> 荞麦煎饼 5,000韩元 &nbsp;&nbsp;&nbsp; 米肠 5,000韩元 <br>猪头肉（中） 10,000韩元 &nbsp;&nbsp;&nbsp; 猪头肉（大） 15,000韩元", 
-             ja: "マンドゥクッ（餃子スープ） 10,000ウォン &nbsp;&nbsp;&nbsp; カルグクス 9,000ウォン <br> 蕎麦チヂミ 5,000ウォン &nbsp;&nbsp;&nbsp; スンデ 5,000ウォン <br>煮込み豚の頭肉（中） 10,000ウォン &nbsp;&nbsp;&nbsp; 煮込み豚の頭肉（大） 15,000ウォン" },
+        specialty: { ko: "만두국 10,000원 / 칼국수 9,000원 <br> 메밀전 5,000원 / 순대 5,000원<br>머릿고기(중) 10,000원 / 머릿고기(대) 15,000원",
+             en: "Dumpling Soup 10,000 KRW / Knife-cut Noodles (Kalguksu) 9,000 KRW <br> Buckwheat Pancake (Memiljeon) 5,000 KRW / Korean Blood Sausage (Sundae) 5,000 KRW <br>Boiled Pork Head Meat (M) 10,000 KRW / Boiled Pork Head Meat (L) 15,000 KRW", 
+             cn: "饺子汤 10,000韩元 / 刀切面 9,000韩元 <br> 荞麦煎饼 5,000韩元 / 米肠 5,000韩元 <br>猪头肉（中） 10,000韩元 / 猪头肉（大） 15,000韩元", 
+             ja: "マンドゥクッ（餃子スープ） 10,000ウォン / カルグクス 9,000ウォン <br> 蕎麦チヂミ 5,000ウォン / スンデ 5,000ウォン <br>煮込み豚の頭肉（中） 10,000ウォン / 煮込み豚の頭肉（大） 15,000ウォン" },
         query: "haebaragi.html"
     },
      {
@@ -855,10 +855,10 @@ const marketStores = [
             cn: "出售生鲜鸡肉以及各类干鱼海产、食用油和调味料。",
             ja: "生鶏肉をはじめ、各種干物、油、調味料などを取り揃えております。"
         },
-        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡, 기름, 양념류  <br> 집된장 15,000원 &nbsp;&nbsp;&nbsp; 건딸기 12,000원", 
-                     en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains, Cooking Oils, Traditional Seasonings <br> Homemade Soybean Paste 15,000 KRW &nbsp;&nbsp;&nbsp; Dried Strawberries 12,000 KRW", 
-                     cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮、食用油、传统调味料 <br> 自酿大酱 15,000韩元 &nbsp;&nbsp;&nbsp; 干草莓 12,000韩元", 
-                     ja: "(価格は市場による。) 生鶏肉、干物、雑穀、食用油、伝統調味料 <br> 自家製テンジャン（味噌） 15,000ウォン &nbsp;&nbsp;&nbsp; 干しイチゴ 12,000ウォン" },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 생닭, 건어물, 잡곡, 기름, 양념류  <br> 집된장 15,000원 / 건딸기 12,000원", 
+                     en: "(Prices may vary depending on the market.)  Raw Chicken, Dried Fish, Mixed Grains, Cooking Oils, Traditional Seasonings <br> Homemade Soybean Paste 15,000 KRW / Dried Strawberries 12,000 KRW", 
+                     cn: "(价格可能因市场而异。) 生鲜鸡肉、干鱼海产、杂粮、食用油、传统调味料 <br> 自酿大酱 15,000韩元 / 干草莓 12,000韩元", 
+                     ja: "(価格は市場による。) 生鶏肉、干物、雑穀、食用油、伝統調味料 <br> 自家製テンジャン（味噌） 15,000ウォン / 干しイチゴ 12,000ウォン" },
         query: "gyeongbukdakjib.html"
     },
     {
@@ -922,10 +922,10 @@ const marketStores = [
             cn: "既然来到了传统市场，怎么能不尝尝炒年糕和米肠呢？",
             ja: "市場に来たら、まずはトッポッキとスンデを味わってみないといけませんよね？"
         },
-        specialty: { ko: "떡볶이(1인분) 3,000원 &nbsp;&nbsp;&nbsp; 순대(1인분) 5,000원 <br> 메밀전병(1인분) 6,000원 &nbsp;&nbsp;&nbsp; 음료(사이다/콜라) 2,000원", 
-            en: "Tteokbokki (1 serving) 3,000 KRW &nbsp;&nbsp;&nbsp; Sundae (1 serving) 5,000 KRW <br> Spicy Buckwheat Crêpe (1 serving) 6,000 KRW &nbsp;&nbsp;&nbsp; Soft Drink (Cider / Coke) 2,000 KRW", 
-            cn: "炒年糕（1人份） 3,000韩元 &nbsp;&nbsp;&nbsp; 米肠（1人份） 5,000韩元 <br> 荞麦煎饼（1人份） 6,000韩元 &nbsp;&nbsp;&nbsp; 饮料（雪碧 / 可乐） 2,000韩元", 
-            ja: "トッポッキ（1人前） 3,000ウォン &nbsp;&nbsp;&nbsp; スンデ（1人前） 5,000ウォン <br> 蕎麦クレープ（1人前） 6,000ウォン &nbsp;&nbsp;&nbsp; 飲み物（サイダー / コーラ） 2,000ウォン" },
+        specialty: { ko: "떡볶이(1인분) 3,000원 / 순대(1인분) 5,000원 <br> 메밀전병(1인분) 6,000원 / 음료(사이다/콜라) 2,000원", 
+            en: "Tteokbokki (1 serving) 3,000 KRW / Sundae (1 serving) 5,000 KRW <br> Spicy Buckwheat Crêpe (1 serving) 6,000 KRW / Soft Drink (Cider / Coke) 2,000 KRW", 
+            cn: "炒年糕（1人份） 3,000韩元 / 米肠（1人份） 5,000韩元 <br> 荞麦煎饼（1人份） 6,000韩元 / 饮料（雪碧 / 可乐） 2,000韩元", 
+            ja: "トッポッキ（1人前） 3,000ウォン / スンデ（1人前） 5,000ウォン <br> 蕎麦クレープ（1人前） 6,000ウォン / 飲み物（サイダー / コーラ） 2,000ウォン" },
         query: "ottugi.html"
     },
      {
@@ -973,10 +973,10 @@ const marketStores = [
             cn: "豪爽热情的阿姨们精心制作的各色小菜，搭配绝品山蓟菜饭，是一家风味一绝的包饭专门店！",
             ja: "気っぷのいいお母さんたち（イモ）が丹精込めて作ったおかずと、絶品のゴンドゥレ（高麗アザミ）ご飯が自慢の包みご飯（サンパプ）専門店です！"
         },
-        specialty: { ko: "곤드레쌈밥 11,900원 &nbsp;&nbsp;&nbsp; 제육덮밥 11,000원 <br> 갈비찜정식 16,000원 &nbsp;&nbsp; 1인쌈밥정식 20,000원",
-             en: "Gondre Ssambap 11,900 KRW &nbsp;&nbsp;&nbsp; Jeyuk Deopbap 11,000 KRW <br> Galbijjim Set 16,000 KRW &nbsp;&nbsp; Solo Ssambap Set 20,000 KRW", 
-             cn: "山蓟菜包饭 11,900韩元 &nbsp;&nbsp;&nbsp; 辣炒猪肉盖饭 11,000韩元 <br> 炖排骨定食 16,000韩元 &nbsp;&nbsp; 单人包饭定食 20,000韩元", 
-             ja: "ゴンドゥレ包みご飯（サンパプ） 11,900ウォン &nbsp;&nbsp;&nbsp; 豚肉炒め丼（チェユクドッパプ） 11,000ウォン <br> カルビチム定食 16,000ウォン &nbsp;&nbsp; 1人前サンパプ定食 20,000ウォン" },
+        specialty: { ko: "곤드레쌈밥 11,900원 / 제육덮밥 11,000원 <br> 갈비찜정식 16,000원 &nbsp;&nbsp; 1인쌈밥정식 20,000원",
+             en: "Gondre Ssambap 11,900 KRW / Jeyuk Deopbap 11,000 KRW <br> Galbijjim Set 16,000 KRW &nbsp;&nbsp; Solo Ssambap Set 20,000 KRW", 
+             cn: "山蓟菜包饭 11,900韩元 / 辣炒猪肉盖饭 11,000韩元 <br> 炖排骨定食 16,000韩元 &nbsp;&nbsp; 单人包饭定食 20,000韩元", 
+             ja: "ゴンドゥレ包みご飯（サンパプ） 11,900ウォン / 豚肉炒め丼（チェユクドッパプ） 11,000ウォン <br> カルビチム定食 16,000ウォン &nbsp;&nbsp; 1人前サンパプ定食 20,000ウォン" },
         query: "yeoju.html"
     },
       {
@@ -1211,10 +1211,10 @@ const marketStores = [
             cn: "本店是一家专营山蓟菜的特色店铺。精选产自旌善地区、生长在海拔1000米以上高山脚下的纯天然高山山蓟菜。",
             ja: "ゴンドゥレ（高麗アザミ）を専門に扱うお店です。旌善（チョンソン）地域の標高1,000m以上の山麓で育った天然の山菜・ゴンドゥレを取り扱っています。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br>건곤드레 10,000원 &nbsp;&nbsp;&nbsp; 곰취나물 10,000원 <br>어수리나물 10,000원 &nbsp;&nbsp;&nbsp; 냉동곤드레 4kg 30,000원", 
-                     en: "(Prices are subject to change according to market rates.)  <br>Dried Gondre (Wild Thistle) 10,000 KRW &nbsp;&nbsp;&nbsp; Gomchwi (Ligularia Greens) 10,000 KRW <br>Eosuri (Cow Parsnip Greens) 10,000 KRW &nbsp;&nbsp;&nbsp; Frozen Gondre 4kg 30,000 KRW.", 
-                     cn: "(根据时价价格会有所变动）<br>干山蓟菜 10,000韩元&nbsp;&nbsp;&nbsp; 干燥葫芦七（熊岳菜） 10,000韩元 <br>牛防风菜 10,000韩元&nbsp;&nbsp;&nbsp; 冷冻山蓟菜 4kg 30,000韩元", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>乾燥ゴンドゥレ（高麗アザミ） 10,000ウォン &nbsp;&nbsp;&nbsp; ゴムチュィ（オタカラコウ） 10,000ウォン <br>オスリ（ハナウド） 10,000ウォン &nbsp;&nbsp;&nbsp; 冷凍ゴンドゥレ 4kg 30,000ウォン" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br>건곤드레 10,000원 / 곰취나물 10,000원 <br>어수리나물 10,000원 / 냉동곤드레 4kg 30,000원", 
+                     en: "(Prices are subject to change according to market rates.)  <br>Dried Gondre (Wild Thistle) 10,000 KRW / Gomchwi (Ligularia Greens) 10,000 KRW <br>Eosuri (Cow Parsnip Greens) 10,000 KRW / Frozen Gondre 4kg 30,000 KRW.", 
+                     cn: "(根据时价价格会有所变动）<br>干山蓟菜 10,000韩元/ 干燥葫芦七（熊岳菜） 10,000韩元 <br>牛防风菜 10,000韩元/ 冷冻山蓟菜 4kg 30,000韩元", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>乾燥ゴンドゥレ（高麗アザミ） 10,000ウォン / ゴムチュィ（オタカラコウ） 10,000ウォン <br>オスリ（ハナウド） 10,000ウォン / 冷凍ゴンドゥレ 4kg 30,000ウォン" },
         query: "jeongseongondre.html"
     },
     {
