@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "준컴퓨터", en: "Jun Computer", cn: "俊电脑", ja: "ジュン・コンピューター" },
+        name: { ko: "준컴퓨터", en: "Jun Computer Repair Shop", cn: "俊电脑(维修店)", ja: "ジュン・コンピューター(修理店)" },
         cat: "produce",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -54,10 +54,10 @@ const marketStores = [
             cn: "电脑维修、组装请交给准电脑！ 位于屋龙硕屋左侧。",
             ja: "パソコンの修理や組み立ては、ジュンコンピュータにお任せください！ ヨンソク·ジブの左側に位置しています。"
         },
-        specialty: { ko: "수리 및 컴퓨터 조립은 시세에 따라 가격이 변동됩니다.", 
-                     en: "Repair and computer assembly prices vary according to market rates.", 
-                     cn: "维修及电脑组装价格会根据市场行情有所变动。", 
-                     ja: "修理およびコンピューターの組み立ては、相場により価格が変動いたします。" },
+        specialty: { ko: "컴퓨터 수리, 조립 및 부품 판매, CCTV 설치, LED 간판 설치, 네트워크 구축 등 다양한 IT 관련 서비스를 제공합니다.", 
+                     en: "We provide a variety of IT-related services, including computer repair, assembly and parts sales, CCTV installation, LED sign installation, and network setup.", 
+                     cn: "我们提供各种与IT相关的服务，包括电脑维修、组装及零件销售、闭路电视安装、LED招牌安装和网络搭建等。", 
+                     ja: "パソコンの修理や組み立て、部品販売、CCTV設置、LED看板設置、ネットワーク構築など、多様なIT関連サービスを提供しています。" },
         query: "juncomputer.html"
     }
 ];

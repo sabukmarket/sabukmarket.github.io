@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "파란들 만물상회", en: "Parandeul General Store", cn: "帕兰德尔杂货店", ja: "パランドゥル万物商会"  },
+        name: { ko: "만물상회 알뜰할인매장", en: "Manmul Store - Budget Discount Outlet", cn: "万物商行・百货特价超市", ja: "万物商会・お得なディスカウントショップ"  },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -54,10 +54,10 @@ const marketStores = [
             cn: "舍北市场的大创（Daiso）！应有尽有的万物杂货铺，快来逛逛吧！",
             ja: "舎北（サブク）市場のダイソー！ないものはない何でも屋（万物商会）にぜひ遊びに来てください。"
         },
-    specialty: { ko: "주방용품부터 생활잡화, 전자제품 등 다양한 도구와 집기들이 비치되어 있습니다.", 
-                     en: "From kitchenware and everyday household goods to small electronics, we have a wide range of tools, utensils, and supplies available.", 
-                     cn: "从厨房用品到生活杂货、小型家电等，备有各种各样的工具与生活器具。", 
-                     ja: "キッチングッズから日用雑貨、電化製品まで、さまざまな道具や備品を取り揃えております。" },
+    specialty: { ko: "주방용품부터 생활용품, 소형가전, 청소도구 등 다양한 도구와 집기들이 구비되어 있습니다.<br>그릇 2,000 ~ 10,000원", 
+                     en: "We have a wide range of items from kitchenware to daily necessities, small appliances, and cleaning tools.<br>Bowls: 2,000 ~ 10,000 KRW", 
+                     cn: "我们有从厨房用品到日常必需品、小型家电和清洁工具的各种商品。<br>碗：2,000 ~ 10,000 韩元", 
+                     ja: "キッチン用品から日用雑貨、小型家電、清掃道具まで、さまざまな商品を揃えています。<br>ボウル：2,000 ~ 10,000ウォン" },
         query: "parandeul.html"
     }
 ];

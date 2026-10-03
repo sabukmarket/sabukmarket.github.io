@@ -49,12 +49,12 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "다양한 야채 및 식료품이 구비되어 있습니다. 시장 안쪽, 청년몰 근처에 있어요.",
+            ko: "사북시장에서 가장 오래된 점포 중 하나로, 다양한 야채와 식료품을 판매합니다.",
             en: "A wide variety of fresh vegetables and groceries are available. Located inside the market, near the Youth Mall.",
             cn: "备有各种新鲜蔬菜及食品饮料。位于市场内侧、青年Mall附近。",
             ja: "さまざまな野菜や食料品を取り揃えております。市場の奥、青年モール（Youth Mall）の近くにございます。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 양파, 파, 가지, 오이, 고추, 두부 등.", 
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 양파, 파, 배추, 양파, 콩나물, 부추, 도라지, 가지, 오이, 고추, 두부 등.", 
                      en: "(Prices are subject to change according to market rates.) <br> Onions, green onions (scallions), eggplants, cucumbers, chili peppers, tofu, etc.", 
                      cn: "根据时价价格会有所变动）洋葱、大葱、茄子、黄瓜、辣椒、豆腐等。", 
                      ja: "（仕入れ・時価により価格が変更になる場合がございます）玉ねぎ、長ネギ、ナス、きゅうり、唐辛子、豆腐など。" },

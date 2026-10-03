@@ -49,15 +49,15 @@ const marketStores = [
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "여성의류를 판매하는 매장입니다. 신발, 이불 전기장판 등도 살 수 있어요.",
+            ko: "여성의류를 주로 판매하는 매장입니다. 신발, 이불, 전기장판 등도 살 수 있어요.",
             en: "A shop specializing in women's clothing. You can also purchase shoes, bedding, electric heating pads, and more.",
             cn: "这是一家主营女装的店铺。店内还可以选购鞋子、被褥、电热毯等各种生活用品。",
             ja: "婦人服を取り扱うお店です。靴や布団、電気毛布（ホットカーペット）などもお買い求めいただけます。"
         },
-        specialty: { ko: "티셔츠, 외투, 바지, 신발, 이불 등.", 
-                     en: "T-shirts, coats, trousers, shoes, bedding, etc.", 
-                     cn: "外衣、衬衫、裤子、鞋子、被褥等。", 
-                     ja: "Tシャツ、コート、ズボン、靴、布団など。" },
+        specialty: { ko: "여성의류, 이부자리(침구),신발, 가방, 바지 등.", 
+                     en: "Women's clothing, bedding, shoes, bags, trousers, etc.", 
+                     cn: "女装、床上用品、鞋子、包、裤子等。", 
+                     ja: "婦人服、布団、靴、バッグ、ズボンなど。" },
         query: "fourseasons.html"
     }
 ];

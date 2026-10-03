@@ -787,10 +787,10 @@ const marketStores = [
             cn: "电脑维修、组装请交给准电脑！ 位于屋龙硕屋左侧。",
             ja: "パソコンの修理や組み立ては、ジュンコンピュータにお任せください！ ヨンソク·ジブの左側に位置しています。"
         },
-        specialty: { ko: "수리 및 컴퓨터 조립은 시세에 따라 가격이 변동됩니다.", 
-                     en: "Repair and computer assembly prices vary according to market rates.", 
-                     cn: "维修及电脑组装价格会根据市场行情有所变动。", 
-                     ja: "修理およびコンピューターの組み立ては、相場により価格が変動いたします。" },
+        specialty: { ko: "컴퓨터 수리, 조립 및 부품 판매, CCTV 설치, LED 간판 설치, 네트워크 구축 등 다양한 IT 관련 서비스를 제공합니다.", 
+                     en: "We provide a variety of IT-related services, including computer repair, assembly and parts sales, CCTV installation, LED sign installation, and network setup.", 
+                     cn: "我们提供各种与IT相关的服务，包括电脑维修、组装及零件销售、闭路电视安装、LED招牌安装和网络搭建等。", 
+                     ja: "パソコンの修理や組み立て、部品販売、CCTV設置、LED看板設置、ネットワーク構築など、多様なIT関連サービスを提供しています。" },
         query: "juncomputer.html"
     },
      {
@@ -934,17 +934,16 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "다양한 종류의 잡곡을 주로 판매합니다. 야채도 있어요!",
-            en: "We mainly sell a wide variety of mixed grains. Fresh vegetables are available too!",
-            cn: "主要出售各种杂粮。也有新鲜蔬菜哦！",
-            ja: "さまざまな種類の雑穀を中心に販売しています。野菜もありますよ！"
+            ko: "다양한 종류의 잡곡을 주로 판매합니다. 나물도 있어요!",
+            en: "We mainly sell a wide variety of mixed grains. Mountain herbs are available too!",
+            cn: "主要出售各种杂粮。也有山菜哦！",
+            ja: "さまざまな種類の雑穀を中心に販売しています。 山菜もあります！"
         },
-        specialty: { ko: "쌀, 땅콩, 말린 곤드레, 호두, 대추, 현미 등을 시세에 따라 팝니다.", 
-                     en: "We sell rice, peanuts, dried gondre (wild thistle), walnuts, jujubes, and brown rice at current market prices.", 
-                     cn: "按时价出售大米、花生、干山蓟菜（山蓟菜干）、核桃、大枣、糙米等。", 
-                     ja: "米、ピーナッツ、乾燥ゴンドゥレ（高麗アザミ）、クルミ、ナツメ、玄米などを時価で販売しています。"},
+        specialty: { ko: "정선 곤드레, 현미, 귀리, 병아리콩, 취나물, 동부, 누룽지찹쌀, 사과, 생강 등 다양한 농산물을 시세에 따라 팝니다.", 
+                     en: "We sell a variety of agricultural products such as Jeongseon gondre, brown rice, oats, chickpeas, mountain herbs, beans, scorched glutinous rice, apples, ginger, etc. according to market prices.", 
+                     cn: "我们根据市场价格出售各种农产品，如旌善贡德雷、糙米、燕麦、鹰嘴豆、山菜、豆类、焦糊糯米、苹果、生姜等。", 
+                     ja: "私たちは、旌善ゴンドレ、玄米、オート麦、ひよこ豆、山菜、豆類、お焦げもち米、リンゴ、生姜などのさまざまな農産物を市場価格に応じて販売しています。" },
         query: "hundred.html"
-
     },
     {
         id: 41,
@@ -999,7 +998,7 @@ const marketStores = [
     },
      {
         id: 44,
-        name: { ko: "파란들 만물상회", en: "Parandeul General Store", cn: "帕兰德尔杂货店", ja: "パランドゥル万物商会"  },
+        name: { ko: "만물상회 알뜰할인매장", en: "Manmul Store - Budget Discount Outlet", cn: "万物商行・百货特价超市", ja: "万物商会・お得なディスカウントショップ"  },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -1008,10 +1007,10 @@ const marketStores = [
             cn: "舍北市场的大创（Daiso）！应有尽有的万物杂货铺，快来逛逛吧！",
             ja: "舎北（サブク）市場のダイソー！ないものはない何でも屋（万物商会）にぜひ遊びに来てください。"
         },
-    specialty: { ko: "주방용품부터 생활잡화, 전자제품 등 다양한 도구와 집기들이 비치되어 있습니다.", 
-                     en: "From kitchenware and everyday household goods to small electronics, we have a wide range of tools, utensils, and supplies available.", 
-                     cn: "从厨房用品到生活杂货、小型家电等，备有各种各样的工具与生活器具。", 
-                     ja: "キッチングッズから日用雑貨、電化製品まで、さまざまな道具や備品を取り揃えております。" },
+    specialty: { ko: "주방용품부터 생활용품, 소형가전, 청소도구 등 다양한 도구와 집기들이 구비되어 있습니다.<br>그릇 2,000 ~ 10,000원", 
+                     en: "We have a wide range of items from kitchenware to daily necessities, small appliances, and cleaning tools.<br>Bowls: 2,000 ~ 10,000 KRW", 
+                     cn: "我们有从厨房用品到日常必需品、小型家电和清洁工具的各种商品。<br>碗：2,000 ~ 10,000 韩元", 
+                     ja: "キッチン用品から日用雑貨、小型家電、清掃道具まで、さまざまな商品を揃えています。<br>ボウル：2,000 ~ 10,000ウォン" },
         query: "parandeul.html"
     },
     {
@@ -1088,15 +1087,15 @@ const marketStores = [
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "여성의류를 판매하는 매장입니다. 신발, 이불 전기장판 등도 살 수 있어요.",
+            ko: "여성의류를 주로 판매하는 매장입니다. 신발, 이불, 전기장판 등도 살 수 있어요.",
             en: "A shop specializing in women's clothing. You can also purchase shoes, bedding, electric heating pads, and more.",
             cn: "这是一家主营女装的店铺。店内还可以选购鞋子、被褥、电热毯等各种生活用品。",
             ja: "婦人服を取り扱うお店です。靴や布団、電気毛布（ホットカーペット）などもお買い求めいただけます。"
         },
-        specialty: { ko: "티셔츠, 외투, 바지, 신발, 이불 등.", 
-                     en: "T-shirts, coats, trousers, shoes, bedding, etc.", 
-                     cn: "外衣、衬衫、裤子、鞋子、被褥等。", 
-                     ja: "Tシャツ、コート、ズボン、靴、布団など。" },
+        specialty: { ko: "여성의류, 이부자리(침구),신발, 가방, 바지 등.", 
+                     en: "Women's clothing, bedding, shoes, bags, trousers, etc.", 
+                     cn: "女装、床上用品、鞋子、包、裤子等。", 
+                     ja: "婦人服、布団、靴、バッグ、ズボンなど。" },
         query: "fourseasons.html"
     },
      {
@@ -1127,10 +1126,10 @@ const marketStores = [
             cn: "备有各种新鲜蔬菜及食品饮料。位于市场内侧、青年Mall附近。",
             ja: "さまざまな野菜や食料品を取り揃えております。市場の奥、青年モール（Youth Mall）の近くにございます。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 양파, 파, 가지, 오이, 고추, 두부 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Onions, green onions (scallions), eggplants, cucumbers, chili peppers, tofu, etc.", 
-                     cn: "根据时价价格会有所变动）洋葱、大葱、茄子、黄瓜、辣椒、豆腐等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）玉ねぎ、長ネギ、ナス、きゅうり、唐辛子、豆腐など。" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 양파, 파, 배추, 양파, 콩나물, 부추, 도라지, 가지, 오이, 고추, 두부 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Onions, green onions (scallions), cabbage, eggplants, cucumbers, chili peppers, tofu, etc.", 
+                     cn: "根据时价价格会有所变动）洋葱、大葱、卷心菜、茄子、黄瓜、辣椒、豆腐等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）玉ねぎ、長ネギ、キャベツ、ナス、きゅうり、唐辛子、豆腐など。" },
         query: "jecheonstore.html"
     },
       {
