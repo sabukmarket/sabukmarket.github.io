@@ -1268,6 +1268,23 @@ const marketStores = [
                      cn: "(价格可能因市场而异。) <br>自制泡菜、拌桔梗、酱莲藕、酱黑豆 各 10,000韩元", 
                      ja: "(価格は市場による。) <br>自家製キムチ、トラジのおかず、レンコンのおかず、黒豆の甘辛煮 各 10,000ウォン" },
         query: "gwangshin.html"
+    },
+     {
+        id: 60,
+        name: { ko: "함사 휴&힐", en: "Hamsa Hue & Heal", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
+        cat: "general",
+        catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
+        desc: {
+            ko: "컬러 테라피 & 젤네일 스튜디오입니다. <br> 나의 색을 발견하고 아름다움과 쉼을 만나는 웰니스 뷰티",
+            en: "Color Therapy & Gel Nail Studio. <br> Discover your color and experience wellness beauty with relaxation.",
+            cn: "色彩疗法和凝胶美甲工作室。<br> 发现你的颜色，体验放松的健康美容。",
+            ja: "カラーセラピーとジェルネイルスタジオです。 <br> あなたの色を見つけ、リラックスしたウェルネスビューティを体験してください。"
+        },
+    specialty: { ko: "기본 네일, 컬러 테라피 젤네일, 힐링 프로그램, 셀프 네일 <br>네이버 및 구글지도에 기재된 연락처로 문자 예약 가능합니다.", 
+                     en: "Basic nails, color therapy gel nails, healing programs, self-nails <br> You can make a reservation via text message using the contact information listed on Naver and Google Maps.", 
+                     cn: "基础美甲、色彩疗法凝胶美甲、疗愈项目、自助美甲 <br> 您可以通过Naver和Google地图上列出的联系方式发送短信预约。", 
+                     ja: "基本ネイル、カラーセラピー ジェルネイル、癒しプログラム、セルフネイル <br> NaverとGoogleマップに記載されている連絡先からテキストメッセージで予約できます。" },
+        query: "hamsa.html"
     }
 
 ];
