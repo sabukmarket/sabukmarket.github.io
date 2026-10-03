@@ -45,19 +45,19 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "안동상회", en: "Andong Store", cn: "安东商行", ja: "アンドン商会" },
+        name: { ko: "안동상회", en: "Andong Grocery Store", cn: "安东商行", ja: "アンドン(安東)商会" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
             ko: "과일, 건어물 및 다양한 지역 농산물을 판매하고 있습니다.",
             en: "A store where you can find a variety of local produce and dried goods.",
-            cn: "销售各种当地农产品和干货。",
+            cn: "我们销售各种当地农产品和干货。",
             ja: "様々な地域の農産物と干物を販売中。"
         },
         specialty: { ko: "정선 곤드레 12,000원 / 공주밤 10,000원 <br> 옛날사탕 7,000원 / 사과 10,000원", 
                      en: "Gondre Namul 12,000 KRW / Gongju Chestnut 10,000 KRW <br> Old-fashioned Candy 7,000 KRW / Apples 8,000 KRW", 
-                     cn: "旌善山蓟菜 12,000韩元 / 公州栗 10,000韩元 <br> 传统糖果 7,000韩元 / 苹果 8,000韩元", 
-                     ja: "旌善ゴンドレナムル 12,000ウォン / 公州栗果 10,000ウォン <br> 古い飴 7,000ウォン / リンゴ 8,000ウォン" },
+                     cn: "旌善山蓟菜 12,000韩元 / 公州栗 10,000韩元 <br> 怀旧糖果 7,000韩元 / 苹果 8,000韩元", 
+                     ja: "旌善コンドゥレ 12,000ウォン / 公州栗果 10,000ウォン <br> 昔ながらの飴 7,000ウォン / リンゴ 8,000ウォン" },
         query: "andongsanghoe.html"
     }
 ];

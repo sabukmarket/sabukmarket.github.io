@@ -53,12 +53,12 @@ const marketStores = [
             ko: "곤드레 정식부터 생선구이, 더덕구이, 순두부찌개까지 다채로운 한식 메뉴를 즐길 수 있습니다. 시장 정문 바로 옆에 위치해 있어요.",
             en: "Enjoy a variety of Korean dishes from Gondre rice to grilled fish, morel mushroom stew, and sundubu jiggae. Located right next to the main entrance of the market.",
             cn: "从贡德雷套餐到烤鱼、杜鹃花炖菜和嫩豆腐汤等多样的韩式菜单都可以享用。位于市场正门旁边。",
-            ja: "ゴンドレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
+            ja: "コンドゥレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
         },
         specialty: { ko: "곤드레정식 18,000원 / 임연수구이 17,000원 <br> 순두부찌개 12,000원 / 고등어구이 15,000원 <br> 더덕구이 17,000원 / 황태구이 17,000원 <br>제육볶음(2인 이상) 15,000원",
              en: "Gondre Set Meal 18,000 KRW / Grilled Atka Mackerel 17,000 KRW <br> Soft Tofu Stew / Grilled Mackerel 15,000 KRW /Grilled Deodeok 17,000 KRW / Grilled Dried Pollock with Spicy Seasoning 17,000 KRW <br>Stir-fried Pork (for 2 or more) 15,000 KRW", 
              cn: "山蓟菜套餐 18,000韩元 / 烤银鳕鱼 17,000韩元 <br> 嫩豆腐煲 12,000韩元 / 烤鲭鱼 15,000韩元 <br> 烤沙参 17,000韩元 / 烤干明太鱼 17,000韩元 <br>辣炒猪肉 （2人以上） 15,000韩元", 
-             ja: "ゴンドレ定食 18,000ウォン / ホッケ焼き 17,000ウォン  <br>>スンドゥブチゲ 12,000ウォン / サバの塩焼き 15,000ウォン <br> 蔓人蔘焼き(デオドク) 17,000ウォン / ファンテグイ（干しスケトウダラのピリ辛焼き） 17,000ウォン <br>豚肉のピリ辛炒め(2名様分より承ります) 15,000ウォン" },
+             ja: "コンドゥレ定食 18,000ウォン / ホッケ焼き 17,000ウォン  <br>>スンドゥブチゲ 12,000ウォン / サバの塩焼き 15,000ウォン <br> 蔓人蔘焼き(デオドク) 17,000ウォン / ファンテグイ（干しスケトウダラのピリ辛焼き） 17,000ウォン <br>豚肉のピリ辛炒め(2名様分より承ります) 15,000ウォン" },
         query: "gangneungrestaurant.html"
     }
 ];

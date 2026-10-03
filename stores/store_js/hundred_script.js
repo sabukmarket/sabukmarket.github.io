@@ -57,7 +57,7 @@ const marketStores = [
         specialty: { ko: "정선 곤드레, 현미, 귀리, 병아리콩, 취나물, 동부, 누룽지찹쌀, 사과, 생강 등 다양한 농산물을 시세에 따라 팝니다.", 
                      en: "We sell a variety of agricultural products such as Jeongseon gondre, brown rice, oats, chickpeas, mountain herbs, beans, scorched glutinous rice, apples, ginger, etc. according to market prices.", 
                      cn: "我们根据市场价格出售各种农产品，如旌善贡德雷、糙米、燕麦、鹰嘴豆、山菜、豆类、焦糊糯米、苹果、生姜等。", 
-                     ja: "私たちは、旌善ゴンドレ、玄米、オート麦、ひよこ豆、山菜、豆類、お焦げもち米、リンゴ、生姜などのさまざまな農産物を市場価格に応じて販売しています。" },
+                     ja: "私たちは、旌善コンドゥレ、玄米、オート麦、ひよこ豆、山菜、豆類、お焦げもち米、リンゴ、生姜などのさまざまな農産物を市場価格に応じて販売しています。" },
         query: "hundred.html"
     }
 ];

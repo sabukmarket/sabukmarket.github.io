@@ -254,7 +254,7 @@ const i63nData = {
         hist_t1_title: "炭鉱の町の活気ある誕生",
         hist_t1_desc: "炭鉱産業の全盛期、多くの鉱山労働者とその家族の生活必需品と温かい食事を支える場として始まりました。",
         hist_t2_title: "高原観光のゲートウェイへ",
-        hist_t2_desc: "リゾートの開業とともに、旌善の香り高いゴンドレ菜や蕎麦、薬草などを提供する代表的な市場へと発展しました。",
+        hist_t2_desc: "リゾートの開業とともに、旌善の香り高いコンドゥレ菜や蕎麦、薬草などを提供する代表的な市場へと発展しました。",
         hist_t3_title: "文化とお祭りの舞台",
         hist_t3_desc: "舎北ナイトマーケットやとうもろこしフェスタを通じて、住民と旅行者が触れ合える活気ある空間を創出しています。",
         hist_t4_title: "心温まるおもてなし",
@@ -317,8 +317,8 @@ const marketStores = [
         },
         specialty: { ko: "정선 곤드레 12,000원 / 공주밤 10,000원 <br> 옛날사탕 7,000원 / 사과 10,000원", 
                      en: "Gondre Namul 12,000 KRW / Gongju Chestnut 10,000 KRW <br> Old-fashioned Candy 7,000 KRW / Apples 8,000 KRW", 
-                     cn: "旌善山蓟菜 12,000韩元 / 公州栗 10,000韩元 <br> 传统糖果 7,000韩元 / 苹果 8,000韩元", 
-                     ja: "旌善ゴンドレナムル 12,000ウォン / 公州栗果 10,000ウォン <br> 古い飴 7,000ウォン / リンゴ 8,000ウォン" },
+                     cn: "旌善山蓟菜 12,000韩元 / 公州栗 10,000韩元 <br> 怀旧糖果 7,000韩元 / 苹果 8,000韩元", 
+                     ja: "旌善コンドゥレ 12,000ウォン / 公州栗果 10,000ウォン <br> 昔ながらの飴 7,000ウォン / リンゴ 8,000ウォン" },
         query: "andongsanghoe.html"
     },
     {
@@ -334,7 +334,7 @@ const marketStores = [
         },
          specialty: { ko: "감탄빵 8개 세트 20,000원 / 감탄빵 4개 세트 10,000원 <br> 안전빵 1개 2,200원 / 감탄빵 1개 2,300 ~ 2,700원 <br> 아메리카노 HOT 3,500원 / ICED 4,000원 ", 
             en: "Gamtan Brownie 8-piece Set 20,000 KRW / Gamtan Brownie 4-piece Set 10,000 KRW <br> Hard Hat Bread 1 Piece 2,200 KRW <br> Gamtan Brownie 1 Piece 2,300-2,700 KRW <br>Americano HOT 3,500 KRW / ICED 4,000 KRW", 
-            cn: "甘炭面包 8个装 20,000韩元 / 甘炭面包 4个装 10,000韩元 <br>安全帽面包 1个 2,200韩元 / 甘炭面包 1个 2,300-2,700韩元 <br>美式咖啡 热 3,500韩元 / 冰 4,000韩元", 
+            cn: "甘炭面包 8个装 20,000韩元 / 甘炭面包 4个装 10,000韩元 <br>安全帽面包 1个 2,200韩元 /甘炭面包 1个 2,300-2,700韩元 <br>美式咖啡 热 3,500韩元 / 冰 4,000韩元", 
             ja: "ガムタンパン 8個セット 20,000ウォン / ガムタンパン 4個セット 10,000ウォン <br>安全帽パン 1個 2,300-2,700ウォン <br> アメリカーノ HOT 3,500ウォン / ICED 4,000ウォン" },
         query: "gamtancafe.html"
     },
@@ -395,12 +395,12 @@ const marketStores = [
             ko: "곤드레 정식부터 생선구이, 더덕구이, 순두부찌개까지 다채로운 한식 메뉴를 즐길 수 있습니다. 시장 정문 바로 옆에 위치해 있어요.",
             en: "Enjoy a variety of Korean dishes from Gondre rice to grilled fish, morel mushroom stew, and sundubu jiggae. Located right next to the main entrance of the market.",
             cn: "从贡德雷套餐到烤鱼、杜鹃花炖菜和嫩豆腐汤等多样的韩式菜单都可以享用。位于市场正门旁边。",
-            ja: "ゴンドレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
+            ja: "コンドゥレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
         },
          specialty: { ko: "곤드레정식 18,000원 / 임연수구이 17,000원 <br> 순두부찌개 12,000원 / 고등어구이 15,000원 <br> 더덕구이 17,000원 / 황태구이 17,000원 <br>제육볶음(2인 이상) 15,000원",
              en: "Gondre Set Meal 18,000 KRW / Grilled Atka Mackerel 17,000 KRW <br> Soft Tofu Stew / Grilled Mackerel 15,000 KRW /Grilled Deodeok 17,000 KRW / Grilled Dried Pollock with Spicy Seasoning 17,000 KRW <br>Stir-fried Pork (for 2 or more) 15,000 KRW", 
              cn: "山蓟菜套餐 18,000韩元 / 烤银鳕鱼 17,000韩元 <br> 嫩豆腐煲 12,000韩元 / 烤鲭鱼 15,000韩元 <br> 烤沙参 17,000韩元 / 烤干明太鱼 17,000韩元 <br>辣炒猪肉 （2人以上） 15,000韩元", 
-             ja: "ゴンドレ定食 18,000ウォン / ホッケ焼き 17,000ウォン  <br>>スンドゥブチゲ 12,000ウォン / サバの塩焼き 15,000ウォン <br> 蔓人蔘焼き(デオドク) 17,000ウォン / ファンテグイ（干しスケトウダラのピリ辛焼き） 17,000ウォン <br>豚肉のピリ辛炒め(2名様分より承ります) 15,000ウォン" },
+             ja: "コンドゥレ定食 18,000ウォン / ホッケ焼き 17,000ウォン  <br>>スンドゥブチゲ 12,000ウォン / サバの塩焼き 15,000ウォン <br> 蔓人蔘焼き(デオドク) 17,000ウォン / ファンテグイ（干しスケトウダラのピリ辛焼き） 17,000ウォン <br>豚肉のピリ辛炒め(2名様分より承ります) 15,000ウォン" },
         query: "gangneungrestaurant.html"
     },
       {
@@ -739,7 +739,7 @@ const marketStores = [
         specialty: { ko: "순대국밥 11,000원 / 곤드레순대국밥 12,000원 <br> 코다리조림 35,000원 / 곤드레다슬기해장국 12,000원",
              en: "Sundae-gukbap (Korean Blood Sausage Soup with Rice) 11,000KRW <br>> Gondre Sundae-gukbap (Blood Sausage Soup with Dried Thistle and Rice) 12,000KRW <br> Braised Semi-dried Pollock (2 Portions) 35,000KRW <br> Gondre Daseulgi-haejangguk (Marsh Snail & Thistle Hangover Soup) 12,000KRW",
              cn: "米肠汤饭 11,000韩元 / 山蓟菜米肠汤饭（贡德莱米肠汤饭） 11,000韩元 <br> 烤鳕鱼 35,000韩元 / 山蓟菜川螺解酒汤（贡德莱淡水螺解酒汤） 12,000韩元", 
-             ja: "スンデクッパ（韓国式豚の血入り腸詰めクッパ） 11,000KRW / コンドレ（コウロボク）スンデクッパ 11,000KRW <br> コダリジョリム（半干しスケトウダラの甘辛煮付け / 2人前） 35,000KRW <br> コンドレとカワニナのヘジャンク（二日酔い覚ましスープ） 12,000KRW" },
+             ja: "スンデクッパ（韓国式豚の血入り腸詰めクッパ） 11,000KRW / コンドゥレスンデクッパ 11,000KRW <br> コダリジョリム（半干しスケトウダラの甘辛煮付け / 2人前） 35,000KRW <br> コンドゥレとカワニナのヘジャンク（二日酔い覚ましスープ） 12,000KRW" },
         query: "sundaegukbap.html"
     },
     {
@@ -891,7 +891,7 @@ const marketStores = [
         specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 상추, 사과, 감자, 양파, 옥수수, 더덕 등. <br>정선깐더덕 10,000원  정선곤드레 12,000원  정선고사리 20,000원", 
                      en: "(Prices may vary depending on the market.) Lettuce, apples, potatoes, onions, corns, deodeok, chili peppers, etc. <br>Peeled Jeongseon Deodeok (Codonopsis Root) KRW 10,000 <br>Jeongseon Gondre (Dried Thistle) KRW 12,000 <br>Jeongseon Gosari (Dried Bracken) KRW 20,000", 
                      cn: "(价格可能因市场而异。) 生菜、苹果、土豆、洋葱、玉米、茄子、辣椒等。<br>旌善去皮沙参 10,000韩元 <br> 旌善山蓟菜（贡德莱） 12,000韩元 <br> 旌善蕨菜 20,000韩元", 
-                     ja: "(価格は市場による。) サンチュ（レタス）、リンゴ、ジャガイモ、玉ねぎ、とうもろこし、ナス、唐辛子など。<br>旌善（チョンソン）皮むきツルニンジン 10,000ウォン <br>旌善（チョンソン）コンドレ（コウロボク） 12,000ウォン <br>旌善（チョンソン）ワラビ 20,000ウォン" },
+                     ja: "(価格は市場による。) サンチュ（レタス）、リンゴ、ジャガイモ、玉ねぎ、とうもろこし、ナス、唐辛子など。<br>旌善（チョンソン）皮むきツルニンジン 10,000ウォン <br>旌善（チョンソン）コンドゥレ 12,000ウォン <br>旌善（チョンソン）ワラビ 20,000ウォン" },
         query: "ppoppi.html"
     },
      {
@@ -942,7 +942,7 @@ const marketStores = [
         specialty: { ko: "정선 곤드레, 현미, 귀리, 병아리콩, 취나물, 동부, 누룽지찹쌀, 사과, 생강 등 다양한 농산물을 시세에 따라 팝니다.", 
                      en: "We sell a variety of agricultural products such as Jeongseon gondre, brown rice, oats, chickpeas, mountain herbs, beans, scorched glutinous rice, apples, ginger, etc. according to market prices.", 
                      cn: "我们根据市场价格出售各种农产品，如旌善贡德雷、糙米、燕麦、鹰嘴豆、山菜、豆类、焦糊糯米、苹果、生姜等。", 
-                     ja: "私たちは、旌善ゴンドレ、玄米、オート麦、ひよこ豆、山菜、豆類、お焦げもち米、リンゴ、生姜などのさまざまな農産物を市場価格に応じて販売しています。" },
+                     ja: "私たちは、旌善コンドゥレ、玄米、オート麦、ひよこ豆、山菜、豆類、お焦げもち米、リンゴ、生姜などのさまざまな農産物を市場価格に応じて販売しています。" },
         query: "hundred.html"
     },
     {
