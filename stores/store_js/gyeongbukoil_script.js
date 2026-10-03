@@ -49,16 +49,16 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "지역에서 나는 원료로 짠 신선한 기름을 판매합니다.",
-            en: "We sell fresh, locally-sourced oils made from regional ingredients.",
-            cn: "我们销售用当地原料压榨的新鲜油。",
-            ja: "本地域の原料で絞った新鮮な油を販売しています。"
+             ko: "좋은 원료로 직접 짠 신선한 기름을 판매합니다. 시세에  따라 가격이 변동될 수 있습니다.",
+            en: "We sell fresh, locally-sourced oils made from regional ingredients.  Prices may vary depending on the market.",
+            cn: "我们销售用当地原料压榨的新鲜油。 价格可能因市场而异。",
+            ja: "本地域の原料で絞った新鮮な油を販売しています。価格は市場によって変動する場合があります。"
         },
-        specialty: { ko: "시세에 따라 가격은 변경됩니다. <br>국산 참기름 38,000원 &nbsp;&nbsp;&nbsp; 국산 들기름 25,000원 <br> 수입산 참기름 16,000원 &nbsp;&nbsp;&nbsp; 수입산 들기름 15,000원/20,000원", 
-                     en: "Domestic Sesame Oil 38,000 KRW &nbsp;&nbsp;&nbsp; Domestic Perilla Oil 25,000 KRW <br> Imported Sesame Oil 16,000 KRW &nbsp;&nbsp;&nbsp; Imported Perilla Oil 15,000 KRW/20,000 KRW", 
-                     cn: "国产芝麻油 38,000韩元 &nbsp;&nbsp;&nbsp; 国产紫苏油 25,000韩元 <br> 进口芝麻油 16,000韩元 &nbsp;&nbsp;&nbsp; 进口紫苏油 15,000韩元/20,000韩元", 
-                     ja: "国内産ゴマ油 38,000 &nbsp;&nbsp;&nbsp; 国内産エゴマ油 25,000 <br> 輸入ゴマ油 16,000 &nbsp;&nbsp;&nbsp; 輸入エゴマ油 15,000/20,000" },
-        query: "사북 경북기름방"
+        specialty: { ko: "국산 참기름 38,000원 국산 들기름 25,000원 <br> 수입산 참기름 16,000원  수입산 들기름 15,000원/20,000원<br>고춧가루 색깔별 21,000 ~ 25,000원", 
+                     en: "Domestic Sesame Oil 38,000 KRW  Domestic Perilla Oil 25,000 KRW <br> Imported Sesame Oil 16,000 KRW  Imported Perilla Oil 15,000 KRW/20,000 KRW <br>Red Chili Powder (By color / variety) 21,000-25,000 KRW", 
+                     cn: "国产芝麻油 38,000韩元  国产紫苏油 25,000韩元 <br> 进口芝麻油 16,000韩元  进口紫苏油 15,000韩元/20,000韩元 <br>辣椒粉（按颜色） 21,000-25,000韩元", 
+                     ja: "国内産ゴマ油 38,000ウォン  国内産エゴマ油 25,000ウォン <br> 輸入ゴマ油 16,000ウォン  輸入エゴマ油 15,000/20,000ウォン <br>唐辛子粉（色・品種別） 21,000-25,000ウォン" },
+        query: "gyeongbukoil.html"
     }
 ];
 

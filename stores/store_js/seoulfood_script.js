@@ -54,10 +54,10 @@ const marketStores = [
                      cn: "本店销售各种食品杂货及干货海鲜。价格可能会根据市场行情变动。", 
                      ja: "各種食料品・乾物（干物）販売。時価・仕入れ相場により価格が変動する場合がございます。"
         },
-        specialty: { ko: "수제 손만두(냉동) 10,000원 &nbsp;&nbsp;&nbsp; 국산 건멸치 10,000원 <br>정선 고사리 20,000원", 
-                     en: "Frozen Handmade Dumplings 10,000 KRW &nbsp;&nbsp;&nbsp; Korean Dried Anchovies 10,000 KRW <br> Jeongseon Gosari (Dried Bracken) 20,000 KRW", 
-                     cn: "手工饺子（冷冻） 10,000韩元 &nbsp;&nbsp;&nbsp; 韩国产干鳀鱼 10,000韩元 <br> 旌善蕨菜 20,000韩元", 
-                     ja: "手作り餃子（冷凍） 10,000ウォン &nbsp;&nbsp;&nbsp; 韓国産煮干し 10,000ウォン<br> 旌善ワラビ 20,000ウォン" },
+        specialty: { ko: "진미포 12,000원 / 국산 건멸치 10,000원 <br> 국산 땅콩 10,000원 / 현미,보리쌀 누룽지 10,000원", 
+                     en: "Dried Squid Strips (Seasoned Dried Squid) 12,000 KRW / Korean Dried Anchovies 10,000 KRW <br> Korean Peanuts 10,000 KRW / Brown Rice & Barley Nurungji 10,000 KRW", 
+                     cn: "调味鱿鱼丝（鱿鱼干片） 12,000韩元 / 韩国产干鳀鱼 10,000韩元 <br> 韩国产花生 10,000韩元 / 糙米、薏米锅巴 10,000韩元", 
+                     ja: "さきいか（味付け裂きイカ / チンミポ） 12,000ウォン / 韓国産煮干し 10,000ウォン<br> 韓国産落花生 10,000ウォン / 赤米・雑穀の煮込み 10,000ウォン" },
         query: "seoulfood.html"
     }
 ];

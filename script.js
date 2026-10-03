@@ -397,10 +397,10 @@ const marketStores = [
             cn: "从贡德雷套餐到烤鱼、杜鹃花炖菜和嫩豆腐汤等多样的韩式菜单都可以享用。位于市场正门旁边。",
             ja: "ゴンドレ定食から焼き魚、ドデク焼き、スンドゥブチゲまで、多彩な韓国料理メニューを楽しめます。市場の正門のすぐ隣に位置しています。"
         },
-        specialty: { ko: "곤드레정식 18,000원 &nbsp;&nbsp;&nbsp; 임연수구이 17,000원&nbsp;&nbsp;&nbsp; 순두부찌개 12,000원 <br> 고등어구이 15,000원 &nbsp;&nbsp;&nbsp; 더덕구이 17,000원&nbsp;&nbsp;&nbsp;황태구이 17,000원",
-             en: "Gondre Set Meal 18,000 KRW &nbsp;&nbsp;&nbsp; Grilled Atka Mackerel 17,000 &nbsp;&nbsp;&nbsp;KRW Soft Tofu Stew <br> Grilled Mackerel 15,000 KRW &nbsp;&nbsp;&nbsp; Grilled Deodeok 17,000 KRW&nbsp;&nbsp;&nbsp;Grilled Dried Pollock with Spicy Seasoning 17,000 KRW", 
-             cn: "山蓟菜套餐 18,000韩元 &nbsp;&nbsp;&nbsp; 烤银鳕鱼 17,000韩元 &nbsp;&nbsp;&nbsp;嫩豆腐煲 12,000韩元<br> 烤鲭鱼 15,000韩元 &nbsp;&nbsp;&nbsp; 烤沙参 17,000韩元 &nbsp;&nbsp;&nbsp;烤干明太鱼 17,000韩元", 
-             ja: "ゴンドレ定食 18,000ウォン &nbsp;&nbsp;&nbsp; ホッケ焼き 17,000ウォン  &nbsp;&nbsp;&nbsp;スンドゥブチゲ 12,000ウォン <br> サバの塩焼き 15,000ウォン &nbsp;&nbsp;&nbsp; 蔓人蔘焼き(デオドク) 17,000ウォン&nbsp;&nbsp;&nbsp;ファンテグイ（干しスケトウダラのピリ辛焼き） 17,000ウォン" },
+         specialty: { ko: "곤드레정식 18,000원 / 임연수구이 17,000원 <br> 순두부찌개 12,000원 / 고등어구이 15,000원 <br> 더덕구이 17,000원 / 황태구이 17,000원 <br>제육볶음(2인 이상) 15,000원",
+             en: "Gondre Set Meal 18,000 KRW / Grilled Atka Mackerel 17,000 KRW <br> Soft Tofu Stew / Grilled Mackerel 15,000 KRW /Grilled Deodeok 17,000 KRW / Grilled Dried Pollock with Spicy Seasoning 17,000 KRW <br>Stir-fried Pork (for 2 or more) 15,000 KRW", 
+             cn: "山蓟菜套餐 18,000韩元 / 烤银鳕鱼 17,000韩元 <br> 嫩豆腐煲 12,000韩元 / 烤鲭鱼 15,000韩元 <br> 烤沙参 17,000韩元 / 烤干明太鱼 17,000韩元 <br>辣炒猪肉 （2人以上） 15,000韩元", 
+             ja: "ゴンドレ定食 18,000ウォン / ホッケ焼き 17,000ウォン  <br>>スンドゥブチゲ 12,000ウォン / サバの塩焼き 15,000ウォン <br> 蔓人蔘焼き(デオドク) 17,000ウォン / ファンテグイ（干しスケトウダラのピリ辛焼き） 17,000ウォン <br>豚肉のピリ辛炒め(2名様分より承ります) 15,000ウォン" },
         query: "gangneungrestaurant.html"
     },
       {
@@ -409,15 +409,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "지역에서 나는 원료로 짠 신선한 기름을 판매합니다.",
-            en: "We sell fresh, locally-sourced oils made from regional ingredients.",
-            cn: "我们销售用当地原料压榨的新鲜油。",
-            ja: "本地域の原料で絞った新鮮な油を販売しています。"
+            ko: "좋은 원료로 직접 짠 신선한 기름을 판매합니다. 시세에  따라 가격이 변동될 수 있습니다.",
+            en: "We sell fresh, locally-sourced oils made from regional ingredients.  Prices may vary depending on the market.",
+            cn: "我们销售用当地原料压榨的新鲜油。 价格可能因市场而异。",
+            ja: "本地域の原料で絞った新鮮な油を販売しています。価格は市場によって変動する場合があります。"
         },
-        specialty: { ko: "국산 참기름 38,000원 &nbsp;&nbsp;&nbsp; 국산 들기름 25,000원 <br> 수입산 참기름 16,000원 &nbsp;&nbsp;&nbsp; 수입산 들기름 15,000원/20,000원", 
-                     en: "Domestic Sesame Oil 38,000 KRW &nbsp;&nbsp;&nbsp; Domestic Perilla Oil 25,000 KRW <br> Imported Sesame Oil 16,000 KRW &nbsp;&nbsp;&nbsp; Imported Perilla Oil 15,000 KRW/20,000 KRW", 
-                     cn: "国产芝麻油 38,000韩元 &nbsp;&nbsp;&nbsp; 国产紫苏油 25,000韩元 <br> 进口芝麻油 16,000韩元 &nbsp;&nbsp;&nbsp; 进口紫苏油 15,000韩元/20,000韩元", 
-                     ja: "国内産ゴマ油 38,000 &nbsp;&nbsp;&nbsp; 国内産エゴマ油 25,000 <br> 輸入ゴマ油 16,000 &nbsp;&nbsp;&nbsp; 輸入エゴマ油 15,000/20,000" },
+        specialty: { ko: "국산 참기름 38,000원 국산 들기름 25,000원 <br> 수입산 참기름 16,000원  수입산 들기름 15,000원/20,000원<br>고춧가루 색깔별 21,000 ~ 25,000원", 
+                     en: "Domestic Sesame Oil 38,000 KRW  Domestic Perilla Oil 25,000 KRW <br> Imported Sesame Oil 16,000 KRW  Imported Perilla Oil 15,000 KRW/20,000 KRW <br>Red Chili Powder (By color / variety) 21,000-25,000 KRW", 
+                     cn: "国产芝麻油 38,000韩元  国产紫苏油 25,000韩元 <br> 进口芝麻油 16,000韩元  进口紫苏油 15,000韩元/20,000韩元 <br>辣椒粉（按颜色） 21,000-25,000韩元", 
+                     ja: "国内産ゴマ油 38,000ウォン  国内産エゴマ油 25,000ウォン <br> 輸入ゴマ油 16,000ウォン  輸入エゴマ油 15,000/20,000ウォン <br>唐辛子粉（色・品種別） 21,000-25,000ウォン" },
         query: "gyeongbukoil.html"
     },
     {
@@ -499,10 +499,10 @@ const marketStores = [
             cn: "在这里可以找到旌善郡和舍北的可爱独特商品。如果您想购买礼物，这里是必去之地。",
             ja: "旌善郡と舎北のかわいい独特なグッズに出会える。贈り物を買うなら必ず訪れるべき場所の一つです。"
         },
-   specialty: { ko: "정선화투래요(지역관광화투) 15,000원 &nbsp;&nbsp;&nbsp; 정선마그넷 6,000 ~ 15,000원 <br> 정선을 기억해 엽서 2,000 ~ 2,500원", 
-                     en: "Jeongseon Edition Hwatu Playing Cards 15,000 KRW&nbsp;&nbsp;&nbsp;Jeongseon Souvenir Magnet 6,000 - 15,000 KRW <br> 'Remember Jeongseon' Postcard 2,000-2,500 KRW", 
-                     cn: "旌善花牌（地方特色旅游花牌） 15,000韩元&nbsp;&nbsp;&nbsp; 旌善特色冰箱贴 6,000 - 15,000韩元<br> '记住旌善'明信片 2,000 - 2,500韩元", 
-                     ja: "旌善花札（ご当地観光花札） 15,000ウォン&nbsp;&nbsp;&nbsp; 旌善（チョンソン）マグネット 6,000 - 15,000ウォン<br> 「チョンソンを記憶して」絵はがき 2,000 - 2,500ウォン" },
+      specialty: { ko: "정선화투래요(지역관광화투) 15,000원 <br> 정선마그넷 6,000 ~ 15,000원 <br> 정선을 기억해 엽서 2,000 ~ 2,500원", 
+                     en: "Jeongseon Edition Hwatu Playing Cards 15,000 KRW <br> Jeongseon Souvenir Magnet 6,000 - 15,000 KRW <br> 'Remember Jeongseon' Postcard 2,000-2,500 KRW", 
+                     cn: "旌善花牌（地方特色旅游花牌） 15,000韩元 <br> 旌善特色冰箱贴 6,000 - 15,000韩元 <br> '记住旌善'明信片 2,000 - 2,500韩元", 
+                     ja: "旌善花札（ご当地観光花札） 15,000ウォン <br> 旌善（チョンソン）マグネット 6,000 - 15,000ウォン <br> 「チョンソンを記憶して」絵はがき 2,000 - 2,500ウォン" },
         query: "daheemarket.html"
     },
       {
@@ -991,10 +991,10 @@ const marketStores = [
                      cn: "本店销售各种食品杂货及干货海鲜。价格可能会根据市场行情变动。", 
                      ja: "各種食料品・乾物（干物）販売。時価・仕入れ相場により価格が変動する場合がございます。"
         },
-        specialty: { ko: "수제 손만두(냉동) 10,000원 &nbsp;&nbsp;&nbsp; 국산 건멸치 10,000원 <br>정선 고사리 20,000원", 
-                     en: "Frozen Handmade Dumplings 10,000 KRW &nbsp;&nbsp;&nbsp; Korean Dried Anchovies 10,000 KRW <br> Jeongseon Gosari (Dried Bracken) 20,000 KRW", 
-                     cn: "手工饺子（冷冻） 10,000韩元 &nbsp;&nbsp;&nbsp; 韩国产干鳀鱼 10,000韩元 <br> 旌善蕨菜 20,000韩元", 
-                     ja: "手作り餃子（冷凍） 10,000ウォン &nbsp;&nbsp;&nbsp; 韓国産煮干し 10,000ウォン<br> 旌善ワラビ 20,000ウォン" },
+        specialty: { ko: "진미포 12,000원 / 국산 건멸치 10,000원 <br> 국산 땅콩 10,000원 / 현미,보리쌀 누룽지 10,000원", 
+                     en: "Dried Squid Strips (Seasoned Dried Squid) 12,000 KRW / Korean Dried Anchovies 10,000 KRW <br> Korean Peanuts 10,000 KRW / Brown Rice & Barley Nurungji 10,000 KRW", 
+                     cn: "调味鱿鱼丝（鱿鱼干片） 12,000韩元 / 韩国产干鳀鱼 10,000韩元 <br> 韩国产花生 10,000韩元 / 糙米、薏米锅巴 10,000韩元", 
+                     ja: "さきいか（味付け裂きイカ / チンミポ） 12,000ウォン / 韓国産煮干し 10,000ウォン<br> 韓国産落花生 10,000ウォン / 赤米・雑穀の煮込み 10,000ウォン" },
         query: "seoulfood.html"
     },
      {
