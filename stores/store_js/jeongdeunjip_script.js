@@ -49,15 +49,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "옥수수 등의 농산물을 판매하는 곳입니다. 계절에 따라 만두, 찐빵도 팔아요.",
-            en: "A store selling agricultural produce like corn. Depending on the season, we also offer dumplings and steamed buns.",
-            cn: "本店主营玉米等农产品。根据季节不同，店内还出售热气腾腾的饺子和包子。",
-            ja: "トウモロコシなどの農産物を販売しているお店です。季節に合わせてマンドゥ（餃子）や蒸しパン（あんまん）も販売しています"
+            ko: "농산물을 판매하는 상점입니다. 현재는 쌀을 판매하고 있어요.<br>문의는 옆 강릉식당으로 방문해주세요!",
+            en: "A shop selling fresh farm produce, currently featuring quality rice.<br>For inquiries, please visit Gangneung Restaurant next door.",
+            cn: "专营各类农产品的店铺，目前主要销售优质大米。<br>咨询请洽隔壁 【江陵餐厅】",
+            ja: "農産物を販売するお店です。現在は美味しいお米を販売しております。<br>ご用の方は隣の【カンヌン食堂】へお声がけください。"
         },
-        specialty: { ko: "(시세에 따라 가격이 변경됩니다.) 옥수수, 쌀, 겨울에는 찐빵, 만두 등.", 
-                     en: "(Prices are subject to change according to market rates) Corn, rice, and during the winter, steamed buns, dumplings, etc.", 
-                     cn: "(根据时价价格会有所变动） 玉米、大米，冬季还有热包子、饺子等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます） トウモロコシ、お米、冬季には蒸しパン（あんまん）、マンドゥ（餃子）など。" },
+        specialty: { ko: "(시세에 따라 가격이 변경됩니다.) 쌀 20kg 80,000 / 10kg 40,000", 
+                     en: "(Prices are subject to change according to market rates) Rice 20kg 80,000 KRW / 10kg 40,000 KRW", 
+                     cn: "(根据时价价格会有所变动） 大米 20kg 80,000韩元 / 10kg 40,000韩元", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます） 米 20kg 80,000ウォン / 10kg 40,000ウォン" },
         query: "jeongdeunjip.html"
     }
 ];
