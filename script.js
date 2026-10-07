@@ -1185,7 +1185,7 @@ const marketStores = [
     },
     {
         id: 55,
-        name: { ko: "정든집", en: "Jeongdeunjip", cn: "情深家", ja: "チョンドゥンジプ" },
+        name: { ko: "정든집", en: "Jeongdeunjip (A Cozy Home of Fond Memories)", cn: "情深家", ja: "チョンドゥンジプ(情深き我が家)" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
