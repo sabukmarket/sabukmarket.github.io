@@ -1104,15 +1104,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "야채와 나물을 비롯한 곡식, 그리고 일부 생활용품들을 판매합니다.",
-            en: "We sell vegetables, wild herbs, various grains, and everyday household goods.",
-            cn: "出售新鲜蔬菜、野菜、大米、杂粮以及各种日用生活百货。",
-            ja: "野菜や山菜をはじめ、お米、穀物、そして日用品などを幅広く取り扱っております。"
+            ko: "건어물, 곡식, 나물 등의 다양한 식료품을 판매하고 있어요. 시세에 따라 가격은 바뀔 수 있습니다.",
+            en: "We offer a wide variety of groceries, including dried seafood, grains, and wild greens. Prices may vary depending on the market.",
+            cn: "本店销售干货水产、五谷杂粮、山野菜等多种优质食品。价格可能因市场而异。",
+            ja: "干物や乾物、穀物、山菜など、多彩な食材・食品を取り揃えております。価格は市場による。"
         },
-        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 콩, 쌀, 김, 직접 담근 된장, 젓갈 등.", 
-                     en: "(Prices may vary depending on the market.) Soybeans, rice, seaweed (laver), homemade fermented soybean paste (doenjang), salted fermented seafood (jeotgal), etc.", 
-                     cn: "(价格可能因市场而异。) 大豆（黄豆）、大米、海苔、自家秘制大酱、腌制海鲜酱（咸虾酱/鱼露等）。", 
-                     ja: "(価格は市場による。) 大豆、お米、海苔、自家製テンジャン（韓国味噌）、塩辛（チョッカル）など。" },
+        specialty: { ko: "쥐치포 20,000~40,000원 <br> 아귀채 45,000원 <br>국산 서리태 20,000원 등.", 
+                     en: "Jwipo (Dried Filefish) 20,000 - 40,000 KRW <br> Dried Monkfish Jerky 45,000 KRW <br> Korean Black Beans 20,000 KRW, etc.", 
+                     cn: "调味安康鱼丝 20,000 - 40,000韩元 <br> 调味鱼片 45,000韩元 <br> 韩国产青仁黑豆 20,000韩元 等。", 
+                     ja: "あんこうロール（アンコウの味付け干し細切り) 20,000 - 40,000ウォン <br>カワハギみりん干し 45,000ウォン <br>韓国産ソリテ黒豆 20,000ウォン" },
         query: "sabukvegi.html"
     },
      {
