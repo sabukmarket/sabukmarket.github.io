@@ -49,7 +49,7 @@ const marketStores = [
         cat: "general",
         catName: { ko: "병원·약국", en: "Hospitals & Pharmacies", cn: "医院·药店", ja: "病院・薬局" },
         desc: {
-            ko: "시장 입구 주변에 위치한 치과입니다. 2층으로 올라오세요.<br> #치과 #의료 #건강",
+            ko: "시장 입구 주변의 건물에 위치한 치과입니다. 2층으로 올라오세요.<br> #치과 #의료 #건강",
             en: "A dental clinic located near the market entrance. Please come up to the 2nd floor.<br> #DentalClinic #Medical #Health",
             cn: "位于市场入口附近的牙科诊所。请上到二楼。<br> #牙科诊所 #医疗 #健康",
             ja: "市場の入り口付近にある歯科医院です。2階にお越しください。<br> #歯科医院 #医療 #健康"
