@@ -54,10 +54,10 @@ const marketStores = [
             cn: "豪爽热情的阿姨们精心制作的各色小菜，搭配绝品山蓟菜饭，是一家风味一绝的包饭专门店！",
             ja: "気っぷのいいお母さんたち（イモ）が丹精込めて作ったおかずと、絶品のゴンドゥレ（高麗アザミ）ご飯が自慢の包みご飯（サンパプ）専門店です！"
         },
-        specialty: { ko: "임금님한상(갈비찜+제육+불고기, 2인이상) 25,000원 <br> 갈비찜쌈밥 16,000원 <br> 불고기쌈밥(2인이상) 16,000원 <br> 곤드레쌈밥 11,000원 <br> 제육덮밥 11,000원 <br> 1인쌈밥정식 20,000원",
-             en: "King’s Feast (Braised Short Ribs + Spicy Stir-Fried Pork + Bulgogi, Min. 2 Orders) 25,000 KRW <br> Braised Short Rib Ssambap (Rice & Vegetable Wraps) 16,000 KRW <br> Bulgogi Ssambap (Min. 2 Orders) 16,000 KRW <br> Gondre (Korean Thistle) Ssambap 11,000 KRW <br> Spicy Stir-Fried Pork over Rice (Jeyuk Deopbap) 11,000 KRW <br> Solo Ssambap Set (For 1 Person) 20,000 KRW", 
-             cn: "御膳王宴套餐（炖牛排骨+辣炒猪肉+烤牛肉，2人起点）25,000韩元 <br> 炖排骨包饭 16,000韩元 <br> 烤牛肉包饭（2人起点）16,000韩元 <br> 山蓟菜包饭 11,000韩元 <br> 辣炒猪肉盖饭 11,000韩元 <br> 单人包饭定食 20,000韩元", 
-             ja: "王様御膳（カルビチム＋豚肉ピリ辛炒め＋プルコギ、2名様以上）25,000ウォン <br> カルビチム包みご飯（サンパプ） 16,000ウォン <br>プルコギ包みご飯（2名様以上） 16,000ウォン <br> コンドゥレ菜包みご飯 11,000ウォン<br>豚肉ピリ辛炒め丼（チェユク丼） 11,000ウォン <br> 1人包みご飯定食 20,000ウォン" },
+        specialty: { ko: "임금님한상(갈비찜+제육+불고기, 2인이상) 25,000원 <br> 갈비찜쌈밥(2인이상) 16,000원 <br> 불고기쌈밥(2인이상) 16,000원 <br> 곤드레백반 11,000원 <br> 제육덮밥 11,000원 <br> 1인쌈밥정식 20,000원(갈비찜, 불고기, 제육 중 택1)",
+             en: "King’s Feast (Braised Short Ribs + Spicy Stir-Fried Pork + Bulgogi, Min. 2 Orders) 25,000 KRW <br> Braised Short Rib Ssambap (Rice & Vegetable Wraps,Min. 2 Orders) 16,000 KRW <br> Bulgogi Ssambap (Min. 2 Orders) 16,000 KRW <br> Gondre (Korean Thistle) Rice 11,000 KRW <br> Spicy Stir-Fried Pork over Rice (Jeyuk Deopbap) 11,000 KRW <br> Solo Ssambap Set (For 1 Person, Choose 1: Braised Short Ribs, Bulgogi, or Spicy Stir-Fried Pork) 20,000 KRW", 
+             cn: "御膳王宴套餐（炖牛排骨+辣炒猪肉+烤牛肉，2人起点）25,000韩元 <br> 炖排骨包饭（2人起点） 16,000韩元 <br> 烤牛肉包饭（2人起点）16,000韩元 <br> 山蓟菜饭 11,000韩元 <br> 辣炒猪肉盖饭 11,000韩元 <br> 单人包饭定食 20,000韩元 (可选：炖牛排骨、烤牛肉或辣炒猪肉) ", 
+             ja: "王様御膳（カルビチム＋豚肉ピリ辛炒め＋プルコギ、2名様以上）25,000ウォン <br> カルビチム包みご飯（サンパプ）（2名様以上） 16,000ウォン <br>プルコギ包みご飯（2名様以上） 16,000ウォン <br> コンドゥレご飯 11,000ウォン<br>豚肉ピリ辛炒め丼（チェユク丼） 11,000ウォン <br> 1人包みご飯定食 20,000ウォン (選択可能：カルビチム、プルコギ、または豚肉ピリ辛炒め)" },
         query: "yeoju.html"
     }
 ];
