@@ -967,16 +967,16 @@ const marketStores = [
         name: { ko: "여주쌈밥", en: "Yeoju Ssambap", cn: "骊州包饭", ja: "ヨジュ・サンパプ" },
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
-        desc: {
+         desc: {
             ko: "터프한 이모님들이 정성스레 만든 밑반찬과 곤드레밥이 일품인 쌈밥집입니다!",
             en: "A hearty ssambap (rice wrap) restaurant famous for savory gondre rice and homemade side dishes passionately prepared by our warm-hearted aunties!",
             cn: "豪爽热情的阿姨们精心制作的各色小菜，搭配绝品山蓟菜饭，是一家风味一绝的包饭专门店！",
             ja: "気っぷのいいお母さんたち（イモ）が丹精込めて作ったおかずと、絶品のゴンドゥレ（高麗アザミ）ご飯が自慢の包みご飯（サンパプ）専門店です！"
         },
-        specialty: { ko: "곤드레쌈밥 11,900원 / 제육덮밥 11,000원 <br> 갈비찜정식 16,000원 &nbsp;&nbsp; 1인쌈밥정식 20,000원",
-             en: "Gondre Ssambap 11,900 KRW / Jeyuk Deopbap 11,000 KRW <br> Galbijjim Set 16,000 KRW &nbsp;&nbsp; Solo Ssambap Set 20,000 KRW", 
-             cn: "山蓟菜包饭 11,900韩元 / 辣炒猪肉盖饭 11,000韩元 <br> 炖排骨定食 16,000韩元 &nbsp;&nbsp; 单人包饭定食 20,000韩元", 
-             ja: "ゴンドゥレ包みご飯（サンパプ） 11,900ウォン / 豚肉炒め丼（チェユクドッパプ） 11,000ウォン <br> カルビチム定食 16,000ウォン &nbsp;&nbsp; 1人前サンパプ定食 20,000ウォン" },
+        specialty: { ko: "임금님한상(갈비찜+제육+불고기, 2인이상) 25,000원 <br> 갈비찜쌈밥 16,000원 / 불고기쌈밥(2인이상) 16,000원 <br> 곤드레쌈밥 11,900원 / 제육덮밥 11,000원 <br> 1인쌈밥정식 20,000원",
+             en: "King’s Feast (Braised Short Ribs + Spicy Stir-Fried Pork + Bulgogi, Min. 2 Orders) 25,000 KRW <br> Braised Short Rib Ssambap (Rice & Vegetable Wraps) 16,000 KRW <br> Bulgogi Ssambap (Min. 2 Orders) 16,000 KRW <br> Gondre (Korean Thistle) Ssambap 11,900 KRW <br> Spicy Stir-Fried Pork over Rice (Jeyuk Deopbap) 11,000 KRW <br> Solo Ssambap Set (For 1 Person) 20,000 KRW", 
+             cn: "御膳王宴套餐（炖牛排骨+辣炒猪肉+烤牛肉，2人起点）25,000韩元 <br> 炖排骨包饭 16,000韩元 <br> 烤牛肉包饭（2人起点）16,000韩元 <br> 山蓟菜包饭 11,900韩元 <br> 辣炒猪肉盖饭 11,000韩元 <br> 单人包饭定食 20,000韩元", 
+             ja: "王様御膳（カルビチム＋豚肉ピリ辛炒め＋プルコギ、2名様以上）25,000ウォン <br> カルビチム包みご飯（サンパプ） 16,000ウォン <br>プルコギ包みご飯（2名様以上） 16,000ウォン <br> コンドレ菜包みご飯 11,900ウォン<br>豚肉ピリ辛炒め丼（チェユク丼） 11,000ウォン <br> 1人包みご飯定食 20,000ウォン" },
         query: "yeoju.html"
     },
       {
