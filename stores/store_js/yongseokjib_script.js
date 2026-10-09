@@ -49,15 +49,15 @@ const marketStores = [
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
-            ko: "선지해장국 전문점입니다. 밤에 문을 열고 오후에 문을 닫으니 일찍 방문하셔야 해요!",
-            en: "A restaurant specializing in Seonji Haejang-guk (Korean blood sausage soup). It opens at night and closes in the afternoon, so make sure to visit early!",
-            cn: "一家专门提供牛血解酒汤的餐厅。晚上营业，下午关门，所以请早点来！",
-            ja: "ソンジヘジャンクク（韓国の血腸スープ）専門店です。夜に営業し、午後には閉店するので、早めに訪れることをお勧めします！"
+            ko: "선지해장국 맛집입니다. 새벽 5:30에 문을 열고 오후 3시에 문을 닫아요!",
+            en: "A restaurant specializing in Seonji Haejang-guk (Ox Blood Hangover Soup). It opens at 5:30 AM and closes at 3 PM!",
+            cn: "一家专门提供牛血解酒汤的餐厅。营业时间为早上5:30至下午3点！",
+            ja: "ソンジヘジャンクク（牛の血の塊入り酔い覚ましスープ）専門店です。 朝5:30に開店し、午後3時に閉店します！"
         },
-        specialty: { ko: "선지해장국 11,000원 &nbsp;&nbsp;&nbsp; 콩나물해장국 11,000원 <br> 육개장 11,000원 &nbsp;&nbsp;&nbsp; 갈비탕 13,000원",
-             en: "Seonji Haejang-guk 11,000 KRW &nbsp;&nbsp;&nbsp; Bean Sprout Haejang-guk 11,000 KRW <br> Yukgaejang 11,000 KRW &nbsp;&nbsp;&nbsp; Galbitang 13,000 KRW", 
-             cn: "血肠汤 11,000韩元 &nbsp;&nbsp;&nbsp; 豆芽汤 11,000韩元 <br> 牛肉辣汤 11,000韩元 &nbsp;&nbsp;&nbsp; 排骨汤 13,000韩元", 
-             ja: " 牛血酔い覚ましスープ(ソンジ・ヘジャンクク) 11,000 &nbsp;&nbsp;&nbsp; 豆もやし酔い覚ましスープ(コンナムル・ヘジャンクク) 11,000 <br> ユッケジャン 11,000 &nbsp;&nbsp;&nbsp; カルビタン 13,000" },
+        specialty: { ko: "선지해장국 11,000원 <br> 콩나물해장국 11,000원 <br> 육개장 11,000원 <br> 갈비탕 13,000원 <br> 뚝불 13,000원 <br>떡만둣국 11,000원",
+             en: "Seonji Haejang-guk (Ox Blood Hangover Soup) 11,000 KRW <br> Bean Sprout Haejang-guk (Kongnamul-guk) 11,000 KRW <br> Yukgaejang (Spicy Beef and Vegetable Soup) 11,000 KRW <br> Galbi-tang (Short Rib Soup) 13,000 KRW <br> Ttukbul (Bulgogi in a Hot Earthenware Pot) 13,000 KRW <br> Tteok Mandu Guk (Rice Cake and Dumpling Soup) 11,000 KRW", 
+             cn: "牛血醒酒汤 11,000韩元 <br> 豆芽醒酒汤 11,000韩元 <br> 辣牛肉汤 11,000韩元 <br> 排骨汤 13,000韩元 <br> 铁板牛肉 13,000韩元 <br> 年糕饺子汤 11,000韩元", 
+             ja: "ソンジヘジャングク（牛血ゼリー入り酔い覚ましスープ） 11,000ウォン <br> もやしヘジャングク（豆もやしの酔い覚ましスープ） 11,000ウォン <br> ユッケジャン（牛肉と野菜のピリ辛スープ） 11,000ウォン <br> カルビタン（牛骨付きカルビスープ） 13,000ウォン <br>トゥップル（土鍋プルコギ） 13,000ウォン <br>トックマンドゥクッ（餅と餃子のスープ） 11,000ウォン" },
         query: "yongseokjib.html",
     }
 ];
