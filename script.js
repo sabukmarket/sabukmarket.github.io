@@ -278,7 +278,7 @@ const i63nData = {
 const marketStores = [
     {
         id: 1,
-        name: { ko: "짱얼큰칼국수", en: "Jjangeolkeun Kalguksu", cn: "超赞辣味刀削面", ja: "ピリ辛カルグクス" },
+        name: { ko: "짱얼큰칼국수", en: "Jjang Spicy Kalguksu", cn: "JJANG香辣刀切面（赞！超辣刀切面）", ja: "チャン・オルクンカルグクス（特製ピリ辛手打ちうどん）" },
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
@@ -287,7 +287,10 @@ const marketStores = [
             cn: "自制辛奇、手擀面与面片汤一绝的刀切面馆。",
             ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
         },
-        specialty: { ko: "칼국수 8,000원 / 수제비 8,000원 <br> 들깨수제비 9,000원 / 들깨칼국수 9,000원", en: "Kalguksu 8,000 KRW / Sujebi 8,000 KRW <br> Perilla Seed Sujebi 9,000 KRW / Perilla Seed Kalguksu 9,000 KRW", cn: "刀切面 8,000韩元 / 面片汤 8,000韩元 <br>荏子刀切面 9,000韩元 / 荏子面片汤 9,000韩元", ja: "カルグクス 8,000 / スジェビ 8,000 <br> エゴマカルグクス 9,000 /エゴマスジェビ 9,000" },
+        specialty: { ko: "칼국수 9,000원(보통, 얼큰 장, 들깨)<br> 수제비 9,000원(보통, 얼큰 장, 들깨) <br> 칼제비 9,000원(보통, 얼큰 장, 들깨)<br>감자전 10,000원",
+             en: "Kalguksu 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Sujebi 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Kalguksu + Sujebi 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Gamja Jeon (Potato Pancake) 10,000 KRW", 
+             cn: " 刀切面 9,000韩元（普通、辣味酱、芝麻）<br> 面片汤 9,000韩元（普通、辣味酱、芝麻）<br> 刀切面+面片汤 9,000韩元（普通、辣味酱、芝麻）<br> 土豆煎饼 10,000韩元", 
+             ja: "カルグクス 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br> スジェビ 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br> エゴマカルグクス 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br>カムジャ・ジョン (ジャガイモのチヂミ) 10,000ウォン" },
         query: "kalguksu.html"
     },
     {
@@ -301,7 +304,10 @@ const marketStores = [
             cn: "市场内的舒适咖啡厅，可在此休息并享用咖啡。还可购买可爱的Kkamidorong角色钥匙扣。",
             ja: "市場内でのコーヒー飲み放題の快適なカフェ。カミドロンキャラクターのキーホルダーも販売中。"
         },
-        specialty: { ko: "아메리카노 HOT 4,000원 /  ICED 4,500원 <br> 아이스크림 5,000원 /  까미도롱 키링 10,000원", en: "Americano HOT 4,000 KRW/  ICED 4,500 KRW <br> Ice Cream 5,000 KRW / Kkamidorong Keychain 10,000 KRW", cn: "美式咖啡 热 4,000韩元 / 冰 4,500韩元 <br> 冰淇淋 5,000韩元 / Kkamidorong钥匙扣 10,000韩元", ja: "アメリカーノ HOT 4,000 / ICED 4,500 <br> アイスクリーム 5,000 / キャラクターキーホルダー 10,000" },
+        specialty: { ko: "아메리카노 HOT 4,000원 /  ICED 4,500원 <br> 아이스크림 5,000원 /  까미도롱 키링 10,000원", 
+            en: "Americano HOT 4,000 KRW/  ICED 4,500 KRW <br> Ice Cream 5,000 KRW / Kkamidorong Keychain 10,000 KRW", 
+            cn: "美式咖啡 热 4,000韩元 / 冰 4,500韩元 <br> 冰淇淋 5,000韩元 / Kkamidorong钥匙扣 10,000韩元", 
+            ja: "アメリカーノ HOT 4,000 / ICED 4,500 <br> アイスクリーム 5,000 / キャラクターキーホルダー 10,000" },
         query: "tantanari.html"
     },
     {
@@ -1058,7 +1064,7 @@ const marketStores = [
             cn: "特色干货・食品及日用品：紫菜、海带、虾酱、鱿鱼丝、调味鱼干，另有多种日用副食，欢迎选购。",
             ja: "水産乾物・食料品・日用品：海苔、ワカメ、アミの塩辛、さきいか、カワハギ干しなど。ぜひお気軽にご覧ください！"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.)<br>오징어 80,000원 <br> 북어 45,000원 <br>멸치 25,000~40,000원 등.", 
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.)<br>건오징어 80,000원 <br> 북어 45,000원 <br>멸치 25,000~40,000원 등.", 
                      en: "(Prices are subject to change according to market rates.) <br>Dried Squid 80,000 KRW<br>Dried Pollock 45,000 KRW <br>Dried Anchovies 25,000 – 40,000 KRW, etc. ", 
                      cn: "根据时价价格会有所变动)<br>鱿鱼干 80,000韩元 <br>明太鱼干 45,000韩元 <br>凤尾鱼干(小银鱼) 25,000~40,000韩元 等。", 
                      ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>スルメ（乾燥イカ） 80,000 KRW<br>干しスケトウダラ（プゴ） 45,000 KRW <br>煮干し（ミョルチ） 25,000 – 40,000 KRW, etc. " },

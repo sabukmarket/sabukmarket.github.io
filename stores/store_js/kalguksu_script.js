@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "짱얼큰칼국수", en: "Jjangeolkeun Kalguksu", cn: "超赞辣味刀削面", ja: "ピリ辛カルグクス" },
+        name: { ko: "짱얼큰칼국수", en: "Jjang Spicy Kalguksu", cn: "JJANG香辣刀切面（赞！超辣刀切面）", ja: "チャン・オルクンカルグクス（特製ピリ辛手打ちうどん）" },
         cat: "restaurants",
         catName: { ko: "식당", en: "Restaurant", cn: "特色餐厅", ja: "郷土料理店" },
         desc: {
@@ -54,11 +54,11 @@ const marketStores = [
             cn: "自制辛奇、手擀面与面片汤一绝的刀切面馆。",
             ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
         },
-        specialty: { ko: "칼국수 8,000원 &nbsp;&nbsp;&nbsp; 수제비 8,000원 <br> 들깨수제비 9,000원 &nbsp;&nbsp;&nbsp; 들깨칼국수 9,000원",
-             en: "Kalguksu 8,000 KRW &nbsp;&nbsp;&nbsp; Sujebi 8,000 KRW <br> Perilla Seed Sujebi 9,000 KRW &nbsp;&nbsp;&nbsp; Perilla Seed Kalguksu 9,000 KRW", 
-             cn: "刀切面 8,000韩元 &nbsp;&nbsp;&nbsp; 面片汤 8,000韩元 <br>荏子刀切面 9,000韩元 &nbsp;&nbsp;&nbsp; 荏子面片汤 9,000韩元", 
-             ja: "カルグクス 8,000 &nbsp;&nbsp;&nbsp; スジェビ 8,000 <br> エゴマカルグクス 9,000 &nbsp;&nbsp;&nbsp;エゴマスジェビ 9,000" },
-        query: "짱얼큰칼국수"
+        specialty: { ko: "칼국수 9,000원(보통, 얼큰 장, 들깨)<br> 수제비 9,000원(보통, 얼큰 장, 들깨) <br> 칼제비 9,000원(보통, 얼큰 장, 들깨)<br>감자전 10,000원",
+             en: "Kalguksu 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Sujebi 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Kalguksu + Sujebi 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Gamja Jeon (Potato Pancake) 10,000 KRW", 
+             cn: " 刀切面 9,000韩元（普通、辣味酱、芝麻）<br> 面片汤 9,000韩元（普通、辣味酱、芝麻）<br> 刀切面+面片汤 9,000韩元（普通、辣味酱、芝麻）<br> 土豆煎饼 10,000韩元", 
+             ja: "カルグクス 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br> スジェビ 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br> エゴマカルグクス 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br>カムジャ・ジョン (ジャガイモのチヂミ) 10,000ウォン" },
+        query: "kalguksu.html"
     }
 ];
 
