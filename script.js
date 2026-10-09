@@ -1053,15 +1053,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "김, 미역, 마른오징어 등 건어물도 판매하고 쌀과 세제 등도 판매합니다. 시장 식혜도 주문받고 있어요!",
-            en: "We sell dried seafood such as seaweed (laver), kelp, and dried squid, as well as essentials like rice and detergent. We also take orders for traditional market-style sikhye (sweet rice punch)!",
-            cn: "出售海苔、海带、干鱿鱼等各种海鲜干货，以及大米、洗涤剂等生活用品。本店还接受传统传统食酰（甜米露）的预订哦！",
-            ja: "海苔（のり）、ワカメ、スルメなどの乾物はもちろん、お米や洗剤なども取り扱っています。市場の手作りシッケ（伝統の甘酒風発酵飲料）のご注文も承り中！"
+            ko: "각종 건어물을 팔고 있습니다. 김, 미역, 새우젓, 진미채, 쥐포 등의 건어물 이외 식료품과 생활용품도 다양하게 있으니 둘러보세요.",
+            en: "Assorted Dried Seafood & Daily Essentials: Seaweed, Salted Shrimp, Shredded Squid, Dried Filefish, Groceries & Everyday Goods. Feel free to look around!",
+            cn: "特色干货・食品及日用品：紫菜、海带、虾酱、鱿鱼丝、调味鱼干，另有多种日用副食，欢迎选购。",
+            ja: "水産乾物・食料品・日用品：海苔、ワカメ、アミの塩辛、さきいか、カワハギ干しなど。ぜひお気軽にご覧ください！"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 황태, 쌀, 옛날과자 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Dried seaweed (laver), kelp, dried squid, dried pollock (hwangtae), rice, traditional Korean snacks, etc.", 
-                     cn: "根据时价价格会有所变动）海苔、海带、鱿鱼、黄太鱼（干明太鱼）、大米、传统怀旧零食等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔、ワカメ、スルメ、干しスケトウダラ（ファンテ）、お米、昔ながらのお菓子（伝統菓子）など。" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.)<br>오징어 80,000원 <br> 북어 45,000원 <br>멸치 25,000~40,000원 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br>Dried Squid 80,000 KRW<br>Dried Pollock 45,000 KRW <br>Dried Anchovies 25,000 – 40,000 KRW, etc. ", 
+                     cn: "根据时价价格会有所变动)<br>鱿鱼干 80,000韩元 <br>明太鱼干 45,000韩元 <br>凤尾鱼干(小银鱼) 25,000~40,000韩元 等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>スルメ（乾燥イカ） 80,000 KRW<br>干しスケトウダラ（プゴ） 45,000 KRW <br>煮干し（ミョルチ） 25,000 – 40,000 KRW, etc. " },
         query: "donghae.html"
     },
     {
