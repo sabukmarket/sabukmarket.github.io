@@ -49,15 +49,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "650 거리 가까이에 위치합니다. 다양한 건어물을 팔고 있어요!",
-            en: "Located close to 650 Street. We sell a wide variety of dried seafood.",
-            cn: "临近650街。店内出售各种海鲜干货。",
-            ja: "650通りのすぐ近くにございます。多彩な乾物を取り揃えております。"
+            ko: "650 거리 가까이에 위치합니다. 황태, 동해 건오징어, 땅콩, 김, 미역 등의 다양한 건어물, 말린 나물 등도 팔고 있어요!",
+            en: "Located close to 650 Street. Dried Seafood & Mountain Greens: Hwangtae (Pollock), East Sea Squid, Peanuts, Seaweed, Brown Seaweed & Dried Greens!",
+            cn: "临近650街。店内出售各种海鲜干货。精选干货专卖：黄太鱼・东海干鱿鱼・花生・紫菜・海带及各种干制山菜！",
+            ja: "650通りのすぐ近くにございます。多彩な乾物を取り揃えております。各種乾物・干し山菜：ファンテ（干しタラ）・東海産乾燥イカ・ピーナッツ・海苔・ワカメなど！"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 황태 등. 용대리 황태채, 용대리 황태포.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried pollock (hwangtae), beans and legumes, etc.", 
-                     cn: "根据时价价格会有所变动）海苔、海带、黄太鱼（干明太鱼）、豆类等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、干しスケトウダラ（ファンテ）、豆類など。" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 용대리 황태포 세트 45,000<br>용대리 황태채 50,000원 등.", 
+                     en: "(Prices are subject to change according to market rates.)<br>Yongdae-ri Dried Pollock (Hwangtae) Set: 45,000 KRW<br>Yongdae-ri Shredded Dried Pollock: 50,000 KRW, etc.", 
+                     cn: "根据时价价格会有所变动）<br>龙垈里黄太鱼礼盒套装 45,000韩元<br>龙垈里黄太鱼丝 50,000韩元", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）。龍垈里（ヨンデリ）特選ファンテ（干しタラ） 45,000ウォン<br>龍垈里（ヨンデリ）ファンテチェ（裂き干しタラ） 50,000ウォン" },
         query: "jinbu.html"
     }
 ];

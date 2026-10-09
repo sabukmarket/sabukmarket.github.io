@@ -54,10 +54,10 @@ const marketStores = [
             cn: "自制辛奇、手擀面与面片汤一绝的刀切面馆。",
             ja: "自家製のキムチと麺、手打ちうどんが自慢のカルグクス専門店。"
         },
-        specialty: { ko: "칼국수 9,000원(보통, 얼큰 장, 들깨)<br> 수제비 9,000원(보통, 얼큰 장, 들깨) <br> 칼제비 9,000원(보통, 얼큰 장, 들깨)<br>감자전 10,000원",
-             en: "Kalguksu 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Sujebi 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Kalguksu + Sujebi 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Gamja Jeon (Potato Pancake) 10,000 KRW", 
-             cn: " 刀切面 9,000韩元（普通、辣味酱、芝麻）<br> 面片汤 9,000韩元（普通、辣味酱、芝麻）<br> 刀切面+面片汤 9,000韩元（普通、辣味酱、芝麻）<br> 土豆煎饼 10,000韩元", 
-             ja: "カルグクス 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br> スジェビ 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br> エゴマカルグクス 9,000ウォン(通常, ピリ辛豆乳, エゴマ) <br>カムジャ・ジョン (ジャガイモのチヂミ) 10,000ウォン" },
+        specialty: { ko: "칼국수 9,000원(보통, 얼큰 장, 들깨)<br> 수제비 9,000원(보통, 얼큰 장, 들깨) <br> 칼제비 9,000원(보통, 얼큰 장, 들깨)<br>감자전 10,000원<br> 매콤 부추전 10,000원",
+             en: "Kalguksu(Knife-Cut Noodles) 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Sujebi(Hand-Torn Noodle) 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Kalguksu + Sujebi 9,000 KRW (Regular, Spicy Soybean Paste, Perilla Seed) <br> Gamja Jeon (Potato Pancake) 10,000 KRW <br> Spicy Chive Pancake 10,000 KRW", 
+             cn: "刀切面 9,000韩元（普通、辣味酱、芝麻）<br> 面片汤(韩式手撕面片汤) 9,000韩元（普通、辣味酱、芝麻）<br> 刀切面+面片汤 9,000韩元（普通、辣味酱、芝麻）<br> 土豆煎饼 10,000韩元 <br>香辣韭菜饼 10,000韩元", 
+             ja: "カルグクス 9,000ウォン(普通, ピリ辛豆乳, エゴマ) <br> スジェビ(すいとん) 9,000ウォン(普通, ピリ辛豆乳, エゴマ) <br> カルジェビ(カルグクス＋スジェビの相盛り) 9,000ウォン(普通, ピリ辛豆乳, エゴマ) <br>カムジャ・ジョン (ジャガイモのチヂミ) 10,000 <br>ピリ辛ニラチヂミ 10,000ウォン" },
         query: "kalguksu.html"
     }
 ];
