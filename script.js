@@ -422,7 +422,7 @@ const marketStores = [
     },
     {
         id: 10,
-        name: { ko: "경북야채", en: "Gyeongbuk Vegetable Shop", cn: "庆北蔬菜店", ja: "慶北(キョンブク)野菜店" },
+        name: { ko: "경북상회(경북야채)", en: "Gyeongbuk Vegetable Shop", cn: "庆北蔬菜店", ja: "慶北(キョンブク)野菜店" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
@@ -431,10 +431,10 @@ const marketStores = [
             cn: "我们销售今日汤品和配菜所需的新鲜当地蔬菜。",
             ja: "今日のスープと副菜に必要な新鮮な地産野菜を販売しています。"
         },
-         specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 감자, 고구마, 배추, 상추, 호박, 가지, 고추 등.", 
-                     en: "(Prices may vary depending on the market.) Potatoes, sweet potatoes, napa cabbages, lettuce, pumpkins, eggplants, chili peppers, etc.", 
-                     cn: "(价格可能因市场而异。) 土豆、红薯、大白菜、生菜、南瓜、茄子、辣椒等。", 
-                     ja: "(価格は市場による。) ジャガイモ、サツマイモ、白菜、サンチュ（レタス）、カボチャ、ナス、唐辛子など。" },
+         specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 감자, 고구마, 배추, 상추, 호박, 가지, 고추 등. 3,000 ~ 5,000원", 
+                     en: "(Prices may vary depending on the market.) Potatoes, sweet potatoes, napa cabbages, lettuce, pumpkins, eggplants, chili peppers, etc. 3,000 ~ 5,000 KRW", 
+                     cn: "(价格可能因市场而异。) 土豆、红薯、大白菜、生菜、南瓜、茄子、辣椒等。 3,000 ~ 5,000韩元", 
+                     ja: "(価格は市場による。) ジャガイモ、サツマイモ、白菜、サンチュ（レタス）、カボチャ、ナス、唐辛子など。 3,000 ~ 5,000ウォン" },
         query: "gyeongbukvegi.html"
     },
     {
@@ -685,10 +685,10 @@ const marketStores = [
             cn: "在市场上以实惠的价格享受模拟高尔夫的空间。与家人和朋友一起度过美好时光。",
             ja: "市場でリーズナブルな価格でスクリーンゴルフを楽しめる空間です。家族や友人と素晴らしい時間を過ごしてください。"
         },
-    specialty: { ko: "연습장이용료 1인 10,000원부터. <br> 시간대에 따라 가격이 변동됩니다(19:00 18홀 1인 18,000원).", 
-                     en: "Screen golf course usage fee 1 person 10,000 - 18,000KRW <br> Prices vary depending on the time slot (19:00 18 holes 1 person 18,000 KRW).", 
-                     cn: "练习场使用费 1人 10,000 - 18,000韩元 <br> 价格根据时间段而定（19:00 18洞 1人 18,000韩元）。", 
-                     ja: "練習場利用料 1人 10,000 - 18,000ウォン <br> 時間帯に応じて価格が変動します（19:00 18ホール 1人 18,000ウォン）。" },
+    specialty: { ko: "*연습장이용료 1개월 100,000원 1시간 10,000원. <br> 시간대에 따라 가격이 변동됩니다. <br> 00시 ~ 15시 18홀 15,000원 / 9홀 13,000원(18홀 이용 후 10,000원).<br> 15시 ~ 24시 18홀 18,000원 / 9홀 15,000원(18홀 이용 후 10,000원)." , 
+                     en: "*Practice fee: 1 month 100,000 KRW, 10,000 KRW/hour. <br> Prices may vary depending on the time of day. <br> 00:00 ~ 15:00 18 holes 15,000 KRW / 9 holes 13,000 KRW (after playing 18 holes, 10,000 KRW).<br> 15:00 ~ 24:00 18 holes 18,000 KRW / 9 holes 15,000 KRW (after playing 18 holes, 10,000 KRW).", 
+                     cn: "*练习费：1个月100,000韩元，1小时10,000韩元。 <br> 价格可能因时间而异。 <br> 00:00 ~ 15:00 18洞15,000韩元 / 9洞13,000韩元（打完18洞后10,000韩元）。<br> 15:00 ~ 24:00 18洞18,000韩元 / 9洞15,000韩元（打完18洞后10,000韩元）。", 
+                     ja: "*練習料金：1か月100,000ウォン、1時間10,000ウォン。 <br> 価格は時間帯によって異なります。 <br> 00:00 ~ 15:00 18ホール 15,000ウォン / 9ホール 13,000ウォン（18ホール利用後は10,000ウォン）。<br> 15:00 ~ 24:00 18ホール 18,000ウォン / 9ホール 15,000ウォン（18ホール利用後は10,000ウォン）。" },
         query: "friendsscreen.html"
     },
      {
@@ -947,7 +947,7 @@ const marketStores = [
     },
     {
         id: 41,
-        name: { ko: "스타미용실", en: "Star Hair Shop", cn: "明星(Star)美容院", ja: "スター美容室" },
+        name: { ko: "스타미용실", en: "Star Hair Salon", cn: "明星(Star)美容院", ja: "スター美容室" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {
@@ -956,7 +956,7 @@ const marketStores = [
             cn: "位于舍北650街附近的美发沙龙。想要理发或做造型请提前预约！",
             ja: "舎北（サブク）650ストリートの近くにあるヘアサロンです。ヘアスタイリングをご希望の方は、ぜひご予約ください！"
         },
-    specialty: { ko: "남·여 커트, 염색, 펌, 디지털 펌, 모발케어 등", 
+    specialty: { ko: "남·여 헤어 커트, 염색, 펌, 모발케어 등", 
                      en: "Services include men's and women's haircuts, hair coloring, perms, digital perms, and hair care treatments.", 
                      cn: "提供男/女士剪发、染发、烫发、数码烫及秀发护理等服务。", 
                      ja: "メンズ・レディースカット、ヘアカラー、パーマ、デジタルパーマ、ヘアケアなど。" },

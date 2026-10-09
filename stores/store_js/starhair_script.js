@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "스타미용실", en: "Star Hair Shop", cn: "明星(Star)美容院", ja: "スター美容室" },
+        name: { ko: "스타미용실", en: "Star Hair Salon", cn: "明星(Star)美容院", ja: "スター美容室" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {
