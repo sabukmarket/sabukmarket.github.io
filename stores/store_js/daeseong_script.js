@@ -49,15 +49,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "갖가지 과일을 팝니다. 마트 안에는 식료품을 팔아요. 경북야채 맞은편에 있습니다.",
+            ko: "갖가지 과일을 팝니다. 마트 안에는 식료품을 팔아요! 경북야채 맞은편에 있습니다.",
             en: "We sell a variety of fresh fruits. Inside the mart, groceries and daily food items are available. Located right across from Gyeongbuk Produce (Gyeongbuk Vegetables).",
             cn: "出售各类新鲜水果。超市内供应各种食品杂货。位于庆北菜店对面。",
             ja: "さまざまな果物を販売しています。マート（スーパー）内では食料品も取り扱っております。慶北（キョンブク）野菜店の向かいに位置しています。。"
         },
-        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) 계절과일을 팔아요(사과, 복숭아, 귤, 오렌지, 토마토, 키위, 바나나 등).", 
-                     en: "(Prices may vary depending on the market.) We sell seasonal fruits (apples, peaches, mandarins, oranges, tomatoes, kiwis, bananas, etc.).", 
-                     cn: "(价格可能因市场而异。) 出售时令水果（苹果、桃子、橘子、橙子、西红柿、奇异果、香蕉等）。", 
-                     ja: "(価格は市場による。) 旬の果物を販売しています（リンゴ、モモ、みかん、オレンジ、トマト、キウイ、バナナなど）。" },
+        specialty: { ko: "(시세에 따라 가격이 변동됩니다.) <br>제철과일을 팔아요(사과, 복숭아, 귤, 오렌지, 포도, 키위, 바나나 등).", 
+                     en: "(Prices may vary depending on the market.) <br>We sell seasonal fruits (apples, peaches, mandarins, oranges, tomatoes, kiwis, bananas, etc.).", 
+                     cn: "(价格可能因市场而异。) <br>出售时令水果（苹果、桃子、橘子、橙子、西红柿、奇异果、香蕉等）。", 
+                     ja: "(価格は市場による。) <br>旬の果物を販売しています（リンゴ、モモ、みかん、オレンジ、トマト、キウイ、バナナなど）。" },
         query: "daeseong.html"
     }
 ];

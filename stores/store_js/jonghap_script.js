@@ -49,15 +49,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "다양한 건어물과 식료품을 매대에서 보실 수 있습니다. 오뚜기분식 옆이에요!",
-            en: "You can find a wide variety of dried seafood and groceries on display at our stands. Located right next to Ottugi Bunsik!",
-            cn: "摊位上陈列着各种海鲜干货和食品饮料。就在不倒翁小吃（Ottugi Bunsik）旁边！",
-            ja: "店頭の売り場には、多彩な乾物や食料品がずらりと並んでいます。オットゥギ粉食のお隣です！"
+            ko: "김, 오징어, 미역, 황태 등 다양한 건어물과 식료품을 갖추고 있습니다. 앞집 뽀삐네상회로 문의 주세요!",
+            en: "You can find a wide variety of dried seafood and groceries on display at our stands. Please inquire at the front store, Ppoppi's Market!",
+            cn: "摊位上陈列着各种海鲜干货和食品饮料。请向前面的波比果蔬店咨询！",
+            ja: "店頭の売り場には、多彩な乾物や食料品がずらりと並んでいます。前の店、ポピネ青果店にお問い合わせください！"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 황태, 콩류 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried pollock (hwangtae), beans and legumes, etc.", 
-                     cn: "根据时价价格会有所变动）海苔、海带、黄太鱼（干明太鱼）、豆类等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、干しスケトウダラ（ファンテ）、豆類など。" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br> 황태채 10,000원 / 20,000원 / 45,000원 <br> 미역 13,000원 <br> 아귀채 45,000원 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Dried Pollack 10,000 KRW / 20,000 KRW / 45,000 KRW <br> Seaweed 13,000 KRW <br> Dried Monkfish Strips 45,000 KRW, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、海带、黄太鱼（干明太鱼）、豆类等 <br> 黄太鱼丝 10,000韩元 / 20,000韩元 / 45,000韩元 <br> 海带 13,000韩元 <br> 调味安康鱼丝 45,000韩元等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br> ファンテチェ（裂き干しタラ） 10,000ウォン / 20,000ウォン / 45,000ウォン <br> ワカメ 13,000ウォン <br> あんこうロール（味付けアンコウ干し細切り） 45,000ウォン、など。" },
         query: "jonghap.html"
     }
 ];
