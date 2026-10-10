@@ -55,9 +55,9 @@ const marketStores = [
             ja: "舎北で最も古い中華料理店です。24時間営業で、いつも明かりがついています（隔週水曜日休業）。"
         },
         specialty: { ko: "볶음밥 12,000원 쟁반짜장(2인) 28,000원 <br> 삼선짬뽕 16,000원 사천탕수육(소) 42,000원 <br> 차돌짬뽕 18,000원 ",
-             en: "Fried Rice KRW 12,000 / Seafood Platter Jjajang (Serves 2) KRW 28,000 <br> Samseon Jjamppong (Spicy Seafood Noodle Soup) KRW 16,000 Sichuan Sweet and Sour Pork (S) KRW 42,000 <br>Beef Brisket Jjamppong KRW 18,000", 
-             cn: "炒饭 12,000韩元 / 大盘炸酱面（2人份） 28,000韩元 <br>三鲜炒马面（三鲜辣海鲜面） 16,000韩元 / 四川糖醋肉（小） 42,000韩元 <br>牛胸肉炒马面（牛胸肉辣汤面） 18,000韩元", 
-             ja: "チャーハン 12,000ウォン / 皿ジャージャー麺（2人前） 28,000ウォン <br>三鮮チャンポン（海鮮辛口海鮮麺） 16,000ウォン / 四川風タンスユク（酢豚・小） 42,000ウォン <br>チャドルバギ（牛あばら肉）チャンポン 18,000ウォン" },
+             en: "Fried Rice KRW 12,000 <br> Seafood Platter Jjajang (Serves 2) KRW 28,000 <br> Samseon Jjamppong (Spicy Seafood Noodle Soup) KRW 16,000 Sichuan Sweet and Sour Pork (S) KRW 42,000 <br>Beef Brisket Jjamppong KRW 18,000", 
+             cn: "炒饭 12,000韩元 <br> 大盘炸酱面（2人份） 28,000韩元 <br>三鲜炒马面（三鲜辣海鲜面） 16,000韩元 <br> 四川糖醋肉（小） 42,000韩元 <br>牛胸肉炒马面（牛胸肉辣汤面） 18,000韩元", 
+             ja: "チャーハン 12,000ウォン <br> 皿ジャージャー麺（2人前） 28,000ウォン <br>三鮮チャンポン（海鮮辛口海鮮麺） 16,000ウォン <br> 四川風タンスユク（酢豚・小） 42,000ウォン <br>チャドルバギ（牛あばら肉）チャンポン 18,000ウォン" },
         query: "malijangseong.html",
     }
 ];

@@ -54,8 +54,11 @@ const marketStores = [
             cn: "市场内的舒适咖啡厅，可在此休息并享用咖啡。还可购买可爱的Kkamidorong角色钥匙扣。",
             ja: "市場内でのコーヒー飲み放題の快適なカフェ。カミドロンキャラクターのキーホルダーも販売中。"
         },
-        specialty: { ko: "아메리카노 HOT 3,500원 &nbsp;&nbsp;&nbsp;  ICED 4,000원 <br> 소프트 아이스크림 2,500원 &nbsp;&nbsp;&nbsp;  까미도롱 키링 10,000원", en: "Americano HOT 3,500 KRW&nbsp;&nbsp;&nbsp;  ICED 4,000 KRW <br> Ice Cream 2,500 KRW &nbsp;&nbsp;&nbsp; Kkamidorong Keychain 10,000 KRW", cn: "美式咖啡 热 3,500韩元 &nbsp;&nbsp;&nbsp; 冰 4,000韩元 <br> 冰淇淋 2,500韩元 &nbsp;&nbsp;&nbsp; Kkamidorong钥匙扣 10,000韩元", ja: "アメリカーノ HOT 3,500 &nbsp;&nbsp;&nbsp; ICED 4,000 <br> アイスクリーム 2,500 &nbsp;&nbsp;&nbsp; キャラクターキーホルダー 10,000" },
-        query: "사북 탄탄아리카페"
+        specialty: { ko: "아메리카노 HOT 3,500원 / ICED 4,000원 <br> 카페라떼 HOT 4,000원 / ICED 4,500원 <br>고구마라떼 HOT 4,500원 / ICED 5,000원 <br> 레몬에이드 5,000원 <br> 아포가토 5,000원 <br> 허브티 4,000원 <br> 까미도롱 키링 10,000원", 
+            en: "Americano HOT 3,500 KRW / ICED 4,000 KRW <br>  Café Latte HOT 4,000 KRW / ICED 4,500 KRW <br> Sweet Potato Latte HOT 4,500 KRW / ICED 5,000 KRW <br> Lemonade 5,000 KRW <br> Affogato 5,000 KRW <br> Herbal Tea 4,000 KRW <br> Kkamidorong Keychain 10,000 KRW", 
+            cn: "美式咖啡 热 3,500韩元 / 冰 4,000韩元 <br> 咖啡拿铁 热 4,000韩元 / 冰 4,500韩元 <br>  红薯拿铁 热 4,500韩元 / 冰 5,000韩元 <br> 柠檬水 5,000韩元 <br> 阿芙佳朵 5,000韩元 <br> 草本茶 4,000韩元 <br> Kkamidorong钥匙扣 10,000韩元", 
+            ja: "アメリカーノ HOT 3,500 / ICED 4,000 <br> カフェラテ HOT 4,000 / ICED 4,500 <br> スイートポテトラテ HOT 4,500 / ICED 5,000 <br> レモンエード 5,000 <br> アフォガート 5,000 <br> ハーブティー 4,000 <br> カミドロンキーホルダー 10,000" },
+        query: "tantanari.html"
     }
 ];
 

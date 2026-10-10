@@ -55,9 +55,9 @@ const marketStores = [
             ja: "キンパとラーメン？キンパとトッポッキ？キンパとスンドゥブチゲ？どの組み合わせも相性抜群です。"
         },
           specialty: { ko: "원조김밥 3,500원 김치볶음밥 9,000원 <br> 라면 5,000원 비빔밥 9,000원 <br> 돈까스 10,000원",
-             en: "Original Gimbap 3,500 KRW / Kimchi Fried Rice 9,000 KRW <br> Ramyeon 5,000 KRW / Bibimbap (Mixed Rice with Vegetables & Meat) 9,000 KRW <br>Tonkatsu (Pork Cutlet) 10,000 KRW", 
-             cn: "原味紫菜包饭 3,500韩元 / 辣白菜炒饭 9,000韩元 <br> 辛拉面 5,000韩元 / 拌饭（石锅/大碗拌饭） 9,000韩元 <br> 炸猪排 10,000韩元", 
-             ja: "オリジナルキンパ 3,500ウォン / キムチポックンパ 9,000ウォン <br> ラミョン（韓国ラーメン） 5,000ウォン / ビビンバ（混ぜご飯） 9,000ウォン <br>トンカツ 10,000ウォン" },
+             en: "Original Gimbap 3,500 KRW <br> Kimchi Fried Rice 9,000 KRW <br> Ramyeon 5,000 KRW <br> Bibimbap (Mixed Rice with Vegetables & Meat) 9,000 KRW <br>Tonkatsu (Pork Cutlet) 10,000 KRW", 
+             cn: "原味紫菜包饭 3,500韩元 <br> 辣白菜炒饭 9,000韩元 <br> 辛拉面 5,000韩元 <br> 拌饭（石锅<br>大碗拌饭） 9,000韩元 <br> 炸猪排 10,000韩元", 
+             ja: "オリジナルキンパ 3,500ウォン <br> キムチポックンパ 9,000ウォン <br> ラミョン（韓国ラーメン） 5,000ウォン <br> ビビンバ（混ぜご飯） 9,000ウォン <br>トンカツ 10,000ウォン" },
         query: "gimbapnara.html"
     }
 ];
