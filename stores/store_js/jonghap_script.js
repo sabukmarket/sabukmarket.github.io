@@ -45,7 +45,7 @@ const i63nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "종합건어물", en: "Jonghap Dried Seafood", cn: "综合海鲜干货", ja: "総合(ジョンハプ)乾物店" },
+        name: { ko: "종합건어물", en: "Jonghap Dried Seafood Shop", cn: "综合海鲜干货", ja: "総合(ジョンハプ)乾物店" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
