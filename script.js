@@ -593,10 +593,10 @@ const marketStores = [
             cn: "在炭火烤盘上享用美味的猪排和洛杉矶排骨的烤肉店。位于市场入口处。",
             ja: "ジューシーな豚カルビとLAカルビを炭火で楽しめる焼肉店です。市場の入口にあります。"
         },
-        specialty: { ko: "돼지 왕갈비, 양념 소갈비살, 돼지 등갈비, LA 양념갈비, 냉면, 설렁탕 등.",
-             en: "Grilled Pork Ribs, Marinated Beef Ribs, Pork Back Ribs, LA Marinated Ribs, Cold Noodles, Seolleongtang (Beef Bone Soup), etc.", 
-             cn: "猪排、腌制牛排、猪背排、洛杉矶腌制排骨、冷面、牛骨汤等。", 
-             ja: "豚カルビ、腌製牛肉カルビ、豚バックリブ、LA 腌製カルビ、冷麺、ソルロンタン（牛骨スープ）など。" },
+        specialty: { ko: "돼지 왕갈비, 양념 소갈비살, LA 양념갈비, 냉면, 설렁탕 등.",
+             en: "Grilled Pork Ribs, Marinated Beef Ribs, LA Marinated Ribs, Cold Noodles, Seolleongtang (Beef Bone Soup), etc.", 
+             cn: "猪排、腌制牛排、洛杉矶腌制排骨、冷面、牛骨汤等。", 
+             ja: "豚カルビ、腌製牛肉カルビ、LA 腌製カルビ、冷麺、ソルロンタン（牛骨スープ）など。" },
         query: "parkdaegam.html"
     },
       {
@@ -1186,10 +1186,10 @@ const marketStores = [
             cn: "出售海鲜干货、水果、罐头等各种食品饮料。",
             ja: "乾物や果物、缶詰など、さまざまな食料品を取り扱っております。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 쥐포, 포도, 쌀, 달걀 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried filefish fillets (jwipo), grapes, rice, eggs, etc.", 
-                     cn: "根据时价价格会有所变动）海苔、海带、烤鱼片（马面鱼干）、葡萄、大米、鸡蛋等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、カワハギの干物（チュィポ）、ぶどう、お米、卵など。" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 쥐포, 라면, 포도, 쌀, 달걀 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried filefish fillets (jwipo), ramyeon, grapes, rice, eggs, etc.", 
+                     cn: "(根据时价价格会有所变动）海苔、海带、烤鱼片（马面鱼干）、方便面、 葡萄、大米、鸡蛋等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、カワハギの干物（チュィポ）、インスタントラーメン、ぶどう、お米、卵など。" },
         query: "youngju.html"
     },
     {

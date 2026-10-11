@@ -54,10 +54,10 @@ const marketStores = [
             cn: "出售海鲜干货、水果、罐头等各种食品饮料。",
             ja: "乾物や果物、缶詰など、さまざまな食料品を取り扱っております。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 쥐포, 포도, 쌀, 달걀 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried filefish fillets (jwipo), grapes, rice, eggs, etc.", 
-                     cn: "根据时价价格会有所变动）海苔、海带、烤鱼片（马面鱼干）、葡萄、大米、鸡蛋等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、カワハギの干物（チュィポ）、ぶどう、お米、卵など。" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 쥐포, 라면, 포도, 쌀, 달걀 등. <br>서리태 20,000원 <br>정선 건곤드레 10,000원<br>황태채 45,000<br>오징어채 40,000원 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), kelp, dried filefish fillets (jwipo), ramyeon, grapes, rice, eggs, etc. <br> Black Soybeans 20,000 KRW <br> Dried Gondre 10,000 KRW <br> Dried Pollack Strips 45,000 KRW <br> Dried Squid Strips 40,000 KRW, etc.", 
+                     cn: "(根据时价价格会有所变动）海苔、海带、烤鱼片（马面鱼干）、方便面、 葡萄、大米、鸡蛋等。<br>黑豆 20,000韩元 <br> 旌善干山蓟菜 10,000韩元 <br> 黄太鱼丝 45,000韩元 <br> 鱿鱼丝 40,000韩元 等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、ワカメ、カワハギの干物（チュィポ）、インスタントラーメン、ぶどう、お米、卵など。<br>黒大豆 20,000ウォン <br> 乾燥旌善ゴンドゥレ 10,000ウォン <br> 裂き干しタラ 45,000ウォン <br> 裂き干しイカ 40,000ウォン など。" },
         query: "youngju.html"
     }
 ];
