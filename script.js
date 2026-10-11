@@ -295,7 +295,7 @@ const marketStores = [
     },
     {
         id: 2,
-        name: { ko: "탄탄아리카페", en: "Tantanari Café", cn: "坦坦阿里咖啡厅", ja: "タンタンアリカフェ" },
+        name: { ko: "탄탄아리카페", en: "Tantanari Café", cn: "炭炭阿里咖啡厅", ja: "タンタンアリカフェ" },
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
         desc: {
