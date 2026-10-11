@@ -45,14 +45,14 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "아란헤어", en: "Aran Hair", cn: "阿兰美发店", ja: "アランヘア" },
+        name: { ko: "아란헤어", en: "Aran Hair Salon", cn: "阿兰美发店", ja: "アランヘア" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {
-            ko: "사북 청년몰 2층에 위치한 헤어샵입니다. 예약제로 운영됩니다.",
-            en: "A hair salon located on the 2nd floor of Sabuk Youth Mall. By appointment only.",
-            cn: "位于舍北青年Mall 2楼的美发沙龙。实行预约制运营。",
-            ja: "舎北（サブク）青年モール2階にあるヘアサロンです。完全予約制で営業しております。"
+            ko: "사북 청년몰 2층에 위치한 헤어샵입니다. 예약제로 운영됩니다(구글/네이버 지도에 전화번호가 있습니다).",
+            en: "A hair salon located on the 2nd floor of Sabuk Youth Mall. By appointment only (Phone number available on Google/Naver Maps.)",
+            cn: "位于舍北青年Mall 2楼的美发沙龙。实行预约制运营(电话号码可在Google/Naver地图上找到)。",
+            ja: "舎北（サブク）青年モール2階にあるヘアサロンです。完全予約制で営業しております(電話番号はGoogle/Naverマップにあります)。"
         },
     specialty: { ko: "남·여 커트, 염색, 펌, 디지털 펌, 모발케어 등", 
                      en: "Services include men's and women's haircuts, hair coloring, perms, digital perms, and hair care treatments.", 
@@ -120,7 +120,7 @@ function renderStores() {
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
         const mapNaverUrl = `https://naver.me/5eDBgm9l`;
-        const mapSearchUrl = `https://maps.app.goo.gl/P37ZTSyy2gbMjE9JA`;
+        const mapSearchUrl = `https://maps.app.goo.gl/AmPr9FdDvyBKF9Ti8`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

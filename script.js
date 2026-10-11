@@ -753,7 +753,7 @@ const marketStores = [
     },
     {
         id: 29,
-        name: { ko: "제이(J)", en: "J Boutique ", cn: "J 服装店 ", ja: "J ブティック" },
+        name: { ko: "제이(J)", en: "Boutique J", cn: "J 服装店", ja: "ブティック J" },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -763,9 +763,9 @@ const marketStores = [
             ja: "Sabukでは手に入らないファッションアイテムに出会えます。多彩な女性用衣料品がいる場所です。"
         },
         specialty: { ko: "점퍼, 티셔츠, 트레이닝복, 외투, 바지 등의 여성 보세의류.", 
-                     en: "Jackets, T-shirts, athletic wear, coats, trousers, etc.", 
-                     cn: "外衣、衬衫、运动服、外套、裤子等。", 
-                     ja: "ジャケット、Tシャツ、アスリートウェア、コート、ズボンなど。" },
+                     en: "Jackets, T-shirts, Active wear, Coats, Trousers & More.", 
+                     cn: "夹克・T恤・运动套装・外套大衣・各式长裤 等", 
+                     ja: "アウター・Tシャツ・ルーム＆スポーツウェア・コート・パンツ類 など" },
         query: "j_fashion.html"
     },
     {
@@ -838,7 +838,7 @@ const marketStores = [
     },
      {
         id: 34,
-        name: { ko: "아란헤어", en: "Aran Hair", cn: "阿兰美发店", ja: "アランヘア" },
+        name: { ko: "아란헤어", en: "Aran Hair Salon", cn: "阿兰美发店", ja: "アランヘア" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {
