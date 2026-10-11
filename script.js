@@ -355,10 +355,10 @@ const marketStores = [
             cn: "销售各种传统年糕。如果好吃就是0卡路里！",
             ja: "様々な伝統餅を販売しています。美味しいならカロリーは0です！"
         },
-        specialty: { ko: "인절미, 가래떡, 송편, 팥떡, 피자설기 등.",
-             en: "Injeolmi, Garaetteok, Songpyeon, Patddeok, Pizza Seolgi, etc.", 
-             cn: "糯米糕、年糕条、松饼、红豆糕、披萨雪糕等。", 
-             ja: "インジェオルミ, ガラエットク, ソンピョン, パットデオク, ピザセオルギなど。" },
+        specialty: { ko: "인절미, 가래떡, 송편, 백설기, 피자설기 등.",
+             en: "Injeolmi, Garaetteok, Songpyeon, Baekseolgi, Pizza Seolgi, etc.", 
+             cn: "糯米糕、年糕条、松饼、白雪糕、披萨雪糕等。", 
+             ja: "インジェオルミ, ガラエットク, ソンピョン, ペクソルギ, ピザソルギなど。" },
         query: "jonggaddeok.html"
     },
     {
@@ -753,19 +753,19 @@ const marketStores = [
     },
     {
         id: 29,
-        name: { ko: "제이(J)", en: "J(fashion)", cn: "J", ja: "J" },
+        name: { ko: "제이(J)", en: "J Boutique ", cn: "J 服装店 ", ja: "J ブティック" },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "사북에서 구하기 힘든 패션 아이템들을 만나보실 수 있습니다. 다양한 의류와 액세서리가 있어요!",
-            en: "You can find fashion items that are hard to find in Sabuk. We have a variety of clothing and accessories!",
-            cn: "您可以在舍北找到一些难以买到的时尚单品。我们有各种各样的服装和配饰！",
-            ja: "Sabukでは手に入らないファッションアイテムに出会えます。様々な衣料品とアクセサリーがあります！"
+            ko: "사북에서 구하기 힘든 보세 패션 아이템들을 만나실 수 있습니다. 여성 의류 전문점.",
+            en: "You can find fashion items that are hard to find in Sabuk. We have a variety of women's clothing and accessories.",
+            cn: "您可以在舍北找到一些难以买到的时尚单品。我们有各种各样的女装和配饰。",
+            ja: "Sabukでは手に入らないファッションアイテムに出会えます。多彩な女性用衣料品がいる場所です。"
         },
-        specialty: { ko: "티셔츠, 외투, 바지, 모자 등.", 
-                     en: "T-shirts, coats, trousers, hats, etc.", 
-                     cn: "外衣、衬衫、裤子、帽子等。", 
-                     ja: "Tシャツ、コート、ズボン、帽子など。" },
+        specialty: { ko: "점퍼, 티셔츠, 트레이닝복, 외투, 바지 등의 여성 보세의류.", 
+                     en: "Jackets, T-shirts, athletic wear, coats, trousers, etc.", 
+                     cn: "外衣、衬衫、运动服、外套、裤子等。", 
+                     ja: "ジャケット、Tシャツ、アスリートウェア、コート、ズボンなど。" },
         query: "j_fashion.html"
     },
     {

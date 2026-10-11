@@ -49,15 +49,15 @@ const marketStores = [
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
-            ko: "사북에서 구하기 힘든 패션 아이템들을 만나보실 수 있습니다. 다양한 의류와 액세서리가 있어요!",
-            en: "You can find fashion items that are hard to find in Sabuk. We have a variety of clothing and accessories!",
-            cn: "您可以在舍北找到一些难以买到的时尚单品。我们有各种各样的服装和配饰！",
-            ja: "Sabukでは手に入らないファッションアイテムに出会えます。様々な衣料品とアクセサリーがあります！"
+            ko: "사북에서 구하기 힘든 보세 패션 아이템들을 만나실 수 있습니다. 다채로운 여성 의류, 그리고 귀여운 고양이들이 있는 곳.",
+            en: "You can find fashion items that are hard to find in Sabuk. We have a variety of women's clothing and accessories, and there are cute cats too!",
+            cn: "您可以在舍北找到一些难以买到的时尚单品。 我们有各种各样的女装和配饰，还有可爱的猫咪！",
+            ja: "Sabukでは手に入らないファッションアイテムに出会えます。多彩な女性用衣料品、そしてかわいい猫たちがいる場所です。"
         },
-        specialty: { ko: "티셔츠, 외투, 바지, 모자 등.", 
-                     en: "T-shirts, coats, trousers, hats, etc.", 
-                     cn: "外衣、衬衫、裤子、帽子等。", 
-                     ja: "Tシャツ、コート、ズボン、帽子など。" },
+        specialty: { ko: "점퍼, 티셔츠, 트레이닝복, 외투, 바지 등의 여성 보세의류.", 
+                     en: "Jackets, T-shirts, athletic wear, coats, trousers, etc.", 
+                     cn: "外衣、衬衫、运动服、外套、裤子等。", 
+                     ja: "ジャケット、Tシャツ、アスリートウェア、コート、ズボンなど。" },
         query: "j_fashion.html"
     }
 ];
