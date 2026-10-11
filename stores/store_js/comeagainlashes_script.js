@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "또오다래쉬", en: "Come Again Lashes", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
+        name: { ko: "또오다래쉬", en: "Ttooda (Come Again) Lashes", cn: "多多达美睫 (睫毛嫁接店)", ja: "トオダ・ラッシュ店" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {

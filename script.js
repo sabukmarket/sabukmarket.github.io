@@ -295,20 +295,20 @@ const marketStores = [
     },
     {
         id: 2,
-        name: { ko: "탄탄아리카페", en: "Tantanari Café", cn: "炭炭阿里咖啡厅", ja: "タンタンアリカフェ" },
+        name: { ko: "오뚜기분식", en: "Ottugi Korean Snacks", cn: "奥多吉小吃", ja: "オットギ軽食" },
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
         desc: {
-            ko: "시장 안에서 커피를 마시며 쉴 수 있는 아늑한 카페. 까미도롱 캐릭터 키링을 구입할 수 있어요.",
-            en: "A cozy café where you can enjoy coffee and relax. You can also purchase cute Kkamidorong character keychains.",
-            cn: "市场内的舒适咖啡厅，可在此休息并享用咖啡。还可购买可爱的Kkamidorong角色钥匙扣。",
-            ja: "市場内でのコーヒー飲み放題の快適なカフェ。カミドロンキャラクターのキーホルダーも販売中。"
+            ko: "시장에 오셨으면 일단 떡볶이와 순대는 꼭 맛봐야겠죠?",
+            en: "When you visit a traditional market, trying tteokbokki (spicy rice cakes) and sundae (blood sausage) is an absolute must!",
+            cn: "既然来到了传统市场，怎么能不尝尝炒年糕和米肠呢？",
+            ja: "市場に来たら、まずはトッポッキとスンデを味わってみないといけませんよね？"
         },
-        specialty: { ko: "아메리카노(HOT / ICED), 카페라떼, 고구마라떼, 아포가토, 까미도롱 키링 등.", 
-            en: "Americano (HOT / ICED), Café Latte, Sweet Potato Latte, Affogato, Kkamidorong Keychain, etc.", 
-            cn: "美式咖啡（热/冰）、拿铁、红薯拿铁、阿芙佳朵、Kkamidorong钥匙扣等。", 
-            ja: "アメリカーノ（ホット / アイス）, カフェラテ, スイートポテトラテ, アフォガート, カミドロンキーホルダーなど" },
-        query: "tantanari.html"
+        specialty: { ko: "떡볶이, 순대, 메밀전병, 음료(사이다 / 콜라) 등.", 
+            en: "Tteokbokki, Sundae, Spicy Buckwheat Crêpe, Soft Drink (Cider / Coke), etc.", 
+            cn: "炒年糕米肠、荞麦煎饼、饮料（雪碧 / 可乐）等", 
+            ja: "トッポッキ、スンデ、メミル・ジョンビョン(そばの芽の薄皮巻き)、飲み物（サイダー / コーラ）" },
+        query: "ottugi.html"
     },
     {
         id: 3,
@@ -355,10 +355,10 @@ const marketStores = [
             cn: "销售各种传统年糕。如果好吃就是0卡路里！",
             ja: "様々な伝統餅を販売しています。美味しいならカロリーは0です！"
         },
-        specialty: { ko: "인절미, 가래떡, 송편, 팥떡, 피자설기",
-             en: "Injeolmi, Garaetteok, Songpyeon, Patddeok, Pizza Seolgi", 
-             cn: "糯米糕、年糕条、松饼、红豆糕、披萨雪糕", 
-             ja: "インジェオルミ, ガラエットク, ソンピョン, パットデオク, ピザセオルギ" },
+        specialty: { ko: "인절미, 가래떡, 송편, 팥떡, 피자설기 등.",
+             en: "Injeolmi, Garaetteok, Songpyeon, Patddeok, Pizza Seolgi, etc.", 
+             cn: "糯米糕、年糕条、松饼、红豆糕、披萨雪糕等。", 
+             ja: "インジェオルミ, ガラエットク, ソンピョン, パットデオク, ピザセオルギなど。" },
         query: "jonggaddeok.html"
     },
     {
@@ -516,7 +516,7 @@ const marketStores = [
     },
       {
         id: 15,
-        name: { ko: "또오다래쉬", en: "Come Again Lashes", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
+        name: { ko: "또오다래쉬", en: "Ttooda (Come Again) Lashes", cn: "多多达美睫 (睫毛嫁接店)", ja: "トオダ・ラッシュ店" },
         cat: "general",
         catName: { ko: "생활·잡화", en: "Daily Goods", cn: "生活·百货", ja: "生活・雑貨" },
         desc: {
@@ -920,22 +920,22 @@ const marketStores = [
                      ja: "(価格は市場による。) <br>旬の果物を販売しています（リンゴ、モモ、みかん、オレンジ、トマト、キウイ、バナナなど）。" },
         query: "daeseong.html"
     },
-      {
+    {
         id: 39,
-        name: { ko: "오뚜기분식", en: "Ottugi Korean Snacks", cn: "奥多吉小吃", ja: "オットギ軽食" },
+        name: { ko: "탄탄아리카페", en: "Tantanari Café", cn: "炭炭阿里咖啡厅", ja: "タンタンアリカフェ" },
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・デザート" },
         desc: {
-            ko: "시장에 오셨으면 일단 떡볶이와 순대는 꼭 맛봐야겠죠?",
-            en: "When you visit a traditional market, trying tteokbokki (spicy rice cakes) and sundae (blood sausage) is an absolute must!",
-            cn: "既然来到了传统市场，怎么能不尝尝炒年糕和米肠呢？",
-            ja: "市場に来たら、まずはトッポッキとスンデを味わってみないといけませんよね？"
+            ko: "시장 안에서 커피를 마시며 쉴 수 있는 아늑한 카페. 까미도롱 캐릭터 키링을 구입할 수 있어요.",
+            en: "A cozy café where you can enjoy coffee and relax. You can also purchase cute Kkamidorong character keychains.",
+            cn: "市场内的舒适咖啡厅，可在此休息并享用咖啡。还可购买可爱的Kkamidorong角色钥匙扣。",
+            ja: "市場内でのコーヒー飲み放題の快適なカフェ。カミドロンキャラクターのキーホルダーも販売中。"
         },
-        specialty: { ko: "떡볶이, 순대, 메밀전병, 음료(사이다 / 콜라) 등.", 
-            en: "Tteokbokki, Sundae, Spicy Buckwheat Crêpe, Soft Drink (Cider / Coke), etc.", 
-            cn: "炒年糕米肠、荞麦煎饼、饮料（雪碧 / 可乐）等", 
-            ja: "トッポッキ、スンデ、メミル・ジョンビョン(そばの芽の薄皮巻き)、飲み物（サイダー / コーラ）" },
-        query: "ottugi.html"
+        specialty: { ko: "아메리카노(HOT / ICED), 카페라떼, 고구마라떼, 아포가토, 까미도롱 키링 등.", 
+            en: "Americano (HOT / ICED), Café Latte, Sweet Potato Latte, Affogato, Kkamidorong Keychain, etc.", 
+            cn: "美式咖啡（热/冰）、拿铁、红薯拿铁、阿芙佳朵、Kkamidorong钥匙扣等。", 
+            ja: "アメリカーノ（ホット / アイス）, カフェラテ, スイートポテトラテ, アフォガート, カミドロンキーホルダーなど" },
+        query: "tantanari.html"
     },
      {
         id: 40,
