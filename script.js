@@ -1169,10 +1169,10 @@ const marketStores = [
             cn: "主要经营各种鲜鱼和海鲜干货。无论国产还是远洋捕捞、冷冻还是鲜活鱼类均有销售。",
             ja: "多様な鮮魚や乾物を中心に取り扱っております。国産・遠洋産、冷凍・生鮮いずれも取り揃えています。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 생선, 건어물, 달걀 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), pollock, hairtail (cutlassfish), Atka mackerel, half-dried pollock (kodari), squid, etc.", 
-                     cn: "根据时价价格会有所变动）海苔、明太鱼、带鱼、远东多线鱼（花鱼）、半干明太鱼、鱿鱼等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、スケトウダラ、タチウオ、ホッケ、コダリ（半干しスケトウダラ）、イカなど。" },
+        specialty: { ko: "김, 미역, 오징어, 생선, 건어물, 달걀 등.", 
+                     en: "Laver, brown seaweed, squid, fish, eggs, cooking oil, etc. ", 
+                     cn: "紫菜、海带、鱿鱼、鱼类、鸡蛋、食用油等。", 
+                     ja: "海苔、ワカメ、イカ、鮮魚（魚類）、卵、食用油など。" },
         query: "hwangji.html"
     },
      {
