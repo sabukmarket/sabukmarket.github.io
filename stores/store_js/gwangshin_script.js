@@ -49,10 +49,10 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "나물과 곡식, 야채뿐만 아니라 직접 만든 반찬도 판매하고 있어요!",
-            en: "We sell not only fresh vegetables and herbs but also homemade side dishes!",
-            cn: "不仅出售新鲜蔬菜和草药，还出售自制小菜！",
-            ja: "野菜や果物だけでなく、自慢の味噌汁や漬物も販売しています！"
+            ko: "나물과 곡식, 야채뿐만 아니라 직접 만든 반찬도 판매하고 있어요! 옆 정선곤드레 가게를 찾아주세요.",
+            en: "We sell not only fresh vegetables and herbs but also homemade side dishes! Please visit our neighbor, Jeongseon Gondre store.",
+            cn: "不仅出售新鲜蔬菜和草药，还出售自制小菜！ 请光临隔壁的旌善山蓟菜店。",
+            ja: "野菜や果物だけでなく、自慢の味噌汁や漬物も販売しています！隣の旌善ゴンドゥレのお店もぜひご覧ください。"
         },
         specialty: { ko: "(시세에 따라 가격이 변동됩니다.)<br>직접 담근 김치, 도라지 반찬, 연근 반찬, 콩자반 각 10,000원", 
                      en: "(Prices may vary depending on the market.)<br>Homemade Kimchi, Seasoned Bellflower Root, Braised Lotus Root, Braised Black Soybeans — KRW 10,000 each", 

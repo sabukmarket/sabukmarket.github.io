@@ -54,10 +54,10 @@ const marketStores = [
             cn: "本店是一家专营山蓟菜的特色店铺。精选产自旌善地区、生长在海拔1000米以上高山脚下的纯天然高山山蓟菜。",
             ja: "ゴンドゥレ（高麗アザミ）を専門に扱うお店です。旌善（チョンソン）地域の標高1,000m以上の山麓で育った天然の山菜・ゴンドゥレを取り扱っています。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.)<br> 건곤드레 10,000원 &nbsp;&nbsp;&nbsp; 곰취나물 10,000원 <br>어수리나물 10,000원 &nbsp;&nbsp;&nbsp; 냉동곤드레 4kg 30,000원", 
-                     en: "(Prices are subject to change according to market rates.) <br>Dried Gondre (Wild Thistle) 10,000 KRW &nbsp;&nbsp;&nbsp; Gomchwi (Ligularia Greens) 10,000 KRW <br>Eosuri (Cow Parsnip Greens) 10,000 KRW &nbsp;&nbsp;&nbsp; Frozen Gondre 4kg 30,000 KRW.", 
-                     cn: "(根据时价价格会有所变动）<br>干山蓟菜 10,000韩元&nbsp;&nbsp;&nbsp; 干燥葫芦七（熊岳菜） 10,000韩元 <br>牛防风菜 10,000韩元&nbsp;&nbsp;&nbsp; 冷冻山蓟菜 4kg 30,000韩元", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>乾燥ゴンドゥレ（高麗アザミ） 10,000ウォン &nbsp;&nbsp;&nbsp; ゴムチュィ（オタカラコウ） 10,000ウォン <br>オスリ（ハナウド） 10,000ウォン &nbsp;&nbsp;&nbsp; 冷凍ゴンドゥレ 4kg 30,000ウォン" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.)<br>건곤드레<br>곰취나물<br>어수리나물<br> 냉동곤드레", 
+                     en: "(Prices are subject to change according to market rates.) <br>Dried Gondre, Gomchwi (Fischer's Ragwort), Eosuri (Heracleum Greens), Frozen Gondre, etc. ", 
+                     cn: "(根据时价价格会有所变动）<br>干山蓟菜、圆齿橐吾(熊掌山菜)、短毛独活(鱼水菜)、冷冻山蓟菜等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>乾燥ゴンドゥレ、コムチ(オタカラコウ)、オスリ(ハナウドの若芽)、冷凍ゴンドゥレなど。" },
         query: "jeongseongondre.html"
     }
 ];

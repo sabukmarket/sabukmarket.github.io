@@ -1221,9 +1221,9 @@ const marketStores = [
             ja: "ゴンドゥレ（高麗アザミ）を専門に扱うお店です。旌善（チョンソン）地域の標高1,000m以上の山麓で育った天然の山菜・ゴンドゥレを取り扱っています。"
         },
         specialty: { ko: "건곤드레, 곰취나물, 어수리나물, 냉동곤드레 등.", 
-                     en: "Dried Gondre (Wild Thistle), Gomchwi (Ligularia Greens), Eosuri (Cow Parsnip Greens), Frozen Gondre, etc.", 
-                     cn: "干山蓟菜, 干燥葫芦七（熊岳菜）, 牛防风菜, 冷冻山蓟菜等。", 
-                     ja: "乾燥ゴンドゥレ（高麗アザミ）, ゴムチュィ（オタカラコウ）, オスリ（ハナウド）, 冷凍ゴンドゥレ" },
+                     en: "Dried Gondre, Gomchwi (Fischer's Ragwort), Eosuri (Heracleum Greens), Frozen Gondre, etc. ", 
+                     cn: "干山蓟菜、圆齿橐吾(熊掌山菜)、短毛独活(鱼水菜)、冷冻山蓟菜等。", 
+                     ja: "乾燥ゴンドゥレ、コムチ(オタカラコウ)、オスリ(ハナウドの若芽)、冷凍ゴンドゥレなど。" },
         query: "jeongseongondre.html"
     },
     {
@@ -1266,10 +1266,10 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "나물과 야채뿐만 아니라 직접 만든 반찬도 판매하고 있어요!",
-            en: "We sell not only fresh vegetables and herbs but also homemade side dishes!",
-            cn: "不仅出售新鲜蔬菜和草药，还出售自制小菜！",
-            ja: "野菜や果物だけでなく、自慢の味噌汁や漬物も販売しています！"
+            ko: "나물과 야채뿐만 아니라 직접 만든 반찬도 판매하고 있어요! 옆 정선곤드레 가게를 찾아주세요.",
+            en: "We sell not only fresh vegetables and herbs but also homemade side dishes! Please visit our neighbor, Jeongseon Gondre store.",
+            cn: "不仅出售新鲜蔬菜和草药，还出售自制小菜！ 请光临隔壁的旌善山蓟菜店。",
+            ja: "野菜や果物だけでなく、自慢の味噌汁や漬物も販売しています！隣の旌善ゴンドゥレのお店もぜひご覧ください。"
         },
         specialty: { ko: "(시세에 따라 가격이 변동됩니다.)<br>직접 담근 김치, 도라지 반찬, 연근 반찬, 콩자반 등.", 
                      en: "(Prices may vary depending on the market.)<br>Homemade Kimchi, Seasoned Bellflower Root, Braised Lotus Root, Braised Black Soybeans, etc.", 
