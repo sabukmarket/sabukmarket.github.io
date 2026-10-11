@@ -49,15 +49,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "다양한 생선과 건어물들을 주로 팔고 있습니다. 냉동, 생물 모두 취급합니다.",
-            en: "We mainly specialize in a variety of fresh fish and dried seafood. We carry both domestic and deep-sea catches, available fresh or frozen.",
-            cn: "主要经营各种鲜鱼和海鲜干货。无论国产还是远洋捕捞、冷冻还是鲜活鱼类均有销售。",
-            ja: "多様な鮮魚や乾物を中心に取り扱っております。国産・遠洋産、冷凍・生鮮いずれも取り揃えています。"
+            ko: "다양한 생물/냉동 생선, 건어물을 비롯한 식료품을 팔고 있습니다. 사북시장에서 생물 생선을 취급하는 유일한 점포입니다.",
+            en: "Fresh & Frozen Seafood, Dried Seafood & Groceries: We are the only store in Sabuk Market that handles fresh seafood.",
+            cn: "提供各种新鲜/冷冻鱼类、干货等食品。是舍北市场唯一经营新鲜鱼类的店铺。",
+            ja: "多様な新鮮魚・冷凍魚、乾物などを取り扱っています。舎北市場で新鮮魚を扱っている唯一の店舗です。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 생선, 건어물, 달걀 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), pollock, hairtail (cutlassfish), Atka mackerel, half-dried pollock (kodari), squid, etc.", 
-                     cn: "根据时价价格会有所变动）海苔、明太鱼、带鱼、远东多线鱼（花鱼）、半干明太鱼、鱿鱼等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、スケトウダラ、タチウオ、ホッケ、コダリ（半干しスケトウダラ）、イカなど。" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) 김, 미역, 오징어, 생선, 건어물, 달걀 등. <br>황태채 500g 20,000원 1kg 45,000원<br>국산 참기름 35,000원 국산 들기름 25,000원 등.", 
+                     en: "(Prices are subject to change according to market rates.) <br> Seaweed (laver), pollock, hairtail (cutlassfish), Atka mackerel, half-dried pollock (kodari), squid, etc. <br> Dried Pollock (Hwangtae) Strips 500g: 20,000 KRW / 1kg: 45,000 KRW <br> Domestic Sesame Oil: 35,000 KRW / Domestic Perilla Oil: 25,000 KRW, etc.", 
+                     cn: "根据时价价格会有所变动）海苔、明太鱼、带鱼、远东多线鱼（花鱼）、半干明太鱼、鱿鱼等。 <br>黄太鱼丝 500g 20,000韩元 / 1kg 45,000韩元 <br>国产芝麻油 35,000韩元 / 国产紫苏油 25,000韩元 等。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）海苔（のり）、イカ、干物、ホッケ、コダリ（半干しスケトウダラ）、イカなど。 <br>黄太魚丝 500g 20,000ウォン / 1kg 45,000ウォン <br>国産ゴマ油: 35,000ウォン / 国産エゴマ油: 25,000ウォン など。" },
         query: "hwangji.html"
     }
 ];
