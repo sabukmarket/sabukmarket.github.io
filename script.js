@@ -576,10 +576,10 @@ const marketStores = [
             cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。我们按预约制运营。",
             ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。予約制で営業しています。"
         },
-        specialty: { ko: "레몬큐브, 에그타르트, 휘낭시에, 곰돌이 마들렌, 초코프레첼 등.", 
-            en: "Lemon Cube , Egg tarts, financiers, bear-shaped madeleines, chocolate pretzels, etc. ", 
-            cn: "柠檬方块、蛋挞、费南雪、小熊玛德莲蛋糕、巧克力椒盐脆饼等。", 
-            ja: "レモンキューブ、エッグタルト、フィナンシェ、くまちゃんマドレーヌ、チョコプレッツェルなど。" },
+        specialty: { ko: "큐브 파운드케잌, 에그타르트, 휘낭시에, 마들렌, 바스크 치즈케이크 등.", 
+            en: "Lemon Cube , Egg tarts, Financiers, Madeleines, Cheese Cake, etc. ", 
+            cn: "柠檬方块、蛋挞、费南雪、玛德莲蛋糕、巴斯克芝士年糕等。", 
+            ja: "レモンキューブ、エッグタルト、フィナンシェ、マドレーヌ、バスクチーズケーキなど。" },
         query: "boeun.html"
     },
     {

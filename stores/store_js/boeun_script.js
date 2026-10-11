@@ -54,10 +54,10 @@ const marketStores = [
             cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。",
             ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。"
         },
-        specialty: { ko: "레몬큐브(3,800원), 에그타르트, 휘낭시에, 곰돌이 마들렌, 초코프레첼 등.", 
-            en: "Lemon Cube (3,800 KRW), Egg tarts, financiers, bear-shaped madeleines, chocolate pretzels, etc. ", 
-            cn: "柠檬方块 (3,800韩元), 蛋挞、费南雪、小熊玛德莲蛋糕、巧克力椒盐脆饼等。", 
-            ja: "レモンキューブ (3,800ウォン), エッグタルト、フィナンシェ、くまちゃんマドレーヌ、チョコプレッツェルなど。" },
+        specialty: { ko: "큐브 파운드(레몬, 초코 솔티, 얼그레이 가나슈) 4,000원<br>에그타르트 4,000원<br>무화과 크림치즈 휘낭시에 3,500원<br>바닐라 마들렌 2,500원<br>마들렌(크럼블, 녹차 초코칩, 초코, 메이플피간) 3,000원<br>바스크 치즈케이크 1호 30,000원 등.", 
+            en: " Lemon Cube Pound Cake, Chocolate Salty Cube Pound Cake, Earl Grey Ganache Cube Pound Cake - 4,000 KRW<br>Egg Tart - 4,000 KRW<br>Fig Cream Cheese Financier - 3,500 KRW<br>Vanilla Madeleine - 2,500 KRW<br>Madeleine (Crumble, Matcha Chocolate Chip, Chocolate, Maple Pecan) - 3,000 KRW<br>Basque Cheesecake (1 size) - 30,000 KRW etc.", 
+            cn: " 柠檬方块磅蛋糕、巧克力咸味方块磅蛋糕、伯爵茶甘纳许方块磅蛋糕 - 4,000韩元<br>蛋挞 - 4,000韩元<br>无花果奶油芝士费南雪 - 3,500韩元<br>香草玛德琳 - 2,500韩元<br>玛德琳（碎屑、抹茶巧克力片、巧克力、枫糖胡桃） - 3,000韩元<br>巴斯克芝士蛋糕（1号） - 30,000韩元等。", 
+            ja: "キューブパウンドケーキ（レモン、塩チョコ、アールグレイガナッシュ） 4,000ウォン<br>エッグタルト 4,000ウォン<br>イチジククリームチーズフィナンシェ 3,500ウォン<br>バニラマドレーヌ 2,500ウォン<br>マドレーヌ（クランブル、抹茶チョコチップ、チョコ、メープルピーカン） 3,000ウォン<br>バスクチーズケーキ 1号（ホール） 30,000ウォン など" },
         query: "boeun.html"
     }
 ];
