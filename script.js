@@ -304,10 +304,10 @@ const marketStores = [
             cn: "既然来到了传统市场，怎么能不尝尝炒年糕和米肠呢？",
             ja: "市場に来たら、まずはトッポッキとスンデを味わってみないといけませんよね？"
         },
-        specialty: { ko: "떡볶이, 순대, 메밀전병, 음료(사이다 / 콜라) 등.", 
-            en: "Tteokbokki, Sundae, Spicy Buckwheat Crêpe, Soft Drink (Cider / Coke), etc.", 
-            cn: "炒年糕米肠、荞麦煎饼、饮料（雪碧 / 可乐）等", 
-            ja: "トッポッキ、スンデ、メミル・ジョンビョン(そばの芽の薄皮巻き)、飲み物（サイダー / コーラ）" },
+        specialty: { ko: "떡볶이, 순대, 메밀전병, 튀김, 음료(사이다 / 콜라) 등.", 
+            en: "Tteokbokki, Sundae, Spicy Buckwheat Crêpe, Fried Snack, Soft Drink (Cider / Coke), etc.", 
+            cn: "炒年糕米肠、荞麦煎饼、炸物、饮料（雪碧 / 可乐）等", 
+            ja: "トッポッキ、スンデ、メミル・ジョンビョン(そばの芽の薄皮巻き)、揚げ物、飲み物（サイダー / コーラ）" },
         query: "ottugi.html"
     },
     {

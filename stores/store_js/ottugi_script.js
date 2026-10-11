@@ -54,10 +54,10 @@ const marketStores = [
             cn: "既然来到了传统市场，怎么能不尝尝炒年糕和米肠呢？",
             ja: "市場に来たら、まずはトッポッキとスンデを味わってみないといけませんよね？"
         },
-        specialty: { ko: "떡볶이(1인분) 3,000원 &nbsp;&nbsp;&nbsp; 순대(1인분) 5,000원 <br> 메밀전병(1인분) 6,000원 &nbsp;&nbsp;&nbsp; 음료(사이다/콜라) 2,000원", 
-            en: "Tteokbokki (1 serving) 3,000 KRW &nbsp;&nbsp;&nbsp; Sundae (1 serving) 5,000 KRW <br> Spicy Buckwheat Crêpe (1 serving) 6,000 KRW &nbsp;&nbsp;&nbsp; Soft Drink (Cider / Coke) 2,000 KRW", 
-            cn: "炒年糕（1人份） 3,000韩元 &nbsp;&nbsp;&nbsp; 米肠（1人份） 5,000韩元 <br> 荞麦煎饼（1人份） 6,000韩元 &nbsp;&nbsp;&nbsp; 饮料（雪碧 / 可乐） 2,000韩元", 
-            ja: "トッポッキ（1人前） 3,000ウォン &nbsp;&nbsp;&nbsp; スンデ（1人前） 5,000ウォン <br> 蕎麦クレープ（1人前） 6,000ウォン &nbsp;&nbsp;&nbsp; 飲み物（サイダー / コーラ） 2,000ウォン" },
+        specialty: { ko: "떡볶이(1인분) 3,000원  <br> 순대(1인분) 5,000원 <br> 메밀전병(1인분) 6,000원  <br>메밀부침개(1인분) 6,000원 <br>수제튀김 1개 1,000원<br>수제튀김 모듬 1인분 7,000원 <br> 음료(사이다/콜라) 2,000원", 
+            en: "Tteokbokki (1 serving) 3,000 KRW  <br>Sundae (1 serving) 5,000 KRW <br> Spicy Buckwheat Crêpe (1 serving) 6,000 KRW <br> Buckwheat Pancake (1 serving) - 6,000 KRW <br>Handmade Fried Snack (1 piece) - 1,000 KRW<br>Assorted Handmade Fried Snacks (1 serving) - 7,000 KRW<br> Soft Drink (Cider / Coke) 2,000 KRW", 
+            cn: "炒年糕（1人份） 3,000韩元  <br>米肠（1人份） 5,000韩元 <br> 荞麦煎饼（1人份） 6,000韩元  <br> 荞麦薄饼（1人份） 6,000韩元 <br>手工炸物（1个） 1,000韩元 <br> 手工什锦炸物拼盘（1人份） 7,000韩元<br> 饮料（雪碧 / 可乐） 2,000韩元", 
+            ja: "トッポッキ（1人前） 3,000ウォン  <br>スンデ（1人前） 5,000ウォン <br> 蕎麦クレープ（1人前） 6,000ウォン <br>蕎麦チヂミ（1人前） 6,000ウォン <br> 手作り揚げ物・天ぷら（1個） 1,000ウォン<br>手作り揚げ物盛り合わせ（1人前） 7,000ウォン <br> 飲み物（サイダー / コーラ） 2,000ウォン" },
         query: "ottugi.html"
     }
 ];
