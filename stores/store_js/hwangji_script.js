@@ -49,15 +49,15 @@ const marketStores = [
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "다양한 생물/냉동 생선, 건어물을 비롯한 식료품을 팔고 있습니다. 사북시장에서 생물 생선을 취급하는 유일한 점포입니다.",
-            en: "Fresh & Frozen Seafood, Dried Seafood & Groceries: We are the only store in Sabuk Market that handles fresh seafood.",
-            cn: "提供各种新鲜/冷冻鱼类、干货等食品。是舍北市场唯一经营新鲜鱼类的店铺。",
-            ja: "多様な新鮮魚・冷凍魚、乾物などを取り扱っています。舎北市場で新鮮魚を扱っている唯一の店舗です。"
+            ko: "다양한 생물/냉동 생선, 건어물을 비롯한 식료품을 팔고 있습니다.",
+            en: "Fresh & Frozen Seafood, Dried Seafood & Groceries: ",
+            cn: "提供各种新鲜/冷冻鱼类、干货等食品。",
+            ja: "多様な新鮮魚・冷凍魚、乾物などを取り扱っています。"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br>김, 미역, 오징어, 생선, 건어물, 달걀 등. <br>황태채 500g 20,000원 1kg 45,000원<br>국산 참기름 35,000원 국산 들기름 25,000원 등.", 
-                     en: "(Prices are subject to change according to market rates.) <br> Laver, brown seaweed, squid, fish, eggs, cooking oil, etc. <br> Dried Pollock (Hwangtae) Strips 500g: 20,000 KRW / 1kg: 45,000 KRW <br> Domestic Sesame Oil: 35,000 KRW / Domestic Perilla Oil: 25,000 KRW, etc.", 
-                     cn: "(根据时价价格会有所变动）<br>紫菜、海带、鱿鱼、鱼类、鸡蛋、食用油等。 <br>黄太鱼丝 500g 20,000韩元 / 1kg 45,000韩元 <br>国产芝麻油 35,000韩元 / 国产紫苏油 25,000韩元 等。", 
-                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>海苔、ワカメ、イカ、鮮魚（魚類）、卵、食用油など。 <br>黄太魚丝 500g 20,000ウォン / 1kg 45,000ウォン <br>国産ゴマ油: 35,000ウォン / 国産エゴマ油: 25,000ウォン など。" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br>갈치, 고등어, 임연수, 코다리, 오징어 등 생선,건어물 등. <br>", 
+                     en: "(Prices are subject to change according to market rates.) <br>Hairtail, Mackerel, Atka Mackerel, Semi-Dried Pollock, Squid, and other fresh/frozen fish & dried seafood.", 
+                     cn: "(根据时价价格会有所变动）<br> 带鱼、青花鱼、鲭鱼、银鳕鱼、干鱿鱼等新鲜/冷冻鱼类及干货。", 
+                     ja: "（仕入れ・時価により価格が変更になる場合がございます）<br>太刀魚、サバ（鯖）、(ホッケ、コダリ（半乾燥スケトウダラ）、イカ、水産乾物 など" },
         query: "hwangji.html"
     }
 ];
