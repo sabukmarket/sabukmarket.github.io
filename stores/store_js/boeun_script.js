@@ -49,10 +49,10 @@ const marketStores = [
         cat: "food",
         catName: { ko: "카페·먹거리", en: "Cafes & Desserts", cn: "咖啡厅·小吃", ja: "カフェ・スイーツ" },
         desc: {
-            ko: "사북의 유일한 디저트 전문점입니다. 타르트, 스콘, 쿠키 등 매일 매일 다른 종류의 디저트를 굽습니다.",
-            en: "The only dessert shop in Sabuk. We bake different types of desserts every day.",
-            cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。",
-            ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。"
+            ko: "사북의 유일한 디저트 전문점입니다. 매일 다른 종류의 디저트를 굽습니다. 맞춤형 선물, 답례품 및 간식을 세트 구성으로 조합해 드립니다. 예약제로 운영됩니다.",
+            en: "The only dessert shop in Sabuk. We bake different types of desserts every day. We offer customized gift sets, return gifts, and snacks. We operate on a reservation basis.",
+            cn: "舍北唯一的甜点专卖店。每天烘焙不同种类的甜点。我们按预约制运营。我们提供定制的礼品套装、回礼和零食。  ",
+            ja: "舎北唯一のデザート専門店。毎日異なる種類のデザートを焼きます。ギフトセット、返礼品、スナックのカスタマイズも承ります。予約制で営業しています。"
         },
         specialty: { ko: "큐브 파운드(레몬, 초코 솔티, 얼그레이 가나슈) 4,000원<br>에그타르트 4,000원<br>무화과 크림치즈 휘낭시에 3,500원<br>바닐라 마들렌 2,500원<br>마들렌(크럼블, 녹차 초코칩, 초코, 메이플피간) 3,000원<br>바스크 치즈케이크 1호 30,000원 등.", 
             en: " Lemon Cube Pound Cake, Chocolate Salty Cube Pound Cake, Earl Grey Ganache Cube Pound Cake - 4,000 KRW<br>Egg Tart - 4,000 KRW<br>Fig Cream Cheese Financier - 3,500 KRW<br>Vanilla Madeleine - 2,500 KRW<br>Madeleine (Crumble, Matcha Chocolate Chip, Chocolate, Maple Pecan) - 3,000 KRW<br>Basque Cheesecake (1 size) - 30,000 KRW etc.", 

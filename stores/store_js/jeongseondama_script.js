@@ -54,10 +54,10 @@ const marketStores = [
             cn: "我们在青年商场的一楼等着您。享受用江原道特产制作的冰淇淋和团子吧！",
             ja: "青年モールの1階でお待ちしております。江原道の特産品で作られたアイスクリームと団子をお楽しみください。"
         },
-        specialty: { ko: "초당옥수수 아이스크림 6,800원 &nbsp;&nbsp;&nbsp; 정선 감자 아이스크림 5,000원 <br> 벌꿀집 요거트 아이스크림 5,800원 &nbsp;&nbsp;&nbsp; 꿀당고 3,500원 ", 
-                     en: "Sweet Corn Ice Cream 6,800 KRW &nbsp;&nbsp;&nbsp; Jeongseon Potato Ice Cream 5,000 KRW <br> Bee Hive Yogurt Ice Cream 5,800 KRW &nbsp;&nbsp;&nbsp; Honey Dango 3,500 KRW", 
-                     cn: "甜玉米冰淇淋 6,800韩元 &nbsp;&nbsp;&nbsp; 旌善土豆冰淇淋 5,000韩元 <br> 蜜蜂屋酸奶冰淇淋 5,800韩元 &nbsp;&nbsp;&nbsp; 蜂蜜团子 3,500韩元", 
-                     ja: "スイートコーンアイスクリーム 6,800 &nbsp;&nbsp;&nbsp; セオングソンジャガイモアイスクリーム 5,000 <br> ビークラウンヨーグルトアイスクリーム 5,800 &nbsp;&nbsp;&nbsp; ハチミツ団子 3,500" },
+        specialty: { ko: "초당옥수수 아이스크림 콘 6,800원 / 컵 6,500원<br> 정선 감자 아이스크림 5,000원 <br> 벌꿀집 요거트 아이스크림 5,800원  <br>꿀당고 3,500원 <br>딸기 당고 4,500원<br>두바이 초코쉘 요거트 아이스크림 7,800원<br>샤인머스켓 당고4,500원<br>쑥인절미 당고 3,800원<br>아메리카노 HOT 3,500원 / ICED 4,000원<br>아메리카노 디카페인 HOT 3,800원 / ICED 4,300원<br>카페라떼 HOT 4,000원 / ICED 4,500원<br>바닐라라떼 HOT 4,500원 ICED 5,000원<br>딸기 라떼 5,000원 <br>복숭아 아이스티 4,000원", 
+                     en: "Sweet Corn Soft-Serve Ice Cream Cone 6,800 KRW / Cup 6,500 KRW<br>Jeongseon Potato Soft-Serve Ice Cream 5,000 KRW<br>Honeycomb Yogurt Soft-Serve Ice Cream 5,800 KRW<br>Honey Dango 3,500 KRW<br>Strawberry Dango 4,500 KRW<br>Dubai Chocolate Shell Yogurt Ice Cream 7,800 KRW<br>Shine Muscat Dango 4,500 KRW<br>Mugwort Injeolmi Dango 3,800 KRW<br>Americano HOT 3,500 KRW / ICED 4,000 KRW<br>Decaf Americano HOT 3,800 KRW / ICED 4,300 KRW<br>Café Latte HOT 4,000 KRW / ICED 4,500 KRW<br>Vanilla Latte HOT 4,500 KRW / ICED 5,000 KRW<br>Strawberry Latte 5,000 KRW<br>Peach Iced Tea 4,000 KRW", 
+                     cn: "草堂超甜玉米冰淇淋 甜筒 6,800韩元 / 纸杯 6,500韩元<br>旌善土豆冰淇淋 5,000韩元<br>蜂巢酸奶冰淇淋 5,800韩元<br>蜂蜜团子 3,500韩元<br>草莓团子 4,500韩元<br>迪拜脆皮巧克力酸奶冰淇淋 7,800韩元<br>阳光玫瑰团子 4,500韩元<br>艾草豆粉团子 3,800韩元<br>美式咖啡 热 3,500韩元 / 冰 4,000韩元<br>低因美式咖啡 热 3,800韩元 / 冰 4,300韩元<br>拿铁咖啡 热 4,000韩元 / 冰 4,500韩元<br>香草拿铁 热 4,500韩元 / 冰 5,000韩元<br>草莓拿铁 5,000韩元<br>水蜜桃冰茶 4,000韩元", 
+                     ja: "チョダン超糖トウモロコシアイス コーン 6,800ウォン / カップ 6,500ウォン<br>チョンソン（旌善）ジャガイモアイス 5,000ウォン<br>コムハニー（巣蜜）ヨーグルトアイス 5,800ウォン<br>ハニー団子 3,500ウォン<br>いちご団子 4,500ウォン<br>ドバイチョコシェル ヨーグルトアイス 7,800ウォン<br>シャインマスカット団子 4,500ウォン<br>よもぎインジョルミ団子 3,800ウォン<br>アメリカーノ HOT 3,500ウォン / ICED 4,000ウォン<br>ディカフェ アメリカーノ HOT 3,800ウォン / ICED 4,300ウォン<br>カフェラテ HOT 4,000ウォン / ICED 4,500ウォン<br>バニララテ HOT 4,500ウォン / ICED 5,000ウォン<br>いちごラテ 5,000ウォン<br>ピーチアイスティー 4,000ウォン" },
         query: "jeongseondama.html"
     }
 ];
