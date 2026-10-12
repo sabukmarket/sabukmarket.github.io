@@ -54,10 +54,10 @@ const marketStores = [
             cn: "作为旌善郡老年就业项目的一部分运营的咖啡馆。我们提供价格实惠、美味的咖啡。",
             ja: "旌善郡シニア雇用事業の一環として運営されているカフェです。市販よりも安くて美味しいコーヒーを提供しています。"
         },
-        specialty: { ko: "아메리카노 HOT 2,500원  <br> ICED 3,000원 <br> 카페라떼 HOT 3,000원  <br> ICED 3,000원<br>팥빙수 6,000원  <br> 유자차 3,000원<br>말차 라떼 HOT 3,000원<br>블루베리 라떼 HOT 3,000원<br>대추차 3,000원", 
-            en: "Americano HOT 2,500 KRW  <br> ICED 3,000 KRW <br> Café Latte HOT 3,000 KRW  <br> ICED 3,000 KRW <br>Red Bean Sherbet (Patbingsu) 6,000 KRW  <br> Honey Citron Tea 3,000 KRW<br>Matcha Latte HOT 3,000 KRW<br>Blueberry Latte HOT 3,000 KRW<br>Jujube Tea (Daechu-cha) 3,000 KRW", 
-            cn: "美式咖啡 热 2,500韩元  <br> 冰 3,000韩元 <br> 拿铁咖啡 热 3,000韩元  <br> 冰 3,000韩元 <br>红豆冰沙 6,000韩元  <br> 柚子茶 3,000韩元<br>抹茶拿铁 热 3,000韩元<br>蓝莓拿铁 热 3,000韩元<br>红枣茶 3,000韩元", 
-            ja: "アメリカーノ HOT 2,500ウォン  <br> ICED 3,000ウォン <br> カフェラテ HOT 3,000ウォン  <br> ICED 3,000ウォン <br>小豆かき氷(パトビンス) 6,000ウォン  <br> 柚子茶 3,000ウォン<br>抹茶ラテ HOT 3,000ウォン<br>ブルーベリーラテ HOT 3,000ウォン<br>ナツメ茶（テチュ茶） 3,000ウォン" },
+        specialty: { ko: "아메리카노 HOT 2,500원  <br> ICED 3,000원 <br> 카페라떼 HOT 3,000원  <br> ICED 3,000원<br>팥빙수 6,000원  <br> 유자차 3,000원<br>말차 라떼 HOT 3,000원<br>블루베리 라떼 HOT 3,000원<br>대추차 3,000원<br>블루베리 에이드 3,000원", 
+            en: "Americano HOT 2,500 KRW  <br> ICED 3,000 KRW <br> Café Latte HOT 3,000 KRW  <br> ICED 3,000 KRW <br>Red Bean Sherbet (Patbingsu) 6,000 KRW  <br> Honey Citron Tea 3,000 KRW<br>Matcha Latte HOT 3,000 KRW<br>Blueberry Latte HOT 3,000 KRW<br>Jujube Tea (Daechu-cha) 3,000 KRW<br>Blueberry Ade 3,000 KRW", 
+            cn: "美式咖啡 热 2,500韩元  <br> 冰 3,000韩元 <br> 拿铁咖啡 热 3,000韩元  <br> 冰 3,000韩元 <br>红豆冰沙 6,000韩元  <br> 柚子茶 3,000韩元<br>抹茶拿铁 热 3,000韩元<br>蓝莓拿铁 热 3,000韩元<br>红枣茶 3,000韩元<br>蓝莓汽水 3,000韩元", 
+            ja: "アメリカーノ HOT 2,500ウォン  <br> ICED 3,000ウォン <br> カフェラテ HOT 3,000ウォン  <br> ICED 3,000ウォン <br>小豆かき氷(パトビンス) 6,000ウォン  <br> 柚子茶 3,000ウォン<br>抹茶ラテ HOT 3,000ウォン<br>ブルーベリーラテ HOT 3,000ウォン<br>ナツメ茶（テチュ茶） 3,000ウォン<br>ブルーベリーエード 3,000ウォン" },
         query: "cafegil.html"
     }
 ];

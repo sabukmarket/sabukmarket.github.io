@@ -54,10 +54,10 @@ const marketStores = [
             cn: "紫菜包饭和拉面？紫菜包饭和辣炒年糕？紫菜包饭和嫩豆腐煲？任何组合都很棒。",
             ja: "キンパとラーメン？キンパとトッポッキ？キンパとスンドゥブチゲ？どの組み合わせも相性抜群です。"
         },
-          specialty: { ko: "원조김밥 3,500원 김치볶음밥 9,000원 <br> 라면 5,000원 비빔밥 9,000원 <br> 돈까스 10,000원",
-             en: "Original Gimbap 3,500 KRW <br> Kimchi Fried Rice 9,000 KRW <br> Ramyeon 5,000 KRW <br> Bibimbap (Mixed Rice with Vegetables & Meat) 9,000 KRW <br>Tonkatsu (Pork Cutlet) 10,000 KRW", 
-             cn: "原味紫菜包饭 3,500韩元 <br> 辣白菜炒饭 9,000韩元 <br> 辛拉面 5,000韩元 <br> 拌饭（石锅<br>大碗拌饭） 9,000韩元 <br> 炸猪排 10,000韩元", 
-             ja: "オリジナルキンパ 3,500ウォン <br> キムチポックンパ 9,000ウォン <br> ラミョン（韓国ラーメン） 5,000ウォン <br> ビビンバ（混ぜご飯） 9,000ウォン <br>トンカツ 10,000ウォン" },
+          specialty: { ko: "원조김밥 3,500원<br>치즈김밥 4,500원<br>참치김밥 5,000원<br>소불고기김밥 5,500원<br> 김치볶음밥 9,000원 <br> 라면 5,000원 <br>비빔밥 9,000원 <br> 돈까스 10,000원<br>치즈돈까스 11,000원<br>떡볶이 6,500원<br>치즈떡볶이 7,000원<br>순두부찌개 9,000원",
+             en: "Original Gimbap 3,500 KRW<br>Cheese Gimbap 4,500 KRW<br>Tuna Gimbap 5,000 KRW<br>Beef Bulgogi Gimbap 5,500 KRW<br>Kimchi Fried Rice 9,000 KRW<br>Ramen 5,000 KRW<br>Bibimbap 9,000 KRW<br>Pork Cutlet (Donkatsu) 10,000 KRW<br>Cheese Pork Cutlet 11,000 KRW<br>Tteokbokki (Spicy Rice Cakes) 6,500 KRW<br>Cheese Tteokbokki 7,000 KRW<br>Soft Tofu Stew (Sundubu-jjigae) 9,000 KRW", 
+             cn: "元祖紫菜包饭 3,500韩元<br>芝士紫菜包饭 4,500韩元<br>金枪鱼紫菜包饭 5,000韩元<br>韩式牛肉紫菜包饭 5,500韩元<br>泡菜炒饭 9,000韩元<br>韩式拉面 5,000韩元<br>拌饭 9,000韩元<br>炸猪排 10,000韩元<br>芝士炸猪排 11,000韩元<br>辣炒年糕 6,500韩元<br>芝士辣炒年糕 7,000韩元<br>嫩豆腐汤 9,000韩元", 
+             ja: "元祖キンパ 3,500ウォン<br>チーズキンパ 4,500ウォン<br>ツナキンパ 5,000ウォン<br>牛プルコギキンパ 5,500ウォン<br>キムチチャーハン 9,000ウォン<br>ラーメン 5,000ウォン<br>ビビンバ 9,000ウォン<br>トンカツ 10,000ウォン<br>チーズトンカツ 11,000ウォン<br>トッポッキ 6,500ウォン<br>チーズトッポッキ 7,000ウォン<br>スンドゥブチゲ 9,000ウォン" },
         query: "gimbapnara.html"
     }
 ];
