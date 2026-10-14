@@ -53,10 +53,10 @@ const marketStores = [
             en: "We sell fresh meat by cuts. Please come near the market entrance!",
             cn: "我们按部位销售新鲜肉类。请到市场入口附近。",
             ja: "新鮮な肉を部位別に販売しています。市場入口付近にお越しください。"},
-        specialty: { ko: "*한우, 돼지고기, 닭고기 가격은 시세에 따라 변동됩니다.", 
-                     en: "*Prices for Korean beef, pork, and chicken vary according to market rates.", 
-                     cn: "*韩国牛、猪肉、鸡肉的价格会根据市场行情波动。", 
-                     ja: "*韓国牛、豚肉、鶏肉の価格は市場レートに応じて変動します。" },
+        specialty: { ko: "*한우, 돼지고기, 닭고기 가격은 시세에 따라 변동됩니다.<br>삼겹살, 등심, 소갈비살, 목살 등.", 
+                     en: "*Prices for Korean beef, pork, and chicken vary according to market rates.<br>Pork Belly, Pork / Beef Shoulder & Neck, Sirloin, Beef Rib Finger Meat, Beef Flank, etc.", 
+                     cn: "*韩国牛、猪肉、鸡肉的价格会根据市场行情波动。<br>五花肉、猪颈肉 / 牛颈肉、 里脊肉、 牛排骨肉 etc.", 
+                     ja: "*韓国牛、豚肉、鶏肉の価格は市場レートに応じて変動します。<br>豚バラ肉(サムギョプサル)、豚肩ロース / 牛ネック、ロース（牛ロース）、ササミ・フランク(牛ヒレ下腹肉) etc." },
         query: "sanmaru.html"
     }
 ];
