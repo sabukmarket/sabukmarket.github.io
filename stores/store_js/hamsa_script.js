@@ -45,7 +45,7 @@ const i18nData = {
 const marketStores = [
        {
         id: 1,
-        name: { ko: "함사 휴&힐", en: "Hamsa Hue & Heal", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
+        name: { ko: "함사 휴&힐", en: "Hamsa Hue & Heal", cn: "涵飒 舒休疗愈(HAMSA)", ja: "ハムサ(HAMSA) ヒュー＆ヒール" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {

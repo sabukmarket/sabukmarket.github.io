@@ -1279,11 +1279,11 @@ const marketStores = [
     },
      {
         id: 60,
-        name: { ko: "함사 휴&힐", en: "Hamsa Hue & Heal", cn: "Come Again 睫毛嫁接店", ja: "トオダ・ラッシュ店" },
+        name: { ko: "함사 휴&힐", en: "Hamsa Hue & Heal", cn: "涵飒 舒休疗愈(HAMSA)", ja: "ハムサ(HAMSA) ヒュー＆ヒール" },
         cat: "general",
         catName: { ko: "미용", en: "Beauty", cn: "美容", ja: "美容" },
         desc: {
-            ko: "컬러 테라피 & 젤네일 스튜디오입니다. <br> 나의 색을 발견하고 아름다움과 쉼을 만나는 웰니스 뷰티",
+            ko: "컬러 테라피 & 젤네일 스튜디오입니다. <br>나의 색을 발견하고 아름다움과 쉼을 만나는 웰니스 뷰티",
             en: "Color Therapy & Gel Nail Studio. <br> Discover your color and experience wellness beauty with relaxation.",
             cn: "色彩疗法和凝胶美甲工作室。<br> 发现你的颜色，体验放松的健康美容。",
             ja: "カラーセラピーとジェルネイルスタジオです。 <br> あなたの色を見つけ、リラックスしたウェルネスビューティを体験してください。"
