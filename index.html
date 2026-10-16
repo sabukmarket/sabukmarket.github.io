@@ -160,34 +160,7 @@
             </div>
         </section>
 
-        <!-- 2. Stores Section (#store_listing) -->
-        <section id="store_listing" class="py-20 bg-white border-b border-stone-200">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
-                    <div>
-                        <span class="text-xs uppercase tracking-widest text-brand-500 font-bold" data-i63n="store_tag">DISCOVER SABUK STORES</span>
-                         
-                        <h2 class="text-3xl sm:text-4xl font-bold   text-stone-900 mt-1" data-i63n="store_heading">
-                            <img src="./img/ang1.png" class="h-10 sm:h-14 lg:h-16 w-auto object-contain shrink-0 inline-block">
-                            시장 내 가게 목록</h2>
-                        <p class="text-stone-600 text-sm mt-2" data-i63n="store_subtext">사북시장의 정겨운 맛과 신선한 지역 특산물을 만나보세요.</p>
-                    </div>
-
-                    <!-- Category Filter Buttons -->
-                    <div class="inline-flex rounded-xl bg-stone-100 p-1.5 text-xs font-semibold gap-1 self-start md:self-auto overflow-x-auto max-w-full">
-                        <button onclick="filterStores('restaurants')" class="cat-btn px-3 py-1.5 rounded-lg transition-all bg-white text-stone-900 shadow-sm font-bold" data-category="restaurants" data-i63n="cat_restaurants">식당</button>
-                        <button onclick="filterStores('food')" class="cat-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="food" data-i63n="cat_food">카페·먹거리</button>
-                        <button onclick="filterStores('produce')" class="cat-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="produce" data-i63n="cat_produce">농특산물·약초</button>
-                        <button onclick="filterStores('general')" class="cat-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="general" data-i63n="cat_general">생활·잡화</button>
-                    </div>
-                </div>
-
-                <!-- Stores Cards Grid (Rendered by JS) -->
-                <div id="store-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-            </div>
-        </section>
-
-        <!-- 3. Events Section (#event) -->
+<!-- 3. Events Section (#event) -->
         <section id="event" class="py-20 bg-[#FAF7F2] border-b border-stone-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto space-y-3 mb-14">
@@ -348,6 +321,34 @@
                 </div>
             </div>
         </section>
+                
+        <!-- 2. Stores Section (#store_listing) -->
+        <section id="store_listing" class="py-20 bg-white border-b border-stone-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                    <div>
+                        <span class="text-xs uppercase tracking-widest text-brand-500 font-bold" data-i63n="store_tag">DISCOVER SABUK STORES</span>
+                         
+                        <h2 class="text-3xl sm:text-4xl font-bold   text-stone-900 mt-1" data-i63n="store_heading">
+                            <img src="./img/ang1.png" class="h-10 sm:h-14 lg:h-16 w-auto object-contain shrink-0 inline-block">
+                            시장 내 가게 목록</h2>
+                        <p class="text-stone-600 text-sm mt-2" data-i63n="store_subtext">사북시장의 정겨운 맛과 신선한 지역 특산물을 만나보세요.</p>
+                    </div>
+
+                    <!-- Category Filter Buttons -->
+                    <div class="inline-flex rounded-xl bg-stone-100 p-1.5 text-xs font-semibold gap-1 self-start md:self-auto overflow-x-auto max-w-full">
+                        <button onclick="filterStores('restaurants')" class="cat-btn px-3 py-1.5 rounded-lg transition-all bg-white text-stone-900 shadow-sm font-bold" data-category="restaurants" data-i63n="cat_restaurants">식당</button>
+                        <button onclick="filterStores('food')" class="cat-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="food" data-i63n="cat_food">카페·먹거리</button>
+                        <button onclick="filterStores('produce')" class="cat-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="produce" data-i63n="cat_produce">농특산물·약초</button>
+                        <button onclick="filterStores('general')" class="cat-btn px-3 py-1.5 rounded-lg text-stone-600 hover:text-stone-900 transition-all" data-category="general" data-i63n="cat_general">생활·잡화</button>
+                    </div>
+                </div>
+
+                <!-- Stores Cards Grid (Rendered by JS) -->
+                <div id="store-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            </div>
+        </section>
+
 
         <!-- 5. Contact Section (#contact) -->
         <section id="contact" class="py-20 bg-white">
