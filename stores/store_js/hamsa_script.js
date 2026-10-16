@@ -54,10 +54,10 @@ const marketStores = [
             cn: "色彩疗法和凝胶美甲工作室。<br> 发现你的颜色，体验放松的健康美容。",
             ja: "カラーセラピーとジェルネイルスタジオです。 <br> あなたの色を見つけ、リラックスしたウェルネスビューティを体験してください。"
         },
-    specialty: { ko: "기본 네일, 컬러 테라피 젤네일, 힐링 프로그램, 셀프 네일 <br>네이버 및 구글지도에 기재된 연락처로 문자 예약 가능합니다.", 
-                     en: "Basic nails, color therapy gel nails, healing programs, self-nails <br> You can make a reservation via text message using the contact information listed on Naver and Google Maps.", 
-                     cn: "基础美甲、色彩疗法凝胶美甲、疗愈项目、自助美甲 <br> 您可以通过Naver和Google地图上列出的联系方式发送短信预约。", 
-                     ja: "基本ネイル、カラーセラピー ジェルネイル、癒しプログラム、セルフネイル <br> NaverとGoogleマップに記載されている連絡先からテキストメッセージで予約できます。" },
+    specialty: { ko: "기본 네일, 컬러 테라피 젤네일, 힐링 프로그램, 셀프 네일 <br>네이버 및 구글지도에 기재된 연락처로 문자 예약 가능합니다.<br>컬러테라피 젤 네일 67,000원<br>기본손케어(여) 20,000원 <br>기본케어(남) 30,000원<br>기본 젤 네일 50,000원<br>어린이 컬러테라피 젤 네일 30,000원 등.", 
+                     en: "Basic nails, color therapy gel nails, healing programs, self-nails <br> You can make a reservation via text message using the contact information listed on Naver and Google Maps.<br>Color Therapy Gel Nails 67,000 KRW<br>Basic Hand Care (Women) 20,000 KRW<br>Basic Hand Care (Men) 30,000 KRW<br>Basic Gel Nails 50,000 KRW<br>Kids Color Therapy Gel Nails 30,000 KRW etc.", 
+                     cn: "基础美甲、色彩疗法凝胶美甲、疗愈项目、自助美甲 <br> 您可以通过Naver和Google地图上列出的联系方式发送短信预约。<br>色彩疗愈凝胶美甲 67,000韩元<br>基础手部护理（女士） 20,000韩元<br>基础手部护理（男士） 30,000韩元<br>基础凝胶美甲 50,000韩元<br>儿童色彩疗愈凝胶美甲 30,000韩元 等", 
+                     ja: "基本ネイル、カラーセラピー ジェルネイル、癒しプログラム、セルフネイル <br> NaverとGoogleマップに記載されている連絡先からテキストメッセージで予約できます。<br>カラーセラピージェルネイル 67,000ウォン<br>基本ハンドケア（女性） 20,000ウォン<br>基本ハンドケア（男性） 30,000ウォン<br>基本ジェルネイル 50,000ウォン<br>キッズ カラーセラピージェルネイル 30,000ウォン など" },
         query: "hamsa.html"
     }
 ];
@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://naver.me/FvEPNMVk`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bwML4sX1XqSJbwtg8`;
+        const mapNaverUrl = `https://naver.me/5JqxpWQy`;
+        const mapSearchUrl = `https://maps.app.goo.gl/zj7Nz5gXGYnmgm389`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">

@@ -54,7 +54,7 @@ const marketStores = [
             cn: "我们提供睫毛烫和睫毛嫁接服务。请提前预约。",
             ja: "まつげパーマ、まつげエクステを行っています。ご予約の上、ご来店ください。"
         },
-    specialty: { ko: "속눈썹 펌 35,000원 &nbsp;&nbsp;&nbsp; 속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
+    specialty: { ko: "속눈썹 펌 35,000원 <br>속눈썹 연장 45,000원 <br> 펌 포인트 연장 60,000원", 
                      en: "Eyelash perms and extensions 35,000-60,000KRW <br> Perm and point extension 60,000KRW", 
                      cn: "睫毛烫、睫毛嫁接 35,000 ~ 60,000韩元 <br> 烫和点嫁接 60,000韩元", 
                      ja: "まつげパーマ、まつげエクステ 35,000 ~ 60,000 <br> パーマとポイントエクステ 60,000" },
@@ -120,7 +120,7 @@ function renderStores() {
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
         const mapNaverUrl = `https://naver.me/FvEPNMVk`;
-        const mapSearchUrl = `https://maps.app.goo.gl/bwML4sX1XqSJbwtg8`;
+        const mapSearchUrl = `https://maps.app.goo.gl/uFYmHZFCyc9ivEK19`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
