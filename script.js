@@ -1305,10 +1305,10 @@ const marketStores = [
             cn: "本店销售山蓟菜、短果茴芹（翠菜）、短羽毒芹（牛膝草）等各种当地特产野菜，以及海苔、海带、鱿鱼干等农水产干货。如遇店主不在，请移步至‘波比果蔬店’！",
             ja: "コンドゥレ、シナムル、オスリ（ハナウド）など地元の特産山菜をはじめ、海苔、ワカメ、スルメなどの乾物・農水産物を販売しています。留守の際は『ポピネ青果店』へお越しください！"
         },
-        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br> 곤드레, 취나물, 서리태, 고사리, 더덕, 황태채, 찹쌀, 고춧가루 등. <br>고추부각 12,000원 <br>서리태 20,000원 / 10,000원", 
-                     en: "(Prices are subject to change depending on market rates.) <br> Gondre (Korean thistle), Chwinamul, Seoritae (black soybeans), Bracken (ferns), Deodeok, Shredded dried pollack, Glutinous rice, Red chili pepper powder, etc. <br> Crispy Chili Chips (Gochu-bugak) 12,000 KRW <br> Seoritae (Black Soybeans) 20,000 KRW / 10,000 KRW", 
-                     cn: "（价格随市价有所变动） <br> 山蓟菜、翠菜、青仁黑豆、蕨菜、沙参、干明太鱼丝、糯米、辣椒粉 等。 <br> 香脆辣椒干 12,000韩元 <br> 青仁黑豆 20,000韩元 / 10,000韩元", 
-                     ja: "（時価により価格は変動する場合がございます） <br> コンドレ（高麗アザミ）、シナムル、ソリテ（黒大豆）、ワラビ、トドック（ツルニンジン）、干しタラ（ファンテ）、もち米、唐辛子粉 など。 <br> 唐辛子ブガク（ピリ辛揚げ菓子） 12,000ウォン <br> ソリテ（黒豆） 20,000ウォン / 10,000ウォン" },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br> 곤드레, 취나물, 서리태, 고사리, 더덕, 황태채, 찹쌀, 고춧가루 등.", 
+                     en: "(Prices are subject to change depending on market rates.) <br> Gondre (Korean thistle), Chwinamul, Seoritae (black soybeans), Bracken (ferns), Deodeok, Shredded dried pollack, Glutinous rice, Red chili pepper powder, etc.", 
+                     cn: "（价格随市价有所变动） <br> 山蓟菜、翠菜、青仁黑豆、蕨菜、沙参、干明太鱼丝、糯米、辣椒粉 等。 ", 
+                     ja: "（時価により価格は変動する場合がございます） <br> コンドレ（高麗アザミ）、シナムル、ソリテ（黒大豆）、ワラビ、トドック（ツルニンジン）、干しタラ（ファンテ）、もち米、唐辛子粉 など。" },
         query: "shijang.html"
     }
 
