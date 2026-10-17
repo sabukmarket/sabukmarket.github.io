@@ -1075,11 +1075,11 @@ const marketStores = [
     },
     {
         id: 48,
-        name: { ko: "부산상회", en: "Busan Grocery Store", cn: "釜山商行", ja: "釜山（プサン）商会" },
+        name: { ko: "부산수산(부산상회)", en: "Busan Seafood Store", cn: "釜山商行", ja: "釜山（プサン）商会" },
         cat: "produce",
         catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
         desc: {
-            ko: "생선뿐만 아니라 김, 미역, 마른오징어 등 건어물을 판매하고 있습니다. 달걀 등의 지역 특산물도 함께 팔아요.",
+            ko: "생선뿐만 아니라 김, 미역, 마른오징어 등 건어물을 판매하고 있습니다. 달걀, 곤드레 등의 지역 특산물도 함께 팔아요.",
             en: "Along with fresh fish, we offer a variety of dried seafood such as seaweed, kelp, and dried squid. Local specialties including eggs are also available.",
             cn: "除了新鲜鱼类外，还出售海苔、海带、干鱿鱼等各种海鲜干货。店内还备有鸡蛋等当地特产。",
             ja: "鮮魚はもちろん、海苔、ワカメ、スルメなどの乾物も取り扱っております。地元の特産品もご用意しています。"
@@ -1293,6 +1293,23 @@ const marketStores = [
                      cn: "基础美甲、色彩疗法凝胶美甲、疗愈项目、自助美甲 <br> 您可以通过Naver和Google地图上列出的联系方式发送短信预约。", 
                      ja: "基本ネイル、カラーセラピー ジェルネイル、癒しプログラム、セルフネイル <br> NaverとGoogleマップに記載されている連絡先からテキストメッセージで予約できます。" },
         query: "hamsa.html"
+    },
+     {
+        id: 61,
+        name: { ko: "시장상회", en: "Shijang Store", cn: "市场商行", ja: "市場（シージャン）商会" },
+        cat: "produce",
+        catName: { ko: "농특산물·약초", en: "Local Produce & Herbs", cn: "农特产·草药", ja: "農特産品・山菜" },
+        desc: {
+            ko: "곤드레, 취나물 등 갖가지 지역 나물들과 건어물, 곡물 등 농수산물을 판매해요. 부재 시 뽀삐네상회로 와 주세요!",
+            en: "Local Wild Greens & Grains & Dried Seafood. If away, please visit 'Ppoppi's Market'!",
+            cn: "本店销售山蓟菜、短果茴芹（翠菜）、短羽毒芹（牛膝草）等各种当地特产野菜，以及海苔、海带、鱿鱼干等农水产干货。如遇店主不在，请移步至‘波比果蔬店’！",
+            ja: "コンドゥレ、シナムル、オスリ（ハナウド）など地元の特産山菜をはじめ、海苔、ワカメ、スルメなどの乾物・農水産物を販売しています。留守の際は『ポピネ青果店』へお越しください！"
+        },
+        specialty: { ko: "(시세에 따라 가격은 변경됩니다.) <br> 곤드레, 취나물, 서리태, 고사리, 더덕, 황태채, 찹쌀, 고춧가루 등. <br>고추부각 12,000원 <br>서리태 20,000원 / 10,000원", 
+                     en: "(Prices are subject to change depending on market rates.) <br> Gondre (Korean thistle), Chwinamul, Seoritae (black soybeans), Bracken (ferns), Deodeok, Shredded dried pollack, Glutinous rice, Red chili pepper powder, etc. <br> Crispy Chili Chips (Gochu-bugak) 12,000 KRW <br> Seoritae (Black Soybeans) 20,000 KRW / 10,000 KRW", 
+                     cn: "（价格随市价有所变动） <br> 山蓟菜、翠菜、青仁黑豆、蕨菜、沙参、干明太鱼丝、糯米、辣椒粉 等。 <br> 香脆辣椒干 12,000韩元 <br> 青仁黑豆 20,000韩元 / 10,000韩元", 
+                     ja: "（時価により価格は変動する場合がございます） <br> コンドレ（高麗アザミ）、シナムル、ソリテ（黒大豆）、ワラビ、トドック（ツルニンジン）、干しタラ（ファンテ）、もち米、唐辛子粉 など。 <br> 唐辛子ブガク（ピリ辛揚げ菓子） 12,000ウォン <br> ソリテ（黒豆） 20,000ウォン / 10,000ウォン" },
+        query: "shijang.html"
     }
 
 ];
