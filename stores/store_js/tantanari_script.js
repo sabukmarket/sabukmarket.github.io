@@ -119,8 +119,8 @@ function renderStores() {
         const catName = store.catName[currentLang] || store.catName['ko'];
         const desc = store.desc[currentLang] || store.desc['ko'];
         const specialty = store.specialty[currentLang] || store.specialty['ko'];
-        const mapNaverUrl = `https://map.naver.com/v5/search/${encodeURIComponent(store.query)}`;
-        const mapSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(store.query)}`;
+        const mapNaverUrl = `https://naver.me/GsjhbSYq`;
+        const mapSearchUrl = `https://maps.app.goo.gl/xCyZXTpLqt998qAi9`;
 
         return `
             <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-stone-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
